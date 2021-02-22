@@ -6,8 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Infrastructure\Wrapgate.SDK\Aiursoft.Wrapgate.SDK.csproj" />
-    <ProjectReference Include="..\..\..\SDK\Identity\Aiursoft.Identity.csproj" />
+    <PackageReference Include="Aiursoft.Identity" Version="5.0.5" />
+    <PackageReference Include="Aiursoft.Wrapgate.SDK" Version="5.0.5" />
   </ItemGroup>
+
+
 
 </Project>
