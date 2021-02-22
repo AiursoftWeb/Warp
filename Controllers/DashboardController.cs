@@ -58,7 +58,6 @@ namespace Aiursoft.Wrap.Controllers
                 model.Recover(user);
                 return View(nameof(Index), model);
             }
-#warning Index is ugly!
             model.Recover(user);
             return View("Created", model);
         }
