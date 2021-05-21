@@ -1,16 +1,15 @@
-﻿using Aiursoft.Wrapgate.Tests;
+﻿using Aiursoft.Scanner;
+using Aiursoft.SDK;
+using Aiursoft.Wrap.Data;
+using Aiursoft.Wrapgate.Tests;
 using Aiursoft.XelNaga.Tools;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Aiursoft.Scanner;
-using Aiursoft.SDK;
-using Aiursoft.WebTools;
-using Aiursoft.Wrap.Data;
 using static Aiursoft.WebTools.Extends;
-using System.Net;
 
 namespace Wrap.Tests
 {
