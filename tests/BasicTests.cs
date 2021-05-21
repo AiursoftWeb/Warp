@@ -1,7 +1,6 @@
 ﻿using Aiursoft.Scanner;
 using Aiursoft.SDK;
 using Aiursoft.Wrap.Data;
-using Aiursoft.Wrapgate.Tests;
 using Aiursoft.XelNaga.Tools;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,7 +10,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using static Aiursoft.WebTools.Extends;
 
-namespace Wrap.Tests
+namespace Aiursoft.Wrap.Tests
 {
     [TestClass]
     public class BasicTests
@@ -51,7 +50,7 @@ namespace Wrap.Tests
             Assert.AreEqual(HttpStatusCode.Redirect, response.StatusCode);
             Assert.AreEqual(
                 "https://gateway.aiursoft.com" + $"/oauth/authorize?try-auth=True&appid=aaaaa&redirect_uri=http%3A%2F%2Flocalhost%3A{_port}%2FAuth%2FAuthResult&state=%2FDashboard%2FIndex"
-                , response.Headers.Location.OriginalString);
+                , response.Headers.Location?.OriginalString);
 
         }
     }

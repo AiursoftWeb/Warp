@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aiursoft.Wrap", "src\Aiursoft.Wrap.csproj", "{EC4E4D11-4D6B-4882-A71C-28A43A08F1F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wrap.Tests", "tests\Wrap.Tests.csproj", "{FD0EFF1A-DC02-4FA6-9D35-9EE78146DECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aiursoft.Wrap.Tests", "tests\Aiursoft.Wrap.Tests.csproj", "{FD0EFF1A-DC02-4FA6-9D35-9EE78146DECB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADED4E7B-38C9-4DF2-8BF6-733F3740712E}"
 	ProjectSection(SolutionItems) = preProject

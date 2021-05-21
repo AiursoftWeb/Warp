@@ -5,7 +5,6 @@
     var pattern = WrapgateLocator.WrapPattern; // https://{wrap}.aiurs.co
     pattern = httpRegex.Replace(pattern, string.Empty);
     pattern = pattern.Replace("{wrap}", string.Empty);
-    var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description; 
 }
 <div class="container-fluid">
     <ol class="breadcrumb">

@@ -1,7 +1,6 @@
-﻿using Aiursoft.Wrap;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 
-namespace Aiursoft.Wrapgate.Tests
+namespace Aiursoft.Wrap.Tests
 {
     public class TestStartup : Startup
     {
