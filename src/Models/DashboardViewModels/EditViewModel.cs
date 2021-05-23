@@ -1,6 +1,7 @@
 ﻿using Aiursoft.Wrapgate.SDK.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Aiursoft.Wrap.Models.DashboardViewModels
 {
@@ -22,9 +23,15 @@ namespace Aiursoft.Wrap.Models.DashboardViewModels
 
         [FromRoute]
         public string RecordName { get; set; }
+
+        [Display(Name = "Rename record")]
         public string NewRecordName { get; set; }
+
         public RecordType Type { get; set; }
+
+        [Display(Name = "Target URL")]
         public string URL { get; set; }
+
         public bool Enabled { get; set; }
     }
 }
