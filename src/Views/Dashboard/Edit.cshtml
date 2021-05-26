@@ -1,5 +1,4 @@
-﻿@using System.Text.RegularExpressions;
-@model Aiursoft.Wrap.Models.DashboardViewModels.EditViewModel
+﻿@model Aiursoft.Wrap.Models.DashboardViewModels.EditViewModel
 @{
     ViewData["Title"] = "Edit record - " + Model.RecordName;
 }
@@ -71,7 +70,6 @@
                             <option value="0">@Localizer["Redirect"]</option>
                             <option value="1">@Localizer["Permanent redirect"]</option>
                             <option value="2">@Localizer["iFrame"]</option>
-                            <option value="3">@Localizer["Reverse proxy"]</option>
                         </select>
                     </div>
 
