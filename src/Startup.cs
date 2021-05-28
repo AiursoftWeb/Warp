@@ -20,8 +20,8 @@ namespace Aiursoft.Warp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            AppsContainer.CurrentAppId = configuration["WrapAppId"];
-            AppsContainer.CurrentAppSecret = configuration["WrapAppSecret"];
+            AppsContainer.CurrentAppId = configuration["WarpAppId"];
+            AppsContainer.CurrentAppSecret = configuration["WarpAppSecret"];
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -33,7 +33,7 @@ namespace Aiursoft.Warp
                 .AddDefaultTokenProviders();
 
             services.AddAiurMvc();
-            services.AddWarpgateServer(Configuration.GetConnectionString("WrapgateConnection"));
+            services.AddWarpgateServer(Configuration.GetConnectionString("WarpgateConnection"));
             services.AddAiursoftIdentity<WarpUser>(
                 archonEndpoint: Configuration.GetConnectionString("ArchonConnection"),
                 observerEndpoint: Configuration.GetConnectionString("ObserverConnection"),

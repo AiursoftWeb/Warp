@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<Description>Wrap is a simple web application which shorten your URL.</Description>
+		<Description>Warp is a simple web application which shorten your URL.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
