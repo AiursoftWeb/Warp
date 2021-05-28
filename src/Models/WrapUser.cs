@@ -1,8 +1,8 @@
 ﻿using Aiursoft.Gateway.SDK.Models;
 
-namespace Aiursoft.Wrap.Models
+namespace Aiursoft.Warp.Models
 {
-    public class WrapUser : AiurUserBase
+    public class WarpUser : AiurUserBase
     {
        
     }

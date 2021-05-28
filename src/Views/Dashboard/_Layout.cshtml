@@ -1,4 +1,4 @@
-﻿@model Aiursoft.Wrap.Models.DashboardViewModels.LayoutViewModel
+﻿@model Aiursoft.Warp.Models.DashboardViewModels.LayoutViewModel
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
 <body class="fixed-nav sticky-footer bg-azure" id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-azure bg-azure fixed-top" id="mainNav">
-        <a class="navbar-brand" href="@ServiceLocation.WWW">@Localizer["Aiursoft Wrap"]</a>
+        <a class="navbar-brand" href="@ServiceLocation.WWW">@Localizer["Aiursoft Warp"]</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -113,7 +113,7 @@
             </ul>
         </div>
     </nav>
-    <div class="content-wrapper">
+    <div class="content-warpper">
         @if (!Model.EmailConfirmed)
         {
             <div class="container-fluid">

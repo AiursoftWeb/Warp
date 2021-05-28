@@ -1,19 +1,19 @@
 ﻿using System;
 
-namespace Aiursoft.Wrap.Models.DashboardViewModels
+namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class LayoutViewModel
     {
         [Obsolete(error: true, message: "This method is only for framework!")]
         public LayoutViewModel() { }
-        public LayoutViewModel(WrapUser user, string title)
+        public LayoutViewModel(WarpUser user, string title)
         {
             RootRecover(user, title);
         }
 
         public bool JustHaveUpdated { get; set; } = false;
 
-        public void RootRecover(WrapUser user, string title)
+        public void RootRecover(WarpUser user, string title)
         {
             UserName = user.NickName;
             EmailConfirmed = user.EmailConfirmed;

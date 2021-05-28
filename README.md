@@ -1,21 +1,21 @@
-# Wrap
+# Warp
 
-[![Build status](https://dev.azure.com/aiursoft/Star/_apis/build/status/Wrap%20Build)](https://dev.azure.com/aiursoft/Star/_build/latest?definitionId=17)
+[![Build status](https://dev.azure.com/aiursoft/Star/_apis/build/status/Warp%20Build)](https://dev.azure.com/aiursoft/Star/_build/latest?definitionId=17)
 ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/aiursoft/Star/17)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/aiursoft/Star/17)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwrap.aiursoft.com%2F%3Fshow%3Ddirect)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com%2F%3Fshow%3Ddirect)
 
-Wrap is a simple web application which shorten your URL.
+Warp is a simple web application which shorten your URL.
 
 ## Try
 
-Try a running Wrap [here](https://wrap.aiursoft.com).
+Try a running Warp [here](https://warp.aiursoft.com).
 
 ## Run in Azure
 
 With the following ARM template you can automate the creation of the resources for this website.
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Wrap/tree/master)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Warp/tree/master)
 
 ## Run in Ubuntu
 
@@ -24,7 +24,7 @@ First, specify a domain name for your Ubuntu 18.04+, brand new server.
 And execute the following command in the server:
 
 ```bash
-$ curl -sL https://github.com/AiursoftWeb/Wrap/raw/master/install.sh | sudo bash -s www.example.com
+$ curl -sL https://github.com/AiursoftWeb/Warp/raw/master/install.sh | sudo bash -s www.example.com
 ```
 
 ## Run locally

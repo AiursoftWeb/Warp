@@ -1,15 +1,15 @@
 using Aiursoft.SDK;
-using Aiursoft.Wrap.Data;
+using Aiursoft.Warp.Data;
 using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
 
-namespace Aiursoft.Wrap
+namespace Aiursoft.Warp
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            App<Startup>(args).Update<WrapDbContext>().Run();
+            App<Startup>(args).Update<WarpDbContext>().Run();
         }
 
         // For EF

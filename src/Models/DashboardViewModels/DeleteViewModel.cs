@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Aiursoft.Wrap.Models.DashboardViewModels
+namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class DeleteViewModel : LayoutViewModel
     {
@@ -11,7 +11,7 @@ namespace Aiursoft.Wrap.Models.DashboardViewModels
         {
         }
 
-        public DeleteViewModel(WrapUser user) : base(user, "Delete record")
+        public DeleteViewModel(WarpUser user) : base(user, "Delete record")
         {
         }
 
@@ -19,7 +19,7 @@ namespace Aiursoft.Wrap.Models.DashboardViewModels
         [Display(Name = "Record to be deleted")]
         public string RecordName { get; set; }
 
-        public void Recover(WrapUser user)
+        public void Recover(WarpUser user)
         {
             RootRecover(user, "Delete record");
         }

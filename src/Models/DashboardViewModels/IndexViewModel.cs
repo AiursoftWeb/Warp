@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Aiursoft.Wrap.Models.DashboardViewModels
+namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class IndexViewModel : LayoutViewModel
     {
@@ -11,12 +11,12 @@ namespace Aiursoft.Wrap.Models.DashboardViewModels
         {
         }
 
-        public IndexViewModel(WrapUser user) : base(user, "Create new record")
+        public IndexViewModel(WarpUser user) : base(user, "Create new record")
         {
 
         }
 
-        public void Recover(WrapUser user)
+        public void Recover(WarpUser user)
         {
             RootRecover(user, "Create new record");
         }

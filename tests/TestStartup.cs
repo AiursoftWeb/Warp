@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Aiursoft.Wrap.Tests
+namespace Aiursoft.Warp.Tests
 {
     public class TestStartup : Startup
     {

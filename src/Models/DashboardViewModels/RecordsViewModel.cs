@@ -1,15 +1,15 @@
-﻿using Aiursoft.Wrapgate.SDK.Models;
+﻿using Aiursoft.Warpgate.SDK.Models;
 using System.Collections.Generic;
 
-namespace Aiursoft.Wrap.Models.DashboardViewModels
+namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class RecordsViewModel : LayoutViewModel
     {
-        public RecordsViewModel(WrapUser user, List<WrapRecord> records) : base(user, "My records")
+        public RecordsViewModel(WarpUser user, List<WarpRecord> records) : base(user, "My records")
         {
             Records = records;
         }
 
-        public List<WrapRecord> Records { get; }
+        public List<WarpRecord> Records { get; }
     }
 }
