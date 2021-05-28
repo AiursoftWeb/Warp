@@ -11,7 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\src\Aiursoft.Wrap.csproj" />
+		<ProjectReference Include="..\src\Aiursoft.Warp.csproj" />
 	</ItemGroup>
 
 

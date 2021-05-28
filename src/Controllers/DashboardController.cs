@@ -3,16 +3,16 @@ using Aiursoft.Handler.Attributes;
 using Aiursoft.Handler.Exceptions;
 using Aiursoft.Handler.Models;
 using Aiursoft.Identity.Attributes;
-using Aiursoft.Wrap.Models;
-using Aiursoft.Wrap.Models.DashboardViewModels;
-using Aiursoft.Wrapgate.SDK.Models;
-using Aiursoft.Wrapgate.SDK.Services.ToWrapgateServer;
+using Aiursoft.Warp.Models;
+using Aiursoft.Warp.Models.DashboardViewModels;
+using Aiursoft.Warpgate.SDK.Models;
+using Aiursoft.Warpgate.SDK.Services.ToWarpgateServer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Aiursoft.Wrap.Controllers
+namespace Aiursoft.Warp.Controllers
 {
     [LimitPerMin]
     [AiurForceAuth]
@@ -21,12 +21,12 @@ namespace Aiursoft.Wrap.Controllers
     {
         private readonly AppsContainer _appsContainer;
         private readonly RecordsService _recordsService;
-        private readonly UserManager<WrapUser> _userManager;
+        private readonly UserManager<WarpUser> _userManager;
 
         public DashboardController(
             AppsContainer appsContainer,
             RecordsService recordsService,
-            UserManager<WrapUser> userManager)
+            UserManager<WarpUser> userManager)
         {
             _appsContainer = appsContainer;
             _recordsService = recordsService;
@@ -155,7 +155,7 @@ namespace Aiursoft.Wrap.Controllers
             }
         }
 
-        private async Task<WrapUser> GetCurrentUserAsync()
+        private async Task<WarpUser> GetCurrentUserAsync()
         {
             return await _userManager.GetUserAsync(User);
         }

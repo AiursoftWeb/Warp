@@ -3,18 +3,18 @@ using Aiursoft.Handler.Attributes;
 using Aiursoft.Identity.Attributes;
 using Aiursoft.Identity.Services;
 using Aiursoft.WebTools;
-using Aiursoft.Wrap.Models;
+using Aiursoft.Warp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace Aiursoft.Wrap.Controllers
+namespace Aiursoft.Warp.Controllers
 {
     [LimitPerMin]
     public class AuthController : Controller
     {
-        private readonly AuthService<WrapUser> _authService;
+        private readonly AuthService<WarpUser> _authService;
         public AuthController(
-            AuthService<WrapUser> authService)
+            AuthService<WarpUser> authService)
         {
             _authService = authService;
         }

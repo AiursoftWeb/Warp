@@ -1,9 +1,9 @@
-﻿using Aiursoft.Wrapgate.SDK.Models;
+﻿using Aiursoft.Warpgate.SDK.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Aiursoft.Wrap.Models.DashboardViewModels
+namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class EditViewModel : LayoutViewModel
     {
@@ -12,11 +12,11 @@ namespace Aiursoft.Wrap.Models.DashboardViewModels
         {
         }
 
-        public EditViewModel(WrapUser user) : base(user, "Edit record")
+        public EditViewModel(WarpUser user) : base(user, "Edit record")
         {
         }
 
-        public void Recover(WrapUser user)
+        public void Recover(WarpUser user)
         {
             RootRecover(user, "Edit record");
         }

@@ -1,9 +1,9 @@
 using Aiursoft.Archon.SDK.Services;
 using Aiursoft.Identity;
 using Aiursoft.SDK;
-using Aiursoft.Wrap.Data;
-using Aiursoft.Wrap.Models;
-using Aiursoft.Wrapgate.SDK;
+using Aiursoft.Warp.Data;
+using Aiursoft.Warp.Models;
+using Aiursoft.Warpgate.SDK;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Aiursoft.Wrap
+namespace Aiursoft.Warp
 {
     public class Startup
     {
@@ -26,15 +26,15 @@ namespace Aiursoft.Wrap
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextWithCache<WrapDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
+            services.AddDbContextWithCache<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
 
-            services.AddIdentity<WrapUser, IdentityRole>()
-                .AddEntityFrameworkStores<WrapDbContext>()
+            services.AddIdentity<WarpUser, IdentityRole>()
+                .AddEntityFrameworkStores<WarpDbContext>()
                 .AddDefaultTokenProviders();
 
             services.AddAiurMvc();
-            services.AddWrapgateServer(Configuration.GetConnectionString("WrapgateConnection"));
-            services.AddAiursoftIdentity<WrapUser>(
+            services.AddWarpgateServer(Configuration.GetConnectionString("WrapgateConnection"));
+            services.AddAiursoftIdentity<WarpUser>(
                 archonEndpoint: Configuration.GetConnectionString("ArchonConnection"),
                 observerEndpoint: Configuration.GetConnectionString("ObserverConnection"),
                 probeEndpoint: Configuration.GetConnectionString("ProbeConnection"),

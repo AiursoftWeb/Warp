@@ -1,6 +1,6 @@
 ﻿using Aiursoft.Scanner;
 using Aiursoft.SDK;
-using Aiursoft.Wrap.Data;
+using Aiursoft.Warp.Data;
 using Aiursoft.XelNaga.Tools;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using static Aiursoft.WebTools.Extends;
 
-namespace Aiursoft.Wrap.Tests
+namespace Aiursoft.Warp.Tests
 {
     [TestClass]
     public class BasicTests
@@ -29,7 +29,7 @@ namespace Aiursoft.Wrap.Tests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = App<TestStartup>(port: _port).Update<WrapDbContext>();
+            _server = App<TestStartup>(port: _port).Update<WarpDbContext>();
             var handler = new HttpClientHandler()
             {
                 AllowAutoRedirect = false

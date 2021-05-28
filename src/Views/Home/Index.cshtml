@@ -1,10 +1,10 @@
-@model Aiursoft.Wrap.Models.HomeViewModels.IndexViewModel
+@model Aiursoft.Warp.Models.HomeViewModels.IndexViewModel
 @{ 
     ViewData["Title"] = "Home";
     var httpRegex = new Regex("^https://", RegexOptions.Compiled);
-    var pattern = WrapgateLocator.WrapPattern; // https://{wrap}.aiurs.co
+    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
     pattern = httpRegex.Replace(pattern, string.Empty);
-    pattern = pattern.Replace("{wrap}", string.Empty);
+    pattern = pattern.Replace("{warp}", string.Empty);
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
 }
 <div class="jumbotron">

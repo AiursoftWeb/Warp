@@ -5,27 +5,27 @@ using Aiursoft.Handler.Exceptions;
 using Aiursoft.Handler.Models;
 using Aiursoft.Identity;
 using Aiursoft.Identity.Attributes;
-using Aiursoft.Wrap.Models;
-using Aiursoft.Wrap.Models.HomeViewModels;
-using Aiursoft.Wrapgate.SDK.Models;
-using Aiursoft.Wrapgate.SDK.Services.ToWrapgateServer;
+using Aiursoft.Warp.Models;
+using Aiursoft.Warp.Models.HomeViewModels;
+using Aiursoft.Warpgate.SDK.Models;
+using Aiursoft.Warpgate.SDK.Services.ToWarpgateServer;
 using Aiursoft.XelNaga.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace Aiursoft.Wrap.Controllers
+namespace Aiursoft.Warp.Controllers
 {
     [LimitPerMin]
     public class HomeController : Controller
     {
-        private readonly SignInManager<WrapUser> _signInManager;
+        private readonly SignInManager<WarpUser> _signInManager;
         private readonly GatewayLocator _gatewayLocator;
         private readonly RecordsService _recordsService;
         private readonly AppsContainer _appsContainer;
 
         public HomeController(
-            SignInManager<WrapUser> signInManager,
+            SignInManager<WarpUser> signInManager,
             GatewayLocator gatewayLocator,
             RecordsService recordsService,
             AppsContainer appsContainer)

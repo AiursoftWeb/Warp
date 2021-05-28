@@ -1,10 +1,10 @@
-@model Aiursoft.Wrap.Models.HomeViewModels.IndexViewModel
-@inject WrapgateLocator WrapgateLocator
+@model Aiursoft.Warp.Models.HomeViewModels.IndexViewModel
+@inject WarpgateLocator WarpgateLocator
 @{ 
     ViewData["Title"] = "Created";
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
-    var pattern = WrapgateLocator.WrapPattern; // https://{wrap}.aiurs.co
-    var url = pattern.Replace("{wrap}", Model.NewRecordName); 
+    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
+    var url = pattern.Replace("{warp}", Model.NewRecordName); 
 }
 <div class="jumbotron">
     <div class="container">

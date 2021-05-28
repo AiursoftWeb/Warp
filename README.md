@@ -3,13 +3,13 @@
 [![Build status](https://dev.azure.com/aiursoft/Star/_apis/build/status/Wrap%20Build)](https://dev.azure.com/aiursoft/Star/_build/latest?definitionId=17)
 ![Azure DevOps tests](https://img.shields.io/azure-devops/tests/aiursoft/Star/17)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/aiursoft/Star/17)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwrap.aiursoft.com%2F%3Fshow%3Ddirect)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com%2F%3Fshow%3Ddirect)
 
 Wrap is a simple web application which shorten your URL.
 
 ## Try
 
-Try a running Wrap [here](https://wrap.aiursoft.com).
+Try a running Wrap [here](https://warp.aiursoft.com).
 
 ## Run in Azure
 

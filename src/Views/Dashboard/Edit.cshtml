@@ -1,4 +1,4 @@
-﻿@model Aiursoft.Wrap.Models.DashboardViewModels.EditViewModel
+﻿@model Aiursoft.Warp.Models.DashboardViewModels.EditViewModel
 @{
     ViewData["Title"] = "Edit record - " + Model.RecordName;
 }
@@ -38,9 +38,9 @@
                                 <div class="input-group-append">
                                     @{
                                         var httpRegex = new Regex("^https://", RegexOptions.Compiled);
-                                        var ioPath = WrapgateLocator.WrapPattern;
+                                        var ioPath = WarpgateLocator.WarpPattern;
                                         ioPath = httpRegex.Replace(ioPath, string.Empty);
-                                        ioPath = ioPath.Replace("{wrap}", string.Empty);
+                                        ioPath = ioPath.Replace("{warp}", string.Empty);
                                     }
                                     <span class="input-group-text">@string.Format(ioPath, string.Empty)</span>
                                 </div>
