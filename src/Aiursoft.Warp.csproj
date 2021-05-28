@@ -8,6 +8,7 @@
 	<ItemGroup>
 		<PackageReference Include="Aiursoft.Identity" Version="5.0.8" />
 		<PackageReference Include="Aiursoft.Warpgate.SDK" Version="5.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6" />
 	</ItemGroup>
 
 
