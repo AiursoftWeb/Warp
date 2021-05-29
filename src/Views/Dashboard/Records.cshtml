@@ -1,6 +1,7 @@
 ﻿@model Aiursoft.Warp.Models.DashboardViewModels.RecordsViewModel
 @{ 
     ViewData["Title"] = Model.Title;
+    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
 }
 <div class="container-fluid">
     <ol class="breadcrumb">
@@ -20,20 +21,24 @@
                         <table class="table table-striped datatable-records">
                             <thead>
                                 <tr>
-                                    <th>@Localizer["Record name"]</th>
                                     <th>@Localizer["Enabled"]</th>
-                                    <th>@Localizer["Target URL"]</th>
+                                    <th>@Localizer["Record name"]</th>
+                                    <th>                           
+                                        <p class="text-muted">
+                                                The URL you will be redirected to.
+                                        </p>
+                                    </th>
                                     <th>@Localizer["Type"]</th>
                                     <th>@Localizer["Create time"]</th>
                                     <th>@Localizer["Operation"]</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var record in Model.Records)
-                                {
+                                 @foreach (var record in Model.Records)
+                                 {
+                                    var url = pattern.Replace("{warp}", record.RecordUniqueName);
                                     <tr>
-                                        <td>@record.RecordUniqueName</td>
-                                        <td>
+                                            <td>
                                             @if (record.Enabled)
                                             {
                                                 <label class="text-success">
@@ -47,7 +52,19 @@
                                                 </label>
                                             }
                                         </td>
-                                        <td>@record.TargetUrl.OTake(60)</td>
+                                        <td>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" readonly="readonly" value="@url">
+                                                <span class="input-group-append">
+                                                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-trigger="click" title="copied!" data-clipboard-text="@url">@Localizer["Copy"]</button>
+                                                    <a type="button" class="btn btn-success" href="@url" target="_blank">@Localizer["Open"]</a>
+                                                </span>
+                                                <a class="btn btn-primary ml-2" data-toggle="modal" data-target="#qr-modal-@record.Id">@Localizer["QR Code"]</a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a href="@record.TargetUrl">@record.TargetUrl.OTake(60)</a>.
+                                        </td>
                                         <td>@record.Type</td>
                                         <td data-utc-time="@record.CreationTime" data-order="@record.CreationTime.Ticks"></td>
                                         <td>
@@ -63,7 +80,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                }
+                                 }
                             </tbody>
                         </table>
                     </div>
@@ -71,6 +88,29 @@
         </div>
     </div>
 </div>
+
+@foreach(var record in Model.Records)
+{
+    var url = pattern.Replace("{warp}", record.RecordUniqueName);
+    <div class="modal fade" id="qr-modal-@record.Id" tabindex="-1" role="dialog" aria-labelledby="qrModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">QR Code</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">?</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid" src="@ServiceLocation.Developer/qrcode-build?source=@System.Net.WebUtility.UrlEncode(url)" />
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 
 @section js{ 
 <script>
