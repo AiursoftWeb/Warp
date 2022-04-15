@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <vc:aiur-header></vc:aiur-header>
-    <title>@Localizer[ViewData["Title"].ToString()] - @Localizer["Records Dashboard"]</title>
+    <title>@Localizer[ViewData["Title"]?.ToString() ?? string.Empty] - @Localizer["Records Dashboard"]</title>
     <vc:aiur-dashboard-css></vc:aiur-dashboard-css>
     @await RenderSectionAsync("css", required: false)
 </head>
