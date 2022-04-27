@@ -11,7 +11,7 @@ namespace Aiursoft.Warp.Models.DashboardViewModels
             RootRecover(user, title);
         }
 
-        public bool JustHaveUpdated { get; set; } = false;
+        public bool JustHaveUpdated { get; set; }
 
         public void RootRecover(WarpUser user, string title)
         {
