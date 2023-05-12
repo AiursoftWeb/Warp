@@ -18,7 +18,7 @@ First, specify a domain name for your Ubuntu 18.04+, brand new server.
 And execute the following command in the server:
 
 ```bash
-curl -sL https://gitlab.aiursoft.cn/aiursoft/Warp/-/raw/master/install.sh | sudo bash -s www.example.com
+curl -sL https://gitlab.aiursoft.cn/aiursoft/Warp/-/raw/master/install.sh | sudo bash -s http://warp.local
 ```
 
 ## Run locally
