@@ -1,21 +1,15 @@
 # Warp
 
-[![Build status](https://dev.azure.com/aiursoft/Star/_apis/build/status/Warp%20Build)](https://dev.azure.com/aiursoft/Star/_build/latest?definitionId=17)
-![Azure DevOps tests](https://img.shields.io/azure-devops/tests/aiursoft/Star/17)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/aiursoft/Star/17)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com%2F%3Fshow%3Ddirect)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/blob/master/LICENSE)
+[![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/pipelines)
+[![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/pipelines)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com%2F%3Fshow%3Ddirect)](https://warp.aiursoft.com)
 
-Warp is a simple web application which shorten your URL.
+Warp is a simple web application that shortens your URL.
 
 ## Try
 
 Try a running Warp [here](https://warp.aiursoft.com).
-
-## Run in Azure
-
-With the following ARM template you can automate the creation of the resources for this website.
-
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Warp/tree/master)
 
 ## Run in Ubuntu
 
@@ -31,15 +25,8 @@ curl -sL https://gitlab.aiursoft.cn/aiursoft/Warp/-/raw/master/install.sh | sudo
 
 Requirements about how to run
 
-* [.NET Core runtime 5.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
-
-Requirements about how to develope
-
-* [.NET Core SDK 5.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
-* [VS Code](https://code.visualstudio.com) (Strongly suggest)
-
-1. Excute `dotnet restore` to restore all dotnet requirements
-2. Excute `dotnet run` to run the app
+1. [.NET Core runtime 6.0 or later]Execute `dotnet restore`` to restore all dotnet requirements.
+2. Execute `dotnet run` to run the app
 3. Use your browser to view [http://localhost:5000](http://localhost:5000)
 
 ## Run in Microsoft Visual Studio
@@ -51,6 +38,6 @@ Requirements about how to develope
 
 There are many ways to contribute to the project: logging bugs, submitting pull requests, reporting issues, and creating suggestions.
 
-Even if you have push rights on the repository, you should create a personal fork and create feature branches there when you need them. This keeps the main repository clean and your personal workflow cruft out of sight.
+Even if you with push rights on the repository, you should create a personal fork and create feature branches there when you need them. This keeps the main repository clean and your workflow cruft out of sight.
 
-We're also interested in your feedback for the future of this project. You can submit a suggestion or feature request through the issue tracker. To make this process more effective, we're asking that these include more information to help define them more clearly.
+We're also interested in your feedback on the future of this project. You can submit a suggestion or feature request through the issue tracker. To make this process more effective, we're asking that these include more information to help define them more clearly.
