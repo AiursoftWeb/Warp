@@ -1,4 +1,4 @@
-aiur() { arg="$( cut -d ' ' -f 2- <<< "$@" )" && curl -sL https://github.com/AiursoftWeb/AiurScript/raw/master/$1.sh | sudo bash -s $arg; }
+aiur() { arg="$( cut -d ' ' -f 2- <<< "$@" )" && curl -sL https://gitlab.aiursoft.cn/aiursoft/aiurscript/-/raw/master/$1.sh | sudo bash -s $arg; }
 warp_path="/opt/apps/Warp"
 
 install_warp()
@@ -16,7 +16,7 @@ install_warp()
     aiur system/set_aspnet_prod
     aiur install/caddy
     aiur install/dotnet
-    aiur git/clone_to AiursoftWeb/Warp ./Warp
+    aiur git/clone_to https://gitlab.aiursoft.cn/aiursoft/Warp ./Warp
     aiur dotnet/publish $warp_path ./Warp/Warp.csproj
     aiur services/register_aspnet_service "warp" $port $warp_path "Aiursoft.Warp"
     aiur caddy/add_proxy $1 $port
