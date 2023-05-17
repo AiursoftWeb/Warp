@@ -46,7 +46,7 @@ namespace Aiursoft.Warp.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(IndexViewModel model)
         {
-            var token = await _appsContainer.AccessToken();
+            var token = await _appsContainer.AccessTokenAsync();
             try
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { "Anonymous" }, RecordType.Redirect, enabled: true);
