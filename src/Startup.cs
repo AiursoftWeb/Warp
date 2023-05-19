@@ -1,4 +1,5 @@
 using Aiursoft.Archon.SDK.Services;
+using Aiursoft.Gateway.SDK.Services;
 using Aiursoft.Identity;
 using Aiursoft.SDK;
 using Aiursoft.Warp.Data;
@@ -35,7 +36,6 @@ namespace Aiursoft.Warp
             services.AddAiurMvc();
             services.AddWarpgateServer(Configuration.GetConnectionString("WarpgateConnection"));
             services.AddAiursoftIdentity<WarpUser>(
-                archonEndpoint: Configuration.GetConnectionString("ArchonConnection"),
                 observerEndpoint: Configuration.GetConnectionString("ObserverConnection"),
                 probeEndpoint: Configuration.GetConnectionString("ProbeConnection"),
                 gateEndpoint: Configuration.GetConnectionString("GatewayConnection"));
