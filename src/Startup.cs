@@ -1,4 +1,3 @@
-using Aiursoft.Gateway.SDK.Services;
 using Aiursoft.Identity;
 using Aiursoft.SDK;
 using Aiursoft.Warp.Data;
@@ -20,8 +19,6 @@ namespace Aiursoft.Warp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            AppsContainer.CurrentAppId = configuration["WarpAppId"];
-            AppsContainer.CurrentAppSecret = configuration["WarpAppSecret"];
         }
 
         public void ConfigureServices(IServiceCollection services)
