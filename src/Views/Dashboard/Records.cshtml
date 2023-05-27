@@ -1,7 +1,7 @@
 ﻿@model Aiursoft.Warp.Models.DashboardViewModels.RecordsViewModel
 @{ 
     ViewData["Title"] = Model.Title;
-    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
+    var pattern = (await WarpgateLocator.GetServerConfig()).WarpPattern; // https://{warp}.aiurs.co
 }
 <div class="container-fluid">
     <ol class="breadcrumb">

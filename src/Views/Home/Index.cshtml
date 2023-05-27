@@ -2,7 +2,7 @@
 @{ 
     ViewData["Title"] = "Home";
     var httpRegex = new Regex("^https://", RegexOptions.Compiled);
-    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
+    var pattern = (await WarpgateLocator.GetServerConfig()).WarpPattern; // https://{warp}.aiurs.co
     pattern = httpRegex.Replace(pattern, string.Empty);
     pattern = pattern.Replace("{warp}", string.Empty);
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;

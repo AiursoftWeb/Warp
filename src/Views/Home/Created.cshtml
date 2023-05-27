@@ -1,9 +1,8 @@
 @model Aiursoft.Warp.Models.HomeViewModels.IndexViewModel
-@inject WarpgateLocator WarpgateLocator
 @{ 
     ViewData["Title"] = "Created";
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
-    var pattern = WarpgateLocator.WarpPattern; // https://{warp}.aiurs.co
+    var pattern = (await WarpgateLocator.GetServerConfig()).WarpPattern; // https://{warp}.aiurs.co
     var url = pattern.Replace("{warp}", Model.NewRecordName); 
 }
 <div class="jumbotron">

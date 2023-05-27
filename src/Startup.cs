@@ -30,7 +30,7 @@ namespace Aiursoft.Warp
                 .AddDefaultTokenProviders();
 
             services.AddAiurMvc();
-            services.AddWarpgateServer(Configuration.GetConnectionString("WarpgateConnection"));
+            services.AddAiursoftWarpgate(Configuration.GetSection("AiursoftWarpgate"));
             services.AddAiursoftIdentity<WarpUser>(
                 probeConfig: Configuration.GetSection("AiursoftProbe"),
                 authenticationConfig: Configuration.GetSection("AiursoftAuthentication"),

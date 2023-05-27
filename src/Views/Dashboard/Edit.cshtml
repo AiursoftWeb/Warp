@@ -38,7 +38,7 @@
                                 <div class="input-group-append">
                                     @{
                                         var httpRegex = new Regex("^https://", RegexOptions.Compiled);
-                                        var ioPath = WarpgateLocator.WarpPattern;
+                                        var ioPath = (await WarpgateLocator.GetServerConfig()).WarpPattern; // https://{warp}.aiurs.co
                                         ioPath = httpRegex.Replace(ioPath, string.Empty);
                                         ioPath = ioPath.Replace("{warp}", string.Empty);
                                     }
