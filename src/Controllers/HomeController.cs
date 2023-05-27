@@ -1,5 +1,4 @@
-﻿using Aiursoft.Gateway.SDK.Services;
-using Aiursoft.Handler.Attributes;
+﻿using Aiursoft.Handler.Attributes;
 using Aiursoft.Handler.Exceptions;
 using Aiursoft.Handler.Models;
 using Aiursoft.Identity;
@@ -12,6 +11,9 @@ using Aiursoft.XelNaga.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Aiursoft.Directory.SDK.Configuration;
+using Aiursoft.Directory.SDK.Services;
+using Microsoft.Extensions.Options;
 
 namespace Aiursoft.Warp.Controllers
 {
@@ -19,18 +21,18 @@ namespace Aiursoft.Warp.Controllers
     public class HomeController : Controller
     {
         private readonly SignInManager<WarpUser> _signInManager;
-        private readonly GatewayLocator _gatewayLocator;
+        private readonly DirectoryConfiguration _gatewayLocator;
         private readonly RecordsService _recordsService;
         private readonly AppsContainer _appsContainer;
 
         public HomeController(
             SignInManager<WarpUser> signInManager,
-            GatewayLocator gatewayLocator,
+            IOptions<DirectoryConfiguration> gatewayLocator,
             RecordsService recordsService,
             AppsContainer appsContainer)
         {
             _signInManager = signInManager;
-            _gatewayLocator = gatewayLocator;
+            _gatewayLocator = gatewayLocator.Value;
             _recordsService = recordsService;
             this._appsContainer = appsContainer;
         }
@@ -45,7 +47,7 @@ namespace Aiursoft.Warp.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(IndexViewModel model)
         {
-            var token = await _appsContainer.AccessTokenAsync();
+            var token = await _appsContainer.GetAccessTokenAsync();
             try
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { "Anonymous" }, RecordType.Redirect, enabled: true);
@@ -62,7 +64,7 @@ namespace Aiursoft.Warp.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            return this.SignOutRootServer(_gatewayLocator.Endpoint, new AiurUrl(string.Empty, "Home", nameof(Index), new { }));
+            return this.SignOutRootServer(_gatewayLocator.Instance, new AiurUrl(string.Empty, "Home", nameof(Index), new { }));
         }
     }
 }

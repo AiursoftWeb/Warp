@@ -32,9 +32,9 @@ namespace Aiursoft.Warp
             services.AddAiurMvc();
             services.AddWarpgateServer(Configuration.GetConnectionString("WarpgateConnection"));
             services.AddAiursoftIdentity<WarpUser>(
-                observerEndpoint: Configuration.GetConnectionString("ObserverConnection"),
-                probeEndpoint: Configuration.GetConnectionString("ProbeConnection"),
-                gateEndpoint: Configuration.GetConnectionString("GatewayConnection"));
+                probeConfig: Configuration.GetSection("AiursoftProbe"),
+                authenticationConfig: Configuration.GetSection("AiursoftAuthentication"),
+                observerConfig: Configuration.GetSection("AiursoftObserver"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

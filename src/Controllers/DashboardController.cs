@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
-using Aiursoft.Gateway.SDK.Services;
+using Aiursoft.Directory.SDK.Services;
 
 namespace Aiursoft.Warp.Controllers
 {
@@ -45,7 +45,7 @@ namespace Aiursoft.Warp.Controllers
         [Route(nameof(Create))]
         public async Task<IActionResult> Create(IndexViewModel model)
         {
-            var token = await _appsContainer.AccessTokenAsync();
+            var token = await _appsContainer.GetAccessTokenAsync();
             var user = await GetCurrentUserAsync();
             try
             {
@@ -65,7 +65,7 @@ namespace Aiursoft.Warp.Controllers
         public async Task<IActionResult> Records()
         {
             var user = await GetCurrentUserAsync();
-            var token = await _appsContainer.AccessTokenAsync();
+            var token = await _appsContainer.GetAccessTokenAsync();
             var records = await _recordsService.ViewMyRecordsAsync(token, user.Id);
             var model = new RecordsViewModel(user, records.Records);
             return View(model);
@@ -75,7 +75,7 @@ namespace Aiursoft.Warp.Controllers
         public async Task<IActionResult> Edit([FromRoute] string recordName)
         {
             var user = await GetCurrentUserAsync();
-            var accessToken = _appsContainer.AccessTokenAsync();
+            var accessToken = _appsContainer.GetAccessTokenAsync();
             var allRecords = await _recordsService.ViewMyRecordsAsync(await accessToken);
             var recordDetail = allRecords.Records.FirstOrDefault(t => t.RecordUniqueName == recordName);
             if (recordDetail == null)
@@ -106,7 +106,7 @@ namespace Aiursoft.Warp.Controllers
             }
             try
             {
-                var token = await _appsContainer.AccessTokenAsync();
+                var token = await _appsContainer.GetAccessTokenAsync();
                 await _recordsService.UpdateRecordInfoAsync(token, model.RecordName, model.NewRecordName, model.Type, model.URL, new[] { user.Id }, model.Enabled);
                 return RedirectToAction(nameof(DashboardController.Records), "Dashboard");
             }
@@ -143,7 +143,7 @@ namespace Aiursoft.Warp.Controllers
             }
             try
             {
-                var token = await _appsContainer.AccessTokenAsync();
+                var token = await _appsContainer.GetAccessTokenAsync();
                 await _recordsService.DeleteRecordAsync(token, model.RecordName);
                 return RedirectToAction(nameof(DashboardController.Records), "Dashboard");
             }
