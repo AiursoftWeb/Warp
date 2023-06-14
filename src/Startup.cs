@@ -39,7 +39,7 @@ namespace Aiursoft.Warp
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseAiuroftHandler(env.IsDevelopment());
+            app.UseAiursoftHandler(env.IsDevelopment());
             app.UseAiursoftAppRouters();
         }
     }
