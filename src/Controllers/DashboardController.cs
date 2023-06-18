@@ -19,12 +19,12 @@ namespace Aiursoft.Warp.Controllers
     [Route("Dashboard")]
     public class DashboardController : Controller
     {
-        private readonly AppsContainer _appsContainer;
+        private readonly DirectoryAppTokenService _appsContainer;
         private readonly RecordsService _recordsService;
         private readonly UserManager<WarpUser> _userManager;
 
         public DashboardController(
-            AppsContainer appsContainer,
+            DirectoryAppTokenService appsContainer,
             RecordsService recordsService,
             UserManager<WarpUser> userManager)
         {

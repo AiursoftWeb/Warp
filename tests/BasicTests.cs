@@ -29,7 +29,7 @@ namespace Aiursoft.Warp.Tests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = App<TestStartup>(port: _port).Update<WarpDbContext>();
+            _server = await App<TestStartup>(port: _port).UpdateDbAsync<WarpDbContext>();
             var handler = new HttpClientHandler()
             {
                 AllowAutoRedirect = false

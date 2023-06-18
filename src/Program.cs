@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Aiursoft.SDK;
 using Aiursoft.Warp.Data;
 using Microsoft.Extensions.Hosting;
@@ -7,15 +8,11 @@ namespace Aiursoft.Warp
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            App<Startup>(args).Update<WarpDbContext>().Run();
-        }
-
-        // For EF
-        public static IHostBuilder CreateHostBuilder(string[] args)
-        {
-            return BareApp<Startup>(args);
+            var app = App<Startup>(args);
+            await app.UpdateDbAsync<WarpDbContext>();
+            await app.RunAsync();
         }
     }
 }

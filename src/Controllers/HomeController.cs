@@ -23,18 +23,18 @@ namespace Aiursoft.Warp.Controllers
         private readonly SignInManager<WarpUser> _signInManager;
         private readonly DirectoryConfiguration _gatewayLocator;
         private readonly RecordsService _recordsService;
-        private readonly AppsContainer _appsContainer;
+        private readonly DirectoryAppTokenService _appsContainer;
 
         public HomeController(
             SignInManager<WarpUser> signInManager,
             IOptions<DirectoryConfiguration> gatewayLocator,
             RecordsService recordsService,
-            AppsContainer appsContainer)
+            DirectoryAppTokenService appsContainer)
         {
             _signInManager = signInManager;
             _gatewayLocator = gatewayLocator.Value;
             _recordsService = recordsService;
-            this._appsContainer = appsContainer;
+            _appsContainer = appsContainer;
         }
 
         [AiurForceAuth(preferController: "Dashboard", preferAction: "Index", justTry: true)]
