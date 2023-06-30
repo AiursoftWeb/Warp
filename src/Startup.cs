@@ -24,7 +24,7 @@ namespace Aiursoft.Warp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAiurSqlServerWithCache<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
+            services.AddDbContextForInfraApps<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
 
             services.AddIdentity<WarpUser, IdentityRole>()
                 .AddEntityFrameworkStores<WarpDbContext>()
