@@ -63,7 +63,7 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <a href="@record.TargetUrl">@record.TargetUrl.OTake(60)</a>.
+                                            <a href="@record.TargetUrl">@record.TargetUrl.SafeSubstring(60)</a>.
                                         </td>
                                         <td>@record.Type</td>
                                         <td data-utc-time="@record.CreationTime" data-order="@record.CreationTime.Ticks"></td>

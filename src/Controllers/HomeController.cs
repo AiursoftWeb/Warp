@@ -1,23 +1,19 @@
-﻿using Aiursoft.Handler.Attributes;
-using Aiursoft.Handler.Exceptions;
-using Aiursoft.Handler.Models;
-using Aiursoft.Identity;
+﻿using Aiursoft.Identity;
 using Aiursoft.Identity.Attributes;
 using Aiursoft.Warp.Models;
 using Aiursoft.Warp.Models.HomeViewModels;
 using Aiursoft.Warpgate.SDK.Models;
 using Aiursoft.Warpgate.SDK.Services.ToWarpgateServer;
-using Aiursoft.XelNaga.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Aiursoft.AiurProtocol;
 using Aiursoft.Directory.SDK.Configuration;
 using Aiursoft.Directory.SDK.Services;
 using Microsoft.Extensions.Options;
 
 namespace Aiursoft.Warp.Controllers
 {
-    [LimitPerMin]
     public class HomeController : Controller
     {
         private readonly SignInManager<WarpUser> _signInManager;
@@ -52,7 +48,7 @@ namespace Aiursoft.Warp.Controllers
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { "Anonymous" }, RecordType.Redirect, enabled: true);
             }
-            catch (AiurUnexpectedResponse e) when (e.Code == ErrorType.Conflict)
+            catch (AiurServerException e) when (e.Response.Code == Code.Conflict)
             {
                 ModelState.AddModelError(nameof(model.NewRecordName), $"Sorry but the key:'{model.NewRecordName}' already exists. Try another one.");
                 return View(nameof(Index), model);
@@ -64,7 +60,7 @@ namespace Aiursoft.Warp.Controllers
         public async Task<IActionResult> LogOff()
         {
             await _signInManager.SignOutAsync();
-            return this.SignOutRootServer(_gatewayLocator.Instance, new AiurUrl(string.Empty, "Home", nameof(Index), new { }));
+            return this.SignOutRootServer(_gatewayLocator.Instance, $"Home/{nameof(Index)}");
         }
     }
 }

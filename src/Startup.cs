@@ -1,3 +1,4 @@
+using Aiursoft.DbTools;
 using Aiursoft.Identity;
 using Aiursoft.SDK;
 using Aiursoft.Warp.Data;
@@ -23,7 +24,7 @@ namespace Aiursoft.Warp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextWithCache<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
+            services.AddAiurSqlServerWithCache<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
 
             services.AddIdentity<WarpUser, IdentityRole>()
                 .AddEntityFrameworkStores<WarpDbContext>()

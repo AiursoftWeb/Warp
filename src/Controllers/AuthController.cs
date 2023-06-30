@@ -1,5 +1,4 @@
-﻿using Aiursoft.Handler.Attributes;
-using Aiursoft.Identity.Attributes;
+﻿using Aiursoft.Identity.Attributes;
 using Aiursoft.Identity.Services;
 using Aiursoft.WebTools;
 using Aiursoft.Warp.Models;
@@ -9,7 +8,6 @@ using Aiursoft.Directory.SDK.Models.ForApps.AddressModels;
 
 namespace Aiursoft.Warp.Controllers
 {
-    [LimitPerMin]
     public class AuthController : Controller
     {
         private readonly AuthService<WarpUser> _authService;

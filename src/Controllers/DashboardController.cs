@@ -1,7 +1,4 @@
-﻿using Aiursoft.Handler.Attributes;
-using Aiursoft.Handler.Exceptions;
-using Aiursoft.Handler.Models;
-using Aiursoft.Identity.Attributes;
+﻿using Aiursoft.Identity.Attributes;
 using Aiursoft.Warp.Models;
 using Aiursoft.Warp.Models.DashboardViewModels;
 using Aiursoft.Warpgate.SDK.Models;
@@ -10,11 +7,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
+using Aiursoft.AiurProtocol;
 using Aiursoft.Directory.SDK.Services;
 
 namespace Aiursoft.Warp.Controllers
 {
-    [LimitPerMin]
     [AiurForceAuth]
     [Route("Dashboard")]
     public class DashboardController : Controller
@@ -51,7 +48,7 @@ namespace Aiursoft.Warp.Controllers
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { user.Id }, RecordType.Redirect, enabled: true);
             }
-            catch (AiurUnexpectedResponse e) when (e.Code == ErrorType.Conflict)
+            catch (AiurServerException e) when (e.Response.Code == Code.Conflict)
             {
                 ModelState.AddModelError(nameof(model.NewRecordName), $"Sorry but the key:'{model.NewRecordName}' already exists. Try another one.");
                 model.Recover(user);
@@ -108,11 +105,11 @@ namespace Aiursoft.Warp.Controllers
             {
                 var token = await _appsContainer.GetAccessTokenAsync();
                 await _recordsService.UpdateRecordInfoAsync(token, model.RecordName, model.NewRecordName, model.Type, model.URL, new[] { user.Id }, model.Enabled);
-                return RedirectToAction(nameof(DashboardController.Records), "Dashboard");
+                return RedirectToAction(nameof(Records), "Dashboard");
             }
-            catch (AiurUnexpectedResponse e)
+            catch (AiurServerException e)
             {
-                ModelState.AddModelError(string.Empty, e.Response.Message);
+                ModelState.AddModelError(string.Empty, e.Response.Message!);
                 model.Recover(user);
                 model.NewRecordName = model.RecordName;
                 return View(model);
@@ -145,11 +142,11 @@ namespace Aiursoft.Warp.Controllers
             {
                 var token = await _appsContainer.GetAccessTokenAsync();
                 await _recordsService.DeleteRecordAsync(token, model.RecordName);
-                return RedirectToAction(nameof(DashboardController.Records), "Dashboard");
+                return RedirectToAction(nameof(Records), "Dashboard");
             }
-            catch (AiurUnexpectedResponse e)
+            catch (AiurServerException e)
             {
-                ModelState.AddModelError(string.Empty, e.Response.Message);
+                ModelState.AddModelError(string.Empty, e.Response.Message!);
                 model.Recover(user);
                 return View(model);
             }
