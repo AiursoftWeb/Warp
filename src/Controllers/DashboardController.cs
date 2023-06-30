@@ -48,7 +48,7 @@ namespace Aiursoft.Warp.Controllers
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { user.Id }, RecordType.Redirect, enabled: true);
             }
-            catch (AiurServerException e) when (e.Response.Code == Code.Conflict)
+            catch (AiurUnexpectedServerResponseException e) when (e.Response.Code == Code.Conflict)
             {
                 ModelState.AddModelError(nameof(model.NewRecordName), $"Sorry but the key:'{model.NewRecordName}' already exists. Try another one.");
                 model.Recover(user);
@@ -107,7 +107,7 @@ namespace Aiursoft.Warp.Controllers
                 await _recordsService.UpdateRecordInfoAsync(token, model.RecordName, model.NewRecordName, model.Type, model.URL, new[] { user.Id }, model.Enabled);
                 return RedirectToAction(nameof(Records), "Dashboard");
             }
-            catch (AiurServerException e)
+            catch (AiurUnexpectedServerResponseException e)
             {
                 ModelState.AddModelError(string.Empty, e.Response.Message!);
                 model.Recover(user);
@@ -144,7 +144,7 @@ namespace Aiursoft.Warp.Controllers
                 await _recordsService.DeleteRecordAsync(token, model.RecordName);
                 return RedirectToAction(nameof(Records), "Dashboard");
             }
-            catch (AiurServerException e)
+            catch (AiurUnexpectedServerResponseException e)
             {
                 ModelState.AddModelError(string.Empty, e.Response.Message!);
                 model.Recover(user);

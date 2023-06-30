@@ -48,7 +48,7 @@ namespace Aiursoft.Warp.Controllers
             {
                 await _recordsService.CreateNewRecordAsync(token, model.NewRecordName, model.Url, new[] { "Anonymous" }, RecordType.Redirect, enabled: true);
             }
-            catch (AiurServerException e) when (e.Response.Code == Code.Conflict)
+            catch (AiurUnexpectedServerResponseException e) when (e.Response.Code == Code.Conflict)
             {
                 ModelState.AddModelError(nameof(model.NewRecordName), $"Sorry but the key:'{model.NewRecordName}' already exists. Try another one.");
                 return View(nameof(Index), model);
