@@ -1,5 +1,4 @@
 ﻿using Aiursoft.Warpgate.SDK.Models;
-using System.Collections.Generic;
 
 namespace Aiursoft.Warp.Models.DashboardViewModels
 {

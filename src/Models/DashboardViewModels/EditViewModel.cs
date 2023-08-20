@@ -1,6 +1,5 @@
 ﻿using Aiursoft.Warpgate.SDK.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Aiursoft.Warp.Models.DashboardViewModels

@@ -6,7 +6,6 @@ using Aiursoft.Warpgate.SDK.Models;
 using Aiursoft.Warpgate.SDK.Services.ToWarpgateServer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using Aiursoft.AiurProtocol;
 using Aiursoft.Directory.SDK.Configuration;
 using Aiursoft.Directory.SDK.Services;

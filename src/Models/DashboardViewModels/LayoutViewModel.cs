@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Aiursoft.Warp.Models.DashboardViewModels
+﻿namespace Aiursoft.Warp.Models.DashboardViewModels
 {
     public class LayoutViewModel
     {

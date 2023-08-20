@@ -1,11 +1,7 @@
 ﻿using Aiursoft.Scanner;
 using Aiursoft.Warp.Data;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.DbTools;
 using static Aiursoft.WebTools.Extends;
