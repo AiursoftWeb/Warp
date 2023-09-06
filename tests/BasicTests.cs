@@ -5,6 +5,8 @@ using System.Net;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.DbTools;
 using static Aiursoft.WebTools.Extends;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Aiursoft.Warp.Tests
 {
@@ -25,7 +27,7 @@ namespace Aiursoft.Warp.Tests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = await App<TestStartup>(port: _port).UpdateDbAsync<WarpDbContext>(UpdateMode.RecreateThenUse);
+            _server = await App<Startup>(Array.Empty<string>(), port: _port).UpdateDbAsync<WarpDbContext>(UpdateMode.RecreateThenUse);
             var handler = new HttpClientHandler()
             {
                 AllowAutoRedirect = false

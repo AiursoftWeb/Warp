@@ -3,33 +3,27 @@ using Aiursoft.SDK;
 using Aiursoft.Warp.Data;
 using Aiursoft.Warp.Models;
 using Aiursoft.Warpgate.SDK;
+using Aiursoft.WebTools.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace Aiursoft.Warp
 {
-    public class Startup
+    public class Startup : IWebStartup
     {
-        public IConfiguration Configuration { get; }
-
-        public Startup(IConfiguration configuration)
+        public void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
         {
-            Configuration = configuration;
-        }
-
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddDbContextForInfraApps<WarpDbContext>(Configuration.GetConnectionString("DatabaseConnection"));
+            services.AddDbContextForInfraApps<WarpDbContext>(configuration.GetConnectionString("DatabaseConnection"));
 
             services.AddIdentity<WarpUser, IdentityRole>()
                 .AddEntityFrameworkStores<WarpDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddAiurMvc();
-            services.AddAiursoftWarpgate(Configuration.GetSection("AiursoftWarpgate"));
+            services.AddAiurosftWebFeatures();
+            services.AddAiursoftWarpgate(configuration.GetSection("AiursoftWarpgate"));
             services.AddAiursoftIdentity<WarpUser>(
-                probeConfig: Configuration.GetSection("AiursoftProbe"),
-                authenticationConfig: Configuration.GetSection("AiursoftAuthentication"),
-                observerConfig: Configuration.GetSection("AiursoftObserver"));
+                probeConfig: configuration.GetSection("AiursoftProbe"),
+                authenticationConfig: configuration.GetSection("AiursoftAuthentication"),
+                observerConfig: configuration.GetSection("AiursoftObserver"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
