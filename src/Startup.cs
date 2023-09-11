@@ -18,7 +18,7 @@ namespace Aiursoft.Warp
                 .AddEntityFrameworkStores<WarpDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddAiurosftWebFeatures();
+            services.AddAiursoftWebFeatures();
             services.AddAiursoftWarpgate(configuration.GetSection("AiursoftWarpgate"));
             services.AddAiursoftIdentity<WarpUser>(
                 probeConfig: configuration.GetSection("AiursoftProbe"),
