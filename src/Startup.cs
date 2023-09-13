@@ -26,9 +26,9 @@ namespace Aiursoft.Warp
                 observerConfig: configuration.GetSection("AiursoftObserver"));
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(WebApplication app)
         {
-            app.UseAiursoftHandler(env.IsDevelopment());
+            app.UseAiursoftHandler(app.Environment.IsDevelopment());
             app.UseAiursoftAppRouters();
         }
     }
