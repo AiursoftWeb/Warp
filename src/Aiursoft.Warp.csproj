@@ -10,7 +10,7 @@
     <Description>Warp is a simple web application which shorten your URL.</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.Identity" Version="7.0.26" />
-    <PackageReference Include="Aiursoft.Warpgate.SDK" Version="7.0.15" />
+    <PackageReference Include="Aiursoft.Identity" Version="7.0.27" />
+    <PackageReference Include="Aiursoft.Warpgate.SDK" Version="7.0.16" />
   </ItemGroup>
 </Project>
