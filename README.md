@@ -1,10 +1,10 @@
 # Warp
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/blob/master/LICENSE)
-[![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/pipelines)
-[![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.cn/aiursoft/warp/-/pipelines)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/blob/master/LICENSE)
+[![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
+[![Test Coverage](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com%2F%3Fshow%3Ddirect)](https://warp.aiursoft.com)
-[![ManHours](https://manhours.aiursoft.cn/r/gitlab.aiursoft.cn/aiursoft/Warp.svg)](https://gitlab.aiursoft.cn/aiursoft/Warp/-/commits/master?ref_type=heads)
+[![ManHours](https://manhours.aiursoft.cn/r/gitlab.aiursoft.com/aiursoft/Warp.svg)](https://gitlab.aiursoft.com/aiursoft/Warp/-/commits/master?ref_type=heads)
 
 Warp is a simple web application that shortens your URL.
 
@@ -19,7 +19,7 @@ First, specify a domain name for your Ubuntu 18.04+, brand new server.
 And execute the following command in the server:
 
 ```bash
-curl -sL https://gitlab.aiursoft.cn/aiursoft/Warp/-/raw/master/install.sh | sudo bash -s http://warp.local
+curl -sL https://gitlab.aiursoft.com/aiursoft/Warp/-/raw/master/install.sh | sudo bash -s http://warp.local
 ```
 
 ## Run locally
