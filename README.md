@@ -26,7 +26,7 @@ curl -sL https://gitlab.aiursoft.com/aiursoft/Warp/-/raw/master/install.sh | sud
 
 Requirements about how to run
 
-1. [.NET 9 SDK](http://dot.net/)
+1. [.NET 10 SDK](http://dot.net/)
 2. Execute `dotnet run` to run the app
 3. Use your browser to view [http://localhost:5000](http://localhost:5000)
 
