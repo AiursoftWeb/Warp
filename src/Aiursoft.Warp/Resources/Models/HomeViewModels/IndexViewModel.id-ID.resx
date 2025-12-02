@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Judul mengandung karakter yang tidak valid.</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Harap masukkan tautan tujuan Anda!</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Terjadi kesalahan, coba lagi nanti.</value>
+  </data>
+  <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
+    <value>Kode kustom hanya boleh berisi huruf, angka, dan tanda hubung, serta panjangnya maksimal 30 karakter.</value>
+  </data>
+
+</root>

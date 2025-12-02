@@ -129,5 +129,8 @@
   <data name="Error" xml:space="preserve">
     <value>Fel</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Länkförkortare</value>
+  </data>
 
 </root>

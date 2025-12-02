@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Ein neues Projekt starten</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopieren</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Erfolg!</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>In die Zwischenablage kopieren</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Ihr Kurzlink wurde erstellt:</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Link-Verkürzer</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Ziel-URL (Erforderlich)</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Bitte geben Sie die vollständige URL ein, z.B.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Ein einfaches Tool zum Kürzen und Verwalten Ihrer Links.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Sichtbarkeit</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Ablaufzeit (Optional)</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Benutzerdefinierter Code (Optional)</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Zugriffspasswort (erforderlich für private Links)</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>z. B.: mein-produkt oder leer lassen</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Es sind nur sichere Zeichen wie Buchstaben, Zahlen und Bindestriche erlaubt; bleibt das Feld leer, wird automatisch ein Kurzcode generiert.</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privat (Aktivieren, um den Link privat zu machen und die Passworteingabe anzuzeigen)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Zugriffspasswort eingeben</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Wenn nicht ausgefüllt, bleibt der Link dauerhaft gültig (sofern er nicht manuell deaktiviert wird).</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maximale Klicks (Optional)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>z. B.: 100</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titel / Bemerkung (Optional)</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Nur gültig, wenn auf privat gesetzt; der Server sollte das Passwort verschlüsseln und speichern.</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Kurzlink erstellen</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Der Link läuft ab, nachdem diese Anzahl erreicht wurde (kann für unbegrenzt leer gelassen werden).</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopiert!</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Nur zur Hintergrundanzeige und Identifikation, beeinflusst nicht die Weiterleitung.</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>z. B.: Doppel-Elf-Events-Seite</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Dieser Link ist privat, bitte geben Sie das Zugangspasswort ein.</value>
+  </data>
 
 </root>

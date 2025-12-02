@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Bắt đầu một dự án mới</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Rút gọn liên kết</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL Đích (Bắt buộc)</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Sao chép vào bảng nhớ tạm</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Liên kết rút gọn của bạn đã được tạo:</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Thành công!</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Một công cụ đơn giản để rút ngắn và quản lý các liên kết của bạn.</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>vd: my-product hoặc để trống</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Vui lòng nhập đầy đủ URL, ví dụ: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Tính công khai</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Thời gian hết hạn (Tùy chọn)</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Mã Tùy Chỉnh (Không bắt buộc)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Chỉ cho phép các ký tự an toàn như chữ cái, số và dấu gạch ngang; nếu để trống, một mã ngắn sẽ được tự động tạo.</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Nếu không điền, liên kết sẽ có hiệu lực vĩnh viễn (trừ khi bị vô hiệu hóa thủ công).</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Mật khẩu truy cập (Bắt buộc cho liên kết riêng tư)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Nhập mật khẩu truy cập</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>vd: 100</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Riêng tư (Chọn để đặt liên kết ở chế độ riêng tư và hiển thị ô nhập mật khẩu)</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Số lần nhấp tối đa (Tùy chọn)</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Tạo Liên Kết Rút Gọn</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>ví dụ: Trang Sự Kiện Double Eleven</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Chỉ có hiệu lực khi được đặt ở chế độ riêng tư; máy chủ sẽ mã hóa và lưu trữ mật khẩu.</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Liên kết sẽ hết hạn sau khi đạt đến số lần nhấp này (có thể để trống nếu không giới hạn).</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Liên kết này là riêng tư, vui lòng nhập mật khẩu truy cập.</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Đã sao chép!</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Chỉ dùng để hiển thị và nhận diện trong phần nền, không ảnh hưởng đến việc chuyển hướng.</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Tiêu đề / Ghi chú (Tùy chọn)</value>
+  </data>
 
 </root>

@@ -132,5 +132,8 @@
   <data name="Error" xml:space="preserve">
     <value>錯誤</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>短連結</value>
+  </data>
 
 </root>

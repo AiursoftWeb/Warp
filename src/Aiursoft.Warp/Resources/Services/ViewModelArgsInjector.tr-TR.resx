@@ -129,5 +129,8 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>Yetkisiz</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Bağlantı Kısaltıcı</value>
+  </data>
 
 </root>

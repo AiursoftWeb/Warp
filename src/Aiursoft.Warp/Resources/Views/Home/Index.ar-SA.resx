@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>بدء مشروع جديد</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>مختصر الروابط</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>نسخ إلى الحافظة</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>تم إنشاء رابطك المختصر:</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>نجاح!</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>أداة بسيطة لتقصير وإدارة روابطك.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>الرجاء إدخال الرابط الكامل، مثال: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>الرابط الهدف (مطلوب)</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>الرمز المخصص (اختياري)</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>وقت الانتهاء (اختياري)</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>الرؤية</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>مثلاً: my-product أو اتركه فارغًا</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>كلمة المرور للوصول (مطلوبة للروابط الخاصة)</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>إذا لم يتم تعبئته، سيكون صالحًا بشكل دائم (ما لم يتم تعطيله يدويًا).</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>يُسمح فقط بالأحرف الآمنة مثل الحروف والأرقام والشرطات؛ إذا تُركت فارغة، سيتم إنشاء رمز قصير تلقائيًا.</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>خاص (اختر لجعل الرابط خاصًا وعرض حقل إدخال كلمة المرور)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>أدخل كلمة مرور الوصول</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>الحد الأقصى للنقرات (اختياري)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>مثلاً: 100</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>يُطبق هذا فقط عند تعيين الرابط كخاص؛ على الخادم تشفير كلمة المرور وتخزينها.</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>العنوان / الملاحظة (اختياري)</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>ستنتهي صلاحية الرابط بعد الوصول إلى هذا العدد (يمكن تركه فارغاً ليكون غير محدود).</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>إنشاء رابط قصير</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>مثال: صفحة حدث اليوم الحادي عشر</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>للعرض في الخلفية والتعريف فقط، لا يؤثر على إعادة التوجيه.</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>تم النسخ!</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>هذا الرابط خاص، يرجى إدخال كلمة مرور الوصول.</value>
+  </data>
 
 </root>

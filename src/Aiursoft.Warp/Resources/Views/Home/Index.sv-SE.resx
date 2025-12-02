@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Starta ett nytt projekt</value>
   </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopiera till urklipp</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Länkförkortare</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Din korta länk har skapats:</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Lyckades!</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Mål-URL (Obligatorisk)</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Ange den fullständiga URL:en, t.ex.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Ett enkelt verktyg för att förkorta och hantera dina länkar.</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Anpassad kod (valfritt)</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>t.ex.: mitt-produkt eller lämna tomt</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Synlighet</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Utgångstid (Valfritt)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Endast säkra tecken som bokstäver, siffror och bindestreck är tillåtna; om fältet lämnas tomt genereras en kort kod automatiskt.</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Om den inte fylls i, är den permanent giltig (om den inte inaktiveras manuellt).</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maximalt antal klick (Valfritt)</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privat (Markera för att göra länken privat och visa lösenordsfält)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Ange åtkomstlösenord</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>t.ex.: 100</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Åtkomstlösenord (Obligatoriskt för privata länkar)</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titel / Kommentar (Valfritt)</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Gäller endast när inställt på privat; servern bör kryptera och lagra lösenordet.</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>t.ex.: Double Eleven Event-sida</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopierad!</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Länken kommer att upphöra att gälla efter att ha nått detta antal (kan lämnas tomt för obegränsat).</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Endast för bakgrundsvisning och identifiering, påverkar inte omdirigering.</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Den här länken är privat, vänligen ange åtkomstlösenordet.</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Skapa kort länk</value>
+  </data>
 
 </root>

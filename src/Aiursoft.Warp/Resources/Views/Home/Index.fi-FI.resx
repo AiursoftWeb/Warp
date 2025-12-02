@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Aloita uusi projekti</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Link-lyhennys</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Onnistui!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopioi</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Kohde-URL (Pakollinen)</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Lyhyt linkkisi on luotu:</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopioi leikepöydälle</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Syötä täydellinen URL-osoite, esim.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Yksinkertainen työkalu linkkien lyhentämiseen ja hallintaan.</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Mukautettu koodi (valinnainen)</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Näkyvyys</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Vanhenemisaika (valinnainen)</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>esim.: my-product tai jätä tyhjäksi</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Käyttäjätunnus (Pakollinen yksityisille linkeille)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Sallittuja ovat vain turvalliset merkit, kuten kirjaimet, numerot ja väliviivat; jos kenttä jätetty tyhjäksi, lyhyt koodi luodaan automaattisesti.</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Yksityinen (Valitse tämä tehdäksesi linkistä yksityisen ja näyttääksesi salasanakentän)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>esim.: 100</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Jos kenttää ei täytetä, linkki on pysyvästi voimassa (ellei sitä poisteta käytöstä manuaalisesti).</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Vain yksityiseksi asetettaessa voimassa; palvelimen tulee salata ja tallentaa salasana.</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maksimiklikkausmäärä (valinnainen)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Syötä pääsalasana</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Otsikko / Huomautus (Valinnainen)</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Luo lyhyt linkki</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>esim.: Double Eleven -tapahtumasivu</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopioitu!</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Linkki vanhenee tämän määrän saavuttamisen jälkeen (voi olla tyhjä rajoittamattomalle).</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Vain taustanäyttöä ja tunnistusta varten, ei vaikuta uudelleenohjaukseen.</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Tämä linkki on yksityinen, syötä pääsalasana.</value>
+  </data>
 
 </root>

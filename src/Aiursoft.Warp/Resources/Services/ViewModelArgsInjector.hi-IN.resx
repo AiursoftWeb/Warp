@@ -129,5 +129,8 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>अनधिकृत</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>लिंक शॉर्टनर</value>
+  </data>
 
 </root>

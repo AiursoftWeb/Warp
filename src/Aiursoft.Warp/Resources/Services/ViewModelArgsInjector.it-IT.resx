@@ -129,5 +129,8 @@
   <data name="Error" xml:space="preserve">
     <value>Errore</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Accorcia Link</value>
+  </data>
 
 </root>

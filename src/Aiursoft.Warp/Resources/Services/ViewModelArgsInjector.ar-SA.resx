@@ -129,5 +129,8 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>غير مصرح</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>تقصير الروابط</value>
+  </data>
 
 </root>
