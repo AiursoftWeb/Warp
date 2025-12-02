@@ -1,29 +1,29 @@
 @model Aiursoft.Warp.Models.LinksViewModels.IndexViewModel
 
 @{
-    ViewData["Title"] = "My Links";
+    ViewData["Title"] = Localizer["My Links"];
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-controller="Home" asp-action="Index">Create New</a>
+    <a asp-controller="Home" asp-action="Index">@Localizer["Create New"]</a>
 </p>
 
 <table class="table">
     <thead>
         <tr>
             <th>
-                Short Link
+                @Localizer["Short Link"]
             </th>
             <th>
-                Original URL
+                @Localizer["Original URL"]
             </th>
             <th>
-                Creation Time
+                @Localizer["Creation Time"]
             </th>
             <th>
-                Clicks
+                @Localizer["Clicks"]
             </th>
             <th></th>
         </tr>
@@ -44,8 +44,8 @@
                 @item.Clicks
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id">@Localizer["Edit"]</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">@Localizer["Delete"]</a>
             </td>
         </tr>
 }
