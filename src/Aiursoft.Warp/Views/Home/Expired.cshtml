@@ -1,0 +1,30 @@
+@{
+    Layout = null;
+    ViewData["Title"] = @Localizer["Link Expired"];
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mt-5">
+                    <h1 class="display-4">@Localizer["Link Expired"]</h1>
+                    <p class="lead">@Localizer["Sorry, the link you are trying to access has expired."]</p>
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">@Localizer["Create a new link"]</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+@section styles {
+  <link rel="stylesheet" href="~/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+}

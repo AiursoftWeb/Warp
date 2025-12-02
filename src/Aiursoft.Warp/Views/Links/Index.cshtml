@@ -1,0 +1,53 @@
+@model Aiursoft.Warp.Models.LinksViewModels.IndexViewModel
+
+@{
+    ViewData["Title"] = "My Links";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-controller="Home" asp-action="Index">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Short Link
+            </th>
+            <th>
+                Original URL
+            </th>
+            <th>
+                Creation Time
+            </th>
+            <th>
+                Clicks
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Links) {
+        <tr>
+            <td>
+                <a href="/@item.RedirectTo" target="_blank">/@item.RedirectTo</a>
+            </td>
+            <td>
+                <a href="@item.TargetUrl" target="_blank">@item.TargetUrl</a>
+            </td>
+            <td>
+                @item.CreationTime.ToString("yyyy-MM-dd HH:mm")
+            </td>
+            <td>
+                @item.Clicks
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
