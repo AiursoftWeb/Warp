@@ -7,6 +7,7 @@ using Aiursoft.Warp.Models.LinksViewModels;
 using Aiursoft.WebTools.Attributes;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.Warp.Services;
+using Aiursoft.UiStack.Navigation;
 
 namespace Aiursoft.Warp.Controllers;
 
@@ -22,6 +23,14 @@ public class LinksController : Controller
     }
 
     [HttpGet]
+    [RenderInNavBar(
+        NavGroupName = "Home",
+        NavGroupOrder = 1,
+        CascadedLinksGroupName = "Home",
+        CascadedLinksIcon = "home",
+        CascadedLinksOrder = 1,
+        LinkText = "My Links",
+        LinkOrder = 1)]
     public async Task<IActionResult> Index()
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -29,7 +38,7 @@ public class LinksController : Controller
             .Where(l => l.UserId == userId)
             .OrderByDescending(l => l.CreationTime)
             .ToListAsync();
-        
+
         var model = new IndexViewModel
         {
             Links = links
