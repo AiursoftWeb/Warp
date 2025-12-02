@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Aiursoft.Warp.Entities;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using Aiursoft.UiStack.Navigation;
 
 namespace Aiursoft.Warp.Controllers;
 
@@ -24,12 +25,19 @@ public class HomeController : Controller
     }
 
     [Authorize]
+    [RenderInNavBar(
+        NavGroupName = "Home",
+        NavGroupOrder = 1,
+        CascadedLinksGroupName = "Home",
+        CascadedLinksIcon = "home",
+        CascadedLinksOrder = 1,
+        LinkText = "Link Shorter",
+        LinkOrder = 1)]
     public IActionResult Index()
     {
-        // return this.SimpleView(new IndexViewModel());
         return this.StackView(new IndexViewModel());
     }
-    
+
     [HttpPost]
     [Authorize]
     [ValidateAntiForgeryToken]
@@ -68,7 +76,7 @@ public class HomeController : Controller
         {
             shorterLink.Password = null;
         }
-        
+
         // Check if custom code already exists
         if (shorterLink.IsCustom && await _dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == shorterLink.RedirectTo))
         {
@@ -81,7 +89,7 @@ public class HomeController : Controller
 
         var fullUrl = $"{Request.Scheme}://{Request.Host}/{shorterLink.RedirectTo}";
         model.CreatedShortLink = fullUrl;
-        
+
         // Clear the model state to reset the form for the next creation.
         ModelState.Clear();
         var newModel = new IndexViewModel
@@ -106,7 +114,7 @@ public class HomeController : Controller
             return View("Expired");
             // return this.StackView(View("Expired"));
         }
-        
+
         if (link.MaxClicks.HasValue && link.MaxClicks <= link.Clicks)
         {
             return View("Expired");
@@ -149,7 +157,7 @@ public class HomeController : Controller
             return Redirect(link.TargetUrl);
         }
 
-        if (!string.IsNullOrEmpty(link.Password) && 
+        if (!string.IsNullOrEmpty(link.Password) &&
             !string.IsNullOrEmpty(model.Password) &&
             _passwordService.VerifyPassword(link.Password, model.Password))
         {

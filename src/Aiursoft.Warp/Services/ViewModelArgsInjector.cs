@@ -64,6 +64,7 @@ public class ViewModelArgsInjector(
         _ = localizer["Personal"];
         _ = localizer["Unauthorized"];
         _ = localizer["Error"];
+        _ = localizer["Link Shorter"];
     }
 
     public void InjectSimple(
