@@ -135,5 +135,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Raccourcisseur de liens</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Mes Liens</value>
+  </data>
 
 </root>

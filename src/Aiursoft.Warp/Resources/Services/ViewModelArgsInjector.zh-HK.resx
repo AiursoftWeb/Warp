@@ -135,5 +135,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>短連結</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的連結</value>
+  </data>
 
 </root>

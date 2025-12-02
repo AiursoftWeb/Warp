@@ -132,5 +132,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Σύντομος Σύνδεσμος</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Οι Σύνδεσμοί μου</value>
+  </data>
 
 </root>

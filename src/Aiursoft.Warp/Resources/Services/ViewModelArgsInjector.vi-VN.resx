@@ -135,5 +135,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Rút gọn liên kết</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Liên kết của tôi</value>
+  </data>
 
 </root>

@@ -132,5 +132,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Pemendek Tautan</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Tautan Saya</value>
+  </data>
 
 </root>

@@ -132,5 +132,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Scurtător de link-uri</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Linkurile mele</value>
+  </data>
 
 </root>

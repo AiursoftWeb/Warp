@@ -132,5 +132,8 @@
   <data name="Link Shorter" xml:space="preserve">
     <value>Lyhennä linkki</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Omat linkit</value>
+  </data>
 
 </root>
