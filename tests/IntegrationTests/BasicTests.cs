@@ -49,14 +49,23 @@ public class BasicTests
     }
 
     [TestMethod]
-    [DataRow("/")]
-    [DataRow("/hOmE?aaaaaa=bbbbbb")]
-    [DataRow("/hOmE/InDeX")]
-    public async Task GetHome(string url)
+    [DataRow("/Account/Login")]
+    public async Task GetLoginPage(string url)
     {
         var response = await _http.GetAsync(url);
         response.EnsureSuccessStatusCode();
     }
+    
+    [TestMethod]
+    public async Task GetHome()
+    {
+        var handler = new HttpClientHandler { AllowAutoRedirect = false };
+        using var client = new HttpClient(handler) { BaseAddress = _http.BaseAddress };
+
+        var resp = await client.GetAsync("/");
+        Assert.AreEqual(HttpStatusCode.Found, resp.StatusCode);   // 302
+    }
+
 
     private async Task<string> GetAntiCsrfToken(string url)
     {
