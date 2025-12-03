@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 using Aiursoft.UiStack.Layout;
 
