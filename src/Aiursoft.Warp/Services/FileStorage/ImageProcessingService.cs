@@ -4,7 +4,7 @@ using SixLabors.ImageSharp.Processing;
 
 namespace Aiursoft.Warp.Services.FileStorage;
 
-public class ImageProcessingService(
+public abstract class ImageProcessingService(
     PathResolver pathResolver,
     ILogger<ImageProcessingService> logger,
     FileLockProvider fileLockProvider) : ITransientDependency

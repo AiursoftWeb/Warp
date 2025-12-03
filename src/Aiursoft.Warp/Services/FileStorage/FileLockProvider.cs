@@ -8,7 +8,7 @@ namespace Aiursoft.Warp.Services.FileStorage;
 /// so that concurrent read/write operations do not clash.
 /// Uses an in-memory cache with sliding expiration to prevent memory leaks from excessive unique paths.
 /// </summary>
-public class FileLockProvider(IMemoryCache lockCache) : ITransientDependency
+public abstract class FileLockProvider(IMemoryCache lockCache) : ITransientDependency
 {
     /// <summary>
     /// Retrieves or creates a lock semaphore for the specified path from the cache.

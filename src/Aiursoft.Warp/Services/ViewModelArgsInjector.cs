@@ -23,7 +23,7 @@ using Microsoft.Extensions.Options;
 
 namespace Aiursoft.Warp.Services;
 
-public class ViewModelArgsInjector(
+public abstract class ViewModelArgsInjector(
     IStringLocalizer<ViewModelArgsInjector> localizer,
     StorageService storageService,
     NavigationState<Startup> navigationState,

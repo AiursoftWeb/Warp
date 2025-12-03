@@ -10,7 +10,7 @@ using static Aiursoft.WebTools.Extends;
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 [TestClass]
-public class BasicTests
+public partial class BasicTests
 {
     private readonly int _port;
     private readonly HttpClient _http;
@@ -35,16 +35,16 @@ public class BasicTests
     public async Task CreateServer()
     {
         _server = await AppAsync<Startup>([], port: _port);
-        await _server.UpdateDbAsync<TemplateDbContext>();
+        await _server.UpdateDbAsync<TemplateDbContext>(TestContext.CancellationToken);
         await _server.SeedAsync();
-        await _server.StartAsync();
+        await _server.StartAsync(TestContext.CancellationToken);
     }
 
     [TestCleanup]
     public async Task CleanServer()
     {
         if (_server == null) return;
-        await _server.StopAsync();
+        await _server.StopAsync(TestContext.CancellationToken);
         _server.Dispose();
     }
 
@@ -52,7 +52,7 @@ public class BasicTests
     [DataRow("/Account/Login")]
     public async Task GetLoginPage(string url)
     {
-        var response = await _http.GetAsync(url);
+        var response = await _http.GetAsync(url, TestContext.CancellationToken);
         response.EnsureSuccessStatusCode();
     }
 
@@ -63,24 +63,18 @@ public class BasicTests
         using var client = new HttpClient(handler);
         client.BaseAddress = _http.BaseAddress;
 
-        var resp = await client.GetAsync("/");
+        var resp = await client.GetAsync("/", TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, resp.StatusCode);   // 302
     }
 
 
     private async Task<string> GetAntiCsrfToken(string url)
     {
-        var response = await _http.GetAsync(url);
+        var response = await _http.GetAsync(url, TestContext.CancellationToken);
         response.EnsureSuccessStatusCode();
-        var html = await response.Content.ReadAsStringAsync();
-        var match = Regex.Match(html,
-            @"<input name=""__RequestVerificationToken"" type=""hidden"" value=""([^""]+)"" />");
-        if (!match.Success)
-        {
-            throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}");
-        }
-
-        return match.Groups[1].Value;
+        var html = await response.Content.ReadAsStringAsync(TestContext.CancellationToken);
+        var match = MyRegex().Match(html);
+        return !match.Success ? throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}") : match.Groups[1].Value;
     }
 
     [TestMethod]
@@ -99,19 +93,19 @@ public class BasicTests
             { "ConfirmPassword", password },
             { "__RequestVerificationToken", registerToken }
         });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
+        var registerResponse = await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
         Assert.AreEqual("/Home/Index", registerResponse.Headers.Location?.OriginalString);
 
         // Step 2: Log off the user and assert a successful redirect.
-        var homePageResponse = await _http.GetAsync("/Manage/Index");
+        var homePageResponse = await _http.GetAsync("/Manage/Index", TestContext.CancellationToken);
         homePageResponse.EnsureSuccessStatusCode();
         var logOffToken = await GetAntiCsrfToken("/Manage/ChangePassword");
         var logOffContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
             { "__RequestVerificationToken", logOffToken }
         });
-        var logOffResponse = await _http.PostAsync("/Account/LogOff", logOffContent);
+        var logOffResponse = await _http.PostAsync("/Account/LogOff", logOffContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, logOffResponse.StatusCode);
         Assert.AreEqual("/", logOffResponse.Headers.Location?.OriginalString);
 
@@ -123,14 +117,14 @@ public class BasicTests
             { "Password", password },
             { "__RequestVerificationToken", loginToken }
         });
-        var loginResponse = await _http.PostAsync("/Account/Login", loginContent);
+        var loginResponse = await _http.PostAsync("/Account/Login", loginContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, loginResponse.StatusCode);
         Assert.AreEqual("/Home/Index", loginResponse.Headers.Location?.OriginalString);
 
         // Step 4: Verify the final login state by checking the home page content.
-        var finalHomePageResponse = await _http.GetAsync("/home/index");
+        var finalHomePageResponse = await _http.GetAsync("/home/index", TestContext.CancellationToken);
         finalHomePageResponse.EnsureSuccessStatusCode();
-        var finalHtml = await finalHomePageResponse.Content.ReadAsStringAsync();
+        var finalHtml = await finalHomePageResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains(expectedUserName, finalHtml);
     }
 
@@ -139,7 +133,7 @@ public class BasicTests
     {
         // Step 1: Attempt to log in with credentials for a user that does not exist.
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var password = "Wrong-Password-123";
+        const string password = "Wrong-Password-123";
         var loginToken = await GetAntiCsrfToken("/Account/Login");
         var loginContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
@@ -147,11 +141,11 @@ public class BasicTests
             { "Password", password },
             { "__RequestVerificationToken", loginToken }
         });
-        var loginResponse = await _http.PostAsync("/Account/Login", loginContent);
+        var loginResponse = await _http.PostAsync("/Account/Login", loginContent, TestContext.CancellationToken);
 
         // Step 2: Assert that the login fails and the correct error message is displayed.
         Assert.AreEqual(HttpStatusCode.OK, loginResponse.StatusCode);
-        var html = await loginResponse.Content.ReadAsStringAsync();
+        var html = await loginResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains("Invalid login attempt.", html);
     }
 
@@ -160,7 +154,7 @@ public class BasicTests
     {
         // Step 1: Register a new user successfully.
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var password = "Test-Password-123";
+        const string password = "Test-Password-123";
         var registerToken = await GetAntiCsrfToken("/Account/Register");
         var registerContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
@@ -169,7 +163,7 @@ public class BasicTests
             { "ConfirmPassword", password },
             { "__RequestVerificationToken", registerToken }
         });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
+        var registerResponse = await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
 
         // Step 2: Log off to clear the current session.
@@ -178,7 +172,7 @@ public class BasicTests
         {
             { "__RequestVerificationToken", logOffToken }
         });
-        await _http.PostAsync("/Account/LogOff", logOffContent);
+        await _http.PostAsync("/Account/LogOff", logOffContent, TestContext.CancellationToken);
 
         // Step 3: Attempt to register again using the same email.
         var secondRegisterToken = await GetAntiCsrfToken("/Account/Register");
@@ -189,11 +183,11 @@ public class BasicTests
             { "ConfirmPassword", password },
             { "__RequestVerificationToken", secondRegisterToken }
         });
-        var secondRegisterResponse = await _http.PostAsync("/Account/Register", secondRegisterContent);
+        var secondRegisterResponse = await _http.PostAsync("/Account/Register", secondRegisterContent, TestContext.CancellationToken);
 
         // Step 4: Assert the registration fails and the correct error message is displayed.
         Assert.AreEqual(HttpStatusCode.OK, secondRegisterResponse.StatusCode);
-        var html = await secondRegisterResponse.Content.ReadAsStringAsync();
+        var html = await secondRegisterResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains("The username already exists. Please try another username.", html);
     }
 
@@ -202,8 +196,8 @@ public class BasicTests
     {
         // Step 1: Register a new user.
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var correctPassword = "Test-Password-123";
-        var wrongPassword = "Wrong-Password-456";
+        const string correctPassword = "Test-Password-123";
+        const string wrongPassword = "Wrong-Password-456";
         var registerToken = await GetAntiCsrfToken("/Account/Register");
         var registerContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
@@ -212,7 +206,7 @@ public class BasicTests
             { "ConfirmPassword", correctPassword },
             { "__RequestVerificationToken", registerToken }
         });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
+        var registerResponse = await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
 
         // Step 2: Log off the user.
@@ -221,7 +215,7 @@ public class BasicTests
         {
             { "__RequestVerificationToken", logOffToken }
         });
-        await _http.PostAsync("/Account/LogOff", logOffContent);
+        await _http.PostAsync("/Account/LogOff", logOffContent, TestContext.CancellationToken);
 
         // Step 3: Attempt to log in with the correct email but a wrong password.
         var loginToken = await GetAntiCsrfToken("/Account/Login");
@@ -231,11 +225,11 @@ public class BasicTests
             { "Password", wrongPassword },
             { "__RequestVerificationToken", loginToken }
         });
-        var loginResponse = await _http.PostAsync("/Account/Login", loginContent);
+        var loginResponse = await _http.PostAsync("/Account/Login", loginContent, TestContext.CancellationToken);
 
         // Step 4: Assert the login fails and displays an error message.
         Assert.AreEqual(HttpStatusCode.OK, loginResponse.StatusCode);
-        var html = await loginResponse.Content.ReadAsStringAsync();
+        var html = await loginResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains("Invalid login attempt.", html);
     }
 
@@ -247,8 +241,8 @@ public class BasicTests
 
         // Step 1: Register a new user and then log off.
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var correctPassword = "Test-Password-123";
-        var wrongPassword = "Wrong-Password-456";
+        const string correctPassword = "Test-Password-123";
+        const string wrongPassword = "Wrong-Password-456";
         var registerToken = await GetAntiCsrfToken("/Account/Register");
         var registerContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
@@ -257,17 +251,17 @@ public class BasicTests
             { "ConfirmPassword", correctPassword },
             { "__RequestVerificationToken", registerToken }
         });
-        await _http.PostAsync("/Account/Register", registerContent);
+        await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
         var logOffToken = await GetAntiCsrfToken("/Manage/ChangePassword");
         var logOffContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
             { "__RequestVerificationToken", logOffToken }
         });
-        await _http.PostAsync("/Account/LogOff", logOffContent);
+        await _http.PostAsync("/Account/LogOff", logOffContent, TestContext.CancellationToken);
 
         // Step 2: Attempt to log in with the wrong password multiple times to trigger lockout.
         HttpResponseMessage loginResponse = null!;
-        for (int i = 0; i < maxFailedAccessAttempts; i++)
+        for (var i = 0; i < maxFailedAccessAttempts; i++)
         {
             var loginToken = await GetAntiCsrfToken("/Account/Login");
             var loginContent = new FormUrlEncodedContent(new Dictionary<string, string>
@@ -276,12 +270,12 @@ public class BasicTests
                 { "Password", wrongPassword },
                 { "__RequestVerificationToken", loginToken }
             });
-            loginResponse = await _http.PostAsync("/Account/Login", loginContent);
+            loginResponse = await _http.PostAsync("/Account/Login", loginContent, TestContext.CancellationToken);
         }
 
         // Step 3: Assert that the account is now locked.
         Assert.AreEqual(HttpStatusCode.OK, loginResponse.StatusCode);
-        var html = await loginResponse.Content.ReadAsStringAsync();
+        var html = await loginResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains("This account has been locked out, please try again later.", html);
 
         // Step 4: Verify that logging in with the correct password also fails while the account is locked.
@@ -292,8 +286,8 @@ public class BasicTests
             { "Password", correctPassword },
             { "__RequestVerificationToken", finalLoginToken }
         });
-        var finalLoginResponse = await _http.PostAsync("/Account/Login", finalLoginContent);
-        var finalHtml = await finalLoginResponse.Content.ReadAsStringAsync();
+        var finalLoginResponse = await _http.PostAsync("/Account/Login", finalLoginContent, TestContext.CancellationToken);
+        var finalHtml = await finalLoginResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.OK, finalLoginResponse.StatusCode);
         Assert.Contains("This account has been locked out, please try again later.", finalHtml);
     }
@@ -301,7 +295,7 @@ public class BasicTests
     private async Task<(string email, string password)> RegisterAndLoginAsync()
     {
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var password = "Test-Password-123";
+        const string password = "Test-Password-123";
 
         // Step 1: Register the new user.
         var registerToken = await GetAntiCsrfToken("/Account/Register");
@@ -312,7 +306,7 @@ public class BasicTests
             { "ConfirmPassword", password },
             { "__RequestVerificationToken", registerToken }
         });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
+        var registerResponse = await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
 
         // Step 2: Assert registration was successful and we are logged in.
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
@@ -326,7 +320,7 @@ public class BasicTests
         // Step 1: Register and log in a new user, storing their credentials for the entire test.
         // CHANGE: Stored both email and oldPassword from the single call.
         var (email, oldPassword) = await RegisterAndLoginAsync();
-        var newPassword = "New-Password-456";
+        const string newPassword = "New-Password-456";
 
         // Step 2: Get the anti-CSRF token from the Change Password page.
         var changePasswordToken = await GetAntiCsrfToken("/Manage/ChangePassword");
@@ -339,7 +333,7 @@ public class BasicTests
             { "ConfirmPassword", newPassword },
             { "__RequestVerificationToken", changePasswordToken }
         });
-        var changePasswordResponse = await _http.PostAsync("/Manage/ChangePassword", changePasswordContent);
+        var changePasswordResponse = await _http.PostAsync("/Manage/ChangePassword", changePasswordContent, TestContext.CancellationToken);
 
         // Step 4: Assert the password change was successful and redirected correctly.
         Assert.AreEqual(HttpStatusCode.Found, changePasswordResponse.StatusCode);
@@ -353,7 +347,7 @@ public class BasicTests
         {
             { "__RequestVerificationToken", logOffToken }
         });
-        await _http.PostAsync("/Account/LogOff", logOffContent);
+        await _http.PostAsync("/Account/LogOff", logOffContent, TestContext.CancellationToken);
 
         // Step 6: Verify that the old password no longer works for the original user.
         var oldLoginToken = await GetAntiCsrfToken("/Account/Login");
@@ -364,7 +358,7 @@ public class BasicTests
             { "Password", oldPassword },
             { "__RequestVerificationToken", oldLoginToken }
         });
-        var oldLoginResponse = await _http.PostAsync("/Account/Login", oldLoginContent);
+        var oldLoginResponse = await _http.PostAsync("/Account/Login", oldLoginContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.OK, oldLoginResponse.StatusCode);
 
         // Step 7: Verify that the new password works for the original user.
@@ -376,7 +370,7 @@ public class BasicTests
             { "Password", newPassword },
             { "__RequestVerificationToken", newLoginToken }
         });
-        var newLoginResponse = await _http.PostAsync("/Account/Login", newLoginContent);
+        var newLoginResponse = await _http.PostAsync("/Account/Login", newLoginContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, newLoginResponse.StatusCode);
     }
 
@@ -397,17 +391,22 @@ public class BasicTests
             { "Name", newUserName },
             { "__RequestVerificationToken", changeProfileToken }
         });
-        var changeProfileResponse = await _http.PostAsync("/Manage/ChangeProfile", changeProfileContent);
+        var changeProfileResponse = await _http.PostAsync("/Manage/ChangeProfile", changeProfileContent, TestContext.CancellationToken);
 
         // Step 4: Assert the profile change was successful and redirected correctly.
         Assert.AreEqual(HttpStatusCode.Found, changeProfileResponse.StatusCode);
         Assert.AreEqual("/Manage?Message=ChangeProfileSuccess", changeProfileResponse.Headers.Location?.OriginalString);
 
         // Step 5: Visit the home page and verify the new name is displayed.
-        var homePageResponse = await _http.GetAsync("/home/index");
+        var homePageResponse = await _http.GetAsync("/home/index", TestContext.CancellationToken);
         homePageResponse.EnsureSuccessStatusCode();
-        var html = await homePageResponse.Content.ReadAsStringAsync();
+        var html = await homePageResponse.Content.ReadAsStringAsync(TestContext.CancellationToken);
         Assert.Contains(newUserName, html);
         Assert.DoesNotContain(originalUserName, html);
     }
+
+    public TestContext TestContext { get; set; }
+
+    [GeneratedRegex("""<input name="__RequestVerificationToken" type="hidden" value="([^"]+)" />""")]
+    private static partial Regex MyRegex();
 }

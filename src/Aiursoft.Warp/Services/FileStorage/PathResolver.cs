@@ -6,7 +6,7 @@ namespace Aiursoft.Warp.Services.FileStorage;
 /// Responsible for determining the correct physical paths for
 /// reading original files and writing processed files.
 /// </summary>
-public class PathResolver : ITransientDependency
+public abstract class PathResolver : ITransientDependency
 {
     private readonly string _clearExifFolder;
     private readonly string _compressedFolder;

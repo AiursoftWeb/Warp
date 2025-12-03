@@ -11,13 +11,13 @@ namespace Aiursoft.Warp.Tests.IntegrationTests;
 #pragma warning disable CS8602
 
 [TestClass]
-public class AvatarTests
+public abstract partial class AvatarTests
 {
     private readonly int _port;
     private readonly HttpClient _http;
     private IHost? _server;
 
-    public AvatarTests()
+    protected AvatarTests()
     {
         var cookieContainer = new CookieContainer();
         var handler = new HttpClientHandler
@@ -36,39 +36,33 @@ public class AvatarTests
     public async Task CreateServer()
     {
         _server = await AppAsync<Startup>([], port: _port);
-        await _server.UpdateDbAsync<TemplateDbContext>();
+        await _server.UpdateDbAsync<TemplateDbContext>(TestContext.CancellationToken);
         await _server.SeedAsync();
-        await _server.StartAsync();
+        await _server.StartAsync(TestContext.CancellationToken);
     }
 
     [TestCleanup]
     public async Task CleanServer()
     {
         if (_server == null) return;
-        await _server.StopAsync();
+        await _server.StopAsync(TestContext.CancellationToken);
         _server.Dispose();
     }
 
     private async Task<string> GetAntiCsrfToken(string url)
     {
-        var response = await _http.GetAsync(url);
+        var response = await _http.GetAsync(url, TestContext.CancellationToken);
         response.EnsureSuccessStatusCode();
-        var html = await response.Content.ReadAsStringAsync();
-        var match = Regex.Match(html,
-            @"<input name=""__RequestVerificationToken"" type=""hidden"" value=""([^""]+)"" />");
-        if (!match.Success)
-        {
-            throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}");
-        }
-
-        return match.Groups[1].Value;
+        var html = await response.Content.ReadAsStringAsync(TestContext.CancellationToken);
+        var match = MyRegex().Match(html);
+        return !match.Success ? throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}") : match.Groups[1].Value;
     }
 
     // ReSharper disable once UnusedMethodReturnValue.Local
     private async Task<(string email, string password)> RegisterAndLoginAsync()
     {
         var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var password = "Test-Password-123";
+        const string password = "Test-Password-123";
 
         var registerToken = await GetAntiCsrfToken("/Account/Register");
         var registerContent = new FormUrlEncodedContent(new Dictionary<string, string>
@@ -78,7 +72,7 @@ public class AvatarTests
             { "ConfirmPassword", password },
             { "__RequestVerificationToken", registerToken }
         });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
+        var registerResponse = await _http.PostAsync("/Account/Register", registerContent, TestContext.CancellationToken);
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
 
         return (email, password);
@@ -102,10 +96,10 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.gif");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent, TestContext.CancellationToken);
         uploadResponse.EnsureSuccessStatusCode();
 
-        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
+        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>(TestContext.CancellationToken);
         Assert.IsNotNull(uploadResult);
         Assert.IsNotNull(uploadResult.Path);
 
@@ -117,7 +111,7 @@ public class AvatarTests
             { "__RequestVerificationToken", changeAvatarToken }
         });
 
-        var changeAvatarResponse = await _http.PostAsync("/Manage/ChangeAvatar", changeAvatarContent);
+        var changeAvatarResponse = await _http.PostAsync("/Manage/ChangeAvatar", changeAvatarContent, TestContext.CancellationToken);
 
         // 4. Verify Success
         Assert.AreEqual(HttpStatusCode.Found, changeAvatarResponse.StatusCode);
@@ -138,20 +132,20 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.gif");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent, TestContext.CancellationToken);
         uploadResponse.EnsureSuccessStatusCode();
 
-        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
+        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>(TestContext.CancellationToken);
         Assert.IsNotNull(uploadResult);
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Clear EXIF (Default download)
-        var downloadResponse = await _http.GetAsync(uploadResult.InternetPath);
+        var downloadResponse = await _http.GetAsync(uploadResult.InternetPath, TestContext.CancellationToken);
         downloadResponse.EnsureSuccessStatusCode();
         Assert.AreEqual("image/gif", downloadResponse.Content.Headers.ContentType?.MediaType);
 
         // 4. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100");
+        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100", TestContext.CancellationToken);
         compressedResponse.EnsureSuccessStatusCode();
         Assert.AreEqual("image/gif", compressedResponse.Content.Headers.ContentType?.MediaType);
     }
@@ -171,23 +165,23 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.png");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent, TestContext.CancellationToken);
         uploadResponse.EnsureSuccessStatusCode();
 
-        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
+        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>(TestContext.CancellationToken);
         Assert.IsNotNull(uploadResult);
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100");
+        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100", TestContext.CancellationToken);
         compressedResponse.EnsureSuccessStatusCode();
 
         // Verify it is an image and likely PNG
         Assert.AreEqual("image/png", compressedResponse.Content.Headers.ContentType?.MediaType);
 
         // Verify dimensions
-        await using var stream = await compressedResponse.Content.ReadAsStreamAsync();
-        using var image = await SixLabors.ImageSharp.Image.LoadAsync(stream);
+        await using var stream = await compressedResponse.Content.ReadAsStreamAsync(TestContext.CancellationToken);
+        using var image = await SixLabors.ImageSharp.Image.LoadAsync(stream, TestContext.CancellationToken);
         Assert.AreEqual(128, image.Width);
         Assert.AreEqual(256, image.Height);
     }
@@ -207,23 +201,23 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.png");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent, TestContext.CancellationToken);
         uploadResponse.EnsureSuccessStatusCode();
 
-        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
+        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>(TestContext.CancellationToken);
         Assert.IsNotNull(uploadResult);
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100&square=true");
+        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100&square=true", TestContext.CancellationToken);
         compressedResponse.EnsureSuccessStatusCode();
 
         // Verify it is an image and likely PNG
         Assert.AreEqual("image/png", compressedResponse.Content.Headers.ContentType?.MediaType);
 
         // Verify dimensions
-        await using var stream = await compressedResponse.Content.ReadAsStreamAsync();
-        using var image = await SixLabors.ImageSharp.Image.LoadAsync(stream);
+        await using var stream = await compressedResponse.Content.ReadAsStreamAsync(TestContext.CancellationToken);
+        using var image = await SixLabors.ImageSharp.Image.LoadAsync(stream, TestContext.CancellationToken);
         Assert.AreEqual(128, image.Width);
         Assert.AreEqual(128, image.Height);
     }
@@ -233,5 +227,10 @@ public class AvatarTests
         public string Path { get; init; } = string.Empty;
         public string InternetPath { get; init; } = string.Empty;
     }
+
+    [GeneratedRegex("""<input name="__RequestVerificationToken" type="hidden" value="([^"]+)" />""")]
+    private static partial Regex MyRegex();
+
+    public TestContext TestContext { get; set; }
 }
 #pragma warning restore CS8602

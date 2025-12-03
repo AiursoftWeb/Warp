@@ -36,11 +36,11 @@ public class FileAccessSecurityTest
     [TestMethod]
     public void TestGetFilePhysicalPath_NormalAccess()
     {
-        var relativePath = "test.txt";
+        const string relativePath = "test.txt";
         var physicalPath = _storageService.GetFilePhysicalPath(relativePath);
 
-        StringAssert.StartsWith(physicalPath, _tempPath);
-        StringAssert.EndsWith(physicalPath, relativePath);
+        Assert.StartsWith(_tempPath, physicalPath);
+        Assert.EndsWith(relativePath, physicalPath);
     }
 
     [TestMethod]
@@ -63,20 +63,20 @@ public class FileAccessSecurityTest
     [TestMethod]
     public async Task TestSave_NormalAccess()
     {
-        var content = "Hello World";
-        var fileName = "test_upload.txt";
+        const string content = "Hello World";
+        const string fileName = "test_upload.txt";
         var ms = new MemoryStream();
         var writer = new StreamWriter(ms);
-        writer.Write(content);
-        writer.Flush();
+        await writer.WriteAsync(content);
+        await writer.FlushAsync(TestContext.CancellationToken);
         ms.Position = 0;
 
         var formFile = new FormFile(ms, 0, ms.Length, "file", fileName);
 
         var savedPath = await _storageService.Save("uploads/" + fileName, formFile);
 
-        StringAssert.Contains(savedPath, "uploads");
-        StringAssert.Contains(savedPath, fileName);
+        Assert.Contains("uploads", savedPath);
+        Assert.Contains(fileName, savedPath);
     }
 
     [TestMethod]
@@ -98,4 +98,6 @@ public class FileAccessSecurityTest
             // Expected
         }
     }
+
+    public TestContext TestContext { get; set; }
 }

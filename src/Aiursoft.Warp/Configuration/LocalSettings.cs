@@ -1,6 +1,6 @@
 namespace Aiursoft.Warp.Configuration;
 
-public class LocalSettings
+public abstract class LocalSettings
 {
     public required bool AllowRegister { get; init; } = true;
 

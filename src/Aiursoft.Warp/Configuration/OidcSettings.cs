@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace Aiursoft.Warp.Configuration;
 
-public class OidcSettings
+public abstract partial class OidcSettings
 {
     /// <summary>
     /// Your OIDC provider's discovery endpoint address. This is the base URL for the OIDC server.
@@ -21,7 +21,7 @@ public class OidcSettings
         // This regex pattern matches "http://" or "https://" at the start of the string,
         // followed by any characters that are not a forward slash.
         const string pattern = @"^https?:\/\/[^/]+";
-        var match = Regex.Match(Authority, pattern);
+        var match = MyRegex().Match(Authority);
 
         // If a match is found, return the matched part (e.g., "https://auth.aiursoft.com").
         // Otherwise, return the original Authority string as a fallback.
@@ -69,4 +69,7 @@ public class OidcSettings
     /// This is used as the `ProviderKey` to link the external account to a local user. The standard OIDC claim for this is "sub".
     /// </summary>
     public required string UserIdentityPropertyName { get; init; } = "sub";
+
+    [GeneratedRegex(@"^https?:\/\/[^/]+")]
+    private static partial Regex MyRegex();
 }
