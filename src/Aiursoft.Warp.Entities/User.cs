@@ -22,7 +22,7 @@ public class User : IdentityUser
 public class ShorterLink
 {
     [Key]
-    public Guid Id { get; set; }
+    public Guid Id { get; init; }
 
     [MaxLength(100)]
     public string? Title { get; set; }
@@ -31,27 +31,27 @@ public class ShorterLink
     public required string TargetUrl { get; set; }
 
     [MaxLength(32)]
-    public required string RedirectTo { get; set; }
+    public required string RedirectTo { get; init; }
 
-    public DateTime? ExpireAt { get; set; }
+    public DateTime? ExpireAt { get; init; }
 
-    public bool IsCustom { get; set; }
+    public bool IsCustom { get; init; }
 
-    public bool IsPrivate { get; set; }
+    public bool IsPrivate { get; init; }
 
     [MaxLength(100)]
     public string? Password { get; set; }
 
-    public long? MaxClicks { get; set; }
+    public long? MaxClicks { get; init; }
 
     public long Clicks { get; set; }
 
     public DateTime CreationTime { get; init; } = DateTime.UtcNow;
 
     [StringLength(64)]
-    public required string UserId { get; set; }
+    public required string UserId { get; init; }
 
     [ForeignKey(nameof(UserId))]
     [NotNull]
-    public User? User { get; set; }
+    public User? User { get; init; }
 }
