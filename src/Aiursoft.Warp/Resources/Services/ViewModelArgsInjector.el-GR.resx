@@ -129,5 +129,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>Μη Εξουσιοδοτημένος</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Σύντομος Σύνδεσμος</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Οι Σύνδεσμοί μου</value>
+  </data>
 
 </root>

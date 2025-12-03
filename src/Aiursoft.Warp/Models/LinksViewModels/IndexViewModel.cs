@@ -7,7 +7,7 @@ public class IndexViewModel : UiStackLayoutViewModel
 {
     public IndexViewModel()
     {
-        PageTitle = "Your Links";
+        PageTitle = "My Links";
     }
     public List<ShorterLink> Links { get; set; } = new();
 }

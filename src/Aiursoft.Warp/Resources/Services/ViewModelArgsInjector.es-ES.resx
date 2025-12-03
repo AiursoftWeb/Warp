@@ -132,5 +132,11 @@
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Acortador de Enlaces</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Mis Enlaces</value>
+  </data>
 
 </root>

@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>新規プロジェクトを開始</value>
   </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>ターゲットURL（必須）</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>リンク短縮</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>クリップボードにコピー</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>リンクを短縮・管理するためのシンプルなツール。</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>成功しました！</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>完全なURLを入力してください。例：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>短縮リンクが作成されました:</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>カスタムコード（任意）</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>例: my-product または空欄のまま</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>公開範囲</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>有効期限（任意）</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>英数字とハイフンなどの安全な文字のみ使用可能です。空欄の場合は短いコードが自動生成されます。</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>アクセスパスワードを入力</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>非公開 (チェックするとリンクを非公開にし、パスワード入力欄を表示します)</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>アクセスパスワード（非公開リンクに必須）</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>入力がない場合、無期限で有効です（手動で無効化しない限り）。</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>例: 100</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>プライベート設定時のみ有効です。サーバーはパスワードを暗号化して保存する必要があります。</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>最大クリック数（任意）</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>例：ダブルイレブンイベントページ</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>この回数に達するとリンクは期限切れになります（空欄の場合は無制限）。</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>タイトル / 備考 (任意)</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>短縮リンクを作成</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>コピーしました！</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>バックグラウンドでの表示および識別のみに使用され、リダイレクトには影響しません。</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>このリンクは非公開です。アクセスパスワードを入力してください。</value>
+  </data>
 
 </root>

@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Démarrer un nouveau projet</value>
   </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Copier dans le presse-papiers</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succès !</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Votre lien court a été créé :</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL cible (obligatoire)</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Raccourcisseur de liens</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Un outil simple pour raccourcir et gérer vos liens.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Veuillez saisir l&apos;URL complète, par exemple : &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Code personnalisé (Optionnel)</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Date d&apos;expiration (Optionnel)</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Si non renseigné, le lien sera valide indéfiniment (sauf désactivation manuelle).</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>par ex. : mon-produit ou laisser vide</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privé (Cocher pour rendre le lien privé et afficher le champ de mot de passe)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Seuls les caractères sûrs tels que les lettres, les chiffres et les tirets sont autorisés ; si laissé vide, un code court sera généré automatiquement.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibilité</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Nombre maximal de clics (Optionnel)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Saisir le mot de passe d&apos;accès</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Mot de passe d&apos;accès (obligatoire pour les liens privés)</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Valide uniquement lorsque le lien est défini comme privé ; le serveur doit chiffrer et stocker le mot de passe.</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>par ex. : 100</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titre / Remarque (Facultatif)</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>ex. : Page de l&apos;événement Double Onze</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Le lien expirera après avoir atteint ce nombre (peut être laissé vide pour illimité).</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Ce lien est privé, veuillez saisir le mot de passe d&apos;accès.</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Uniquement pour l&apos;affichage en arrière-plan et l&apos;identification, n&apos;affecte pas la redirection.</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Créer un lien court</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copié !</value>
+  </data>
 
 </root>

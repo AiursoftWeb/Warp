@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Mulai proyek baru</value>
   </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Salin ke papan klip</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL Tujuan (Wajib)</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Alat sederhana untuk mempersingkat dan mengelola tautan Anda.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Silakan masukkan URL lengkap, misalnya: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Tautan pendek Anda telah berhasil dibuat:</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Salin</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Kode Kustom (Opsional)</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Pemendek Tautan</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>misalnya: my-product atau biarkan kosong</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Berhasil!</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibilitas</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Waktu Kedaluwarsa (Opsional)</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Jika tidak diisi, tautan akan berlaku selamanya (kecuali dinonaktifkan secara manual).</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Hanya karakter aman seperti huruf, angka, dan tanda hubung yang diperbolehkan; jika dikosongkan, kode pendek akan dibuat secara otomatis.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Masukkan kata sandi akses</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Kata Sandi Akses (Diperlukan untuk Tautan Pribadi)</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maksimum Klik (Opsional)</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Pribadi (Centang untuk membuat tautan menjadi pribadi dan menampilkan input kata sandi)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>misalnya: 100</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Hanya berlaku saat diatur ke privat; server harus mengenkripsi dan menyimpan kata sandi.</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Tautan akan kedaluwarsa setelah mencapai jumlah ini (dapat dikosongkan untuk tak terbatas).</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Judul / Keterangan (Opsional)</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>misalnya: Halaman Acara Double Eleven</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Buat Tautan Pendek</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Hanya untuk tampilan latar belakang dan identifikasi, tidak memengaruhi pengalihan.</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Tersalin!</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Tautan ini bersifat pribadi, silakan masukkan kata sandi akses.</value>
+  </data>
 
 </root>

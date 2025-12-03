@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Start een nieuw project</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Linkverkorter</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiëren</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Uw korte link is aangemaakt:</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Doel-URL (Verplicht)</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Een eenvoudig hulpmiddel om uw links te verkorten en te beheren.</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopiëren naar klembord</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Voer de volledige URL in, bijv.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Vervaltijd (Optioneel)</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>bijv.: mijn-product of leeg laten</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Indien niet ingevuld, blijft deze permanent geldig (tenzij handmatig uitgeschakeld).</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Zichtbaarheid</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Aangepaste code (optioneel)</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privé (Vink aan om de link privé te maken en wachtwoordinvoer te tonen)</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Voer toegangswachtwoord in</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Toegangswachtwoord (verplicht voor privélinks)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Alleen veilige tekens zoals letters, cijfers en koppeltekens zijn toegestaan; indien leeg gelaten, wordt automatisch een korte code gegenereerd.</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>bijv.: 100</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Alleen geldig wanneer ingesteld op privé; de server moet het wachtwoord versleutelen en opslaan.</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maximaal aantal klikken (Optioneel)</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titel / Opmerking (Optioneel)</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>bijv.: Double Eleven Event-pagina</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Korte link aanmaken</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Alleen voor weergave en identificatie in de achtergrond, heeft geen invloed op doorverwijzing.</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>De link verloopt na het bereiken van dit aantal (kan leeg blijven voor onbeperkt).</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Deze link is privé, voer het toegangswachtwoord in.</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Gekopieerd!</value>
+  </data>
 
 </root>

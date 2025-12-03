@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>開始新項目</value>
   </data>
+  <data name="Success!" xml:space="preserve">
+    <value>成功！</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>複製到剪貼簿</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>您的短連結已建立：</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>目標網址 (必填)</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>短連結生成器</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>一個簡單嘅工具，用嚟縮短同管理你嘅連結。</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>請輸入完整網址，例如：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>例如：my-product 或留空</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>到期時間（可選）</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>如不填寫，將永久有效（除非手動停用）。</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>存取密碼（私人連結必需）</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>可見性</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>只允許使用安全的字符，例如字母、數字及連字號；若留空，系統將自動生成一個短代碼。</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>私密（勾選以設定連結為私密並顯示密碼輸入欄）</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>自訂代碼 (可選)</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>最大點擊次數（可選）</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>輸入存取密碼</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>例如：100</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>標題 / 備註 (可選)</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>僅供後台顯示及識別，不影響轉址。</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>僅在設定為私人連結時有效；伺服器會將密碼加密儲存。</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>連結在達到此點擊次數後將會失效（留空則代表無限次）。</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>例如：雙十一活動頁面</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>建立短連結</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>已複製！</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>此連結為私人連結，請輸入存取密碼。</value>
+  </data>
 
 </root>

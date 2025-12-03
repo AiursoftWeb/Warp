@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>एक नया प्रोजेक्ट शुरू करें</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>कॉपी करें</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>आपका शॉर्ट लिंक बन गया है:</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>लक्ष्य यूआरएल (आवश्यक)</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>सफलता!</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>लिंक शॉर्टनर</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>क्लिपबोर्ड पर कॉपी करें</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>आपके लिंक्स को छोटा करने और प्रबंधित करने के लिए एक सरल उपकरण।</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>कृपया पूरा URL दर्ज करें, उदाहरण के लिए: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>उदाहरण: my-product या खाली छोड़ दें</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>कस्टम कोड (वैकल्पिक)</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>समाप्ति समय (वैकल्पिक)</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>दृश्यता</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>पहुँच पासवर्ड (निजी लिंक्स के लिए आवश्यक)</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>अधिकतम क्लिक्स (वैकल्पिक)</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>निजी (इस लिंक को निजी बनाने और पासवर्ड इनपुट दिखाने के लिए चेक करें)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>उदाहरण के लिए: 100</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>पहुँच पासवर्ड दर्ज करें</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>यदि भरा नहीं गया है, तो यह स्थायी रूप से मान्य रहेगा (जब तक कि मैन्युअल रूप से अक्षम न किया जाए)।</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>यह केवल तब मान्य है जब निजी पर सेट किया गया हो; सर्वर को पासवर्ड को एन्क्रिप्ट करके संग्रहित करना चाहिए।</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>उदाहरण: डबल इलेवन इवेंट पेज</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>केवल सुरक्षित वर्ण जैसे अक्षर, संख्याएँ और हाइफ़न की अनुमति है; यदि खाली छोड़ दिया जाए, तो एक छोटा कोड स्वचालित रूप से जनरेट कर दिया जाएगा।</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>शीर्षक / टिप्पणी (वैकल्पिक)</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>शॉर्ट लिंक बनाएं</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>यह लिंक इस संख्या तक पहुँचने के बाद समाप्त हो जाएगा (असीमित के लिए खाली छोड़ा जा सकता है)।</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>कॉपी किया गया!</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>केवल पृष्ठभूमि प्रदर्शन और पहचान के लिए, पुनर्निर्देशन को प्रभावित नहीं करता।</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>यह लिंक निजी है, कृपया पहुँच पासवर्ड दर्ज करें।</value>
+  </data>
 
 </root>

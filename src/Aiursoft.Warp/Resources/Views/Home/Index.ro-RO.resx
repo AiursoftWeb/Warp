@@ -216,5 +216,86 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Începe un proiect nou</value>
   </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copiază</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Un instrument simplu pentru a scurta și gestiona linkurile tale.</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Copiază în clipboard</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Linkul dvs. scurt a fost creat:</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL-ul țintă (Obligatoriu)</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Vă rugăm să introduceți adresa URL completă, de exemplu: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Cod Personalizat (Opțional)</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Scurtător de linkuri</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>de ex.: my-product sau lăsați gol</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Timp de expirare (Opțional)</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Vizibilitate</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privat (Bifați pentru a face linkul privat și pentru a afișa câmpul de parolă)</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Sunt permise doar caractere sigure, cum ar fi litere, cifre și cratime; dacă este lăsat necompletat, un cod scurt va fi generat automat.</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Dacă nu este completat, va fi permanent valabil (cu excepția cazului în care este dezactivat manual).</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Introduceți parola de acces</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Parolă de acces (obligatorie pentru linkuri private)</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Număr maxim de clicuri (Opțional)</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Valabil doar când este setat ca privat; serverul ar trebui să cripteze și să stocheze parola.</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>ex.: Pagina Evenimentului Double Eleven</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titlu / Observație (Opțional)</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>exemplu: 100</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Linkul va expira după ce atinge acest număr (poate fi lăsat liber pentru nelimitat).</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Creează Link Scurt</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiat!</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Acest link este privat, vă rugăm să introduceți parola de acces.</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Doar pentru afișare și identificare în fundal, nu afectează redirecționarea.</value>
+  </data>
 
 </root>

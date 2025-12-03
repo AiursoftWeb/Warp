@@ -3,7 +3,7 @@
 
 <div class="row mb-2 mb-xl-3">
     <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Link Shorter"]</h3>
+        <h2>@Localizer["Link Shorter"]</h2>
     </div>
     <div class="col-auto ms-auto text-end mt-n1">
         <p class="mb-0 text-muted">@Localizer["A simple tool to shorten and manage your links."]</p>
@@ -132,7 +132,7 @@
             const linkInput = document.getElementById('short-link-output');
             linkInput.select();
             document.execCommand('copy');
-            
+
             // Visual feedback
             const originalText = copyButton.innerHTML;
             copyButton.innerHTML = '<i class="fa fa-check"></i> @Localizer["Copied!"]';
@@ -239,9 +239,9 @@
             }
         }
     </style>
-    
+
       <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 20px; }
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
     .field { margin-bottom: 12px; }
     label { display: block; margin-bottom: 4px; font-weight: 600; }
     input[type="text"], input[type="url"], input[type="datetime-local"], input[type="number"], input[type="password"] {

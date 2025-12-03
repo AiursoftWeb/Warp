@@ -129,5 +129,11 @@
   <data name="Error" xml:space="preserve">
     <value>Помилка</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Скорочувач посилань</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Мої посилання</value>
+  </data>
 
 </root>

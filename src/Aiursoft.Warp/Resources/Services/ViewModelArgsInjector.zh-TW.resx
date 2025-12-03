@@ -132,5 +132,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>未經授權</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>短網址服務</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的連結</value>
+  </data>
 
 </root>
