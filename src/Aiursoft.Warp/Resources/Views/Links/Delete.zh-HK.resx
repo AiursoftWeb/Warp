@@ -36,5 +36,8 @@
   <data name="ShorterLink" xml:space="preserve">
     <value>短連結</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>刪除連結</value>
+  </data>
 
 </root>

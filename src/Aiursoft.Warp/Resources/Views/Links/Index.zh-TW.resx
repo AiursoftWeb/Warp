@@ -39,5 +39,8 @@
   <data name="Delete" xml:space="preserve">
     <value>刪除</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的連結</value>
+  </data>
 
 </root>

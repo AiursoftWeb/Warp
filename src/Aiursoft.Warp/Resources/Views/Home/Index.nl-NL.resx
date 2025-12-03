@@ -297,5 +297,59 @@
   <data name="Copied!" xml:space="preserve">
     <value>Gekopieerd!</value>
   </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Doel-URL</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>bijv.: mijn-product</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Aangepaste Code</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titel / Opmerking</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Nieuwe link aanmaken</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Voer de volledige URL in, bijvoorbeeld:</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>bijv.: Dubbele Elf Campagne</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Laat leeg om automatisch te genereren.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Alleen voor interne identificatie.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximaal aantal klikken</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vervaltijd</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Optioneel. Laat leeg voor permanent.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Privacy-instellingen</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Maak deze link privé</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>De link verloopt na het bereiken van deze limiet.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Toegangswachtwoord</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Privélinks vereisen een wachtwoord om toegang te krijgen.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>De server versleutelt en bewaart het wachtwoord veilig.</value>
+  </data>
 
 </root>

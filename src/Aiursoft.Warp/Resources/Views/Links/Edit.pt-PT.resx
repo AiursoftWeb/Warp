@@ -24,5 +24,8 @@
   <data name="Save" xml:space="preserve">
     <value>Guardar</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editar Ligação</value>
+  </data>
 
 </root>

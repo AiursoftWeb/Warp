@@ -36,5 +36,8 @@
   <data name="Are you sure you want to delete this?" xml:space="preserve">
     <value>本当に削除してもよろしいですか？</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>リンクを削除</value>
+  </data>
 
 </root>

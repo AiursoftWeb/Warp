@@ -297,5 +297,59 @@
   <data name="Copied!" xml:space="preserve">
     <value>Copied!</value>
   </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>e.g.: Double Eleven Campaign</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Leave blank to auto-generate.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Please enter the complete URL, for example:</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Target URL</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Create New Link</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Title / Note</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>e.g.: my-product</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Custom Code</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Optional. Leave blank for permanent.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>For internal identification only.</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Link expires after reaching this limit.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximum Clicks</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Expiry Time</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Privacy Settings</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>The server will encrypt and store the password securely.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Access Password</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Make this link Private</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Private links require a password to access.</value>
+  </data>
 
 </root>

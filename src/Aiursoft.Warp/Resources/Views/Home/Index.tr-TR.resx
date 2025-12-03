@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>Bu bağlantı özeldir, lütfen erişim şifresini girin.</value>
   </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Özel Kod</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Başlık / Açıklama</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Hedef URL</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Lütfen tam URL&apos;yi girin, örn.:</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>örn.: ürünüm</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Yeni Bağlantı Oluştur</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>örn.: Çift Onbir Kampanyası</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Otomatik oluşturulması için boş bırakın.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Son Kullanma Tarihi</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Yalnızca dahili tanımlama için.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maksimum Tıklama</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>İsteğe bağlı. Kalıcı olması için boş bırakın.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Gizlilik Ayarları</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Bu sınıra ulaşıldığında bağlantı geçerliliğini yitirir.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Bu bağlantıyı Özel yap</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Erişim Şifresi</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Özel bağlantılara erişmek için bir parola gereklidir.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Sunucu şifreyi şifreleyip güvenli bir şekilde saklayacaktır.</value>
+  </data>
 
 </root>

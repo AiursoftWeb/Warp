@@ -297,5 +297,59 @@
   <data name="Copied!" xml:space="preserve">
     <value>已複製！</value>
   </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>例如：my-product</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>目標網址</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>自訂代碼</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>標題 / 備註</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>留空以自動產生。</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>例如：雙十一活動</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>建立新連結</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>請輸入完整的網址，例如：</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>到期時間</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>隱私設定</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>選填。留空表示永久有效。</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>僅供內部識別使用。</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>將此連結設為私人</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>連結在達到此限制後失效。</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大點擊次數</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>私人連結需要密碼才能存取。</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>存取密碼</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>伺服器會將密碼加密並安全地儲存。</value>
+  </data>
 
 </root>

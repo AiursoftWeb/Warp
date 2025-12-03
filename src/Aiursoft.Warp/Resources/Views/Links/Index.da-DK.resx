@@ -39,5 +39,8 @@
   <data name="Creation Time" xml:space="preserve">
     <value>Oprettelsestidspunkt</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Mine links</value>
+  </data>
 
 </root>

@@ -39,5 +39,8 @@
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的連結</value>
+  </data>
 
 </root>

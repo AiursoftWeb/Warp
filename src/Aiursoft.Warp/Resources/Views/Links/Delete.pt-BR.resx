@@ -36,5 +36,8 @@
   <data name="Short Link" xml:space="preserve">
     <value>Link Curto</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Excluir Link</value>
+  </data>
 
 </root>

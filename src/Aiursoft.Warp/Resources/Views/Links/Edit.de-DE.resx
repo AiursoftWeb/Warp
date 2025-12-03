@@ -24,5 +24,8 @@
   <data name="Back to List" xml:space="preserve">
     <value>Zurück zur Liste</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Link bearbeiten</value>
+  </data>
 
 </root>

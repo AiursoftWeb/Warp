@@ -39,5 +39,8 @@
   <data name="Create New" xml:space="preserve">
     <value>Buat Baru</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Tautan Saya</value>
+  </data>
 
 </root>

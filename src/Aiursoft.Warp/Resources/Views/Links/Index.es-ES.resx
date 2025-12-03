@@ -39,5 +39,8 @@
   <data name="Delete" xml:space="preserve">
     <value>Eliminar</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Mis Enlaces</value>
+  </data>
 
 </root>

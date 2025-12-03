@@ -39,5 +39,8 @@
   <data name="Short Link" xml:space="preserve">
     <value>Lyhyt linkki</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Omat Linkit</value>
+  </data>
 
 </root>

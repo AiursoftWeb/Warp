@@ -36,5 +36,8 @@
   <data name="Original URL" xml:space="preserve">
     <value>Oryginalny adres URL</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Usuń łącze</value>
+  </data>
 
 </root>

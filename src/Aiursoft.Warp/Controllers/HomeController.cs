@@ -1,4 +1,3 @@
-using Aiursoft.CSTools.Tools;
 using Microsoft.AspNetCore.Authorization;
 using Aiursoft.Warp.Models.HomeViewModels;
 using Aiursoft.Warp.Services;
@@ -13,17 +12,9 @@ namespace Aiursoft.Warp.Controllers;
 
 [LimitPerMin]
 // [Authorize]
-public class HomeController : Controller
+public class HomeController(PasswordService passwordService, TemplateDbContext dbContext)
+    : Controller
 {
-    private readonly PasswordService _passwordService;
-    private readonly TemplateDbContext _dbContext;
-
-    public HomeController(PasswordService passwordService, TemplateDbContext dbContext)
-    {
-        _passwordService = passwordService;
-        _dbContext = dbContext;
-    }
-
     [Authorize]
     [RenderInNavBar(
         NavGroupName = "Home",
@@ -70,7 +61,7 @@ public class HomeController : Controller
 
         if (model.IsPrivate && !string.IsNullOrEmpty(model.Password))
         {
-            shorterLink.Password = _passwordService.HashPassword(model.Password);
+            shorterLink.Password = passwordService.HashPassword(model.Password);
         }
         else
         {
@@ -78,16 +69,16 @@ public class HomeController : Controller
         }
 
         // Check if custom code already exists
-        if (shorterLink.IsCustom && await _dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == shorterLink.RedirectTo))
+        if (shorterLink.IsCustom && await dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == shorterLink.RedirectTo))
         {
             ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
             return this.StackView(model);
         }
 
-        _dbContext.ShorterLinks.Add(shorterLink);
-        await _dbContext.SaveChangesAsync();
+        dbContext.ShorterLinks.Add(shorterLink);
+        await dbContext.SaveChangesAsync();
 
-        var fullUrl = $"{Request.Scheme}://{Request.Host}/{shorterLink.RedirectTo}";
+        var fullUrl = $"{Request.Scheme}://{Request.Host}/r/{shorterLink.RedirectTo}";
         model.CreatedShortLink = fullUrl;
 
         // Clear the model state to reset the form for the next creation.
@@ -100,10 +91,10 @@ public class HomeController : Controller
         return this.StackView(newModel);
     }
 
-    [HttpGet("{code}")]
+    [HttpGet("r/{code}")]
     public async Task<IActionResult> Go(string code)
     {
-        var link = await _dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.RedirectTo == code);
+        var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.RedirectTo == code);
         if (link == null)
         {
             return NotFound();
@@ -111,37 +102,35 @@ public class HomeController : Controller
 
         if (link.ExpireAt.HasValue && link.ExpireAt < DateTime.UtcNow)
         {
-            return View("Expired");
-            // return this.StackView(View("Expired"));
+            return this.SimpleView(new ExpiredViewModel(), "Expired");
         }
 
         if (link.MaxClicks.HasValue && link.MaxClicks <= link.Clicks)
         {
-            return View("Expired");
+            return this.SimpleView(new ExpiredViewModel(), "Expired");
         }
 
         if (link.IsPrivate)
         {
-            return View("EnterPassword", new EnterPasswordViewModel { Code = code });
-            // return this.StackView(new EnterPasswordViewModel { Code = code });
+            return this.SimpleView(new EnterPasswordViewModel { Code = code }, "EnterPassword");
         }
 
         link.Clicks++;
-        await _dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync();
         return Redirect(link.TargetUrl);
     }
 
-    [HttpPost("{code}")]
+    [HttpPost("r/{code}")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Unlock(string code, EnterPasswordViewModel model)
     {
         if (!ModelState.IsValid)
         {
             model.Code = code;
-            return View("EnterPassword", model);
+            return this.SimpleView(model,"EnterPassword");
         }
 
-        var link = await _dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.RedirectTo == code);
+        var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.RedirectTo == code);
         if (link == null)
         {
             return NotFound();
@@ -149,7 +138,7 @@ public class HomeController : Controller
 
         if (link.ExpireAt.HasValue && link.ExpireAt < DateTime.UtcNow)
         {
-            return View("Expired");
+            return this.SimpleView(new ExpiredViewModel(), "Expired");
         }
 
         if (!link.IsPrivate)
@@ -159,17 +148,17 @@ public class HomeController : Controller
 
         if (!string.IsNullOrEmpty(link.Password) &&
             !string.IsNullOrEmpty(model.Password) &&
-            _passwordService.VerifyPassword(link.Password, model.Password))
+            passwordService.VerifyPassword(link.Password, model.Password))
         {
             link.Clicks++;
-            await _dbContext.SaveChangesAsync();
+            await dbContext.SaveChangesAsync();
             return Redirect(link.TargetUrl);
         }
         else
         {
             ModelState.AddModelError(nameof(model.Password), "Incorrect password.");
             model.Code = code;
-            return View("EnterPassword", model);
+            return this.SimpleView(model, "EnterPassword");
         }
     }
 }

@@ -36,5 +36,8 @@
   <data name="ShorterLink" xml:space="preserve">
     <value>Kısa Bağlantı</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Bağlantıyı Sil</value>
+  </data>
 
 </root>

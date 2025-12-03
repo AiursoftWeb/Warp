@@ -39,5 +39,8 @@
   <data name="Create New" xml:space="preserve">
     <value>إنشاء جديد</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>روابطي</value>
+  </data>
 
 </root>

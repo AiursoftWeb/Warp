@@ -39,5 +39,8 @@
   <data name="Clicks" xml:space="preserve">
     <value>Số lượt nhấp</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Liên Kết Của Tôi</value>
+  </data>
 
 </root>

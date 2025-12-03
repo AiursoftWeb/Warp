@@ -39,5 +39,8 @@
   <data name="Short Link" xml:space="preserve">
     <value>Коротке посилання</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Мої посилання</value>
+  </data>
 
 </root>

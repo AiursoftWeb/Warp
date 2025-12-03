@@ -36,5 +36,8 @@
   <data name="Back to List" xml:space="preserve">
     <value>返回列表</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>刪除連結</value>
+  </data>
 
 </root>

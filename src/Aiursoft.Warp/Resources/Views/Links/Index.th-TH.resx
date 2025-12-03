@@ -39,5 +39,8 @@
   <data name="Original URL" xml:space="preserve">
     <value>URL ต้นฉบับ</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>ลิงก์ของฉัน</value>
+  </data>
 
 </root>

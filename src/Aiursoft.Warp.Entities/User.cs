@@ -2,7 +2,6 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
-using Newtonsoft.Json;
 
 namespace Aiursoft.Warp.Entities;
 
@@ -29,20 +28,20 @@ public class ShorterLink
     public string? Title { get; set; }
 
     [MaxLength(65535)]
-    public string TargetUrl { get; set; }
-    
+    public required string TargetUrl { get; set; }
+
     [MaxLength(32)]
-    public string RedirectTo { get; set; }
-    
+    public required string RedirectTo { get; set; }
+
     public DateTime? ExpireAt { get; set; }
-    
+
     public bool IsCustom { get; set; }
-    
+
     public bool IsPrivate { get; set; }
 
-    [MaxLength(100)]    
+    [MaxLength(100)]
     public string? Password { get; set; }
-    
+
     public long? MaxClicks { get; set; }
 
     public long Clicks { get; set; }

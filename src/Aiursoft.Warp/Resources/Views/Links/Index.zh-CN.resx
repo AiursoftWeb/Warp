@@ -39,5 +39,8 @@
   <data name="Create New" xml:space="preserve">
     <value>创建新的</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的链接</value>
+  </data>
 
 </root>
