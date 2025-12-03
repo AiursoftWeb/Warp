@@ -9,5 +9,5 @@ public class IndexViewModel : UiStackLayoutViewModel
     {
         PageTitle = "My Links";
     }
-    public List<ShorterLink> Links { get; set; } = new();
+    public List<ShorterLink> Links { get; init; } = [];
 }

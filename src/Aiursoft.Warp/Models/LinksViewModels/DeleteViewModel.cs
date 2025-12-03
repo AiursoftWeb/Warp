@@ -10,31 +10,32 @@ public class DeleteViewModel : UiStackLayoutViewModel
     }
 
 
-    public Guid Id { get; set; }
+    public Guid Id { get; init; }
 
 
-    public string? Title { get; set; }
+    public string? Title { get; init; }
 
 
-    public required string TargetUrl { get; set; }
+    public required string TargetUrl { get; init; }
 
 
-    public required string RedirectTo { get; set; }
+    public required string RedirectTo { get; init; }
 
-    public DateTime? ExpireAt { get; set; }
+    public DateTime? ExpireAt { get; init; }
 
-    public bool IsCustom { get; set; }
+    public bool IsCustom { get; init; }
 
-    public bool IsPrivate { get; set; }
+    public bool IsPrivate { get; init; }
 
 
-    public string? Password { get; set; }
 
-    public long? MaxClicks { get; set; }
+    public string? Password { get; init; }
 
-    public long Clicks { get; set; }
+    public long? MaxClicks { get; init; }
+
+    public long Clicks { get; init; }
 
     public DateTime CreationTime { get; init; } = DateTime.UtcNow;
 
-    public required string UserId { get; set; }
+    public required string UserId { get; init; }
 }

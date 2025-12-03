@@ -7,11 +7,11 @@ public class EnterPasswordViewModel: UiStackLayoutViewModel
 {
     [Required]
     public string? Code { get; set; }
-    
+
     [Required]
-    public Guid LinkId { get; set; }
+    public Guid LinkId { get; init; }
 
     [Required]
     [DataType(DataType.Password)]
-    public string? Password { get; set; }
+    public string? Password { get; init; }
 }

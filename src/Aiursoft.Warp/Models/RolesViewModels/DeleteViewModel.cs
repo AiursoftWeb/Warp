@@ -10,5 +10,5 @@ public class DeleteViewModel : UiStackLayoutViewModel
         PageTitle = "Delete Role";
     }
 
-    public required IdentityRole Role { get; set; }
+    public required IdentityRole Role { get; init; }
 }

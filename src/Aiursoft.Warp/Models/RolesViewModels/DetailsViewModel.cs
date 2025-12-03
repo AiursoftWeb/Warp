@@ -12,9 +12,9 @@ public class DetailsViewModel : UiStackLayoutViewModel
         PageTitle = "Role Details";
     }
 
-    public required IdentityRole Role { get; set; }
+    public required IdentityRole Role { get; init; }
 
-    public required List<PermissionDescriptor> Permissions { get; set; }
+    public required List<PermissionDescriptor> Permissions { get; init; }
 
-    public required IList<User> UsersInRole { get; set; }
+    public required IList<User> UsersInRole { get; init; }
 }

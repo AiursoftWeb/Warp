@@ -17,7 +17,7 @@ public class ChangeAvatarViewModel : UiStackLayoutViewModel
     [RegularExpression(@"^Workspace/avatar.*", ErrorMessage = "The avatar file is invalid. Please upload it again.")]
     [MaxLength(150)]
     [MinLength(2)]
-    public string? AvatarUrl { get; set; }
+    public string? AvatarUrl { get; init; }
 }
 
 public class ChangeProfileViewModel : UiStackLayoutViewModel
@@ -32,5 +32,5 @@ public class ChangeProfileViewModel : UiStackLayoutViewModel
     [Required(ErrorMessage = "The name is required.")]
     [MaxLength(30)]
     [MinLength(2)]
-    public string? Name { get; set; }
+    public string? Name { get; init; }
 }

@@ -5,8 +5,8 @@ namespace Aiursoft.Warp.Models.UsersViewModels;
 
 public class UserWithRolesViewModel
 {
-    public required User User { get; set; }
-    public required IList<string> Roles { get; set; }
+    public required User User { get; init; }
+    public required IList<string> Roles { get; init; }
 }
 
 public class IndexViewModel : UiStackLayoutViewModel
@@ -16,5 +16,5 @@ public class IndexViewModel : UiStackLayoutViewModel
         PageTitle = "Users";
     }
 
-    public required List<UserWithRolesViewModel> Users { get; set; }
+    public required List<UserWithRolesViewModel> Users { get; init; }
 }

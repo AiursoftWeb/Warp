@@ -9,7 +9,7 @@ public class ErrorViewModel: UiStackLayoutViewModel
         PageTitle = "Error";
     }
 
-    public required string RequestId { get; set; }
+    public required string RequestId { get; init; }
 
     public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }

@@ -9,13 +9,13 @@ public class EditViewModel : UiStackLayoutViewModel
     {
         PageTitle = "Edit Link";
     }
-    public Guid Id { get; set; }
+    public Guid Id { get; init; }
 
     [MaxLength(100)]
-    public string? Title { get; set; }
+    public string? Title { get; init; }
 
     [Required]
     [MaxLength(65535)]
     [Url]
-    public string TargetUrl { get; set; } = string.Empty;
+    public string TargetUrl { get; init; } = string.Empty;
 }

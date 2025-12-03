@@ -24,11 +24,11 @@ public class EditViewModel: UiStackLayoutViewModel
 
     [Required(ErrorMessage = "The {0} is required.")]
     [FromRoute]
-    public required string Id { get; set; }
+    public required string Id { get; init; }
 
     [Required(ErrorMessage = "The {0} is required.")]
     [Display(Name = "Role Name")]
-    public required string RoleName { get; set; }
+    public required string RoleName { get; init; }
 
-    public List<RoleClaimViewModel> Claims { get; set; }
+    public List<RoleClaimViewModel> Claims { get; init; }
 }

@@ -10,5 +10,5 @@ public class DeleteViewModel : UiStackLayoutViewModel
         PageTitle = "Delete User";
     }
 
-    public required User User { get; set; }
+    public required User User { get; init; }
 }
