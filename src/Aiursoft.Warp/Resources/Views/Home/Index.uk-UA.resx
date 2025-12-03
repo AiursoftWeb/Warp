@@ -297,5 +297,59 @@
   <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
     <value>Лише для відображення в інтерфейсі та ідентифікації, не впливає на перенаправлення.</value>
   </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Власний код</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Назва / Примітка</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Створити нове посилання</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>напр.: my-product</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Цільова URL-адреса</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Залиште порожнім для автоматичного створення.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Будь ласка, введіть повну URL-адресу, наприклад:</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>напр.: Акція &quot;Подвійна одинадцятка&quot;</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Лише для внутрішньої ідентифікації.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимальна кількість кліків</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Необов&apos;язково. Залиште порожнім для постійного посилання.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Термін дії</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Зробити це посилання приватним</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Посилання стає недійсним після досягнення цього обмеження.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Для доступу до приватних посилань потрібен пароль.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Налаштування конфіденційності</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Пароль доступу</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Сервер зашифрує та безпечно збереже пароль.</value>
+  </data>
 
 </root>

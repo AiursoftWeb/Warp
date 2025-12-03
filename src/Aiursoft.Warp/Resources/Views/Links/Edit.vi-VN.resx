@@ -24,5 +24,8 @@
   <data name="Back to List" xml:space="preserve">
     <value>Quay lại Danh sách</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Chỉnh sửa Liên kết</value>
+  </data>
 
 </root>

@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>Tautan ini bersifat pribadi, silakan masukkan kata sandi akses.</value>
   </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Buat Tautan Baru</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>misalnya: Kampanye Double Eleven</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Tujuan</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Kode Kustom</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>misalnya: produk-saya</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Silakan masukkan URL lengkap, contoh:</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Judul / Keterangan</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Biarkan kosong untuk dibuat otomatis.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Waktu Kedaluwarsa</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Hanya untuk identifikasi internal.</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Opsional. Kosongkan untuk permanen.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Klik Maksimum</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Tautan akan kedaluwarsa setelah mencapai batas ini.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Pengaturan Privasi</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Kata Sandi Akses</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Buat tautan ini menjadi Pribadi</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Tautan pribadi memerlukan kata sandi untuk diakses.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Server akan mengenkripsi dan menyimpan kata sandi dengan aman.</value>
+  </data>
 
 </root>

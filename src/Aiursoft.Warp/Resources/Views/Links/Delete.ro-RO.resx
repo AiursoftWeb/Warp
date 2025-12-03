@@ -36,5 +36,8 @@
   <data name="Delete" xml:space="preserve">
     <value>Șterge</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Șterge Legătura</value>
+  </data>
 
 </root>

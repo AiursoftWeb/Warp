@@ -36,5 +36,8 @@
   <data name="Are you sure you want to delete this?" xml:space="preserve">
     <value>Oletko varma, että haluat poistaa tämän?</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Poista linkki</value>
+  </data>
 
 </root>

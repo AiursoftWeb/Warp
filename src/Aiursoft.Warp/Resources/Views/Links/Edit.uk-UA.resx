@@ -24,5 +24,8 @@
   <data name="Save" xml:space="preserve">
     <value>Зберегти</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Редагувати посилання</value>
+  </data>
 
 </root>

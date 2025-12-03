@@ -36,5 +36,8 @@
   <data name="ShorterLink" xml:space="preserve">
     <value>Σύντομος Σύνδεσμος</value>
   </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Διαγραφή Σύνδεσμου</value>
+  </data>
 
 </root>

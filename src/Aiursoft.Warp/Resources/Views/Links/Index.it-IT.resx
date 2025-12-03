@@ -39,5 +39,47 @@
   <data name="Delete" xml:space="preserve">
     <value>Elimina</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>I miei collegamenti</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informazioni sul link</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Azioni</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Prestazioni</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Link Privato</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Gestione dei Link</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Link Pubblico</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Destinazione</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Attivo</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Scade alle</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanente</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visita Link</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Scaduto</value>
+  </data>
 
 </root>

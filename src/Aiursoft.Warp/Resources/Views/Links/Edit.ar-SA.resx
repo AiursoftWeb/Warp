@@ -24,5 +24,8 @@
   <data name="Save" xml:space="preserve">
     <value>حفظ</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>تعديل الرابط</value>
+  </data>
 
 </root>

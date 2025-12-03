@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>هذا الرابط خاص، يرجى إدخال كلمة مرور الوصول.</value>
   </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>إنشاء رابط جديد</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>الرابط المستهدف</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>العنوان / الملاحظة</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>مثلاً: حملة اليوم الحادي عشر</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>كود مخصص</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>الرجاء إدخال الرابط الكامل، مثال:</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>اتركه فارغًا ليتم إنشاؤه تلقائيًا.</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>مثلاً: my-product</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>وقت الانتهاء</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>للاستخدام الداخلي فقط.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>اجعل هذا الرابط خاصًا</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>ينتهي الرابط بعد الوصول إلى هذا الحد.</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>اختياري. اتركه فارغًا ليكون دائمًا.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>إعدادات الخصوصية</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>الحد الأقصى للنقرات</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>تتطلب الروابط الخاصة كلمة مرور للوصول إليها.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>كلمة المرور للوصول</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>سيقوم الخادم بتشفير كلمة المرور وتخزينها بأمان.</value>
+  </data>
 
 </root>

@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>Αυτός ο σύνδεσμος είναι ιδιωτικός, παρακαλώ εισάγετε τον κωδικό πρόσβασης.</value>
   </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>π.χ.: my-product</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Τίτλος / Παρατήρηση</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Δημιουργία Νέου Συνδέσμου</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>π.χ.: Εκστρατεία Double Eleven</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Προσαρμοσμένος Κωδικός</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε την πλήρη διεύθυνση URL, π.χ.:</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Σύνδεσμος Προορισμού</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Αφήστε το κενό για αυτόματη δημιουργία.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Χρόνος Λήξης</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Μέγιστος Αριθμός Κλικ</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Μόνο για εσωτερική αναγνώριση.</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Προαιρετικό. Αφήστε κενό για μόνιμη σύνδεση.</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Ο σύνδεσμος λήγει μετά την επίτευξη αυτού του ορίου.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Ρυθμίσεις Απορρήτου</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Κωδικός Πρόσβασης</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Οι ιδιωτικοί σύνδεσμοι απαιτούν κωδικό πρόσβασης για πρόσβαση.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Ο διακομιστής θα κρυπτογραφήσει και θα αποθηκεύσει τον κωδικό πρόσβασης με ασφάλεια.</value>
+  </data>
 
 </root>

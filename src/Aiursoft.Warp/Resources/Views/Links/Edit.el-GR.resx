@@ -24,5 +24,8 @@
   <data name="Back to List" xml:space="preserve">
     <value>Πίσω στη Λίστα</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Επεξεργασία Συνδέσμου</value>
+  </data>
 
 </root>

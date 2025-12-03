@@ -24,5 +24,8 @@
   <data name="Save" xml:space="preserve">
     <value>บันทึก</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>แก้ไขลิงก์</value>
+  </data>
 
 </root>

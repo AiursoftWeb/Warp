@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>ลิงก์นี้เป็นแบบส่วนตัว กรุณากรอกรหัสผ่านเพื่อเข้าถึง</value>
   </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>เช่น: my-product</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>สร้างลิงก์ใหม่</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>กรุณากรอก URL แบบเต็ม เช่น:</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>รหัสกำหนดเอง</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>ชื่อเรื่อง / หมายเหตุ</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>เช่น: แคมเปญดับเบิลอีเลฟเว่น</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL ปลายทาง</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>ปล่อยว่างไว้เพื่อสร้างอัตโนมัติ</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>จำนวนคลิกสูงสุด</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>การตั้งค่าความเป็นส่วนตัว</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>ไม่จำเป็น. ปล่อยว่างไว้เพื่อให้ลิงก์ใช้งานได้ตลอดไป</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>เวลาหมดอายุ</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>สำหรับการระบุภายในเท่านั้น</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>ทำให้ลิงก์นี้เป็นส่วนตัว</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>ลิงก์ส่วนตัวต้องใช้รหัสผ่านเพื่อเข้าถึง</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>รหัสผ่านสำหรับการเข้าถึง</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>ลิงก์จะหมดอายุหลังจากถึงขีดจำกัดนี้</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>เซิร์ฟเวอร์จะเข้ารหัสและเก็บรหัสผ่านอย่างปลอดภัย</value>
+  </data>
 
 </root>

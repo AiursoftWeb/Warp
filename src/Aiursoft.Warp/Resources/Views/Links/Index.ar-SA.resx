@@ -39,5 +39,47 @@
   <data name="Create New" xml:space="preserve">
     <value>إنشاء جديد</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>روابطي</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>الهدف</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>الأداء</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>رابط عام</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>رابط خاص</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>معلومات الرابط</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>دائم</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>إدارة الروابط</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>منتهي</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>زيارة الرابط</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>ينتهي في</value>
+  </data>
 
 </root>

@@ -297,5 +297,59 @@
   <data name="Create Short Link" xml:space="preserve">
     <value>Создать короткую ссылку</value>
   </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Пользовательский код</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>например: my-product</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Целевой URL</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Название / Примечание</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Создать новую ссылку</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>напр.: Акция «Двойная одиннадцатка»</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Пожалуйста, введите полный URL, например:</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Оставьте пустым для автоматической генерации.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Только для внутренней идентификации.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Срок действия</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимум переходов</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Ссылка станет недействительной после достижения этого лимита.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Настройки конфиденциальности</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Сделать ссылку приватной</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Для доступа к приватным ссылкам требуется пароль.</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Необязательно. Оставьте пустым для бессрочной ссылки.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Пароль для доступа</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Сервер зашифрует и безопасно сохранит пароль.</value>
+  </data>
 
 </root>

@@ -297,5 +297,59 @@
   <data name="This link is private, please enter the access password." xml:space="preserve">
     <value>Dieser Link ist privat, bitte geben Sie das Zugangspasswort ein.</value>
   </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titel / Bemerkung</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Bitte geben Sie die vollständige URL ein, z.B.:</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>z. B.: Double Eleven Campaign</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Neuen Link erstellen</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>z. B.: mein-produkt</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Leer lassen, um automatisch zu generieren.</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Ziel-URL</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Ablaufzeit</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Benutzerdefinierter Code</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximale Klicks</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Nur zur internen Identifikation.</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Optional. Leer lassen für dauerhaft.</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Der Link läuft nach Erreichen dieses Limits ab.</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Datenschutzeinstellungen</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Diesen Link privat machen</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Private Links erfordern ein Passwort für den Zugriff.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Zugriffspasswort</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Der Server wird das Passwort verschlüsseln und sicher speichern.</value>
+  </data>
 
 </root>

@@ -1,53 +1,179 @@
 @model Aiursoft.Warp.Models.LinksViewModels.IndexViewModel
 
-@{
-    ViewData["Title"] = Localizer["My Links"];
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["My Links"]</h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary shadow-sm">
+            <i class="align-middle" data-lucide="plus"></i> @Localizer["Create New"]
+        </a>
+    </div>
+</div>
+
+<div class="card flex-fill">
+    <div class="card-header">
+        <h5 class="card-title mb-0">@Localizer["Link Management"]</h5>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover my-0" id="links-table">
+            <thead>
+                <tr>
+                    <th>@Localizer["Link Info"]</th>
+                    <th class="d-none d-xl-table-cell">@Localizer["Target"]</th>
+                    <th>@Localizer["Performance"]</th>
+                    <th class="d-none d-md-table-cell">@Localizer["Status"]</th>
+                    <th class="text-end">@Localizer["Actions"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Links)
+                {
+                    // 计算过期状态
+                    bool isExpired = item.ExpireAt.HasValue && item.ExpireAt.Value < DateTime.UtcNow;
+                    // 计算点击进度 (如果设置了 MaxClicks)
+                    int progressPercent = 0;
+                    if (item.MaxClicks.HasValue && item.MaxClicks.Value > 0)
+                    {
+                        progressPercent = (int)((double)item.Clicks / item.MaxClicks.Value * 100);
+                        if (progressPercent > 100) progressPercent = 100;
+                    }
+
+                    // data-href 属性用于存储跳转链接，供 JS 调用
+                    <tr style="cursor: pointer;" data-href="/r/@item.RedirectTo">
+
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <div class="bg-body-tertiary rounded-2 p-2">
+                                        @if (item.IsPrivate)
+                                        {
+                                            <i class="align-middle text-warning" data-lucide="lock" title="@Localizer["Private Link"]"></i>
+                                        }
+                                        else
+                                        {
+                                            <i class="align-middle text-primary" data-lucide="globe" title="@Localizer["Public Link"]"></i>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <div class="fw-bold text-dark">
+                                        @(string.IsNullOrEmpty(item.Title) ? item.RedirectTo : item.Title)
+                                    </div>
+                                    <div class="small text-muted">
+                                        /r/@item.RedirectTo
+                                        @if(item.IsCustom)
+                                        {
+                                            <span class="badge badge-subtle-info ms-1">Custom</span>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="d-none d-xl-table-cell align-middle">
+                            <div class="d-flex align-items-center" style="max-width: 250px;">
+                                <i class="align-middle me-2 text-muted" data-lucide="arrow-right"></i>
+                                <span class="text-truncate text-muted">@item.TargetUrl</span>
+                            </div>
+                        </td>
+
+                        <td class="align-middle">
+                            <div class="d-flex flex-column w-100" style="min-width: 100px;">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span class="text-dark fw-bold">@item.Clicks</span>
+                                    @if (item.MaxClicks.HasValue)
+                                    {
+                                        <span class="text-muted small">/ @item.MaxClicks</span>
+                                    }
+                                </div>
+
+                                @if (item.MaxClicks.HasValue)
+                                {
+                                    /* 如果设置了最大点击数，显示进度条 */
+                                    <div class="progress progress-sm w-100">
+                                        <div class="progress-bar @(progressPercent >= 100 ? "bg-danger" : "bg-success")"
+                                             role="progressbar"
+                                             style="width: @progressPercent%;"></div>
+                                    </div>
+                                }
+                            </div>
+                        </td>
+
+                        <td class="d-none d-md-table-cell align-middle">
+                            @if (isExpired)
+                            {
+                                <span class="badge bg-danger">@Localizer["Expired"]</span>
+                                <div class="small text-muted mt-1">@item.ExpireAt?.ToString("yyyy-MM-dd")</div>
+                            }
+                            else if (item.ExpireAt.HasValue)
+                            {
+                                <span class="badge bg-success">@Localizer["Active"]</span>
+                                <div class="small text-muted mt-1" title="@Localizer["Expires at"]">
+                                    <i class="align-middle" data-lucide="clock" style="width:12px;"></i> @item.ExpireAt?.ToString("MM-dd HH:mm")
+                                </div>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">@Localizer["Active"]</span>
+                                <div class="small text-muted mt-1">@Localizer["Permanent"]</div>
+                            }
+                        </td>
+
+                        <td class="text-end align-middle table-action">
+                            <div class="dropdown position-relative" onclick="event.stopPropagation();">
+                                <a href="#" data-bs-toggle="dropdown" data-bs-display="static">
+                                    <i class="align-middle text-muted" data-lucide="more-horizontal"></i>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item" href="/r/@item.RedirectTo" target="_blank">
+                                        <i class="align-middle me-1" data-lucide="external-link"></i> @Localizer["Visit Link"]
+                                    </a>
+                                    <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.Id">
+                                        <i class="align-middle me-1" data-lucide="edit-2"></i> @Localizer["Edit"]
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-danger" asp-action="Delete" asp-route-id="@item.Id">
+                                        <i class="align-middle me-1" data-lucide="trash-2"></i> @Localizer["Delete"]
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // 图标初始化
+            if(typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+
+            // 实现点击行跳转
+            const table = document.getElementById('links-table');
+            if(table) {
+                table.addEventListener('click', function(e) {
+                    // 找到被点击的行
+                    const row = e.target.closest('tr');
+
+                    // 确保点击的是有效行，且该行有 data-href 属性
+                    if (!row || !row.dataset.href) return;
+
+                    // 如果用户是在选择文本，则不跳转
+                    const selection = window.getSelection();
+                    if (selection.toString().length > 0) return;
+
+                    // 执行跳转
+                    window.location.href = row.dataset.href;
+                });
+            }
+        });
+    </script>
 }
-
-<h1>@ViewData["Title"]</h1>
-
-<p>
-    <a asp-controller="Home" asp-action="Index">@Localizer["Create New"]</a>
-</p>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Localizer["Short Link"]
-            </th>
-            <th>
-                @Localizer["Original URL"]
-            </th>
-            <th>
-                @Localizer["Creation Time"]
-            </th>
-            <th>
-                @Localizer["Clicks"]
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Links) {
-        <tr>
-            <td>
-                <a href="/@item.RedirectTo" target="_blank">/@item.RedirectTo</a>
-            </td>
-            <td>
-                <a href="@item.TargetUrl" target="_blank">@item.TargetUrl</a>
-            </td>
-            <td>
-                @item.CreationTime.ToString("yyyy-MM-dd HH:mm")
-            </td>
-            <td>
-                @item.Clicks
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">@Localizer["Edit"]</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">@Localizer["Delete"]</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>

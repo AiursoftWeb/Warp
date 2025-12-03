@@ -55,12 +55,13 @@ public class BasicTests
         var response = await _http.GetAsync(url);
         response.EnsureSuccessStatusCode();
     }
-    
+
     [TestMethod]
     public async Task GetHome()
     {
         var handler = new HttpClientHandler { AllowAutoRedirect = false };
-        using var client = new HttpClient(handler) { BaseAddress = _http.BaseAddress };
+        using var client = new HttpClient(handler);
+        client.BaseAddress = _http.BaseAddress;
 
         var resp = await client.GetAsync("/");
         Assert.AreEqual(HttpStatusCode.Found, resp.StatusCode);   // 302

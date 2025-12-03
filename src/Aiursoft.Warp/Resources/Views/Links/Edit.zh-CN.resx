@@ -24,5 +24,8 @@
   <data name="Back to List" xml:space="preserve">
     <value>返回列表</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>编辑链接</value>
+  </data>
 
 </root>

@@ -1,255 +1,181 @@
-@using Aiursoft.Warp.Controllers
 @model Aiursoft.Warp.Models.HomeViewModels.IndexViewModel
 
 <div class="row mb-2 mb-xl-3">
     <div class="col-auto d-none d-sm-block">
-        <h2>@Localizer["Link Shorter"]</h2>
+        <h3>@Localizer["Link Shorter"]</h3>
     </div>
     <div class="col-auto ms-auto text-end mt-n1">
-        <p class="mb-0 text-muted">@Localizer["A simple tool to shorten and manage your links."]</p>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
+                <li class="breadcrumb-item"><a href="#">AppStack</a></li>
+                <li class="breadcrumb-item"><a href="#">Tools</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shorter</li>
+            </ol>
+        </nav>
     </div>
 </div>
 
+<div class="row">
+    <div class="col-12 col-xl-10">
 
-
-<div>
-  <form id="createLinkForm" asp-action="Index" method="post" autocomplete="off">
-    @if (!string.IsNullOrEmpty(Model.CreatedShortLink))
-    {
-        <div class="alert alert-success" role="alert" id="success-alert">
-            <strong>@Localizer["Success!"]</strong> @Localizer["Your short link has been created:"]
-            <div class="input-group mt-2">
-                <input type="text" class="form-control" value="@Model.CreatedShortLink" id="short-link-output" readonly>
-                <button class="btn btn-outline-secondary" type="button" id="copy-button" title="@Localizer["Copy to clipboard"]"><i class="fa fa-copy"></i> @Localizer["Copy"]</button>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Create New Link"]</h5>
             </div>
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="position: absolute; top: 10px; right: 10px;"></button>
+            <div class="card-body">
+                <form id="createLinkForm" asp-action="Index" method="post" autocomplete="off">
+
+                    @if (!string.IsNullOrEmpty(Model.CreatedShortLink))
+                    {
+                        <div class="alert alert-success alert-dismissible fade show mb-4" role="alert" id="success-alert">
+                            <div class="alert-message">
+                                <h4 class="alert-heading"><i class="align-middle me-2" data-lucide="check-circle"></i>@Localizer["Success!"]</h4>
+                                <p>@Localizer["Your short link has been created:"]</p>
+                                <div class="input-group mt-2">
+                                    <input type="text" class="form-control" value="@Model.CreatedShortLink" id="short-link-output" readonly>
+                                    <button class="btn btn-primary" type="button" id="copy-button" title="@Localizer["Copy to clipboard"]">
+                                        <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy"]
+                                    </button>
+                                </div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
+                    <div class="mb-3">
+                        <label class="form-label" for="TargetUrl">@Localizer["Target URL"] <span class="text-danger">*</span></label>
+                        <input id="TargetUrl" name="TargetUrl" type="url" class="form-control form-control-lg" placeholder="https://example.com/..." required asp-for="TargetUrl" />
+                        <div class="form-text text-muted">@Localizer["Please enter the complete URL, e.g.:"] <code>https://example.com/path</code></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label" for="CustomCode">@Localizer["Custom Code"]</label>
+                            <input id="CustomCode" asp-for="CustomCode" name="CustomCode" class="form-control" type="text" placeholder="@Localizer["e.g.: my-product"]" />
+                            <span asp-validation-for="CustomCode" class="text-danger small"></span>
+                            <div class="form-text text-muted">@Localizer["Leave empty to auto-generate."]</div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label" for="title">@Localizer["Title / Remark"]</label>
+                            <input id="title" asp-for="Title" name="title" class="form-control" type="text" placeholder="@Localizer["e.g.: Double Eleven Campaign"]" />
+                            <div class="form-text text-muted">@Localizer["For internal identification only."]</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label" for="ExpireAt">@Localizer["Expiration Time"]</label>
+                            <input id="ExpireAt" asp-for="ExpireAt" name="ExpireAt" class="form-control" type="datetime-local" />
+                            <div class="form-text text-muted">@Localizer["Optional. Leave empty for permanent."]</div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label" for="MaxClicks">@Localizer["Max Clicks"]</label>
+                            <input id="MaxClicks" asp-for="MaxClicks" name="MaxClicks" class="form-control" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
+                            <div class="form-text text-muted">@Localizer["Link expires after reaching this limit."]</div>
+                        </div>
+                    </div>
+
+                    <hr class="my-4" />
+
+                    <div class="mb-3">
+                        <label class="form-label">@Localizer["Privacy Settings"]</label>
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="IsPrivate" asp-for="IsPrivate" name="IsPrivate">
+                            <label class="form-check-label" for="IsPrivate">@Localizer["Make this link Private"]</label>
+                        </div>
+                        <div class="form-text text-muted">@Localizer["Private links require a password to access."]</div>
+
+                        <input id="visibility" name="visibility" type="hidden" value="public" />
+                    </div>
+
+                    <div class="mb-3 d-none" id="passwordField">
+                        <label class="form-label" for="password">@Localizer["Access Password"] <span class="text-danger">*</span></label>
+                        <input id="password" asp-for="Password" name="password" class="form-control" type="password" placeholder="@Localizer["Enter access password"]" />
+                        <div class="form-text text-muted">@Localizer["The server will encrypt and store the password safely."]</div>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="align-middle me-1" data-lucide="link"></i> @Localizer["Create Short Link"]
+                        </button>
+                    </div>
+
+                </form>
+            </div>
         </div>
-    }
-    <!-- TargetUrl (必填) -->
-    <div class="field">
-      <label for="TargetUrl" >@Localizer["Target URL (Required)"]</label>
-      <input id="TargetUrl" name="TargetUrl" type="url" placeholder="https://example.com/..." required asp-for="TargetUrl"/>
-      <div class="note">@Localizer["Please enter the complete URL, e.g.: <code>https://example.com/path</code>"]</div>
     </div>
-
-    <!-- CustomCode -->
-    <div class="field">
-      <label for="CustomCode">@Localizer["Custom Code (Optional)"]</label>
-      <input id="CustomCode" asp-for="CustomCode" name="CustomCode" type="text" placeholder="@Localizer["e.g.: my-product or leave empty"]" />
-      <span asp-validation-for="CustomCode" class="text-danger"></span>
-      <div class="note">@Localizer["Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated."]</div>
-    </div>
-
-    <!-- ExpireAt -->
-    <div class="field">
-      <label for="ExpireAt">@Localizer["Expiration Time (Optional)"]</label>
-      <input id="ExpireAt" asp-for="ExpireAt" name="ExpireAt" type="datetime-local" />
-      <div class="note">@Localizer["If not filled, it will be permanently valid (unless manually disabled)."]</div>
-    </div>
-
-   <!-- visibility: 使用复选框表示 private -->
-    <div class="field">
-      <label>@Localizer["Visibility"]</label>
-      <div class="inline">
-        <input id="IsPrivate" asp-for="IsPrivate" name="IsPrivate" type="checkbox" />
-        <label for="IsPrivate" style="font-weight:normal;">@Localizer["Private (Check to make the link private and display password input)"]</label>
-      </div>
-      <!-- 隐藏的真实 visibility 值，用于提交 public/private -->
-      <input id="visibility" name="visibility" type="hidden" value="public" />
-    </div>
-    <!-- password（仅当 private 被勾选时显示） -->
-    <div class="field hidden" id="passwordField">
-      <label for="password">@Localizer["Access Password (Required for Private Links)"]</label>
-      <input id="password" asp-for="Password" name="password" type="password" placeholder="@Localizer["Enter access password"]" />
-      <div class="note">@Localizer["Only valid when set to private; the server should encrypt and store the password."]</div>
-    </div>
-
-    <!-- MaxClicks -->
-    <div class="field">
-      <label for="MaxClicks">@Localizer["Max Clicks (Optional)"]</label>
-      <input id="MaxClicks" asp-for="MaxClicks" name="MaxClicks" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
-      <div class="note">@Localizer["The link will expire after reaching this number (can be empty for unlimited)."]</div>
-    </div>
-
-    <!-- title -->
-    <div class="field">
-      <label for="title">@Localizer["Title / Remark (Optional)"]</label>
-      <input id="title" asp-for="Title" name="title" type="text" placeholder="@Localizer["e.g.: Double Eleven Event Page"]" />
-      <div class="note">@Localizer["Only for background display and identification, does not affect redirection."]</div>
-    </div>
-
-    <!-- submit -->
-    <div class="field">
-      <button type="submit">@Localizer["Create Short Link"]</button>
-    </div>
-  </form>
 </div>
-
-@section scripts {
-<script>
-  (function () {
-    const privateCheckbox = document.getElementById('IsPrivate');
-    const visibilityHidden = document.getElementById('visibility');
-    const passwordField = document.getElementById('passwordField');
-    const passwordInput = document.getElementById('password');
-
-    function updateVisibilityUI() {
-      if (privateCheckbox.checked) {
-        visibilityHidden.value = 'private';
-        passwordField.classList.remove('hidden');
-
-        // passwordInput.required = true;
-      } else {
-        visibilityHidden.value = 'public';
-        passwordField.classList.add('hidden');
-        passwordInput.value = '';
-        // passwordInput.required = false;
-      }
-    }
-
-    // 初始化
-    updateVisibilityUI();
-
-    // 监听复选框变化
-    privateCheckbox.addEventListener('change', updateVisibilityUI);
-
-    // 客户端基础验证：若提交时为 private 且密码为空，则阻止提交并提示
-    document.getElementById('createLinkForm').addEventListener('submit', function (e) {
-      if (visibilityHidden.value === 'private') {
-        const pwd = passwordInput.value.trim();
-        if (!pwd) {
-          e.preventDefault();
-          alert('@Localizer["This link is private, please enter the access password."]');
-          passwordInput.focus();
-        }
-      }
-      // else: 允许提交（表单 action="#"，实际接入时替换为真实 API）
-    });
-
-    const copyButton = document.getElementById('copy-button');
-    if (copyButton) {
-        copyButton.addEventListener('click', function () {
-            const linkInput = document.getElementById('short-link-output');
-            linkInput.select();
-            document.execCommand('copy');
-
-            // Visual feedback
-            const originalText = copyButton.innerHTML;
-            copyButton.innerHTML = '<i class="fa fa-check"></i> @Localizer["Copied!"]';
-            setTimeout(() => {
-                copyButton.innerHTML = originalText;
-            }, 2000);
-        });
-    }
-  })();
-</script>
-}
-
-@{
-    var isDarkMode = Context.Request.Cookies[ThemeController.ThemeCookieKey] == true.ToString();
-    var theme = isDarkMode ? "material" : "eclipse";
-}
 
 @* ReSharper disable once Razor.SectionNotResolved *@
-@section styles {
-    <link rel="stylesheet" href="~/node_modules/codemirror/lib/codemirror.css"/>
-    <link rel="stylesheet" href="~/node_modules/codemirror/theme/@(theme).css" />
-    <style>
-        .CodeMirror, #preview {
-            max-height: 70vh;
-        }
-        #preview {
-            overflow-y: auto;
-        }
-        .CodeMirror {
-            border: 1px solid #dee2e6;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-        }
-        .CodeMirror-scroll {
-            flex-grow: 1;
-            overflow: auto !important;
-            position: relative;
-        }
+@section scripts {
+    <script>
+        (function () {
+            const privateCheckbox = document.getElementById('IsPrivate');
+            const visibilityHidden = document.getElementById('visibility');
+            const passwordField = document.getElementById('passwordField');
+            const passwordInput = document.getElementById('password');
 
-        @@media print {
-            @@page {
-                margin-top: 2cm;
-                margin-bottom: 2cm;
+            function updateVisibilityUI() {
+                if (privateCheckbox.checked) {
+                    visibilityHidden.value = 'private';
+                    // Bootstrap 5 使用 d-none 来控制显示隐藏，而不是 hidden class
+                    passwordField.classList.remove('d-none');
+                    // 聚焦体验优化
+                    // passwordInput.focus();
+                } else {
+                    visibilityHidden.value = 'public';
+                    passwordField.classList.add('d-none');
+                    passwordInput.value = '';
+                }
             }
 
-            body * {
-                visibility: hidden;
-            }
+            // 初始化
+            updateVisibilityUI();
 
-            #printable-area, #printable-area * {
-                visibility: visible;
-            }
+            // 监听复选框变化
+            privateCheckbox.addEventListener('change', updateVisibilityUI);
 
-            #printable-area {
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                padding: 1.2cm;
-            }
+            // 客户端基础验证
+            document.getElementById('createLinkForm').addEventListener('submit', function (e) {
+                if (visibilityHidden.value === 'private') {
+                    const pwd = passwordInput.value.trim();
+                    if (!pwd) {
+                        e.preventDefault();
+                        // 这里可以用 Bootstrap 的 toast 或者 invalid-feedback，简单起见保留 alert
+                        alert('@Localizer["This link is private, please enter the access password."]');
+                        passwordInput.focus();
+                    }
+                }
+            });
 
-            #printable-area pre,
-            #printable-area code {
-                white-space: pre-wrap !important;
-                overflow-wrap: break-word;
-                word-wrap: break-word;
-                color: #222 !important;
-            }
+            const copyButton = document.getElementById('copy-button');
+            if (copyButton) {
+                copyButton.addEventListener('click', function () {
+                    const linkInput = document.getElementById('short-link-output');
+                    linkInput.select();
+                    document.execCommand('copy');
 
-            #printable-area {
-                font-family: Georgia, "Times New Roman", serif;
-                font-size: 12pt;
-                line-height: 1.5;
-                color: #000 !important;
-            }
+                    // Visual feedback
+                    const originalHtml = copyButton.innerHTML;
+                    // 注意：直接修改 innerHTML 可能会丢失 lucide 图标的 SVG 渲染，
+                    // 如果你的页面引入了 lucide.js，你可能需要调用 lucide.createIcons();
+                    // 为了稳妥，这里暂时只改文字，或者你可以保留原文字增加 Copied 状态
+                    copyButton.innerHTML = '<span class="align-middle">@Localizer["Copied!"]</span>';
+                    copyButton.classList.replace('btn-primary', 'btn-success');
 
-            #printable-area strong, #printable-area b {
-                font-weight: 700 !important; /* Use a heavy font-weight */
-                color: inherit !important;
+                    setTimeout(() => {
+                        copyButton.innerHTML = originalHtml;
+                        copyButton.classList.replace('btn-success', 'btn-primary');
+                        // 尝试重新渲染图标（如果环境里有这个函数）
+                        if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                            lucide.createIcons();
+                        }
+                    }, 2000);
+                });
             }
-
-            #printable-area h1, #printable-area h2, #printable-area h3 {
-                margin-top: 24pt;
-                margin-bottom: 12pt;
-            }
-
-            #printable-area a[href]::after {
-                content: " (" attr(href) ")";
-                font-size: 9pt;
-                color: #555;
-            }
-
-            #printable-area table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-top: 1rem;
-                font-size: 11pt;
-            }
-            #printable-area th, #printable-area td {
-                border: 1px solid #ccc;
-                padding: 0.5rem;
-                text-align: left;
-            }
-        }
-    </style>
-
-      <style>
-    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-    .field { margin-bottom: 12px; }
-    label { display: block; margin-bottom: 4px; font-weight: 600; }
-    input[type="text"], input[type="url"], input[type="datetime-local"], input[type="number"], input[type="password"] {
-      width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;
-    }
-    .note { font-size: 12px; color: #666; margin-top: 4px; }
-    .inline { display: inline-flex; align-items: center; gap: 8px; }
-    button { padding: 8px 14px; border: none; border-radius: 4px; cursor: pointer; background: #1a73e8; color: #fff; }
-    .hidden { display: none; }
-  </style>
+        })();
+    </script>
 }
