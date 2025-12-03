@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>ลิงก์ของฉัน</value>
   </data>
+  <data name="Status" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>เป้าหมาย</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>การดำเนินการ</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>ข้อมูลลิงก์</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>ลิงก์ส่วนตัว</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>ประสิทธิภาพ</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>การจัดการลิงก์</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>ลิงก์สาธารณะ</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>หมดอายุ</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>ถาวร</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>เยี่ยมชมลิงก์</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>ใช้งานอยู่</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>หมดอายุเมื่อ</value>
+  </data>
 
 </root>

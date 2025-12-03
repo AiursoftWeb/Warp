@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>Tautan Saya</value>
   </data>
+  <data name="Target" xml:space="preserve">
+    <value>Tujuan</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Kinerja</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Manajemen Tautan</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Tautan Pribadi</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Tautan Publik</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informasi Tautan</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Tindakan</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Kadaluarsa</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Kadaluarsa pada</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanen</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Kunjungi Tautan</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
 
 </root>

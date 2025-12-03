@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>Мої посилання</value>
   </data>
+  <data name="Target" xml:space="preserve">
+    <value>Ціль</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватне посилання</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Дії</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Продуктивність</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Інформація про посилання</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Публічне посилання</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Керування посиланнями</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Постійний</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Термін дії до</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Активне</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Перейти за посиланням</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Термін дії закінчився</value>
+  </data>
 
 </root>

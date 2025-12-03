@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>マイリンク</value>
   </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>プライベートリンク</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>リンク管理</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>リンク情報</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>公開リンク</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>リンクを開く</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>期限切れ</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>ターゲット</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>永続的</value>
+  </data>
 
 </root>

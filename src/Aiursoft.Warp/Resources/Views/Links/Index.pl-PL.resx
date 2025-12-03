@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>Moje linki</value>
   </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Akcje</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Publiczny link</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Wydajność</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informacje o linku</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Zarządzanie linkami</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Cel</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Prywatny link</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Wygasł</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Stały</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktywny</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Wygasa</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Odwiedź link</value>
+  </data>
 
 </root>

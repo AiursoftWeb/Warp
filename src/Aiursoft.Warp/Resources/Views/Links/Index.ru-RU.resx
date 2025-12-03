@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>Мои ссылки</value>
   </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Публичная ссылка</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Цель</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Производительность</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Управление ссылками</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Информация о ссылке</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватная ссылка</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Истекает</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Истёк</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Активна</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Перейти по ссылке</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Постоянная</value>
+  </data>
 
 </root>

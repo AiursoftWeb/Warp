@@ -42,5 +42,44 @@
   <data name="My Links" xml:space="preserve">
     <value>Bağlantılarım</value>
   </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Bağlantı Yönetimi</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Özel Bağlantı</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Genel Bağlantı</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Bağlantı Bilgisi</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Süresi Dolmuş</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Son kullanma tarihi</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Kalıcı</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Bağlantıyı Ziyaret Et</value>
+  </data>
 
 </root>
