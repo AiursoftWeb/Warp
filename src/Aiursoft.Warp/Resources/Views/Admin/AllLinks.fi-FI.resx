@@ -75,5 +75,8 @@
   <data name="Edit" xml:space="preserve">
     <value>Muokkaa</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Muokkaa linkkiä</value>
+  </data>
 
 </root>

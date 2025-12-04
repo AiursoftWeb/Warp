@@ -75,5 +75,8 @@
   <data name="Delete" xml:space="preserve">
     <value>Slet</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Rediger link</value>
+  </data>
 
 </root>

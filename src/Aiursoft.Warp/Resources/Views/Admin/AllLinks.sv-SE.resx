@@ -75,5 +75,8 @@
   <data name="Visit Link" xml:space="preserve">
     <value>Besök länk</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Redigera länk</value>
+  </data>
 
 </root>

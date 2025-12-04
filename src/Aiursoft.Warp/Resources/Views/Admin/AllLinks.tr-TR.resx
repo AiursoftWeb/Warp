@@ -75,5 +75,8 @@
   <data name="Visit Link" xml:space="preserve">
     <value>Bağlantıyı Ziyaret Et</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Bağlantıyı Düzenle</value>
+  </data>
 
 </root>

@@ -75,5 +75,8 @@
   <data name="Edit" xml:space="preserve">
     <value>Editar</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editar Link</value>
+  </data>
 
 </root>

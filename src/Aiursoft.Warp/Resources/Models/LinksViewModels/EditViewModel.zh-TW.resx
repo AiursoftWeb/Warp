@@ -42,5 +42,11 @@
   <data name="The {0} must be at max {1} characters long." xml:space="preserve">
     <value>{0} 的長度最多只能有 {1} 個字元。</value>
   </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>目標網址</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>標題</value>
+  </data>
 
 </root>

@@ -75,5 +75,8 @@
   <data name="Visit Link" xml:space="preserve">
     <value>Επισκεφθείτε τον Σύνδεσμο</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Επεξεργασία Σύνδεσης</value>
+  </data>
 
 </root>

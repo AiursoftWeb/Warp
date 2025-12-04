@@ -12,11 +12,13 @@ public class EditViewModel : UiStackLayoutViewModel
     public Guid Id { get; set; }
 
     [MaxLength(100, ErrorMessage = "The {0} must be at max {1} characters long.")]
+    [Display(Name = "Title")]
     public string? Title { get; set; }
 
     [Required(ErrorMessage = "The {0} is required.")]
     [MaxLength(65535, ErrorMessage = "The {0} must be at max {1} characters long.")]
     [Url(ErrorMessage = "The {0} is not a valid URL.")]
+    [Display(Name = "Target URL")]
     public string TargetUrl { get; set; } = string.Empty;
 
     [MaxLength(32, ErrorMessage = "The {0} must be at max {1} characters long.")]

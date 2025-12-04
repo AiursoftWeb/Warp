@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>De {0} is geen geldige URL.</value>
   </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vervaltijd</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Doel-URL</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Aangepaste Code</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privé Link</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximaal aantal klikken</value>
+  </data>
 
 </root>

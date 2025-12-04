@@ -81,5 +81,8 @@
   <data name="Expires at" xml:space="preserve">
     <value>Scade alle</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Modifica Link</value>
+  </data>
 
 </root>

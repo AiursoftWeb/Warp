@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>{0} bukan URL yang valid.</value>
   </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Kode Kustom</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Waktu Kedaluwarsa</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Tujuan</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Klik Maksimum</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Tautan Pribadi</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Judul</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Kata Sandi</value>
+  </data>
 
 </root>

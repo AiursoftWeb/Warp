@@ -81,5 +81,8 @@
   <data name="Delete" xml:space="preserve">
     <value>Eliminar</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editar Ligação</value>
+  </data>
 
 </root>

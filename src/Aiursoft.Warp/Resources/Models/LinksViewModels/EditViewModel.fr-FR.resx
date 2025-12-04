@@ -42,5 +42,11 @@
   <data name="The {0} must be at max {1} characters long." xml:space="preserve">
     <value>Le {0} doit comporter au maximum {1} caractères.</value>
   </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL cible</value>
+  </data>
 
 </root>

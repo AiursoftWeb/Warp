@@ -81,5 +81,8 @@
   <data name="Active" xml:space="preserve">
     <value>सक्रिय</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>लिंक संपादित करें</value>
+  </data>
 
 </root>

@@ -75,5 +75,8 @@
   <data name="Delete" xml:space="preserve">
     <value>Șterge</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editează Linkul</value>
+  </data>
 
 </root>

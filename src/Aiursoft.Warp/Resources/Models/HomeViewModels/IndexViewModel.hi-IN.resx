@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>{0} एक वैध URL नहीं है।</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>समाप्ति समय</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>निजी लिंक</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>अधिकतम क्लिक्स</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>लक्ष्य यूआरएल</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>शीर्षक</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>कस्टम कोड</value>
+  </data>
 
 </root>

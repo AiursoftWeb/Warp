@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>{0}は有効なURLではありません。</value>
   </data>
+  <data name="Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大クリック数</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>ターゲットURL</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>カスタムコード</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>非公開リンク</value>
+  </data>
 
 </root>

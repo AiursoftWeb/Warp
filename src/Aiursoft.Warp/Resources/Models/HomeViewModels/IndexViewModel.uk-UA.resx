@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>Поле {0} не є дійсною URL-адресою.</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Термін дії</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимальна кількість кліків</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватне посилання</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Користувацький код</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Цільова URL-адреса</value>
+  </data>
 
 </root>

@@ -81,5 +81,8 @@
   <data name="Expires at" xml:space="preserve">
     <value>Berakhir pada</value>
   </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Edit Tautan</value>
+  </data>
 
 </root>

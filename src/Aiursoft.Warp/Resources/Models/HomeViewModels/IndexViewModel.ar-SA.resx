@@ -33,5 +33,26 @@
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>{0} ليس عنوان URL صالحًا.</value>
   </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>وقت الانتهاء</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>كود مخصص</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>رابط خاص</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>الرابط المستهدف</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>أقصى عدد من النقرات</value>
+  </data>
 
 </root>
