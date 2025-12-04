@@ -149,6 +149,15 @@ public class AdminController(
                 Text = user.UserName,
                 Selected = user.Id == model.SelectedUserId
             }).ToList();
+
+            var link = await context.ShorterLinks.AsNoTracking().FirstOrDefaultAsync(d => d.Id == model.LinkId);
+            if (link != null)
+            {
+                model.CreationTime = link.CreationTime;
+                model.Clicks = link.Clicks;
+                model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
+            }
+
             return this.StackView(model);
         }
 

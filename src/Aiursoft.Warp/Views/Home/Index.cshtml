@@ -45,9 +45,10 @@
                     }
 
                     <div class="mb-3">
-                        <label class="form-label" for="TargetUrl">@Localizer["Target URL"] <span class="text-danger">*</span></label>
-                        <input id="TargetUrl" name="TargetUrl" type="url" class="form-control form-control-lg" placeholder="https://example.com/..." required asp-for="TargetUrl" />
+                        <label asp-for="TargetUrl" class="form-label">@Localizer["Target URL"] <span class="text-danger">*</span></label>
+                        <input asp-for="TargetUrl" class="form-control form-control-lg" placeholder="https://example.com/..." required />
                         <div class="form-text text-muted">@Localizer["Please enter the complete URL, e.g.:"] <code>https://example.com/path</code></div>
+                        <span asp-validation-for="TargetUrl" class="text-danger"></span>
                     </div>
 
                     <div class="mb-3">
@@ -60,29 +61,32 @@
                     <div id="advanced-settings" class="d-none">
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label" for="CustomCode">@Localizer["Custom Code"]</label>
-                                <input id="CustomCode" asp-for="CustomCode" name="CustomCode" class="form-control" type="text" placeholder="@Localizer["e.g.: my-product"]" />
+                                <label asp-for="CustomCode" class="form-label">@Localizer["Custom Code"]</label>
+                                <input asp-for="CustomCode" class="form-control form-control-lg" type="text" placeholder="@Localizer["e.g.: my-product"]" />
                                 <span asp-validation-for="CustomCode" class="text-danger small"></span>
                                 <div class="form-text text-muted">@Localizer["Leave empty to auto-generate."]</div>
                             </div>
 
                             <div class="col-md-6 mb-3">
-                                <label class="form-label" for="title">@Localizer["Title / Remark"]</label>
-                                <input id="title" asp-for="Title" name="title" class="form-control" type="text" placeholder="@Localizer["e.g.: Double Eleven Campaign"]" />
+                                <label asp-for="Title" class="form-label">@Localizer["Title / Remark"]</label>
+                                <input asp-for="Title" class="form-control form-control-lg" type="text" placeholder="@Localizer["e.g.: Double Eleven Campaign"]" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
                                 <div class="form-text text-muted">@Localizer["For internal identification only."]</div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label class="form-label" for="ExpireAt">@Localizer["Expiration Time"]</label>
-                                <input id="ExpireAt" asp-for="ExpireAt" name="ExpireAt" class="form-control" type="datetime-local" />
+                                <label asp-for="ExpireAt" class="form-label">@Localizer["Expiration Time"]</label>
+                                <input asp-for="ExpireAt" class="form-control form-control-lg" type="datetime-local" />
+                                <span asp-validation-for="ExpireAt" class="text-danger"></span>
                                 <div class="form-text text-muted">@Localizer["Optional. Leave empty for permanent."]</div>
                             </div>
 
                             <div class="col-md-6 mb-3">
-                                <label class="form-label" for="MaxClicks">@Localizer["Max Clicks"]</label>
-                                <input id="MaxClicks" asp-for="MaxClicks" name="MaxClicks" class="form-control" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
+                                <label asp-for="MaxClicks" class="form-label">@Localizer["Max Clicks"]</label>
+                                <input asp-for="MaxClicks" class="form-control form-control-lg" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
+                                <span asp-validation-for="MaxClicks" class="text-danger"></span>
                                 <div class="form-text text-muted">@Localizer["Link expires after reaching this limit."]</div>
                             </div>
                         </div>
@@ -90,8 +94,9 @@
                         <hr class="my-4" />
 
                         <div class="mb-3">
-                            <label class="form-label" for="password">@Localizer["Access Password"]</label>
-                            <input id="password" asp-for="Password" name="password" class="form-control" type="password" placeholder="@Localizer["Enter access password"]" />
+                            <label asp-for="Password" class="form-label">@Localizer["Access Password"]</label>
+                            <input asp-for="Password" class="form-control form-control-lg" type="password" placeholder="@Localizer["Enter access password"]" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
                             <div class="form-text text-muted">@Localizer["Leave empty to make this link public. If filled, the link will be private."]</div>
                         </div>
                     </div>

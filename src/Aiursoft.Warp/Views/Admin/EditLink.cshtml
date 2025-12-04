@@ -51,7 +51,7 @@
 
                     <div class="mb-3">
                         <label asp-for="TargetUrl" class="form-label">@Localizer["Target URL"]</label>
-                        <input asp-for="TargetUrl" class="form-control" placeholder="@Localizer["Enter the target URL"]" />
+                        <input asp-for="TargetUrl" class="form-control form-control-lg" placeholder="@Localizer["Enter the target URL"]" />
                         <span asp-validation-for="TargetUrl" class="text-danger"></span>
                     </div>
 
@@ -60,20 +60,20 @@
                             <label asp-for="CustomCode" class="form-label">@Localizer["Custom Code"]</label>
                             <div class="input-group">
                                 <span class="input-group-text" id="basic-addon3">@Context.Request.Scheme://@Context.Request.Host/r/</span>
-                                <input asp-for="CustomCode" class="form-control" />
+                                <input asp-for="CustomCode" class="form-control form-control-lg" placeholder="@Localizer["Enter custom code"]" />
                             </div>
                             <span asp-validation-for="CustomCode" class="text-danger"></span>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label asp-for="Title" class="form-label">@Localizer["Title / Remark"]</label>
-                            <input asp-for="Title" class="form-control" placeholder="@Localizer["Enter the link title"]"/>
+                            <input asp-for="Title" class="form-control form-control-lg" placeholder="@Localizer["Enter the link title"]"/>
                             <span asp-validation-for="Title" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <label asp-for="SelectedUserId" class="form-label">@Localizer["Owner"]</label>
-                        <select asp-for="SelectedUserId" asp-items="@Model.AllUsers" class="form-select">
+                        <select asp-for="SelectedUserId" asp-items="@Model.AllUsers" class="form-select form-select-lg">
                             <option value="">@Localizer["-- Select an Owner --"]</option>
                         </select>
                         <span asp-validation-for="SelectedUserId" class="text-danger"></span>
@@ -82,13 +82,13 @@
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label asp-for="ExpireAt" class="form-label">@Localizer["Expiration Time"]</label>
-                            <input asp-for="ExpireAt" class="form-control" type="datetime-local" />
+                            <input asp-for="ExpireAt" class="form-control form-control-lg" type="datetime-local" />
                             <span asp-validation-for="ExpireAt" class="text-danger"></span>
                             <div class="form-text text-muted">@Localizer["Leave empty for permanent."]</div>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label asp-for="MaxClicks" class="form-label">@Localizer["Max Clicks"]</label>
-                            <input asp-for="MaxClicks" class="form-control" type="number" min="1" />
+                            <input asp-for="MaxClicks" class="form-control form-control-lg" type="number" min="1" placeholder="@Localizer["Enter max clicks"]" />
                             <span asp-validation-for="MaxClicks" class="text-danger"></span>
                             <div class="form-text text-muted">@Localizer["Leave empty for unlimited."]</div>
                         </div>
@@ -106,7 +106,7 @@
 
                     <div class="mb-3 d-none" id="passwordField">
                         <label asp-for="Password" class="form-label">@Localizer["New Password"]</label>
-                        <input asp-for="Password" class="form-control" placeholder="@Localizer["Leave empty to keep current password"]" />
+                        <input asp-for="Password" class="form-control form-control-lg" placeholder="@Localizer["Leave empty to keep current password"]" />
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
 

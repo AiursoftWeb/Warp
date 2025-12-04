@@ -80,6 +80,14 @@ public class LinksController : Controller
     {
         if (!ModelState.IsValid)
         {
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var linkInDb = await _dbContext.ShorterLinks.AsNoTracking().FirstOrDefaultAsync(l => l.Id == model.Id && l.UserId == currentUserId);
+            if (linkInDb != null)
+            {
+                model.CreationTime = linkInDb.CreationTime;
+                model.Clicks = linkInDb.Clicks;
+                model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{linkInDb.RedirectTo}";
+            }
             // return View(model);
             return this.StackView(model);
         }
