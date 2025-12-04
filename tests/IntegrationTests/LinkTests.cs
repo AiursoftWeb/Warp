@@ -5,6 +5,8 @@ using Aiursoft.Warp.Entities;
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
+#pragma warning disable CS8602
+
 [TestClass]
 public class LinkTests : FunctionalTestBase
 {
@@ -294,3 +296,5 @@ public class LinkTests : FunctionalTestBase
         Assert.AreEqual(user2.Id, updatedLink.UserId);
     }
 }
+
+#pragma warning restore CS8602
