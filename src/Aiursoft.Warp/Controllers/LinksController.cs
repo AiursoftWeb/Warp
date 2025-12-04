@@ -14,10 +14,12 @@ namespace Aiursoft.Warp.Controllers;
 public class LinksController : Controller
 {
     private readonly TemplateDbContext _dbContext;
+    private readonly PasswordService _passwordService;
 
-    public LinksController(TemplateDbContext dbContext)
+    public LinksController(TemplateDbContext dbContext, PasswordService passwordService)
     {
         _dbContext = dbContext;
+        _passwordService = passwordService;
     }
 
     [HttpGet]
@@ -59,7 +61,14 @@ public class LinksController : Controller
         {
             Id = link.Id,
             Title = link.Title,
-            TargetUrl = link.TargetUrl
+            TargetUrl = link.TargetUrl,
+            CustomCode = link.RedirectTo,
+            ExpireAt = link.ExpireAt,
+            MaxClicks = link.MaxClicks,
+            IsPrivate = link.IsPrivate,
+            CreationTime = link.CreationTime,
+            Clicks = link.Clicks,
+            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}"
         };
 
         return this.StackView(model);
@@ -82,8 +91,49 @@ public class LinksController : Controller
             return NotFound();
         }
 
+        // Check if custom code is changed and already exists
+        if (link.RedirectTo != model.CustomCode && !string.IsNullOrEmpty(model.CustomCode))
+        {
+            if (await _dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == model.CustomCode))
+            {
+                ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
+                model.CreationTime = link.CreationTime;
+                model.Clicks = link.Clicks;
+                model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
+                return this.StackView(model);
+            }
+        }
+
         link.Title = model.Title;
         link.TargetUrl = model.TargetUrl;
+
+        // Only update RedirectTo if CustomCode is provided and different
+        if (!string.IsNullOrEmpty(model.CustomCode))
+        {
+            link.RedirectTo = model.CustomCode;
+            link.IsCustom = true;
+        }
+
+        link.ExpireAt = model.ExpireAt;
+        link.MaxClicks = model.MaxClicks;
+        link.IsPrivate = model.IsPrivate;
+
+        if (model.IsPrivate && !string.IsNullOrEmpty(model.Password))
+        {
+            link.Password = _passwordService.HashPassword(model.Password);
+        }
+        else if (!model.IsPrivate)
+        {
+            link.Password = null;
+        }
+        // If IsPrivate is true but Password is empty, keep the old password (if any) or it's a mistake?
+        // Usually "Leave empty to keep unchanged" is a good pattern for passwords.
+        // But here, if the user switches to Private, they might expect to set a password.
+        // If they are already Private and leave it empty, we should probably keep the old one.
+        // Let's assume: if IsPrivate is true and Password is NOT empty, update it.
+        // If IsPrivate is true and Password IS empty, keep old password.
+        // If IsPrivate is false, clear password.
+
         _dbContext.ShorterLinks.Update(link);
         await _dbContext.SaveChangesAsync();
 

@@ -1,5 +1,7 @@
 @model Aiursoft.Warp.Models.HomeViewModels.IndexViewModel
 
+@if (User.Identity?.IsAuthenticated == true)
+{
 <div class="row mb-2 mb-xl-3">
     <div class="col-auto d-none d-sm-block">
         <h3>@Localizer["Link Shorter"]</h3>
@@ -48,53 +50,50 @@
                         <div class="form-text text-muted">@Localizer["Please enter the complete URL, e.g.:"] <code>https://example.com/path</code></div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label" for="CustomCode">@Localizer["Custom Code"]</label>
-                            <input id="CustomCode" asp-for="CustomCode" name="CustomCode" class="form-control" type="text" placeholder="@Localizer["e.g.: my-product"]" />
-                            <span asp-validation-for="CustomCode" class="text-danger small"></span>
-                            <div class="form-text text-muted">@Localizer["Leave empty to auto-generate."]</div>
-                        </div>
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label" for="title">@Localizer["Title / Remark"]</label>
-                            <input id="title" asp-for="Title" name="title" class="form-control" type="text" placeholder="@Localizer["e.g.: Double Eleven Campaign"]" />
-                            <div class="form-text text-muted">@Localizer["For internal identification only."]</div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label" for="ExpireAt">@Localizer["Expiration Time"]</label>
-                            <input id="ExpireAt" asp-for="ExpireAt" name="ExpireAt" class="form-control" type="datetime-local" />
-                            <div class="form-text text-muted">@Localizer["Optional. Leave empty for permanent."]</div>
-                        </div>
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label" for="MaxClicks">@Localizer["Max Clicks"]</label>
-                            <input id="MaxClicks" asp-for="MaxClicks" name="MaxClicks" class="form-control" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
-                            <div class="form-text text-muted">@Localizer["Link expires after reaching this limit."]</div>
-                        </div>
-                    </div>
-
-                    <hr class="my-4" />
-
                     <div class="mb-3">
-                        <label class="form-label">@Localizer["Privacy Settings"]</label>
-
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="IsPrivate" asp-for="IsPrivate" name="IsPrivate">
-                            <label class="form-check-label" for="IsPrivate">@Localizer["Make this link Private"]</label>
+                            <input class="form-check-input" type="checkbox" id="showAdvanced">
+                            <label class="form-check-label" for="showAdvanced">@Localizer["Advanced Settings"]</label>
                         </div>
-                        <div class="form-text text-muted">@Localizer["Private links require a password to access."]</div>
-
-                        <input id="visibility" name="visibility" type="hidden" value="public" />
                     </div>
 
-                    <div class="mb-3 d-none" id="passwordField">
-                        <label class="form-label" for="password">@Localizer["Access Password"] <span class="text-danger">*</span></label>
-                        <input id="password" asp-for="Password" name="password" class="form-control" type="password" placeholder="@Localizer["Enter access password"]" />
-                        <div class="form-text text-muted">@Localizer["The server will encrypt and store the password safely."]</div>
+                    <div id="advanced-settings" class="d-none">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="CustomCode">@Localizer["Custom Code"]</label>
+                                <input id="CustomCode" asp-for="CustomCode" name="CustomCode" class="form-control" type="text" placeholder="@Localizer["e.g.: my-product"]" />
+                                <span asp-validation-for="CustomCode" class="text-danger small"></span>
+                                <div class="form-text text-muted">@Localizer["Leave empty to auto-generate."]</div>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="title">@Localizer["Title / Remark"]</label>
+                                <input id="title" asp-for="Title" name="title" class="form-control" type="text" placeholder="@Localizer["e.g.: Double Eleven Campaign"]" />
+                                <div class="form-text text-muted">@Localizer["For internal identification only."]</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="ExpireAt">@Localizer["Expiration Time"]</label>
+                                <input id="ExpireAt" asp-for="ExpireAt" name="ExpireAt" class="form-control" type="datetime-local" />
+                                <div class="form-text text-muted">@Localizer["Optional. Leave empty for permanent."]</div>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label" for="MaxClicks">@Localizer["Max Clicks"]</label>
+                                <input id="MaxClicks" asp-for="MaxClicks" name="MaxClicks" class="form-control" type="number" min="1" placeholder="@Localizer["e.g.: 100"]" />
+                                <div class="form-text text-muted">@Localizer["Link expires after reaching this limit."]</div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4" />
+
+                        <div class="mb-3">
+                            <label class="form-label" for="password">@Localizer["Access Password"]</label>
+                            <input id="password" asp-for="Password" name="password" class="form-control" type="password" placeholder="@Localizer["Enter access password"]" />
+                            <div class="form-text text-muted">@Localizer["Leave empty to make this link public. If filled, the link will be private."]</div>
+                        </div>
                     </div>
 
                     <div class="mt-4">
@@ -113,43 +112,20 @@
 @section scripts {
     <script>
         (function () {
-            const privateCheckbox = document.getElementById('IsPrivate');
-            const visibilityHidden = document.getElementById('visibility');
-            const passwordField = document.getElementById('passwordField');
-            const passwordInput = document.getElementById('password');
+            const showAdvancedCheckbox = document.getElementById('showAdvanced');
+            const advancedSettings = document.getElementById('advanced-settings');
 
-            function updateVisibilityUI() {
-                if (privateCheckbox.checked) {
-                    visibilityHidden.value = 'private';
-                    // Bootstrap 5 使用 d-none 来控制显示隐藏，而不是 hidden class
-                    passwordField.classList.remove('d-none');
-                    // 聚焦体验优化
-                    // passwordInput.focus();
-                } else {
-                    visibilityHidden.value = 'public';
-                    passwordField.classList.add('d-none');
-                    passwordInput.value = '';
-                }
+            if (showAdvancedCheckbox) {
+                showAdvancedCheckbox.addEventListener('change', function() {
+                    if (this.checked) {
+                        advancedSettings.classList.remove('d-none');
+                    } else {
+                        advancedSettings.classList.add('d-none');
+                    }
+                });
             }
 
-            // 初始化
-            updateVisibilityUI();
 
-            // 监听复选框变化
-            privateCheckbox.addEventListener('change', updateVisibilityUI);
-
-            // 客户端基础验证
-            document.getElementById('createLinkForm').addEventListener('submit', function (e) {
-                if (visibilityHidden.value === 'private') {
-                    const pwd = passwordInput.value.trim();
-                    if (!pwd) {
-                        e.preventDefault();
-                        // 这里可以用 Bootstrap 的 toast 或者 invalid-feedback，简单起见保留 alert
-                        alert('@Localizer["This link is private, please enter the access password."]');
-                        passwordInput.focus();
-                    }
-                }
-            });
 
             const copyButton = document.getElementById('copy-button');
             if (copyButton) {
@@ -178,4 +154,55 @@
             }
         })();
     </script>
+}
+}
+else
+{
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="~/images/screenshot.png" class="d-block mx-lg-auto img-fluid rounded shadow-lg" alt="Warp Interface" width="700" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                    @Localizer["Shorten Your Links"]
+                </h1>
+                <p class="lead">
+                    @Localizer["Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use."]
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg px-4 me-md-2">
+                        @Localizer["Sign In to Start"]
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 py-5" id="features">
+        <h2 class="pb-2 border-bottom">@Localizer["Why Warp?"]</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-warning bg-gradient fs-2 mb-3 p-3 rounded-3">
+                    <i data-lucide="zap" width="30" height="30"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">@Localizer["Fast"]</h3>
+                <p>@Localizer["Generate short links instantly with our optimized infrastructure."]</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-success bg-gradient fs-2 mb-3 p-3 rounded-3">
+                    <i data-lucide="shield" width="30" height="30"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">@Localizer["Secure"]</h3>
+                <p>@Localizer["Protect your links with passwords and manage access control."]</p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 p-3 rounded-3">
+                    <i data-lucide="bar-chart" width="30" height="30"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">@Localizer["Analytics"]</h3>
+                <p>@Localizer["Track clicks and understand your audience with detailed stats."]</p>
+            </div>
+        </div>
+    </div>
 }
