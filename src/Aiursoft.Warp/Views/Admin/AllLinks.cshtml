@@ -120,7 +120,7 @@
                                 {
                                     <span class="badge bg-danger">@Localizer["Expired"]</span>
                                     <div class="small text-muted mt-1">
-                                        <label class="text-monospace" data-utc-time="@item.ExpireAt.Value.ToHtmlDateTime()"></label>
+                                        <label class="text-monospace" data-utc-time="@item.ExpireAt?.ToHtmlDateTime()"></label>
                                     </div>
                                 }
                                 else if (item.ExpireAt.HasValue)

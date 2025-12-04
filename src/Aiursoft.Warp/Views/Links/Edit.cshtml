@@ -87,14 +87,14 @@
                         <h2 class="h1">@Model.Clicks</h2>
                         @if (Model.MaxClicks.HasValue)
                         {
-                                <div class="progress mb-2" style="height: 5px;">
+                            <div class="progress mb-2" style="height: 5px;">
                                 @{
                                     var percent = Math.Min(100, (double)Model.Clicks / Model.MaxClicks.Value * 100);
                                     var color = percent >= 100 ? "bg-danger" : "bg-success";
                                 }
-                                    <div class="progress-bar @color" role="progressbar" style="width: @percent%" aria-valuenow="@percent" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small class="text-muted">@Model.Clicks / @Model.MaxClicks @Localizer["clicks used"]</small>
+                                <div class="progress-bar @color" role="progressbar" style="width: @percent%" aria-valuenow="@percent" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <small class="text-muted">@Model.Clicks / @Model.MaxClicks @Localizer["clicks used"]</small>
                         }
                     </div>
                     <hr />
@@ -129,6 +129,7 @@
     </div>
 </div>
 
+@* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
         <script>
             document.addEventListener("DOMContentLoaded", function() {
