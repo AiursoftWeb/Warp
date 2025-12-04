@@ -6,6 +6,11 @@ namespace Aiursoft.Warp.Models.AdminViewModels;
 
 public class EditLinkViewModel : UiStackLayoutViewModel
 {
+    public EditLinkViewModel()
+    {
+        PageTitle = "Edit Link";
+    }
+
     public Guid LinkId { get; set; }
 
     [MaxLength(100)]
