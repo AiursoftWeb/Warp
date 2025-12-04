@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Ger tillstånd att starta om applikationsinstansen. Kan orsaka tillgänglighetsavbrott men alla inställningar och cacheminnen kommer att laddas om.</value>
   </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Redigera valfri länk</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Läs alla länkar</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Ta bort vilken länk som helst</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Ger möjlighet att se alla länkar i systemet, oavsett ägarskap.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Tillåter radering av vilken länk som helst, oavsett ägarskap.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Tillåter redigering av vilken länk som helst, oavsett ägarskap.</value>
+  </data>
 
 </root>

@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Uygulama örneğini yeniden başlatma iznini verir. Kullanılabilirlik kesintilerine neden olabilir ancak tüm ayarlar ve önbellek yeniden yüklenecektir.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Tüm Bağlantıları Oku</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Herhangi Bir Bağlantıyı Sil</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Herhangi Bir Bağlantıyı Düzenle</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Sahipliğine bakılmaksızın herhangi bir bağlantının silinmesine izin verir.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Sahipliğine bakılmaksızın sistemdeki tüm bağlantıları görüntülemeye izin verir.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Herhangi bir bağlantıyı, sahipliğine bakılmaksızın düzenlemeye izin verir.</value>
+  </data>
 
 </root>

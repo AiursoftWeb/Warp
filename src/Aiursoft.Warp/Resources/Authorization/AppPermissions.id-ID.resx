@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Memberikan izin untuk memulai ulang instance aplikasi. Dapat menyebabkan gangguan ketersediaan, tetapi semua pengaturan dan cache akan dimuat ulang.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Baca Semua Tautan</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Edit Tautan Apa Saja</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Hapus Tautan Apa Saja</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Memungkinkan melihat semua tautan dalam sistem, terlepas dari kepemilikannya.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Memungkinkan penghapusan tautan apa pun, terlepas dari kepemilikannya.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Memungkinkan pengeditan tautan apa pun, terlepas dari kepemilikannya.</value>
+  </data>
 
 </root>

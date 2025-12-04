@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Acordă permisiunea de a reporni instanța aplicației. Poate cauza întreruperi de disponibilitate, dar toate setările și memoria cache vor fi reîncărcate.</value>
   </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Editează Orice Legătură</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Citește Toate Legăturile</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Permite editarea oricărui link, indiferent de proprietate.</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Ștergeți orice legătură</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Permite ștergerea oricărui link, indiferent de proprietate.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Permite vizualizarea tuturor linkurilor din sistem, indiferent de proprietate.</value>
+  </data>
 
 </root>

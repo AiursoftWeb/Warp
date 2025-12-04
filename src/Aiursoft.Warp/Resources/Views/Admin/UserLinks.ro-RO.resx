@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Back to All Links" xml:space="preserve">
+    <value>Înapoi la Toate Linkurile</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Total Documente</value>
+  </data>
+  <data name="Links by" xml:space="preserve">
+    <value>Linkuri de la</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informații Link</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nume utilizator</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Gestionarea Linkurilor</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Detalii Profil</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Acest utilizator nu a creat încă niciun link.</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Țintă</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acțiuni</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Link Public</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stare</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Accesări</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Legătură Privată</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Expirat</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activ</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Expiră la</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanent</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Vizitează Linkul</value>
+  </data>
+
+</root>

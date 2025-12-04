@@ -138,5 +138,35 @@
   <data name="My Links" xml:space="preserve">
     <value>My Links</value>
   </data>
+  <data name="Warp" xml:space="preserve">
+    <value>Warp</value>
+  </data>
+  <data name="All Links" xml:space="preserve">
+    <value>All Links</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>Lockout</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Delete Link</value>
+  </data>
+  <data name="Aiursoft Warp" xml:space="preserve">
+    <value>Aiursoft Warp</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Edit Link</value>
+  </data>
+  <data name="Enter Password" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="User Links" xml:space="preserve">
+    <value>User Links</value>
+  </data>
 
 </root>

@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>링크 편집</value>
   </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>링크 상세 정보</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>대상 URL</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>제목 입력</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>만료 시간</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>사용자 지정 코드 입력</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>사용자 지정 코드</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>제목 / 비고</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>영구적으로 설정하려면 비워두세요.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>이 링크를 비공개로 설정</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>최대 클릭 수 입력</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>비워두면 현재 비밀번호를 유지합니다.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>비공개 링크는 접근 시 비밀번호가 필요합니다.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>최대 클릭 수</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>제한 없음으로 두려면 비워두세요.</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>변경 사항 저장</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>새 비밀번호</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>총 클릭수</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>통계</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>빠른 작업</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>생성 일시</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>링크 삭제</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>사용된 클릭 수</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>링크 복사</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>링크 방문</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>복사 완료!</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>클립보드에 복사하지 못했습니다.</value>
+  </data>
 
 </root>

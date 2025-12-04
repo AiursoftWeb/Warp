@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Link Details" xml:space="preserve">
+    <value>Détails du lien</value>
+  </data>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>Lien mis à jour avec succès.</value>
+  </data>
+  <data name="Enter the target URL" xml:space="preserve">
+    <value>Saisissez l&apos;URL cible</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succès !</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Modifier le lien</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL de destination</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Code personnalisé</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Saisir un code personnalisé</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>Modifiez le contenu, le titre et le propriétaire du lien.</value>
+  </data>
+  <data name="Enter the link title" xml:space="preserve">
+    <value>Saisissez le titre du lien</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titre / Remarque</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Date d&apos;expiration</value>
+  </data>
+  <data name="-- Select an Owner --" xml:space="preserve">
+    <value>-- Sélectionner un propriétaire --</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Laissez vide pour permanent.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Clics maximum</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Rendre ce lien privé</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Saisir le nombre maximal de clics</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Laisser vide pour illimité.</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Les liens privés nécessitent un mot de passe pour y accéder.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Laisser vide pour conserver le mot de passe actuel</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiques</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Clics totaux</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>clics utilisés</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Créé le</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copier le lien</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visiter le lien</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Supprimer le lien</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Actions rapides</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copié !</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Échec de la copie dans le presse-papiers</value>
+  </data>
+
+</root>

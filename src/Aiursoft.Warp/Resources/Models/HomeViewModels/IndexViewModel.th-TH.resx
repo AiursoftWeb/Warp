@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>รหัสที่กำหนดเองสามารถประกอบด้วยตัวอักษร ตัวเลข และยัติภังค์เท่านั้น และต้องมีความยาวไม่เกิน 30 ตัวอักษร</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} ไม่ใช่ URL ที่ถูกต้อง</value>
+  </data>
 
 </root>

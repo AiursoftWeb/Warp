@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>लिंक संपादित करें</value>
   </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>समाप्ति समय</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>कस्टम कोड</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>लिंक विवरण</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>लक्ष्य यूआरएल</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>शीर्षक / टिप्पणी</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>स्थायी रखने के लिए खाली छोड़ दें।</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>शीर्षक दर्ज करें</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>कस्टम कोड दर्ज करें</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>अधिकतम क्लिक्स</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>नया पासवर्ड</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>असीमित के लिए खाली छोड़ दें।</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>अधिकतम क्लिक दर्ज करें</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>निजी लिंक तक पहुँचने के लिए पासवर्ड की आवश्यकता होती है।</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>इस लिंक को निजी बनाएं</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>वर्तमान पासवर्ड रखने के लिए खाली छोड़ दें</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>परिवर्तन सहेजें</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>सांख्यिकी</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>बनाया गया</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>कुल क्लिक्स</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>क्लिक उपयोग किए गए</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>त्वरित कार्रवाइयाँ</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>कॉपी किया गया!</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>लिंक हटाएं</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>लिंक पर जाएँ</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>लिंक कॉपी करें</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>क्लिपबोर्ड पर कॉपी करने में विफल</value>
+  </data>
 
 </root>

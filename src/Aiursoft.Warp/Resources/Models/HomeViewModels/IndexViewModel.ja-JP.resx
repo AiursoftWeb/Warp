@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>カスタムコードは、英字、数字、ハイフンのみ使用可能で、最大30文字までです。</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0}は有効なURLではありません。</value>
+  </data>
 
 </root>

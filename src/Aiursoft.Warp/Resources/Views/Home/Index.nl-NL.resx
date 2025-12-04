@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>De server versleutelt en bewaart het wachtwoord veilig.</value>
   </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Snel</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Verkort uw links</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Log in om te beginnen</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Waarom Warp?</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Geavanceerde instellingen</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Laat leeg om deze link openbaar te maken. Als u een wachtwoord invult, wordt de link privé.</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Genereer direct korte links met onze geoptimaliseerde infrastructuur.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Veilig</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Bescherm je links met wachtwoorden en beheer toegangscontrole.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp is een krachtige URL-verkorter die je helpt je links te beheren, klikken bij te houden en eenvoudig content te delen. Maak korte, memorabele links voor zakelijk of persoonlijk gebruik.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Volg klikken en begrijp je publiek met gedetailleerde statistieken.</value>
+  </data>
 
 </root>

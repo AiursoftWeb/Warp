@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Mukautettu koodi voi sisältää vain kirjaimia, numeroita ja väliviivoja, ja sen pituus voi olla enintään 30 merkkiä.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} ei ole kelvollinen URL-osoite.</value>
+  </data>
 
 </root>

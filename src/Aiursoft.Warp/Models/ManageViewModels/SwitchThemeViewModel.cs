@@ -4,6 +4,6 @@ namespace Aiursoft.Warp.Models.ManageViewModels;
 
 public class SwitchThemeViewModel
 {
-    [Required]
+    [Required(ErrorMessage = "The {0} is required.")]
     public required string Theme { get; set; }
 }

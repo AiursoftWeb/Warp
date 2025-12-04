@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Edit Tautan</value>
   </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Kode Kustom</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Judul / Keterangan</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Masukkan judul</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Waktu Kedaluwarsa</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Tujuan</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Biarkan kosong untuk permanen.</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Detail Tautan</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Masukkan kode kustom</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Masukkan jumlah klik maksimum</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Klik Maksimum</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Biarkan kosong untuk tak terbatas.</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Kata Sandi Baru</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Simpan Perubahan</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Biarkan kosong untuk mempertahankan kata sandi saat ini.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Jadikan tautan ini Pribadi</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Tautan pribadi memerlukan kata sandi untuk diakses.</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>klik digunakan</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Total Klik</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Dibuat Pada</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Kunjungi Tautan</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Aksi Cepat</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Salin Tautan</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Hapus Tautan</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Tersalin!</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Gagal menyalin ke papan klip</value>
+  </data>
 
 </root>

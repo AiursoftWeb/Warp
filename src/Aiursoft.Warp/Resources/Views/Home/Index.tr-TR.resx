@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Sunucu şifreyi şifreleyip güvenli bir şekilde saklayacaktır.</value>
   </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Bağlantılarınızı Kısaltın</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Hızlı</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Neden Warp?</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Başlamak İçin Giriş Yap</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Optimize edilmiş altyapımızla anında kısa bağlantılar oluşturun.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Boş bırakırsanız bu bağlantı herkese açık olur. Doldurursanız, bağlantı özel olacaktır.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Güvenli</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analitik</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Bağlantılarınızı şifrelerle koruyun ve erişim kontrolünü yönetin.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Tıklamaları takip edin ve detaylı istatistiklerle kitlenizi anlayın.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp, bağlantılarınızı yönetmenize, tıklamaları takip etmenize ve içeriği kolayca paylaşmanıza yardımcı olan güçlü bir URL kısaltıcıdır. İş veya kişisel kullanımınız için kısa, akılda kalıcı bağlantılar oluşturun.</value>
+  </data>
 
 </root>

@@ -39,5 +39,11 @@
   <data name="Name" xml:space="preserve">
     <value>이름</value>
   </data>
+  <data name="The {0} must be at least {1} characters long." xml:space="preserve">
+    <value>{0}은(는) 최소 {1}자 이상이어야 합니다.</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0}은(는) 최대 {1}자까지 입력 가능합니다.</value>
+  </data>
 
 </root>

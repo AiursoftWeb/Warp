@@ -45,5 +45,11 @@
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Файл аватара недійсний. Будь ласка, завантажте його знову.</value>
   </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0} має містити не більше {1} символів.</value>
+  </data>
+  <data name="The {0} must be at least {1} characters long." xml:space="preserve">
+    <value>{0} має містити щонайменше {1} символів.</value>
+  </data>
 
 </root>

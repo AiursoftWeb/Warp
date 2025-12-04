@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Ο προσαρμοσμένος κωδικός μπορεί να περιέχει μόνο γράμματα, αριθμούς και παύλες και να έχει μέχρι 30 χαρακτήρες.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Το {0} δεν είναι έγκυρη διεύθυνση URL.</value>
+  </data>
 
 </root>

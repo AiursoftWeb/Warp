@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>يمكن أن يحتوي الرمز المخصص فقط على أحرف وأرقام وشرطات، ويجب ألا يتجاوز طوله 30 حرفًا.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} ليس عنوان URL صالحًا.</value>
+  </data>
 
 </root>

@@ -45,5 +45,11 @@
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>अवतार फ़ाइल अमान्य है। कृपया इसे फिर से अपलोड करें।</value>
   </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0} अधिकतम {1} अक्षरों का होना चाहिए।</value>
+  </data>
+  <data name="The {0} must be at least {1} characters long." xml:space="preserve">
+    <value>{0} कम से कम {1} अक्षर लंबा होना चाहिए।</value>
+  </data>
 
 </root>

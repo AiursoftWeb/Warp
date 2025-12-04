@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Παρέχει άδεια για επανεκκίνηση της εφαρμογής. Μπορεί να προκαλέσει διακοπές στη διαθεσιμότητα, αλλά όλες οι ρυθμίσεις και η προσωρινή μνήμη θα φορτωθούν εκ νέου.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Διαβάστε Όλους τους Συνδέσμους</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Διαγραφή Οποιουδήποτε Συνδέσμου</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Επεξεργασία Οποιουδήποτε Συνδέσμου</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Επιτρέπει τη διαγραφή οποιουδήποτε συνδέσμου, ανεξάρτητα από την ιδιοκτησία.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Επιτρέπει την επεξεργασία οποιουδήποτε συνδέσμου, ανεξάρτητα από την ιδιοκτησία.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Επιτρέπει την προβολή όλων των συνδέσμων στο σύστημα, ανεξάρτητα από την ιδιοκτησία.</value>
+  </data>
 
 </root>

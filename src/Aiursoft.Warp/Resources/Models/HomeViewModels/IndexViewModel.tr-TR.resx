@@ -30,5 +30,8 @@
   <data name="Title contains invalid characters." xml:space="preserve">
     <value>Başlık geçersiz karakterler içeriyor.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} geçerli bir URL değil.</value>
+  </data>
 
 </root>

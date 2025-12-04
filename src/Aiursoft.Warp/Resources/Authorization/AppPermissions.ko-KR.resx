@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>애플리케이션 인스턴스를 재시작할 수 있는 권한을 부여합니다. 가용성 중단을 초래할 수 있으나 모든 설정과 캐시가 다시 로드됩니다.</value>
   </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>모든 링크 편집</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>모든 링크 삭제</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>모든 링크 읽기</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>소유권에 관계없이 모든 링크를 편집할 수 있습니다.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>소유권에 관계없이 시스템 내 모든 링크를 볼 수 있습니다.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>소유권에 관계없이 모든 링크를 삭제할 수 있습니다.</value>
+  </data>
 
 </root>

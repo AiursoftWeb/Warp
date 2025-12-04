@@ -30,5 +30,8 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>El código personalizado solo puede contener letras, números y guiones, y tener un máximo de 30 caracteres.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>El {0} no es una URL válida.</value>
+  </data>
 
 </root>

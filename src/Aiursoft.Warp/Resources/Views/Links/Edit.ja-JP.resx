@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>リンクを編集</value>
   </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>カスタムコード</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>ターゲットURL</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>タイトルを入力</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>カスタムコードを入力</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>タイトル / 備考</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>リンク詳細</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>空欄のままにすると永続的になります。</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>空欄の場合は無制限になります。</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>新しいパスワード</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>最大クリック数を入力</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>このリンクを非公開にする</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>プライベートリンクにアクセスするにはパスワードが必要です。</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>変更を保存</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大クリック数</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>統計</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>作成日時</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>総クリック数</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>クリック使用済み</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>クイックアクション</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>リンクを開く</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>リンクをコピー</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>空欄のままにすると現在のパスワードを維持します</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>リンクを削除</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>コピーしました！</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>クリップボードへのコピーに失敗しました</value>
+  </data>
 
 </root>

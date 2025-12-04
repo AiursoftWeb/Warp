@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Редактировать ссылку</value>
   </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Введите пользовательский код</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Целевой URL</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Введите заголовок</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Заголовок / Примечание</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Сведения о ссылке</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Пользовательский код</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Срок действия</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Оставьте пустым для бессрочного действия.</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Введите максимальное количество кликов</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимум переходов</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Для доступа к приватным ссылкам требуется пароль.</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Оставьте пустым для неограниченного количества.</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Новый пароль</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Сделать ссылку приватной</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Оставьте пустым, чтобы сохранить текущий пароль</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Быстрые действия</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Всего кликов</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>использовано переходов</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Перейти по ссылке</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Удалить ссылку</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Скопировать ссылку</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Скопировано!</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Не удалось скопировать в буфер обмена</value>
+  </data>
 
 </root>

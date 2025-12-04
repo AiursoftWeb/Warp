@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Giver tilladelse til at genstarte applikationsinstansen. Kan forårsage afbrydelser i tilgængeligheden, men alle indstillinger og cache vil blive genindlæst.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Læs alle links</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Rediger ethvert link</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Slet enhver link</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Tillader redigering af ethvert link, uanset ejerskab.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Tillader sletning af ethvert link, uanset ejerskab.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Giver mulighed for at se alle links i systemet, uanset ejerskab.</value>
+  </data>
 
 </root>

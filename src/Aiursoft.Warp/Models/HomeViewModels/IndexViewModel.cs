@@ -14,6 +14,7 @@ public class IndexViewModel : UiStackLayoutViewModel
     public Guid LinkId { get; set; } = Guid.NewGuid();
 
     [Required(ErrorMessage = "Please input your target link!")]
+    [Url(ErrorMessage = "The {0} is not a valid URL.")]
     public string TargetUrl { get; set; } = string.Empty;
 
     [RegularExpression(@"^[a-zA-Z0-9-]{0,30}$", ErrorMessage = "Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long.")]

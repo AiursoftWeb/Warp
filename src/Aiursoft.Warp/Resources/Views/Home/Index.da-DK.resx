@@ -351,5 +351,41 @@
   <data name="Private links require a password to access." xml:space="preserve">
     <value>Private links kræver en adgangskode for at få adgang.</value>
   </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Hurtig</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Hvorfor Warp?</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Log ind for at komme i gang</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Avancerede Indstillinger</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Forkort dine links</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generer korte links øjeblikkeligt med vores optimerede infrastruktur.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Lad feltet stå tomt for at gøre linket offentligt. Hvis det udfyldes, vil linket være privat.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp er en kraftfuld URL-forkorter, der hjælper dig med at administrere dine links, spore klik og dele indhold med lethed. Opret korte, mindeværdige links til dit erhverv eller personlige brug.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Spor klik og forstå dit publikum med detaljerede statistikker.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Beskyt dine links med adgangskoder og administrer adgangskontrol.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Sikker</value>
+  </data>
 
 </root>

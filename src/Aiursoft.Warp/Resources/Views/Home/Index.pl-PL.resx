@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Serwer zaszyfruje i bezpiecznie przechowa hasło.</value>
   </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Dlaczego Warp?</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Szybki</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Zaloguj się, aby rozpocząć</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generuj krótkie linki natychmiast dzięki naszej zoptymalizowanej infrastrukturze.</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Zaawansowane ustawienia</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Pozostaw puste, aby link był publiczny. Jeśli zostanie wypełnione, link będzie prywatny.</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Skracaj swoje linki</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analityka</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Bezpieczne</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Chroń swoje linki hasłami i zarządzaj kontrolą dostępu.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Śledź kliknięcia i poznaj swoją publiczność dzięki szczegółowym statystykom.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp to potężny skracacz adresów URL, który pomaga zarządzać linkami, śledzić kliknięcia i łatwo udostępniać treści. Twórz krótkie, łatwe do zapamiętania linki do użytku biznesowego lub osobistego.</value>
+  </data>
 
 </root>

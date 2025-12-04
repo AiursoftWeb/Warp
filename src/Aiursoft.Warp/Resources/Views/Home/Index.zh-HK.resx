@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>伺服器會將密碼加密並安全儲存。</value>
   </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>縮短你的連結</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>憑藉我們優化的基礎設施，即刻生成短連結。</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>點解要揀 Warp？</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>登入開始</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>進階設定</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>留空即可公開此連結。若填寫，連結將設為私人。</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp 係一個強大嘅網址縮短器，可以幫你輕鬆管理連結、追蹤點擊同分享內容。為你嘅業務或個人用途創建簡短易記嘅連結。</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>數據分析</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>使用密碼保護你的連結並管理存取控制。</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>追蹤點擊次數，並透過詳細統計數據了解你的受眾。</value>
+  </data>
 
 </root>
