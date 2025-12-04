@@ -1,10 +1,7 @@
 using System.Net;
 using System.Text.RegularExpressions;
-using Aiursoft.CSTools.Tools;
-using Aiursoft.Warp.Models.HomeViewModels;
 using Microsoft.EntityFrameworkCore;
 using Aiursoft.Warp.Entities;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
@@ -87,7 +84,7 @@ public class LinkTests : FunctionalTestBase
         var wrongResponse = await Http.PostAsync($"/r/{code}", wrongContent);
         Assert.AreEqual(HttpStatusCode.OK, wrongResponse.StatusCode);
         var wrongHtml = await wrongResponse.Content.ReadAsStringAsync();
-        Assert.IsTrue(wrongHtml.Contains("Incorrect password"));
+        Assert.Contains("Incorrect password", wrongHtml);
 
         // Try correct password
         var correctContent = new FormUrlEncodedContent(new Dictionary<string, string>
@@ -118,7 +115,7 @@ public class LinkTests : FunctionalTestBase
         var response = await Http.GetAsync($"/r/{code}");
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         var html = await response.Content.ReadAsStringAsync();
-        Assert.IsTrue(html.Contains("Expired"));
+        Assert.Contains("Expired", html);
     }
 
     [TestMethod]
@@ -195,8 +192,8 @@ public class LinkTests : FunctionalTestBase
         response.EnsureSuccessStatusCode();
         var html = await response.Content.ReadAsStringAsync();
 
-        Assert.IsTrue(html.Contains("user1.com"));
-        Assert.IsTrue(html.Contains("user2.com"));
+        Assert.Contains("user1.com", html);
+        Assert.Contains("user2.com", html);
     }
 
     [TestMethod]
@@ -244,7 +241,7 @@ public class LinkTests : FunctionalTestBase
     public async Task AdminEditLinkOwnerTest()
     {
         // User 1 creates link
-        var (user1Email, _) = await RegisterAndLoginAsync();
+        var (__, _) = await RegisterAndLoginAsync();
         var code = await CreateLinkAsync("https://changeowner.com");
 
         // Log off

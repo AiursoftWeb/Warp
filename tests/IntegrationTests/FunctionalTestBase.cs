@@ -5,14 +5,14 @@ using Aiursoft.DbTools;
 using Aiursoft.Warp.Entities;
 using static Aiursoft.WebTools.Extends;
 
-[assembly: Microsoft.VisualStudio.TestTools.UnitTesting.DoNotParallelize]
+[assembly: DoNotParallelize]
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 public abstract class FunctionalTestBase
 {
     protected int Port;
-    protected HttpClient Http = null!;
+    protected HttpClient Http;
     protected IHost? Server;
 
     protected FunctionalTestBase()
