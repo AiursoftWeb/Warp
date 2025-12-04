@@ -1,0 +1,73 @@
+@using Aiursoft.Warp.Authorization
+@using Microsoft.AspNetCore.Authorization
+@model Aiursoft.Warp.Models.AdminViewModels.EditLinkViewModel
+@inject IViewLocalizer Localizer
+@inject IAuthorizationService AuthorizationService
+@{
+    var canDeleteAnyLink = (await AuthorizationService.AuthorizeAsync(User, AppPermissionNames.CanDeleteAnyLink)).Succeeded;
+}
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Edit Link"]</h3>
+        <p class="mb-0 text-muted">@Localizer["Modify link content, title, and owner."]</p>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        @if (canDeleteAnyLink)
+        {
+            <a asp-action="DeleteLink" asp-route-id="@Model.LinkId" class="btn btn-danger">
+                <i class="align-middle" data-lucide="trash-2"></i> @Localizer["Delete"]
+            </a>
+        }
+    </div>
+</div>
+
+@if (Model.SavedSuccessfully)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <div class="d-flex">
+            <div class="alert-icon pe-3">
+                <i class="align-middle" data-lucide="check-circle"></i>
+            </div>
+            <div class="alert-message">
+                <strong>@Localizer["Success!"]</strong>
+                @Localizer["Link updated successfully."]
+            </div>
+        </div>
+    </div>
+}
+
+<div class="card">
+    <div class="card-body">
+        <form asp-action="EditLink" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="LinkId"/>
+
+            <div class="mb-3">
+                <label asp-for="Title" class="form-label">@Localizer["Link Title (optional)"]</label>
+                <input asp-for="Title" class="form-control" placeholder="@Localizer["Enter the link title"]"/>
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label asp-for="SelectedUserId" class="form-label">@Localizer["Owner"]</label>
+                <select asp-for="SelectedUserId" asp-items="@Model.AllUsers" class="form-select">
+                    <option value="">@Localizer["-- Select an Owner --"]</option>
+                </select>
+                <span asp-validation-for="SelectedUserId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TargetUrl" class="form-label">@Localizer["Target URL"]</label>
+                <input asp-for="TargetUrl" class="form-control" placeholder="@Localizer["Enter the target URL"]" />
+                <span asp-validation-for="TargetUrl" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="@Localizer["Save"]" class="btn btn-primary"/>
+                <a asp-action="AllLinks" class="btn btn-secondary ms-2">@Localizer["Back to List"]</a>
+            </div>
+        </form>
+    </div>
+</div>
