@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>ให้สิทธิ์ในการรีสตาร์ทอินสแตนซ์แอปพลิเคชัน อาจทำให้เกิดการขัดจังหวะในการให้บริการ แต่การตั้งค่าและแคชทั้งหมดจะถูกโหลดใหม่</value>
   </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>ลบลิงก์ใดก็ได้</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>อ่านลิงก์ทั้งหมด</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>แก้ไขลิงก์ใดก็ได้</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>อนุญาตให้แก้ไขลิงก์ใดๆ โดยไม่คำนึงถึงความเป็นเจ้าของ</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>อนุญาตให้ดูลิงก์ทั้งหมดในระบบ โดยไม่คำนึงถึงความเป็นเจ้าของ</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>อนุญาตให้ลบลิงก์ใด ๆ ได้ โดยไม่คำนึงถึงความเป็นเจ้าของ</value>
+  </data>
 
 </root>

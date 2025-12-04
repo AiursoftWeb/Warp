@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Owner" xml:space="preserve">
+    <value>Eigenaar</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vervaltijd</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Aangepaste Code</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximaal aantal klikken</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>De {0} mag maximaal {1} tekens lang zijn.</value>
+  </data>
+  <data name="Please select the owner of this Link!" xml:space="preserve">
+    <value>Selecteer de eigenaar van deze link!</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>De {0} is verplicht.</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>De {0} is geen geldige URL.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privélink</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Doel-URL</value>
+  </data>
+
+</root>

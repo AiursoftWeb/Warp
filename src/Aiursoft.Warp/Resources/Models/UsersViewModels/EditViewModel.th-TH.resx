@@ -45,5 +45,11 @@
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>ไฟล์รูปภาพประจำตัวไม่ถูกต้อง กรุณาอัปโหลดใหม่อีกครั้ง</value>
   </data>
+  <data name="The {0} must be at least {1} characters long." xml:space="preserve">
+    <value>{0} ต้องมีความยาวอย่างน้อย {1} ตัวอักษร</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0} ต้องมีความยาวไม่เกิน {1} ตัวอักษร</value>
+  </data>
 
 </root>

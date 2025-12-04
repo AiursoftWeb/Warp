@@ -30,5 +30,29 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Il codice personalizzato può contenere solo lettere, numeri e trattini e deve essere lungo al massimo 30 caratteri.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Il {0} non è un URL valido.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titolo</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL di destinazione</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Scadenza</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Codice Personalizzato</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Collegamento Privato</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Numero massimo di clic</value>
+  </data>
 
 </root>

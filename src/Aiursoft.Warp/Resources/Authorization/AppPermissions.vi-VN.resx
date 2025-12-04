@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Cấp quyền khởi động lại phiên bản ứng dụng. Có thể gây ra gián đoạn về tính khả dụng nhưng tất cả cài đặt và bộ nhớ đệm sẽ được tải lại.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Đọc Tất Cả Liên Kết</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Chỉnh sửa Bất kỳ Liên kết nào</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Xóa Bất Kỳ Liên Kết Nào</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Cho phép xóa bất kỳ liên kết nào, bất kể quyền sở hữu.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Cho phép chỉnh sửa bất kỳ liên kết nào, bất kể quyền sở hữu.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Cho phép xem tất cả các liên kết trong hệ thống, bất kể quyền sở hữu.</value>
+  </data>
 
 </root>

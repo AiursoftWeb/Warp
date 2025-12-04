@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Máy chủ sẽ mã hóa và lưu trữ mật khẩu một cách an toàn.</value>
   </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Cài đặt Nâng cao</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Đăng nhập để Bắt đầu</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Tại sao chọn Warp?</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Nhanh</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Rút Ngắn Liên Kết Của Bạn</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Tạo liên kết rút gọn ngay lập tức với cơ sở hạ tầng được tối ưu hóa của chúng tôi.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Để trống để liên kết này công khai. Nếu có nhập mật khẩu, liên kết sẽ là riêng tư.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Bảo mật</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Phân tích</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Bảo vệ liên kết của bạn bằng mật khẩu và quản lý kiểm soát truy cập.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp là một công cụ rút gọn URL mạnh mẽ, giúp bạn quản lý liên kết, theo dõi lượt nhấp và chia sẻ nội dung một cách dễ dàng. Tạo các liên kết ngắn gọn, dễ nhớ cho mục đích kinh doanh hoặc cá nhân của bạn.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Theo dõi lượt nhấp và hiểu rõ đối tượng của bạn với số liệu thống kê chi tiết.</value>
+  </data>
 
 </root>

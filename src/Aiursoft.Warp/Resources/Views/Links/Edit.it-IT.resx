@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Modifica Link</value>
   </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL di destinazione</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Dettagli del Link</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titolo / Note</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Inserisci titolo</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Lasciare vuoto per permanente.</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Inserisci codice personalizzato</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Codice Personalizzato</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Scadenza</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Lasciare vuoto per mantenere la password attuale</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nuova Password</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Rendi questo link Privato</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Inserisci numero massimo di clic</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>I link privati richiedono una password per essere accessibili.</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Salva modifiche</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Numero massimo di clic</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Lasciare vuoto per illimitato.</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Creato il</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Clic Totali</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Azioni Rapide</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copia link</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>clic utilizzati</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Elimina Link</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visita Link</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Impossibile copiare negli appunti</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiato!</value>
+  </data>
 
 </root>

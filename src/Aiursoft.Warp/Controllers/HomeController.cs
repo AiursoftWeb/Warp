@@ -15,7 +15,6 @@ namespace Aiursoft.Warp.Controllers;
 public class HomeController(PasswordService passwordService, TemplateDbContext dbContext)
     : Controller
 {
-    [Authorize]
     [RenderInNavBar(
         NavGroupName = "Home",
         NavGroupOrder = 1,
@@ -59,12 +58,14 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
             UserId = userId
         };
 
-        if (model.IsPrivate && !string.IsNullOrEmpty(model.Password))
+        if (!string.IsNullOrEmpty(model.Password))
         {
+            shorterLink.IsPrivate = true;
             shorterLink.Password = passwordService.HashPassword(model.Password);
         }
         else
         {
+            shorterLink.IsPrivate = false;
             shorterLink.Password = null;
         }
 
@@ -127,7 +128,7 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
         if (!ModelState.IsValid)
         {
             model.Code = code;
-            return this.SimpleView(model,"EnterPassword");
+            return this.SimpleView(model, "EnterPassword");
         }
 
         var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.RedirectTo == code);

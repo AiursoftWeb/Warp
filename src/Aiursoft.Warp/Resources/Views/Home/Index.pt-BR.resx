@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>O servidor irá criptografar e armazenar a senha com segurança.</value>
   </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Configurações Avançadas</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Entrar para Começar</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Gere links curtos instantaneamente com nossa infraestrutura otimizada.</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Encurte Seus Links</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Deixe em branco para tornar este link público. Se preenchido, o link será privado.</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Por que o Warp?</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Análises</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Seguro</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>O Warp é um poderoso encurtador de URL que ajuda você a gerenciar seus links, rastrear cliques e compartilhar conteúdo com facilidade. Crie links curtos e memoráveis para uso empresarial ou pessoal.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Proteja seus links com senhas e gerencie o controle de acesso.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Acompanhe cliques e entenda seu público com estatísticas detalhadas.</value>
+  </data>
 
 </root>

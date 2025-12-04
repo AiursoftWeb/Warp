@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>授予重啟應用程式實例嘅權限。可能會導致服務中斷，但所有設定同快取將會重新載入。</value>
   </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>允許編輯任何連結，不論擁有者是誰。</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>允許刪除任何連結，不論擁有者是誰。</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>編輯任何連結</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>允許查看系統內所有連結，不論其擁有者。</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>讀取所有連結</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>刪除任何連結</value>
+  </data>
 
 </root>

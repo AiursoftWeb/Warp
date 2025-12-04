@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>サーバーはパスワードを暗号化して安全に保存します。</value>
   </data>
+  <data name="Fast" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Warpを選ぶ理由は？</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>リンクを短縮</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>開始するにはサインイン</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>詳細設定</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>最適化されたインフラストラクチャで、短いリンクを即座に生成できます。</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>セキュア</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>空欄のままにすると、このリンクは公開されます。入力すると、リンクは非公開になります。</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warpは、リンクの管理、クリック数の追跡、コンテンツの共有を簡単に行える強力なURL短縮サービスです。ビジネスや個人利用のために、短くて覚えやすいリンクを作成しましょう。</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>パスワードでリンクを保護し、アクセス制御を管理できます。</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>クリック数を追跡し、詳細な統計で視聴者を理解しましょう。</value>
+  </data>
 
 </root>

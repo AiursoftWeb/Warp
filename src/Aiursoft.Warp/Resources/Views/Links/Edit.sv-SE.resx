@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Redigera länk</value>
   </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titel / Kommentar</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Ange anpassad kod</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Anpassad kod</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Länkdetaljer</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Mål-URL</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Ange titel</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Utgångstid</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Lämna tomt för permanent.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Max Klick</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Ange max antal klick</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Gör denna länk privat</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Lämna tomt för obegränsat.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Privata länkar kräver ett lösenord för åtkomst.</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Spara ändringar</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Lämna tomt för att behålla nuvarande lösenord</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Skapad</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Totalt antal klick</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>klick använda</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Snabbåtgärder</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Kopiera länk</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Besök länk</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Radera länk</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Det gick inte att kopiera till urklipp</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopierad!</value>
+  </data>
 
 </root>

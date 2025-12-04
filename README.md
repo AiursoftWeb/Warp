@@ -7,18 +7,11 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com)](https://warp.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/warp.svg)](https://hub.docker.com/r/aiursoft/warp)
 
-Warp is a sample project.
+Warp is a simple short link service that can be deployed locally.
 
 ![screenshot](./screenshot.png)
 
 Default user name is `admin@default.com` and default password is `admin123`.
-
-## Projects using Aiursoft Warp
-
-* [Stathub](https://gitlab.aiursoft.com/aiursoft/stathub)
-* [MarkToHtml](https://gitlab.aiursoft.com/aiursoft/marktohtml)
-* [MusicTools](https://gitlab.aiursoft.com/aiursoft/musictools)
-* [AnduinOS Home](https://gitlab.aiursoft.com/anduin/AnduinOS-Home)
 
 ## Try
 

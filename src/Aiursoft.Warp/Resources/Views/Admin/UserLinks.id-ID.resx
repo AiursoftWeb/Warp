@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Link Management" xml:space="preserve">
+    <value>Manajemen Tautan</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Detail Profil</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nama Pengguna</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Total Dokumen</value>
+  </data>
+  <data name="Links by" xml:space="preserve">
+    <value>Tautan oleh</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Kembali ke Semua Tautan</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informasi Tautan</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Pengguna ini belum membuat tautan apa pun.</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Tautan Pribadi</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Aksi</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klik</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Tujuan</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Kadaluarsa</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Tautan Publik</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Kunjungi Tautan</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanen</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Berakhir pada</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Edit Tautan</value>
+  </data>
+
+</root>

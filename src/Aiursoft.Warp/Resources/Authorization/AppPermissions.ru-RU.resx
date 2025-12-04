@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Предоставляет разрешение на перезапуск экземпляра приложения. Может привести к перерывам в доступности, но все настройки и кэш будут перезагружены.</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Просмотр всех ссылок</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Удалить любую ссылку</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Редактировать любую ссылку</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Разрешает удаление любой ссылки, независимо от владельца.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Разрешает редактирование любой ссылки, независимо от владельца.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Позволяет просматривать все ссылки в системе, независимо от владельца.</value>
+  </data>
 
 </root>

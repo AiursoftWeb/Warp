@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Προορισμού</value>
+  </data>
+  <data name="Enter the target URL" xml:space="preserve">
+    <value>Εισάγετε τον προορισμό URL</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Επεξεργασία Συνδέσμου</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Λεπτομέρειες Συνδέσμου</value>
+  </data>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>Ο σύνδεσμος ενημερώθηκε επιτυχώς.</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Επιτυχία!</value>
+  </data>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>Τροποποιήστε το περιεχόμενο, τον τίτλο και τον κάτοχο του συνδέσμου.</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Προσαρμοσμένος Κωδικός</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Χρόνος Λήξης</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Αφήστε κενό για μόνιμη λειτουργία.</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Εισάγετε προσαρμοσμένο κωδικό</value>
+  </data>
+  <data name="-- Select an Owner --" xml:space="preserve">
+    <value>-- Επιλέξτε έναν Ιδιοκτήτη --</value>
+  </data>
+  <data name="Enter the link title" xml:space="preserve">
+    <value>Εισάγετε τον τίτλο του συνδέσμου</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Τίτλος / Παρατήρηση</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Ιδιοκτήτης</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Μέγιστος Αριθμός Κλικ</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Αφήστε κενό για απεριόριστο.</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Εισάγετε μέγιστα κλικ</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Νέος Κωδικός</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Αφήστε το κενό για να διατηρήσετε τον τρέχοντα κωδικό πρόσβασης</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Οι ιδιωτικοί σύνδεσμοι απαιτούν κωδικό πρόσβασης για πρόσβαση.</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Πίσω στη Λίστα</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Συνολικοί Κλικ</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Δημιουργήθηκε στις</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Γρήγορες Ενέργειες</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>κλικ που χρησιμοποιήθηκαν</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Επισκεφθείτε τον Σύνδεσμο</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Διαγραφή Σύνδεσμου</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Στατιστικά</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Αντιγραφή Συνδέσμου</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Αντιγράφτηκε!</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Αποτυχία αντιγραφής στο πρόχειρο</value>
+  </data>
+
+</root>

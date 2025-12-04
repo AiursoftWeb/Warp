@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Delete" xml:space="preserve">
+    <value>Poista</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Omistaja</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Takaisin listaan</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Poista linkki</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Lyhyt linkki</value>
+  </data>
+  <data name="ShorterLink" xml:space="preserve">
+    <value>Lyhyempi linkki</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Alkuperäinen URL</value>
+  </data>
+  <data name="Are you sure you want to delete this?" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa tämän?</value>
+  </data>
+
+</root>

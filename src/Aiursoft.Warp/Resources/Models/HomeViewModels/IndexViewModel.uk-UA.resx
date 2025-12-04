@@ -30,5 +30,29 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Користувацький код може містити лише літери, цифри та дефіси, і бути не довшим за 30 символів.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Поле {0} не є дійсною URL-адресою.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Назва</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Термін дії</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимальна кількість кліків</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватне посилання</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Користувацький код</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Цільова URL-адреса</value>
+  </data>
 
 </root>

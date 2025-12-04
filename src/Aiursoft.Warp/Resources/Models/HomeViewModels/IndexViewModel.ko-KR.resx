@@ -30,5 +30,29 @@
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>사용자 지정 코드는 문자, 숫자, 하이픈만 포함할 수 있으며 최대 30자까지 가능합니다.</value>
   </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0}은(는) 유효한 URL이 아닙니다.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>대상 URL</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>만료 시간</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>비공개 링크</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>최대 클릭 수</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>사용자 지정 코드</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>비밀번호</value>
+  </data>
 
 </root>

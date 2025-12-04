@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Chỉnh sửa Liên kết</value>
   </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Tiêu đề / Ghi chú</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Đích</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Nhập tiêu đề</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Mã Tùy Chỉnh</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Thời gian hết hạn</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Chi tiết Liên kết</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Nhập mã tùy chỉnh</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Để trống nếu muốn vĩnh viễn.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Số lần nhấp tối đa</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Nhập số lượt nhấp tối đa</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Chuyển liên kết này thành Riêng tư</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Liên kết riêng tư yêu cầu mật khẩu để truy cập.</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Lưu Thay Đổi</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Để trống nếu không giới hạn.</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Để trống để giữ mật khẩu hiện tại</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Thống kê</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Tổng số lượt nhấp</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Thời gian tạo</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>số lần nhấp đã sử dụng</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Hành động nhanh</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Truy cập Liên kết</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Đã sao chép!</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Xóa Liên kết</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Sao chép Liên kết</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Không thể sao chép vào clipboard</value>
+  </data>
 
 </root>

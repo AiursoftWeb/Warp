@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Serverul va cripta și va stoca parola în siguranță.</value>
   </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Setări Avansate</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Rapid</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>De ce Warp?</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Scurtați-vă linkurile</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Autentifică-te pentru a începe</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generați linkuri scurte instantaneu cu infrastructura noastră optimizată.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Lăsați necompletat pentru ca acest link să fie public. Dacă este completat, linkul va fi privat.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Sigur</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Urmăriți clicurile și înțelegeți-vă audiența cu statistici detaliate.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp este un scurtător de URL-uri puternic care te ajută să îți gestionezi linkurile, să urmărești clicurile și să partajezi conținut cu ușurință. Creează linkuri scurte și memorabile pentru afacerea sau uzul tău personal.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Protejează-ți linkurile cu parole și gestionează controlul accesului.</value>
+  </data>
 
 </root>

@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Der Server wird das Passwort verschlüsseln und sicher speichern.</value>
   </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Warum Warp?</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Anmelden, um zu beginnen</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Verkürzen Sie Ihre Links</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Schnell</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Leer lassen, um diesen Link öffentlich zu machen. Wenn ausgefüllt, wird der Link privat.</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Erweiterte Einstellungen</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Erzeugen Sie sofort kurze Links mit unserer optimierten Infrastruktur.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Sicher</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp ist ein leistungsstarker URL-Verkürzer, der Ihnen hilft, Ihre Links zu verwalten, Klicks zu verfolgen und Inhalte mühelos zu teilen. Erstellen Sie kurze, einprägsame Links für Ihren geschäftlichen oder privaten Gebrauch.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Klicks verfolgen und Ihr Publikum mit detaillierten Statistiken verstehen.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Schützen Sie Ihre Links mit Passwörtern und verwalten Sie die Zugriffskontrolle.</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
 
 </root>

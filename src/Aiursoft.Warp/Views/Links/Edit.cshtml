@@ -1,27 +1,177 @@
 @model Aiursoft.Warp.Models.LinksViewModels.EditViewModel
 
-<h1>@Localizer["Edit Link"]</h1>
+<div class="container-fluid p-0">
+    <h1 class="h3 mb-3">@Localizer["Edit Link"]</h1>
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
-                <input asp-for="Title" class="form-control" />
-                <span asp-validation-for="Title" class="text-danger"></span>
+    <div class="row">
+        <div class="col-md-8 col-xl-9">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">@Localizer["Link Details"]</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" id="edit-form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="TargetUrl" class="form-label">@Localizer["Target URL"]</label>
+                            <input asp-for="TargetUrl" class="form-control form-control-lg" placeholder="https://..." />
+                            <span asp-validation-for="TargetUrl" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="CustomCode" class="form-label">@Localizer["Custom Code"]</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon3">@Context.Request.Scheme://@Context.Request.Host/r/</span>
+                                    <input asp-for="CustomCode" class="form-control form-control-lg" placeholder="@Localizer["Enter custom code"]" />
+                                </div>
+                                <span asp-validation-for="CustomCode" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label">@Localizer["Title / Remark"]</label>
+                                <input asp-for="Title" class="form-control form-control-lg" placeholder="@Localizer["Enter title"]" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ExpireAt" class="form-label">@Localizer["Expiration Time"]</label>
+                                <input asp-for="ExpireAt" class="form-control form-control-lg" type="datetime-local" />
+                                <span asp-validation-for="ExpireAt" class="text-danger"></span>
+                                <div class="form-text text-muted">@Localizer["Leave empty for permanent."]</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MaxClicks" class="form-label">@Localizer["Max Clicks"]</label>
+                                <input asp-for="MaxClicks" class="form-control form-control-lg" type="number" min="1" placeholder="@Localizer["Enter max clicks"]" />
+                                <span asp-validation-for="MaxClicks" class="text-danger"></span>
+                                <div class="form-text text-muted">@Localizer["Leave empty for unlimited."]</div>
+                            </div>
+                        </div>
+
+                        <hr class="my-4" />
+
+                        <div class="mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" asp-for="IsPrivate" id="IsPrivate">
+                                <label class="form-check-label" for="IsPrivate">@Localizer["Make this link Private"]</label>
+                            </div>
+                            <div class="form-text text-muted">@Localizer["Private links require a password to access."]</div>
+                        </div>
+
+                        <div class="mb-3 d-none" id="passwordField">
+                            <label asp-for="Password" class="form-label">@Localizer["New Password"]</label>
+                            <input asp-for="Password" class="form-control form-control-lg" placeholder="@Localizer["Leave empty to keep current password"]" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">@Localizer["Save Changes"]</button>
+                            <a asp-action="Index" class="btn btn-secondary ms-2">@Localizer["Back to List"]</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="TargetUrl" class="control-label"></label>
-                <input asp-for="TargetUrl" class="form-control" />
-                <span asp-validation-for="TargetUrl" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-4 col-xl-3">
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">@Localizer["Statistics"]</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label text-muted">@Localizer["Total Clicks"]</label>
+                        <h2 class="h1">@Model.Clicks</h2>
+                        @if (Model.MaxClicks.HasValue)
+                        {
+                            <div class="progress mb-2" style="height: 5px;">
+                                @{
+                                    var percent = Math.Min(100, (double)Model.Clicks / Model.MaxClicks.Value * 100);
+                                    var color = percent >= 100 ? "bg-danger" : "bg-success";
+                                }
+                                <div class="progress-bar @color" role="progressbar" style="width: @percent%" aria-valuenow="@percent" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <small class="text-muted">@Model.Clicks / @Model.MaxClicks @Localizer["clicks used"]</small>
+                        }
+                    </div>
+                    <hr />
+                    <div class="mb-3">
+                        <label class="form-label text-muted">@Localizer["Created At"]</label>
+                        <p class="mb-0">
+                            <label class="text-monospace" data-utc-time="@Model.CreationTime.ToHtmlDateTime()"></label>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="form-group mt-3">
-                <input type="submit" value="@Localizer["Save"]" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary ms-2">@Localizer["Back to List"]</a>
+
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">@Localizer["Quick Actions"]</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <a href="@Model.ShortLink" target="_blank" class="btn btn-outline-primary">
+                            <i class="align-middle" data-lucide="external-link"></i> @Localizer["Visit Link"]
+                        </a>
+                        <button class="btn btn-outline-secondary" id="copy-btn" data-link="@Model.ShortLink">
+                            <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy Link"]
+                        </button>
+                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger">
+                            <i class="align-middle" data-lucide="trash-2"></i> @Localizer["Delete Link"]
+                        </a>
+                    </div>
+                </div>
             </div>
-        </form>
+        </div>
     </div>
 </div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Password Toggle
+                const privateCheckbox = document.getElementById('IsPrivate');
+                const passwordField = document.getElementById('passwordField');
+
+                function updateVisibilityUI() {
+                    if (privateCheckbox.checked) {
+                        passwordField.classList.remove('d-none');
+                    } else {
+                        passwordField.classList.add('d-none');
+                    }
+                }
+
+                if (privateCheckbox && passwordField) {
+                    updateVisibilityUI();
+                    privateCheckbox.addEventListener('change', updateVisibilityUI);
+                }
+
+                // Copy Button
+                const copyBtn = document.getElementById('copy-btn');
+                if (copyBtn) {
+                    copyBtn.addEventListener('click', function() {
+                        const link = this.getAttribute('data-link');
+                        navigator.clipboard.writeText(link).then(() => {
+                            const originalHtml = this.innerHTML;
+                            this.innerHTML = '<i class="align-middle" data-lucide="check"></i> @Localizer["Copied!"]';
+                            this.classList.replace('btn-outline-secondary', 'btn-success');
+                            if (typeof lucide !== 'undefined') lucide.createIcons();
+
+                            setTimeout(() => {
+                                this.innerHTML = originalHtml;
+                                this.classList.replace('btn-success', 'btn-outline-secondary');
+                                if (typeof lucide !== 'undefined') lucide.createIcons();
+                            }, 2000);
+                        }).catch(err => {
+                            console.error('Failed to copy: ', err);
+                            alert('@Localizer["Failed to copy to clipboard"]');
+                        });
+                    });
+                }
+            });
+        </script>
+}

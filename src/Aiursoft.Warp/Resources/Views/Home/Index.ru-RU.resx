@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Сервер зашифрует и безопасно сохранит пароль.</value>
   </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Войти, чтобы начать</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Быстро</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Почему Warp?</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Создавайте короткие ссылки мгновенно благодаря нашей оптимизированной инфраструктуре.</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Сократите свои ссылки</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Дополнительные настройки</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Оставьте пустым, чтобы сделать ссылку публичной. Если заполнено, ссылка будет приватной.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Аналитика</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Защищайте свои ссылки паролями и управляйте контролем доступа.</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Отслеживайте клики и анализируйте свою аудиторию с помощью детальной статистики.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp — это мощный сервис для сокращения URL, который помогает вам управлять ссылками, отслеживать клики и легко делиться контентом. Создавайте короткие, запоминающиеся ссылки для бизнеса или личного использования.</value>
+  </data>
 
 </root>

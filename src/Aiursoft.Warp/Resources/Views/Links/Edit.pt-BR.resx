@@ -27,5 +27,83 @@
   <data name="Edit Link" xml:space="preserve">
     <value>Editar Link</value>
   </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Digite o título</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Detalhes do Link</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Data de Expiração</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Digite o código personalizado</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Código Personalizado</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Título / Observação</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Deixe em branco para permanente.</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL de Destino</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Máximo de Cliques</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Insira o número máximo de cliques</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Tornar este link Privado</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Salvar Alterações</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Deixe em branco para ilimitado.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Links privados exigem uma senha para acesso.</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Deixe em branco para manter a senha atual</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nova Senha</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Estatísticas</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Total de Cliques</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Criado Em</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visitar Link</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copiar Link</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>cliques usados</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Excluir Link</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Ações Rápidas</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiado!</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Falha ao copiar para a área de transferência</value>
+  </data>
 
 </root>

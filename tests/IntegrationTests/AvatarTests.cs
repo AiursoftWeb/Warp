@@ -1,9 +1,4 @@
 using System.Net;
-using System.Text.RegularExpressions;
-using Aiursoft.CSTools.Tools;
-using Aiursoft.DbTools;
-using Aiursoft.Warp.Entities;
-using static Aiursoft.WebTools.Extends;
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
@@ -11,79 +6,8 @@ namespace Aiursoft.Warp.Tests.IntegrationTests;
 #pragma warning disable CS8602
 
 [TestClass]
-public class AvatarTests
+public class AvatarTests : FunctionalTestBase
 {
-    private readonly int _port;
-    private readonly HttpClient _http;
-    private IHost? _server;
-
-    public AvatarTests()
-    {
-        var cookieContainer = new CookieContainer();
-        var handler = new HttpClientHandler
-        {
-            CookieContainer = cookieContainer,
-            AllowAutoRedirect = false
-        };
-        _port = Network.GetAvailablePort();
-        _http = new HttpClient(handler)
-        {
-            BaseAddress = new Uri($"http://localhost:{_port}")
-        };
-    }
-
-    [TestInitialize]
-    public async Task CreateServer()
-    {
-        _server = await AppAsync<Startup>([], port: _port);
-        await _server.UpdateDbAsync<TemplateDbContext>();
-        await _server.SeedAsync();
-        await _server.StartAsync();
-    }
-
-    [TestCleanup]
-    public async Task CleanServer()
-    {
-        if (_server == null) return;
-        await _server.StopAsync();
-        _server.Dispose();
-    }
-
-    private async Task<string> GetAntiCsrfToken(string url)
-    {
-        var response = await _http.GetAsync(url);
-        response.EnsureSuccessStatusCode();
-        var html = await response.Content.ReadAsStringAsync();
-        var match = Regex.Match(html,
-            @"<input name=""__RequestVerificationToken"" type=""hidden"" value=""([^""]+)"" />");
-        if (!match.Success)
-        {
-            throw new InvalidOperationException($"Could not find anti-CSRF token on page: {url}");
-        }
-
-        return match.Groups[1].Value;
-    }
-
-    // ReSharper disable once UnusedMethodReturnValue.Local
-    private async Task<(string email, string password)> RegisterAndLoginAsync()
-    {
-        var email = $"test-{Guid.NewGuid()}@aiursoft.com";
-        var password = "Test-Password-123";
-
-        var registerToken = await GetAntiCsrfToken("/Account/Register");
-        var registerContent = new FormUrlEncodedContent(new Dictionary<string, string>
-        {
-            { "Email", email },
-            { "Password", password },
-            { "ConfirmPassword", password },
-            { "__RequestVerificationToken", registerToken }
-        });
-        var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
-        Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
-
-        return (email, password);
-    }
-
     [TestMethod]
     public async Task ChangeAvatarSuccessfullyTest()
     {
@@ -102,7 +26,7 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.gif");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await Http.PostAsync("/upload/avatars", multipartContent);
         uploadResponse.EnsureSuccessStatusCode();
 
         var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
@@ -117,7 +41,7 @@ public class AvatarTests
             { "__RequestVerificationToken", changeAvatarToken }
         });
 
-        var changeAvatarResponse = await _http.PostAsync("/Manage/ChangeAvatar", changeAvatarContent);
+        var changeAvatarResponse = await Http.PostAsync("/Manage/ChangeAvatar", changeAvatarContent);
 
         // 4. Verify Success
         Assert.AreEqual(HttpStatusCode.Found, changeAvatarResponse.StatusCode);
@@ -138,7 +62,7 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.gif");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await Http.PostAsync("/upload/avatars", multipartContent);
         uploadResponse.EnsureSuccessStatusCode();
 
         var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
@@ -146,12 +70,12 @@ public class AvatarTests
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Clear EXIF (Default download)
-        var downloadResponse = await _http.GetAsync(uploadResult.InternetPath);
+        var downloadResponse = await Http.GetAsync(uploadResult.InternetPath);
         downloadResponse.EnsureSuccessStatusCode();
         Assert.AreEqual("image/gif", downloadResponse.Content.Headers.ContentType?.MediaType);
 
         // 4. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100");
+        var compressedResponse = await Http.GetAsync(uploadResult.InternetPath + "?w=100");
         compressedResponse.EnsureSuccessStatusCode();
         Assert.AreEqual("image/gif", compressedResponse.Content.Headers.ContentType?.MediaType);
     }
@@ -171,7 +95,7 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.png");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await Http.PostAsync("/upload/avatars", multipartContent);
         uploadResponse.EnsureSuccessStatusCode();
 
         var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
@@ -179,7 +103,7 @@ public class AvatarTests
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100");
+        var compressedResponse = await Http.GetAsync(uploadResult.InternetPath + "?w=100");
         compressedResponse.EnsureSuccessStatusCode();
 
         // Verify it is an image and likely PNG
@@ -207,7 +131,7 @@ public class AvatarTests
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(fileContent, "file", "avatar.png");
 
-        var uploadResponse = await _http.PostAsync("/upload/avatars", multipartContent);
+        var uploadResponse = await Http.PostAsync("/upload/avatars", multipartContent);
         uploadResponse.EnsureSuccessStatusCode();
 
         var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
@@ -215,7 +139,7 @@ public class AvatarTests
         Assert.IsNotNull(uploadResult.InternetPath);
 
         // 3. Test Compression
-        var compressedResponse = await _http.GetAsync(uploadResult.InternetPath + "?w=100&square=true");
+        var compressedResponse = await Http.GetAsync(uploadResult.InternetPath + "?w=100&square=true");
         compressedResponse.EnsureSuccessStatusCode();
 
         // Verify it is an image and likely PNG

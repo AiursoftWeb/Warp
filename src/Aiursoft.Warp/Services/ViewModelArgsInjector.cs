@@ -66,6 +66,15 @@ public class ViewModelArgsInjector(
         _ = localizer["Error"];
         _ = localizer["Link Shorter"];
         _ = localizer["My Links"];
+        _ = localizer["Links"];
+        _ = localizer["Edit Link"];
+        _ = localizer["Delete Link"];
+        _ = localizer["All Links"];
+        _ = localizer["User Links"];
+        _ = localizer["Enter Password"];
+        _ = localizer["Expired"];
+        _ = localizer["Lockout"];
+        _ = localizer["Register"];
     }
 
     public void InjectSimple(
@@ -73,7 +82,7 @@ public class ViewModelArgsInjector(
         UiStackLayoutViewModel toInject)
     {
         toInject.PageTitle = localizer[toInject.PageTitle ?? "View"];
-        toInject.AppName = localizer["Template"];
+        toInject.AppName = localizer["Warp"]; // Warp 单词应该翻译成折跃门。
         toInject.Theme = UiTheme.Light;
         toInject.SidebarTheme = UiSidebarTheme.Default;
         toInject.Layout = UiLayout.Fluid;
@@ -86,13 +95,13 @@ public class ViewModelArgsInjector(
     {
         var preferDarkTheme = context.Request.Cookies[ThemeController.ThemeCookieKey] == true.ToString();
         toInject.PageTitle = localizer[toInject.PageTitle ?? "View"];
-        toInject.AppName = localizer["Template"];
+        toInject.AppName = localizer["Warp"]; //Warp 单词应该翻译成折跃门。
         toInject.Theme = preferDarkTheme ? UiTheme.Dark : UiTheme.Light;
         toInject.SidebarTheme = preferDarkTheme ? UiSidebarTheme.Dark : UiSidebarTheme.Default;
         toInject.Layout = UiLayout.Fluid;
         toInject.FooterMenu = new FooterMenuViewModel
         {
-            AppBrand = new Link { Text = localizer["Template"], Href = "https://gitlab.aiursoft.com/aiursoft/template" },
+            AppBrand = new Link { Text = localizer["Warp"], Href = "https://gitlab.aiursoft.com/aiursoft/warp" },
             Links =
             [
                 new Link { Text = localizer["Home"], Href = "/" },
@@ -163,7 +172,7 @@ public class ViewModelArgsInjector(
         {
             SideLogo = new SideLogoViewModel
             {
-                AppName = localizer["Aiursoft Template"],
+                AppName = localizer["Aiursoft Warp"], // Warp 单词应该翻译成折跃门。
                 LogoUrl = "/logo.svg",
                 Href = "/"
             },

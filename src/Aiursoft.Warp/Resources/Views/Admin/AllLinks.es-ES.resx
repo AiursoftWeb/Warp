@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Clicks" xml:space="preserve">
+    <value>Clics</value>
+  </data>
+  <data name="All Links" xml:space="preserve">
+    <value>Todos los enlaces</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Información del enlace</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Propietario</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Gestión de Enlaces</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>No se han encontrado enlaces en el sistema.</value>
+  </data>
+  <data name="View and manage all links across the entire system." xml:space="preserve">
+    <value>Ver y gestionar todos los enlaces de todo el sistema.</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Enlace Privado</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Enlace Público</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Caducado</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Caduca el</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanente</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visitar enlace</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editar enlace</value>
+  </data>
+
+</root>

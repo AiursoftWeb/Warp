@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>एप्लिकेशन इंस्टेंस को पुनरारंभ करने की अनुमति प्रदान करता है। इससे उपलब्धता में व्यवधान हो सकता है, लेकिन सभी सेटिंग्स और कैश पुनः लोड हो जाएंगे।</value>
   </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>सभी लिंक पढ़ें</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>किसी भी लिंक को, स्वामित्व की परवाह किए बिना, संपादित करने की अनुमति देता है।</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>किसी भी लिंक को हटाएं</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>सिस्टम में सभी लिंक्स को देखने की अनुमति देता है, चाहे उनका स्वामित्व किसी का भी हो।</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>किसी भी लिंक को संपादित करें</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>किसी भी लिंक को, स्वामित्व की परवाह किए बिना, हटाने की अनुमति देता है।</value>
+  </data>
 
 </root>

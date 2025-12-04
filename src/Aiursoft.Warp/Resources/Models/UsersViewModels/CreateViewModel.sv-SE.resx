@@ -39,5 +39,11 @@
   <data name="Name" xml:space="preserve">
     <value>Namn</value>
   </data>
+  <data name="The {0} must be at least {1} characters long." xml:space="preserve">
+    <value>{0} måste vara minst {1} tecken långt.</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0} får vara som mest {1} tecken långt.</value>
+  </data>
 
 </root>

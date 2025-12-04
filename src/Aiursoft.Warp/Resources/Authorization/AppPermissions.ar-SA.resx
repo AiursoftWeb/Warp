@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>يمنح الإذن بإعادة تشغيل نسخة التطبيق. قد يتسبب ذلك في انقطاعات في التوفر ولكن سيتم إعادة تحميل جميع الإعدادات والذاكرة المؤقتة.</value>
   </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>حذف أي رابط</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>قراءة جميع الروابط</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>تعديل أي رابط</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>يسمح بتعديل أي رابط، بغض النظر عن الملكية.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>يسمح بحذف أي رابط، بغض النظر عن الملكية.</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>يسمح بعرض جميع الروابط في النظام، بغض النظر عن الملكية.</value>
+  </data>
 
 </root>

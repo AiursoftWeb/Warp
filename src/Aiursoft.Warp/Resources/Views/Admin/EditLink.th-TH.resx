@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Success!" xml:space="preserve">
+    <value>สำเร็จ!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL ปลายทาง</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>แก้ไขลิงก์</value>
+  </data>
+  <data name="Enter the target URL" xml:space="preserve">
+    <value>ป้อน URL ปลายทาง</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>รายละเอียดลิงก์</value>
+  </data>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>แก้ไขเนื้อหา หัวเรื่อง และเจ้าของลิงก์</value>
+  </data>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>อัปเดตลิงก์สำเร็จแล้ว</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>หัวข้อ / หมายเหตุ</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>ป้อนรหัสที่กำหนดเอง</value>
+  </data>
+  <data name="-- Select an Owner --" xml:space="preserve">
+    <value>-- เลือกเจ้าของ --</value>
+  </data>
+  <data name="Enter the link title" xml:space="preserve">
+    <value>ป้อนชื่อลิงก์</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>รหัสกำหนดเอง</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>เจ้าของ</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>วันหมดอายุ</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>ปล่อยว่างไว้เพื่อให้เป็นแบบถาวร</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>จำนวนคลิกสูงสุด</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>ปล่อยว่างไว้สำหรับไม่จำกัด</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>ป้อนจำนวนคลิกสูงสุด</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>รหัสผ่านใหม่</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>ปล่อยว่างไว้เพื่อใช้รหัสผ่านปัจจุบัน</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>กลับไปยังรายการ</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>สถิติ</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>สร้างเมื่อ</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>ทำให้ลิงก์นี้เป็นส่วนตัว</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>จำนวนคลิกที่ใช้ไป</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>ลิงก์ส่วนตัวต้องใช้รหัสผ่านเพื่อเข้าถึง</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>จำนวนคลิกทั้งหมด</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>การดำเนินการด่วน</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>ลบลิงก์</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>เยี่ยมชมลิงก์</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>คัดลอกลิงก์</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>คัดลอกแล้ว!</value>
+  </data>
+
+</root>

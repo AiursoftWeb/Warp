@@ -84,5 +84,23 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Verleent toestemming om de applicatie-instantie opnieuw op te starten. Kan beschikbaarheidsonderbrekingen veroorzaken, maar alle instellingen en cache worden opnieuw geladen.</value>
   </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Elke link verwijderen</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Elke link bewerken</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Alle links lezen</value>
+  </data>
+  <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
+    <value>Staat het bekijken van alle links in het systeem toe, ongeacht wie de eigenaar is.</value>
+  </data>
+  <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
+    <value>Staat het verwijderen van elke link toe, ongeacht het eigendom.</value>
+  </data>
+  <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
+    <value>Staat bewerking van elke link toe, ongeacht wie de eigenaar is.</value>
+  </data>
 
 </root>

@@ -38,7 +38,7 @@
                     <tr>
                         <th>@Localizer["Link Info"]</th>
                         <th class="d-none d-xl-table-cell">@Localizer["Target"]</th>
-                        <th>@Localizer["Performance"]</th>
+                        <th>@Localizer["Clicks"]</th>
                         <th class="d-none d-md-table-cell">@Localizer["Owner"]</th>
                         <th class="d-none d-md-table-cell">@Localizer["Status"]</th>
                         <th class="text-end">@Localizer["Actions"]</th>
@@ -119,13 +119,16 @@
                                 @if (isExpired)
                                 {
                                     <span class="badge bg-danger">@Localizer["Expired"]</span>
-                                    <div class="small text-muted mt-1">@item.ExpireAt?.ToString("yyyy-MM-dd")</div>
+                                    <div class="small text-muted mt-1">
+                                        <label class="text-monospace" data-utc-time="@item.ExpireAt?.ToHtmlDateTime()"></label>
+                                    </div>
                                 }
                                 else if (item.ExpireAt.HasValue)
                                 {
                                     <span class="badge bg-success">@Localizer["Active"]</span>
                                     <div class="small text-muted mt-1" title="@Localizer["Expires at"]">
-                                        <i class="align-middle" data-lucide="clock" style="width:12px;"></i> @item.ExpireAt?.ToString("MM-dd HH:mm")
+                                        <i class="align-middle" data-lucide="clock" style="width:12px;"></i>
+                                        <label class="text-monospace" data-utc-time="@item.ExpireAt.Value.ToHtmlDateTime()"></label>
                                     </div>
                                 }
                                 else
@@ -135,8 +138,8 @@
                                 }
                             </td>
                             <td class="text-end align-middle table-action">
-                                <div class="dropdown position-relative" onclick="event.stopPropagation();">
-                                    <a href="#" data-bs-toggle="dropdown" data-bs-display="static">
+                                <div class="dropdown position-static" onclick="event.stopPropagation();">
+                                    <a href="#" data-bs-toggle="dropdown" data-bs-boundary="viewport">
                                         <i class="align-middle text-muted" data-lucide="more-horizontal"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-end">
@@ -146,7 +149,7 @@
                                         @if (canEditAnyLink)
                                         {
                                             <a class="dropdown-item" asp-action="EditLink" asp-route-id="@item.Id">
-                                                <i class="align-middle me-1" data-lucide="edit-2"></i> @Localizer["Edit"]
+                                                <i class="align-middle me-1" data-lucide="edit-2"></i> @Localizer["Edit Link"]
                                             </a>
                                         }
                                         <div class="dropdown-divider"></div>
@@ -182,7 +185,7 @@
                     if (!row || !row.dataset.href) return;
                     const selection = window.getSelection();
                     if (selection.toString().length > 0) return;
-                    
+
                     const target = e.target;
                     if (!target.matches('a, a *, button, button *, .dropdown, .dropdown *')) {
                          window.location.href = row.dataset.href;

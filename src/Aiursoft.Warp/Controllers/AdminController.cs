@@ -20,7 +20,8 @@ namespace Aiursoft.Warp.Controllers;
 public class AdminController(
     IStringLocalizer<AdminController> localizer,
     UserManager<User> userManager,
-    TemplateDbContext context)
+    TemplateDbContext context,
+    PasswordService passwordService)
     : Controller
 {
     /// <summary>
@@ -103,7 +104,7 @@ public class AdminController(
         var model = new EditLinkViewModel
         {
             LinkId = link.Id,
-            Title = link.Title  ?? string.Empty,
+            Title = link.Title ?? string.Empty,
             TargetUrl = link.TargetUrl,
             SelectedUserId = link.UserId,
             AllUsers = allUsers.Select(user => new SelectListItem
@@ -112,7 +113,14 @@ public class AdminController(
                 Text = user.UserName,
                 Selected = user.Id == link.UserId
             }).ToList(),
-            SavedSuccessfully = saved ?? false
+            SavedSuccessfully = saved ?? false,
+            CustomCode = link.RedirectTo,
+            ExpireAt = link.ExpireAt,
+            MaxClicks = link.MaxClicks,
+            IsPrivate = link.IsPrivate,
+            CreationTime = link.CreationTime,
+            Clicks = link.Clicks,
+            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}"
         };
 
         return this.StackView(model);
@@ -141,6 +149,15 @@ public class AdminController(
                 Text = user.UserName,
                 Selected = user.Id == model.SelectedUserId
             }).ToList();
+
+            var link = await context.ShorterLinks.AsNoTracking().FirstOrDefaultAsync(d => d.Id == model.LinkId);
+            if (link != null)
+            {
+                model.CreationTime = link.CreationTime;
+                model.Clicks = link.Clicks;
+                model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
+            }
+
             return this.StackView(model);
         }
 
@@ -149,9 +166,50 @@ public class AdminController(
         {
             return NotFound("Link not found.");
         }
+
+        // Check if custom code is changed and already exists
+        if (linkInDb.RedirectTo != model.CustomCode && !string.IsNullOrEmpty(model.CustomCode))
+        {
+            if (await context.ShorterLinks.AnyAsync(l => l.RedirectTo == model.CustomCode))
+            {
+                ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
+                var allUsers = await userManager.Users.OrderBy(u => u.UserName).ToListAsync();
+                model.AllUsers = allUsers.Select(user => new SelectListItem
+                {
+                    Value = user.Id,
+                    Text = user.UserName,
+                    Selected = user.Id == model.SelectedUserId
+                }).ToList();
+                model.CreationTime = linkInDb.CreationTime;
+                model.Clicks = linkInDb.Clicks;
+                model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{linkInDb.RedirectTo}";
+                return this.StackView(model);
+            }
+        }
+
         linkInDb.TargetUrl = model.TargetUrl.SafeSubstring(65535);
         linkInDb.Title = model.Title;
         linkInDb.UserId = model.SelectedUserId;
+
+        // Only update RedirectTo if CustomCode is provided and different
+        if (!string.IsNullOrEmpty(model.CustomCode))
+        {
+            linkInDb.RedirectTo = model.CustomCode;
+            linkInDb.IsCustom = true;
+        }
+
+        linkInDb.ExpireAt = model.ExpireAt;
+        linkInDb.MaxClicks = model.MaxClicks;
+        linkInDb.IsPrivate = model.IsPrivate;
+
+        if (model.IsPrivate && !string.IsNullOrEmpty(model.Password))
+        {
+            linkInDb.Password = passwordService.HashPassword(model.Password);
+        }
+        else if (!model.IsPrivate)
+        {
+            linkInDb.Password = null;
+        }
 
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(EditLink), new { id = model.LinkId, saved = true });

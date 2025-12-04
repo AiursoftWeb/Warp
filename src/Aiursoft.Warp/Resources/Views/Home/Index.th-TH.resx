@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>เซิร์ฟเวอร์จะเข้ารหัสและเก็บรหัสผ่านอย่างปลอดภัย</value>
   </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>เข้าสู่ระบบเพื่อเริ่มต้น</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>การตั้งค่าขั้นสูง</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>รวดเร็ว</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>ทำไมต้องใช้ Warp?</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>ย่อลิงก์ของคุณ</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>ปล่อยว่างไว้เพื่อให้ลิงก์นี้เป็นสาธารณะ หากกรอกข้อมูล ลิงก์จะเป็นการส่วนตัว</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>ปลอดภัย</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>การวิเคราะห์ข้อมูล</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>สร้างลิงก์สั้นได้ทันทีด้วยโครงสร้างพื้นฐานที่ได้รับการปรับปรุงให้เหมาะสม</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>ป้องกันลิงก์ของคุณด้วยรหัสผ่านและจัดการการควบคุมการเข้าถึง</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>ติดตามการคลิกและทำความเข้าใจผู้ชมของคุณด้วยสถิติรายละเอียด</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp เป็นตัวย่อ URL ที่ทรงพลัง ช่วยให้คุณจัดการลิงก์ของคุณ ติดตามการคลิก และแชร์เนื้อหาได้อย่างง่ายดาย สร้างลิงก์สั้น ๆ ที่จดจำง่ายสำหรับธุรกิจหรือการใช้งานส่วนตัวของคุณ</value>
+  </data>
 
 </root>

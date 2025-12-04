@@ -351,5 +351,41 @@
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>सर्वर पासवर्ड को एन्क्रिप्ट करके सुरक्षित रूप से संग्रहीत करेगा।</value>
   </data>
+  <data name="Fast" xml:space="preserve">
+    <value>तेज़</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>वार्प क्यों?</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>उन्नत सेटिंग्स</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>शुरू करने के लिए साइन इन करें</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>अपने लिंक्स को छोटा करें</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>हमारे अनुकूलित बुनियादी ढांचे के साथ तुरंत छोटे लिंक बनाएं।</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>सुरक्षित</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>इसे खाली छोड़ने पर लिंक सार्वजनिक रहेगा। यदि भरा जाएगा, तो लिंक निजी हो जाएगा।</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>विश्लेषण</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>अपने लिंक्स को पासवर्ड से सुरक्षित रखें और एक्सेस नियंत्रण प्रबंधित करें।</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>क्लिक्स ट्रैक करें और विस्तृत आँकड़ों के साथ अपने दर्शकों को समझें।</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp एक शक्तिशाली URL शॉर्टनर है जो आपको अपने लिंक्स को प्रबंधित करने, क्लिक्स को ट्रैक करने और सामग्री को आसानी से साझा करने में मदद करता है। अपने व्यवसाय या व्यक्तिगत उपयोग के लिए छोटे, यादगार लिंक बनाएं।</value>
+  </data>
 
 </root>
