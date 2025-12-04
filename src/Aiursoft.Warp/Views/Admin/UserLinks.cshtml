@@ -1,0 +1,150 @@
+@using Aiursoft.WebTools
+@using Microsoft.AspNetCore.Authorization
+@using Aiursoft.Warp.Authorization
+@using Aiursoft.Warp.Services.FileStorage
+@model Aiursoft.Warp.Models.AdminViewModels.UserLinksViewModel
+@inject IViewLocalizer Localizer
+@inject IAuthorizationService AuthorizationService
+@inject StorageService StorageService
+
+@{
+    var canEditAnyLink = (await AuthorizationService.AuthorizeAsync(User, AppPermissionNames.CanEditAnyLink)).Succeeded;
+    var canDeleteAnyLink = (await AuthorizationService.AuthorizeAsync(User, AppPermissionNames.CanDeleteAnyLink)).Succeeded;
+}
+
+<!--suppress CssUnusedSymbol -->
+<style>
+    .clickable-row {
+        cursor: pointer;
+    }
+</style>
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Links by"] @Model.User.DisplayName</h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        <a asp-action="AllLinks" class="btn btn-light">
+            <i class="align-middle" data-lucide="arrow-left"></i> @Localizer["Back to All Links"]
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    @* Left Column: User Profile Details *@
+    <div class="col-md-4 col-xl-3">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Profile Details"]</h5>
+            </div>
+            <div class="card-body text-center">
+                <a href="@StorageService.RelativePathToInternetUrl(Model.User.AvatarRelativePath)" target="_blank" rel="noopener noreferrer">
+                    <img src="@StorageService.RelativePathToInternetUrl(Model.User.AvatarRelativePath)?w=256&square=true"
+                         alt="@Model.User.DisplayName" class="img-fluid rounded-circle mb-2" width="128" height="128"/>
+                </a>
+                <h5 class="card-title mb-0">@Model.User.DisplayName</h5>
+                <div class="text-muted mb-2">@Model.User.Email</div>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-6">@Localizer["Username"]</strong>
+                        <div class="col-sm-6 text-sm-end">@@@Model.User.UserName</div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-6">@Localizer["Total Docs"]</strong>
+                        <div class="col-sm-6 text-sm-end">@Model.UserLinks.Count()</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* Right Column: User's Link List *@
+    <div class="col-md-8 col-xl-9">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">@Localizer["Link List"]</h5>
+                <h6 class="card-subtitle text-muted">@Localizer["A list of all links created by this user."]</h6>
+            </div>
+            @if (!Model.UserLinks.Any())
+            {
+                <div class="card-body">
+                    <div class="alert alert-info mb-0" role="alert">
+                        @Localizer["This user has not created any links yet."]
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">@Localizer["Title"]</th>
+                                <th scope="col">@Localizer["Creation Time"]</th>
+                                <th scope="col" class="text-end">@Localizer["Actions"]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var doc in Model.UserLinks)
+                            {
+                                var rowHref = canEditAnyLink ? Url.Action("EditLink", new { id = doc.Id }) : null;
+                                <tr class="@(rowHref != null ? "clickable-row" : "")" data-href="@rowHref">
+                                    <td>
+                                        @if (string.IsNullOrWhiteSpace(doc.Title))
+                                        {
+                                            <span class="text-muted">@Localizer["(no title)"]</span>
+                                        }
+                                        else
+                                        {
+                                            @doc.Title
+                                        }
+                                    </td>
+                                    <td>
+                                        <label class="text-muted" data-utc-time="@doc.CreationTime.ToHtmlDateTime()"></label>
+                                    </td>
+                                    <td class="text-end">
+                                        @if (canEditAnyLink)
+                                        {
+                                            <a asp-action="EditLink" asp-route-id="@doc.Id" class="btn btn-sm btn-outline-primary">
+                                                <i class="align-middle" data-lucide="edit-2"></i> @Localizer["Edit"]
+                                            </a>
+                                        }
+                                        @if (canDeleteAnyLink)
+                                        {
+                                            <a asp-action="DeleteLink" asp-route-id="@doc.Id" class="btn btn-sm btn-outline-danger">
+                                                <i class="align-middle" data-lucide="trash-2"></i> @Localizer["Delete"]
+                                            </a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script>
+        link.addEventListener("DOMContentLoaded", function () {
+            const rows = link.querySelectorAll(".clickable-row");
+            rows.forEach(row => {
+                if (row.dataset.href) {
+                    row.addEventListener("click", function (event) {
+                        const target = event.target;
+                        if (!target.matches('a, a *, button, button *')) {
+                            window.location.href = row.dataset.href;
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

@@ -21,4 +21,9 @@ public static class AppPermissionNames
     // System Management
     public const string CanViewSystemContext = nameof(CanViewSystemContext);
     public const string CanRebootThisApp = nameof(CanRebootThisApp);
+    
+    // Link Management
+    public const string CanReadAllLinks = nameof(CanReadAllLinks);
+    public const string CanDeleteAnyLink = nameof(CanDeleteAnyLink);
+    public const string CanEditAnyLink = nameof(CanEditAnyLink);
 }

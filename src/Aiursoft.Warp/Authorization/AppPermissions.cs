@@ -57,7 +57,17 @@ public class AppPermissions
                 localizer["Allows viewing system-level information and settings."]),
             new(AppPermissionNames.CanRebootThisApp,
                 localizer["Reboot This App"],
-                localizer["Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded."])
+                localizer["Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded."]),
+
+            new(AppPermissionNames.CanReadAllLinks,
+                localizer["Read All Links"],
+                localizer["Allows viewing all links in the system, regardless of ownership."]),
+            new(AppPermissionNames.CanDeleteAnyLink,
+                localizer["Delete Any Link"],
+                localizer["Allows deletion of any link, regardless of ownership."]),
+            new(AppPermissionNames.CanEditAnyLink,
+                localizer["Edit Any Link"],
+                localizer["Allows editing of any link, regardless of ownership."]),
         ];
         return allPermission;
     }

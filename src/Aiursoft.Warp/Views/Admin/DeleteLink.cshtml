@@ -1,0 +1,66 @@
+@using Aiursoft.WebTools
+@model Aiursoft.Warp.Models.AdminViewModels.DeleteLinkViewModel
+@inject IViewLocalizer Localizer
+
+<h1 class="h3 mb-3">@Localizer["Delete Link"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <div class="card">
+            <div class="card-header text-center">
+                <i class="align-middle text-danger" data-lucide="shield-alert" style="width: 48px; height: 48px;"></i>
+            </div>
+            <div class="card-body">
+                <div class="text-center">
+                    <h2 class="h4 card-title fw-bold">@Localizer["Are you sure?"]</h2>
+                    <p class="mb-3 text-muted">@Localizer["This action is irreversible. You are about to permanently delete the following link:"]</p>
+                </div>
+
+                <div class="list-group list-group-flush my-4">
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Title"]</strong>
+                            <div class="col-sm-9">
+                                @if (string.IsNullOrWhiteSpace(Model.Link.Title))
+                                {
+                                    <span class="text-muted">@Localizer["(no title)"]</span>
+                                }
+                                else
+                                {
+                                    @Model.Link.Title
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Owner"]</strong>
+                            <div class="col-sm-9">
+                                @Model.Link.User.DisplayName
+                                <span class="text-muted">(@@@Model.Link.User.UserName)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Creation Time"]</strong>
+                            <div class="col-sm-9">
+                                <label data-utc-time="@Model.Link.CreationTime.ToHtmlDateTime()" class="text-monospace"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <form asp-action="DeleteLink" class="d-inline-block">
+                        <input type="hidden" asp-for="@Model.Link.Id" />
+                        <button type="submit" class="btn btn-danger">
+                            <i class="align-middle me-2" data-lucide="trash-2"></i> @Localizer["Yes, delete this link"]
+                        </button>
+                    </form>
+                    <a asp-action="AllLinks" class="btn btn-light">@Localizer["Cancel"]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
