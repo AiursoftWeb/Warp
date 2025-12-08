@@ -320,7 +320,7 @@ public class LinkTests : FunctionalTestBase
     [TestMethod]
     public async Task EditLoopLinkTest()
     {
-        var (email, _) = await RegisterAndLoginAsync();
+        await RegisterAndLoginAsync();
         var targetUrl = "https://www.google.com";
         var code = await CreateLinkAsync(targetUrl);
 
