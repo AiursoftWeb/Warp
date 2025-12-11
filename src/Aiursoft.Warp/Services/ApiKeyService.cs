@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Aiursoft.Warp.Entities;
 
@@ -21,6 +22,7 @@ public class ApiKeyService
     /// </summary>
     public string GenerateApiKey()
     {
+        // todo: create db index to improve speed
         const string prefix = "ak_";
         const int keyLength = 32; // 生成32个随机字符
         

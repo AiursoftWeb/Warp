@@ -42,6 +42,7 @@ public class Startup : IWebStartup
         services.AddHttpClient();
         services.AddAssemblyDependencies(typeof(Startup).Assembly);
         services.AddScoped<Services.PasswordService>();
+        services.AddScoped<Services.ApiKeyService>();
         services.AddSingleton<NavigationState<Startup>>();
 
         // Controllers and localization
