@@ -44,12 +44,25 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
             return Unauthorized();
         }
 
+        var code = model.CustomCode;
+        if (string.IsNullOrEmpty(code))
+        {
+            code = Guid.NewGuid().ToString().Substring(0, 6);
+        }
+
+        var finalUrl = $"{Request.Scheme}://{Request.Host}/r/{code}";
+        if (model.TargetUrl.TrimEnd('/').Equals(finalUrl.TrimEnd('/'), StringComparison.OrdinalIgnoreCase))
+        {
+            ModelState.AddModelError(nameof(model.TargetUrl), "The target URL cannot be the same as the shortcut URL.");
+            return this.StackView(model);
+        }
+
         var shorterLink = new ShorterLink
         {
             Id = model.LinkId,
             Title = model.Title,
             TargetUrl = model.TargetUrl,
-            RedirectTo = model.CustomCode ?? Guid.NewGuid().ToString().Substring(0, 6), // Generate random code if not custom
+            RedirectTo = code, // Use the generated or provided code
             ExpireAt = model.ExpireAt,
             IsCustom = !string.IsNullOrEmpty(model.CustomCode),
             IsPrivate = model.IsPrivate,

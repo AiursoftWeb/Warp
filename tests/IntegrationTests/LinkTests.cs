@@ -295,6 +295,58 @@ public class LinkTests : FunctionalTestBase
         var updatedLink = await db.ShorterLinks.AsNoTracking().FirstAsync(l => l.Id == link.Id);
         Assert.AreEqual(user2.Id, updatedLink.UserId);
     }
+    [TestMethod]
+    public async Task CreateLoopLinkTest()
+    {
+        await RegisterAndLoginAsync();
+        var customCode = "loop-test";
+        var targetUrl = $"http://localhost:{Port}/r/{customCode}";
+
+        var token = await GetAntiCsrfToken("/Home/Index");
+        var content = new Dictionary<string, string>
+        {
+            { "TargetUrl", targetUrl },
+            { "CustomCode", customCode },
+            { "__RequestVerificationToken", token }
+        };
+
+        var response = await Http.PostAsync("/Home/Index", new FormUrlEncodedContent(content));
+        var html = await response.Content.ReadAsStringAsync();
+
+        Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+        Assert.Contains("The target URL cannot be the same as the shortcut URL", html);
+    }
+
+    [TestMethod]
+    public async Task EditLoopLinkTest()
+    {
+        await RegisterAndLoginAsync();
+        var targetUrl = "https://www.google.com";
+        var code = await CreateLinkAsync(targetUrl);
+
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+        var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
+
+        var loopUrl = $"http://localhost:{Port}/r/{code}";
+
+        var token = await GetAntiCsrfToken($"/Links/Edit?id={link.Id}");
+        var content = new FormUrlEncodedContent(new Dictionary<string, string>
+        {
+            { "Id", link.Id.ToString() },
+            { "TargetUrl", loopUrl },
+            { "Title", "Loop Title" },
+            { "CustomCode", code },
+            { "IsPrivate", "false" },
+            { "__RequestVerificationToken", token }
+        });
+
+        var response = await Http.PostAsync("/Links/Edit", content);
+        var html = await response.Content.ReadAsStringAsync();
+
+        Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+        Assert.Contains("The target URL cannot be the same as the shortcut URL", html);
+    }
 }
 
 #pragma warning restore CS8602

@@ -99,6 +99,24 @@ public class LinksController : Controller
             return NotFound();
         }
 
+        // Determine effective code
+        var effectiveCode = link.RedirectTo;
+        if (!string.IsNullOrEmpty(model.CustomCode))
+        {
+            effectiveCode = model.CustomCode;
+        }
+
+        // Check loop
+        var finalUrl = $"{Request.Scheme}://{Request.Host}/r/{effectiveCode}";
+        if (model.TargetUrl.TrimEnd('/').Equals(finalUrl.TrimEnd('/'), StringComparison.OrdinalIgnoreCase))
+        {
+            ModelState.AddModelError(nameof(model.TargetUrl), "The target URL cannot be the same as the shortcut URL.");
+            model.CreationTime = link.CreationTime;
+            model.Clicks = link.Clicks;
+            model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
+            return this.StackView(model);
+        }
+
         // Check if custom code is changed and already exists
         if (link.RedirectTo != model.CustomCode && !string.IsNullOrEmpty(model.CustomCode))
         {
