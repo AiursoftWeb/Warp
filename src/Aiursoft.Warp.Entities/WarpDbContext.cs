@@ -13,4 +13,5 @@ public abstract class TemplateDbContext(DbContextOptions options) : IdentityDbCo
         Database.CanConnectAsync();
         
         public DbSet<ShorterLink> ShorterLinks => Set<ShorterLink>();
+        public DbSet<ApiKey> ApiKeys { get; set; } = null!;
 }
