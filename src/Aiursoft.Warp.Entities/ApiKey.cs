@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
@@ -67,5 +66,5 @@ public class ApiKey
     /// <summary>
     /// 使用次数
     /// </summary>
-    public int UsageCount { get; set; } = 0;
+    public int UsageCount { get; set; }
 }
