@@ -20,7 +20,7 @@ public class CreateViewModel : UiStackLayoutViewModel
     [RegularExpression(@"^[a-zA-Z0-9\s.,?!'-]{0,100}$", ErrorMessage = "Name contains invalid characters.")]
     [Required(ErrorMessage = "Please input your api key name!")]
     [Display(Name = "Name")]
-    public string Name { get; set; }
+    public required string Name { get; set; }
 
     public string? CreatedApiKey { get; set; }
 

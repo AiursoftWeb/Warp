@@ -11,9 +11,10 @@ public class EditViewModel : UiStackLayoutViewModel
     }
     public Guid Id { get; set; }
 
-    [MaxLength(100, ErrorMessage = "The {0} must be at max {1} characters long.")]
+    [RegularExpression(@"^[a-zA-Z0-9\s.,?!'-]{0,100}$", ErrorMessage = "Name contains invalid characters.")]
+    [Required(ErrorMessage = "Please input your api key name!")]
     [Display(Name = "Name")]
-    public string Name { get; set; }
+    public required string Name { get; set; }
 
     [Display(Name = "Expiration Time")]
     public DateTime? ExpireAt { get; set; }
