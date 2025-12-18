@@ -10,7 +10,6 @@ using Aiursoft.UiStack.Navigation;
 namespace Aiursoft.Warp.Controllers;
 
 [Authorize]
-[Route("[controller]/[action]")]
 public class LinksController : Controller
 {
     private readonly TemplateDbContext _dbContext;
