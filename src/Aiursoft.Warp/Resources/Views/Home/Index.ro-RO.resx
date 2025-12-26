@@ -387,5 +387,8 @@
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>Protejează-ți linkurile cu parole și gestionează controlul accesului.</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Vă rugăm să corectați următoarele erori:</value>
+  </data>
 
 </root>

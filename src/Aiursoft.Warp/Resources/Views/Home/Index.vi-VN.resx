@@ -387,5 +387,8 @@
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Theo dõi lượt nhấp và hiểu rõ đối tượng của bạn với số liệu thống kê chi tiết.</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Vui lòng sửa các lỗi sau:</value>
+  </data>
 
 </root>

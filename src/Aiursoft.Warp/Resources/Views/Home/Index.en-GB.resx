@@ -387,5 +387,8 @@
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Monitor clicks and understand your audience with detailed statistics.</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Please correct the following errors:</value>
+  </data>
 
 </root>

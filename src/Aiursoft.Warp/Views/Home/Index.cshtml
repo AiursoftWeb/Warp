@@ -27,6 +27,17 @@
             <div class="card-body">
                 <form id="createLinkForm" asp-action="Index" method="post" autocomplete="off">
 
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show mb-4" role="alert">
+                            <div class="alert-message">
+                                <h4 class="alert-heading"><i class="align-middle me-2" data-lucide="alert-triangle"></i>@Localizer["Please correct the following errors:"]</h4>
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
                     @if (!string.IsNullOrEmpty(Model.CreatedShortLink))
                     {
                         <div class="alert alert-success alert-dismissible fade show mb-4" role="alert" id="success-alert">
@@ -51,14 +62,28 @@
                         <span asp-validation-for="TargetUrl" class="text-danger"></span>
                     </div>
 
+                    @{
+                        var hasAdvancedErrors = (ViewData.ModelState[nameof(Model.CustomCode)]?.Errors.Count > 0) ||
+                                                (ViewData.ModelState[nameof(Model.Title)]?.Errors.Count > 0) ||
+                                                (ViewData.ModelState[nameof(Model.ExpireAt)]?.Errors.Count > 0) ||
+                                                (ViewData.ModelState[nameof(Model.MaxClicks)]?.Errors.Count > 0) ||
+                                                (ViewData.ModelState[nameof(Model.Password)]?.Errors.Count > 0);
+                        var showAdvanced = hasAdvancedErrors || 
+                                           !string.IsNullOrEmpty(Model.CustomCode) || 
+                                           !string.IsNullOrEmpty(Model.Title) || 
+                                           Model.ExpireAt.HasValue || 
+                                           Model.MaxClicks.HasValue || 
+                                           !string.IsNullOrEmpty(Model.Password);
+                    }
+
                     <div class="mb-3">
                         <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" id="showAdvanced">
+                            <input class="form-check-input" type="checkbox" id="showAdvanced" @(showAdvanced ? "checked" : "")>
                             <label class="form-check-label" for="showAdvanced">@Localizer["Advanced Settings"]</label>
                         </div>
                     </div>
 
-                    <div id="advanced-settings" class="d-none">
+                    <div id="advanced-settings" class="@(showAdvanced ? "" : "d-none")">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label asp-for="CustomCode" class="form-label">@Localizer["Custom Code"]</label>
