@@ -387,5 +387,8 @@
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>クリック数を追跡し、詳細な統計で視聴者を理解しましょう。</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>以下のエラーを修正してください：</value>
+  </data>
 
 </root>

@@ -387,5 +387,8 @@
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Warp เป็นตัวย่อ URL ที่ทรงพลัง ช่วยให้คุณจัดการลิงก์ของคุณ ติดตามการคลิก และแชร์เนื้อหาได้อย่างง่ายดาย สร้างลิงก์สั้น ๆ ที่จดจำง่ายสำหรับธุรกิจหรือการใช้งานส่วนตัวของคุณ</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>โปรดแก้ไขข้อผิดพลาดต่อไปนี้:</value>
+  </data>
 
 </root>

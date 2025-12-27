@@ -387,5 +387,8 @@
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Seuraa napsautuksia ja ymmärrä yleisösi yksityiskohtaisten tilastojen avulla.</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Korjaa seuraavat virheet:</value>
+  </data>
 
 </root>

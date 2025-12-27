@@ -387,5 +387,8 @@
   <data name="Analytics" xml:space="preserve">
     <value>Аналітика</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Будь ласка, виправте наступні помилки:</value>
+  </data>
 
 </root>

@@ -387,5 +387,8 @@
   <data name="Analytics" xml:space="preserve">
     <value>Analytics</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Bitte korrigieren Sie die folgenden Fehler:</value>
+  </data>
 
 </root>

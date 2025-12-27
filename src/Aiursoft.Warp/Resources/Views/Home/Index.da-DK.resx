@@ -387,5 +387,8 @@
   <data name="Secure" xml:space="preserve">
     <value>Sikker</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Ret venligst følgende fejl:</value>
+  </data>
 
 </root>

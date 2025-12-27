@@ -387,5 +387,8 @@
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>追蹤點擊次數，並透過詳細統計數據了解你的受眾。</value>
   </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>請修正以下錯誤：</value>
+  </data>
 
 </root>
