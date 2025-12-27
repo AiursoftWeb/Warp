@@ -21,5 +21,8 @@
       <data name="The selected new owner does not exist." xml:space="preserve">
     <value>Ο επιλεγμένος νέος κάτοχος δεν υπάρχει.</value>
   </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Αυτός ο προσαρμοσμένος κωδικός χρησιμοποιείται ήδη. Παρακαλώ επιλέξτε έναν άλλο.</value>
+  </data>
 
 </root>

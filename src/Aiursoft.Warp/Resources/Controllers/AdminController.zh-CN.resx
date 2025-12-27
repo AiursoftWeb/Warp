@@ -21,5 +21,8 @@
       <data name="The selected new owner does not exist." xml:space="preserve">
     <value>所选的新所有者不存在。</value>
   </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>该自定义代码已被使用，请选择另一个。</value>
+  </data>
 
 </root>

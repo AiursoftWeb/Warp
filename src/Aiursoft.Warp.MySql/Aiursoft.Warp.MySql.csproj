@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Aiursoft.Warp.MySql</AssemblyName>
     <RootNamespace>Aiursoft.Warp.MySql</RootNamespace>
+    <Version>10.0.2</Version>
     <IsTestProject>false</IsTestProject>
     <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>

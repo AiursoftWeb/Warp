@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Aiursoft.Warp.Entities</AssemblyName>
     <RootNamespace>Aiursoft.Warp.Entities</RootNamespace>
+    <Version>10.0.2</Version>
     <IsTestProject>false</IsTestProject>
     <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>

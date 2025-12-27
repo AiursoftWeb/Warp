@@ -172,7 +172,7 @@ public class AdminController(
         {
             if (await context.ShorterLinks.AnyAsync(l => l.RedirectTo == model.CustomCode))
             {
-                ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
+                ModelState.AddModelError(nameof(model.CustomCode), localizer["This custom code is already in use. Please choose another one."]);
                 var allUsers = await userManager.Users.OrderBy(u => u.UserName).ToListAsync();
                 model.AllUsers = allUsers.Select(user => new SelectListItem
                 {

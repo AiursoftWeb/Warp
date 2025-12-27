@@ -21,5 +21,8 @@
       <data name="The selected new owner does not exist." xml:space="preserve">
     <value>Chủ sở hữu mới được chọn không tồn tại.</value>
   </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Mã tùy chỉnh này đã được sử dụng. Vui lòng chọn mã khác.</value>
+  </data>
 
 </root>
