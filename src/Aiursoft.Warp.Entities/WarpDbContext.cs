@@ -13,4 +13,5 @@ public abstract class WarpDbContext(DbContextOptions options) : IdentityDbContex
         Database.CanConnectAsync();
 
         public DbSet<ShorterLink> ShorterLinks => Set<ShorterLink>();
+    public DbSet<WarpApiKey> WarpApiKeys => Set<WarpApiKey>();
 }

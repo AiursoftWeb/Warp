@@ -1,0 +1,39 @@
+@model Aiursoft.Warp.Models.ApiKeyViewModels.CreateViewModel
+
+<h1 class="h3 mb-3">@Localizer["Create API Key"]</h1>
+
+<div class="row">
+    <div class="col-md-6 col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["New API Key Details"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" placeholder="@Localizer["e.g. My App"]" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ExpireAt" class="form-label"></label>
+                        <input asp-for="ExpireAt" class="form-control" type="datetime-local" />
+                        <span asp-validation-for="ExpireAt" class="text-danger"></span>
+                        <small class="form-text text-muted">@Localizer["Leave empty for no expiration."]</small>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">@Localizer["Create"]</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">@Localizer["Back to List"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+}
