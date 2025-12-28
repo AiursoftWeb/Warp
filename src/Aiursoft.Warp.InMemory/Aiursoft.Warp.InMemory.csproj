@@ -4,7 +4,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>Aiursoft.Warp.InMemory</AssemblyName>
     <RootNamespace>Aiursoft.Warp.InMemory</RootNamespace>
-    <Version>10.0.2</Version>
     <IsTestProject>false</IsTestProject>
     <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
