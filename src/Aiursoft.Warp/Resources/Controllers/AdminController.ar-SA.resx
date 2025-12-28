@@ -21,5 +21,8 @@
       <data name="The selected new owner does not exist." xml:space="preserve">
     <value>المالك الجديد المحدد غير موجود.</value>
   </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>هذا الرمز المخصص مستخدم بالفعل. يرجى اختيار رمز آخر.</value>
+  </data>
 
 </root>

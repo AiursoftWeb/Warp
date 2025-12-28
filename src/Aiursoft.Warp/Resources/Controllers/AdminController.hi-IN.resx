@@ -21,5 +21,8 @@
       <data name="The selected new owner does not exist." xml:space="preserve">
     <value>चयनित नया मालिक मौजूद नहीं है।</value>
   </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>यह कस्टम कोड पहले से ही उपयोग में है। कृपया कोई दूसरा चुनें।</value>
+  </data>
 
 </root>

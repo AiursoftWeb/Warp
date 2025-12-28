@@ -8,11 +8,16 @@ using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using Aiursoft.UiStack.Navigation;
 
+using Microsoft.Extensions.Localization;
+
 namespace Aiursoft.Warp.Controllers;
 
 [LimitPerMin]
 // [Authorize]
-public class HomeController(PasswordService passwordService, TemplateDbContext dbContext)
+public class HomeController(
+    PasswordService passwordService, 
+    TemplateDbContext dbContext,
+    IStringLocalizer<HomeController> localizer)
     : Controller
 {
     [RenderInNavBar(
@@ -53,7 +58,7 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
         var finalUrl = $"{Request.Scheme}://{Request.Host}/r/{code}";
         if (model.TargetUrl.TrimEnd('/').Equals(finalUrl.TrimEnd('/'), StringComparison.OrdinalIgnoreCase))
         {
-            ModelState.AddModelError(nameof(model.TargetUrl), "The target URL cannot be the same as the shortcut URL.");
+            ModelState.AddModelError(nameof(model.TargetUrl), localizer["The target URL cannot be the same as the shortcut URL."]);
             return this.StackView(model);
         }
 
@@ -85,7 +90,7 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
         // Check if custom code already exists
         if (shorterLink.IsCustom && await dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == shorterLink.RedirectTo))
         {
-            ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
+            ModelState.AddModelError(nameof(model.CustomCode), localizer["This custom code is already in use. Please choose another one."]);
             return this.StackView(model);
         }
 
@@ -170,7 +175,7 @@ public class HomeController(PasswordService passwordService, TemplateDbContext d
         }
         else
         {
-            ModelState.AddModelError(nameof(model.Password), "Incorrect password.");
+            ModelState.AddModelError(nameof(model.Password), localizer["Incorrect password."]);
             model.Code = code;
             return this.SimpleView(model, "EnterPassword");
         }

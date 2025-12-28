@@ -7,6 +7,8 @@ using Aiursoft.Warp.Models.LinksViewModels;
 using Aiursoft.Warp.Services;
 using Aiursoft.UiStack.Navigation;
 
+using Microsoft.Extensions.Localization;
+
 namespace Aiursoft.Warp.Controllers;
 
 [Authorize]
@@ -14,11 +16,16 @@ public class LinksController : Controller
 {
     private readonly TemplateDbContext _dbContext;
     private readonly PasswordService _passwordService;
+    private readonly IStringLocalizer<LinksController> _localizer;
 
-    public LinksController(TemplateDbContext dbContext, PasswordService passwordService)
+    public LinksController(
+        TemplateDbContext dbContext, 
+        PasswordService passwordService,
+        IStringLocalizer<LinksController> localizer)
     {
         _dbContext = dbContext;
         _passwordService = passwordService;
+        _localizer = localizer;
     }
 
     [HttpGet]
@@ -109,7 +116,7 @@ public class LinksController : Controller
         var finalUrl = $"{Request.Scheme}://{Request.Host}/r/{effectiveCode}";
         if (model.TargetUrl.TrimEnd('/').Equals(finalUrl.TrimEnd('/'), StringComparison.OrdinalIgnoreCase))
         {
-            ModelState.AddModelError(nameof(model.TargetUrl), "The target URL cannot be the same as the shortcut URL.");
+            ModelState.AddModelError(nameof(model.TargetUrl), _localizer["The target URL cannot be the same as the shortcut URL."]);
             model.CreationTime = link.CreationTime;
             model.Clicks = link.Clicks;
             model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
@@ -121,7 +128,7 @@ public class LinksController : Controller
         {
             if (await _dbContext.ShorterLinks.AnyAsync(l => l.RedirectTo == model.CustomCode))
             {
-                ModelState.AddModelError(nameof(model.CustomCode), "This custom code is already in use. Please choose another one.");
+                ModelState.AddModelError(nameof(model.CustomCode), _localizer["This custom code is already in use. Please choose another one."]);
                 model.CreationTime = link.CreationTime;
                 model.Clicks = link.Clicks;
                 model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
