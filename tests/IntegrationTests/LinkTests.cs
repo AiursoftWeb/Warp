@@ -108,7 +108,7 @@ public class LinkTests : FunctionalTestBase
 
         using (var scope = Server!.Services.CreateScope())
         {
-            var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+            var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
             var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
             link.ExpireAt = DateTime.UtcNow.AddDays(-1);
             await db.SaveChangesAsync();
@@ -128,7 +128,7 @@ public class LinkTests : FunctionalTestBase
         var code = await CreateLinkAsync(targetUrl);
 
         using var scope = Server!.Services.CreateScope();
-        var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+        var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
         var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
         var linkId = link.Id;
 
@@ -206,7 +206,7 @@ public class LinkTests : FunctionalTestBase
 
         using (var scope = Server!.Services.CreateScope())
         {
-            var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+            var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
             var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
             var linkId = link.Id;
 
@@ -268,7 +268,7 @@ public class LinkTests : FunctionalTestBase
         await Http.PostAsync("/Account/Login", loginContent);
 
         using var scope = Server!.Services.CreateScope();
-        var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+        var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
         var userManager = scope.ServiceProvider.GetRequiredService<Microsoft.AspNetCore.Identity.UserManager<User>>();
 
         var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
@@ -325,7 +325,7 @@ public class LinkTests : FunctionalTestBase
         var code = await CreateLinkAsync(targetUrl);
 
         using var scope = Server!.Services.CreateScope();
-        var db = scope.ServiceProvider.GetRequiredService<TemplateDbContext>();
+        var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
         var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
 
         var loopUrl = $"http://localhost:{Port}/r/{code}";

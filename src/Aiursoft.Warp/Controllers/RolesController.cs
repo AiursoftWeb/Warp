@@ -19,7 +19,7 @@ namespace Aiursoft.Warp.Controllers;
 [LimitPerMin]
 public class RolesController(
     UserManager<User> userManager,
-    TemplateDbContext context,
+    WarpDbContext context,
     RoleManager<IdentityRole> roleManager)
     : Controller
 {

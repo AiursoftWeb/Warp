@@ -20,7 +20,7 @@ namespace Aiursoft.Warp.Controllers;
 public class AdminController(
     IStringLocalizer<AdminController> localizer,
     UserManager<User> userManager,
-    TemplateDbContext context,
+    WarpDbContext context,
     PasswordService passwordService)
     : Controller
 {

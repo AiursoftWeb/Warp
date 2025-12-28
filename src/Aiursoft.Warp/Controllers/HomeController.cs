@@ -16,7 +16,7 @@ namespace Aiursoft.Warp.Controllers;
 // [Authorize]
 public class HomeController(
     PasswordService passwordService, 
-    TemplateDbContext dbContext,
+    WarpDbContext dbContext,
     IStringLocalizer<HomeController> localizer)
     : Controller
 {

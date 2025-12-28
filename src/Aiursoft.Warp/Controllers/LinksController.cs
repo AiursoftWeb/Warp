@@ -14,12 +14,12 @@ namespace Aiursoft.Warp.Controllers;
 [Authorize]
 public class LinksController : Controller
 {
-    private readonly TemplateDbContext _dbContext;
+    private readonly WarpDbContext _dbContext;
     private readonly PasswordService _passwordService;
     private readonly IStringLocalizer<LinksController> _localizer;
 
     public LinksController(
-        TemplateDbContext dbContext, 
+        WarpDbContext dbContext, 
         PasswordService passwordService,
         IStringLocalizer<LinksController> localizer)
     {

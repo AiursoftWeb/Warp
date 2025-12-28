@@ -34,7 +34,7 @@ public abstract class FunctionalTestBase
     public async Task CreateServer()
     {
         Server = await AppAsync<Startup>([], port: Port);
-        await Server.UpdateDbAsync<TemplateDbContext>();
+        await Server.UpdateDbAsync<WarpDbContext>();
         await Server.SeedAsync();
         await Server.StartAsync();
     }

@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Aiursoft.Warp.Entities;
 
-public abstract class TemplateDbContext(DbContextOptions options) : IdentityDbContext<User>(options), ICanMigrate
+public abstract class WarpDbContext(DbContextOptions options) : IdentityDbContext<User>(options), ICanMigrate
 {
     public virtual  Task MigrateAsync(CancellationToken cancellationToken) =>
         Database.MigrateAsync(cancellationToken);
 
     public virtual  Task<bool> CanConnectAsync() =>
         Database.CanConnectAsync();
-        
+
         public DbSet<ShorterLink> ShorterLinks => Set<ShorterLink>();
 }
