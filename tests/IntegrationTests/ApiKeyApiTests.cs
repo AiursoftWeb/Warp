@@ -1,5 +1,4 @@
 using System.Net;
-using System.Net.Http.Json;
 using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Models.ApiModels;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +39,7 @@ public class ApiKeyApiTests : FunctionalTestBase
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         var links = await response.Content.ReadFromJsonAsync<List<ShorterLink>>();
         Assert.IsNotNull(links);
-        Assert.AreEqual(0, links.Count);
+        Assert.IsEmpty(links);
 
         // 2. Create link
         var createModel = new CreateLinkApiModel
