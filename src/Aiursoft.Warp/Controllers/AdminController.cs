@@ -120,7 +120,12 @@ public class AdminController(
             IsPrivate = link.IsPrivate,
             CreationTime = link.CreationTime,
             Clicks = link.Clicks,
-            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}"
+            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}",
+            RecentHits = await context.WarpHits
+                .Where(h => h.LinkId == link.Id)
+                .OrderByDescending(h => h.HitTime)
+                .Take(10)
+                .ToListAsync()
         };
 
         return this.StackView(model);
@@ -156,6 +161,11 @@ public class AdminController(
                 model.CreationTime = link.CreationTime;
                 model.Clicks = link.Clicks;
                 model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}";
+                model.RecentHits = await context.WarpHits
+                    .Where(h => h.LinkId == link.Id)
+                    .OrderByDescending(h => h.HitTime)
+                    .Take(10)
+                    .ToListAsync();
             }
 
             return this.StackView(model);

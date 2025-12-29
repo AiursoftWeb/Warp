@@ -105,5 +105,26 @@
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>클립보드에 복사하지 못했습니다.</value>
   </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP 주소</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>최근 클릭</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>기기 / 사용자 에이전트</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>아직 히트 기록이 없습니다.</value>
+  </data>
 
 </root>

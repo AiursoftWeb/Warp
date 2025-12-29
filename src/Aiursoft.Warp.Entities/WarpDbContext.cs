@@ -14,4 +14,5 @@ public abstract class WarpDbContext(DbContextOptions options) : IdentityDbContex
 
         public DbSet<ShorterLink> ShorterLinks => Set<ShorterLink>();
     public DbSet<WarpApiKey> WarpApiKeys => Set<WarpApiKey>();
+    public DbSet<WarpHit> WarpHits => Set<WarpHit>();
 }

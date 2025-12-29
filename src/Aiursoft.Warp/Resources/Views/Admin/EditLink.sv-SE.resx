@@ -124,4 +124,27 @@
     <value>Radera länk</value>
   </data>
 
+
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Recent Hits</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+
 </root>

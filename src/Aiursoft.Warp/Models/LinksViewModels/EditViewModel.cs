@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Aiursoft.UiStack.Layout;
+using Aiursoft.Warp.Entities;
 
 namespace Aiursoft.Warp.Models.LinksViewModels;
 
@@ -42,4 +43,6 @@ public class EditViewModel : UiStackLayoutViewModel
     public DateTime CreationTime { get; set; }
     public long Clicks { get; set; }
     public string? ShortLink { get; set; }
+
+    public List<WarpHit> RecentHits { get; set; } = new();
 }

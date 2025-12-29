@@ -135,6 +135,7 @@ public class HomeController(
         }
 
         link.Clicks++;
+        await RecordHit(link);
         await dbContext.SaveChangesAsync();
         return Redirect(link.TargetUrl);
     }
@@ -170,6 +171,7 @@ public class HomeController(
             passwordService.VerifyPassword(link.Password, model.Password))
         {
             link.Clicks++;
+            await RecordHit(link);
             await dbContext.SaveChangesAsync();
             return Redirect(link.TargetUrl);
         }
@@ -179,5 +181,19 @@ public class HomeController(
             model.Code = code;
             return this.SimpleView(model, "EnterPassword");
         }
+    }
+
+    private async Task RecordHit(ShorterLink link)
+    {
+        var region = Request.Headers["CF-IPCountry"].ToString();
+        var hit = new WarpHit
+        {
+            LinkId = link.Id,
+            IP = HttpContext.Connection.RemoteIpAddress?.ToString(),
+            Device = Request.Headers.UserAgent.ToString(),
+            Region = string.IsNullOrEmpty(region) ? "Unknown" : region,
+            Referer = Request.Headers.Referer.ToString()
+        };
+        await dbContext.WarpHits.AddAsync(hit);
     }
 }

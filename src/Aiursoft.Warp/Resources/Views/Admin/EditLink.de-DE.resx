@@ -123,5 +123,26 @@
   <data name="Visit Link" xml:space="preserve">
     <value>Link besuchen</value>
   </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Zeit</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP-Adresse</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Neueste Treffer</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Gerät / Benutzer-Agent</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>Noch keine Treffer gefunden.</value>
+  </data>
 
 </root>
