@@ -363,7 +363,7 @@ public class LinkTests : FunctionalTestBase
         var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
         var hits = await db.WarpHits.Where(h => h.LinkId == link.Id).ToListAsync();
 
-        Assert.AreEqual(1, hits.Count, "One hit should be recorded.");
+        Assert.HasCount(1, hits);
         Assert.IsNotNull(hits[0].IP);
         Assert.IsNotNull(hits[0].Device);
     }
