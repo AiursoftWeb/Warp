@@ -123,5 +123,26 @@
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>Échec de la copie dans le presse-papiers</value>
   </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>Adresse IP</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Derniers clics</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Région</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Référent</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>Aucune visite enregistrée pour le moment.</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Appareil / Agent utilisateur</value>
+  </data>
 
 </root>

@@ -105,5 +105,26 @@
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>クリップボードへのコピーに失敗しました</value>
   </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>最近のヒット</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>地域</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>参照元</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>デバイス / ユーザーエージェント</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>まだアクセス記録が見つかりません。</value>
+  </data>
 
 </root>

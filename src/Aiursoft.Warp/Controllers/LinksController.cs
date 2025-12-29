@@ -74,7 +74,12 @@ public class LinksController : Controller
             IsPrivate = link.IsPrivate,
             CreationTime = link.CreationTime,
             Clicks = link.Clicks,
-            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}"
+            ShortLink = $"{Request.Scheme}://{Request.Host}/r/{link.RedirectTo}",
+            RecentHits = await _dbContext.WarpHits
+                .Where(h => h.LinkId == link.Id)
+                .OrderByDescending(h => h.HitTime)
+                .Take(10)
+                .ToListAsync()
         };
 
         return this.StackView(model);
@@ -93,6 +98,11 @@ public class LinksController : Controller
                 model.CreationTime = linkInDb.CreationTime;
                 model.Clicks = linkInDb.Clicks;
                 model.ShortLink = $"{Request.Scheme}://{Request.Host}/r/{linkInDb.RedirectTo}";
+                model.RecentHits = await _dbContext.WarpHits
+                    .Where(h => h.LinkId == linkInDb.Id)
+                    .OrderByDescending(h => h.HitTime)
+                    .Take(10)
+                    .ToListAsync();
             }
             // return View(model);
             return this.StackView(model);

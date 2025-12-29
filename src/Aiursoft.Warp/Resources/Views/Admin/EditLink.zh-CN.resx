@@ -123,5 +123,26 @@
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>复制到剪贴板失败</value>
   </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>设备 / 用户代理</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>暂无访问记录。</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>地区</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>来源</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>最近点击</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
 
 </root>

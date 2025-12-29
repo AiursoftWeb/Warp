@@ -347,6 +347,26 @@ public class LinkTests : FunctionalTestBase
         Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         Assert.Contains("The target URL cannot be the same as the shortcut URL", html);
     }
+
+    [TestMethod]
+    public async Task HitRecordingTest()
+    {
+        await RegisterAndLoginAsync();
+        var targetUrl = "https://www.google.com";
+        var code = await CreateLinkAsync(targetUrl);
+
+        // Visit the link
+        await Http.GetAsync($"/r/{code}");
+
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
+        var link = await db.ShorterLinks.FirstAsync(l => l.RedirectTo == code);
+        var hits = await db.WarpHits.Where(h => h.LinkId == link.Id).ToListAsync();
+
+        Assert.AreEqual(1, hits.Count, "One hit should be recorded.");
+        Assert.IsNotNull(hits[0].IP);
+        Assert.IsNotNull(hits[0].Device);
+    }
 }
 
 #pragma warning restore CS8602
