@@ -21,11 +21,11 @@
       <data name="Incorrect password." xml:space="preserve">
     <value>Неправильний пароль.</value>
   </data>
-  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>Цей власний код вже використовується. Будь ласка, оберіть інший.</value>
-  </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>Цільова URL-адреса не може збігатися з URL-адресою ярлика.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Цей власний код вже використовується. Будь ласка, оберіть інший.</value>
   </data>
 
 </root>

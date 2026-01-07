@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>Este código personalizado já está em uso. Por favor, escolha outro.</value>
-  </data>
-  <data name="Incorrect password." xml:space="preserve">
+      <data name="Incorrect password." xml:space="preserve">
     <value>Palavra-passe incorreta.</value>
   </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>O URL de destino não pode ser o mesmo que o URL do atalho.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Este código personalizado já está em uso. Por favor, escolha outro.</value>
   </data>
 
 </root>

@@ -18,8 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Owner" xml:space="preserve">
-    <value>Proprietario</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Codice Personalizzato</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Scadenza</value>
@@ -27,29 +27,29 @@
   <data name="Max Clicks" xml:space="preserve">
     <value>Numero massimo di clic</value>
   </data>
-  <data name="Please select the owner of this Link!" xml:space="preserve">
-    <value>Seleziona il proprietario di questo Link!</value>
-  </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>Il {0} non è un URL valido.</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Codice Personalizzato</value>
+  <data name="Owner" xml:space="preserve">
+    <value>Proprietario</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="Please select the owner of this Link!" xml:space="preserve">
+    <value>Seleziona il proprietario di questo Link!</value>
+  </data>
   <data name="Private Link" xml:space="preserve">
     <value>Collegamento Privato</value>
   </data>
-  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
-    <value>Il {0} deve essere lungo al massimo {1} caratteri.</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL di destinazione</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Il {0} non è un URL valido.</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>Il {0} è obbligatorio.</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL di destinazione</value>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>Il {0} deve essere lungo al massimo {1} caratteri.</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Titolo</value>

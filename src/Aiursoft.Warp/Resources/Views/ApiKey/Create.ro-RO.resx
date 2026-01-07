@@ -24,17 +24,17 @@
   <data name="Create" xml:space="preserve">
     <value>Creează</value>
   </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>Detalii Cheie API Nouă</value>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Creează cheie API</value>
   </data>
   <data name="e.g. My App" xml:space="preserve">
     <value>ex. Aplicația Mea</value>
   </data>
-  <data name="Create API Key" xml:space="preserve">
-    <value>Creează cheie API</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Lăsați necompletat pentru a nu expira.</value>
+  </data>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>Detalii Cheie API Nouă</value>
   </data>
 
 </root>

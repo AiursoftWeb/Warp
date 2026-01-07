@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Expiration Time" xml:space="preserve">
+      <data name="Custom Code" xml:space="preserve">
+    <value>Пользовательский код</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
     <value>Срок действия</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
@@ -27,32 +30,29 @@
   <data name="Owner" xml:space="preserve">
     <value>Владелец</value>
   </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>Поле {0} является обязательным.</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Пользовательский код</value>
-  </data>
-  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
-    <value>Поле {0} должно содержать не более {1} символов.</value>
-  </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>Поле {0} содержит недопустимый URL.</value>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
   </data>
   <data name="Please select the owner of this Link!" xml:space="preserve">
     <value>Пожалуйста, выберите владельца этой ссылки!</value>
   </data>
-  <data name="Password" xml:space="preserve">
-    <value>Пароль</value>
-  </data>
   <data name="Private Link" xml:space="preserve">
     <value>Приватная ссылка</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>Название</value>
-  </data>
   <data name="Target URL" xml:space="preserve">
     <value>Целевой URL</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Поле {0} содержит недопустимый URL.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>Поле {0} является обязательным.</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>Поле {0} должно содержать не более {1} символов.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Название</value>
   </data>
 
 </root>

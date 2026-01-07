@@ -18,35 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Save" xml:space="preserve">
-    <value>Tallenna</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Takaisin listaan</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Muokkaa linkkiä</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>käytetyt napsautukset</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Linkin tiedot</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopioitu!</value>
   </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>Syötä otsikko</value>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Kopioi linkki</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Otsikko / Huomautus</value>
+  <data name="Created At" xml:space="preserve">
+    <value>Luotu</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>Mukautettu koodi</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Kohde-URL</value>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Poista linkki</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Muokkaa linkkiä</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Syötä mukautettu koodi</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Syötä napsautusten enimmäismäärä</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Syötä otsikko</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Vanhenemisaika</value>
   </data>
-  <data name="Enter custom code" xml:space="preserve">
-    <value>Syötä mukautettu koodi</value>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Kopiointi leikepöydälle epäonnistui</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
   </data>
   <data name="Leave empty for permanent." xml:space="preserve">
     <value>Jätä tyhjäksi, jos haluat linkin olevan pysyvä.</value>
@@ -54,79 +69,62 @@
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>Jätä tyhjäksi rajoittamattomaksi.</value>
   </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Jätä tyhjäksi säilyttääksesi nykyisen salasanan.</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Linkin tiedot</value>
+  </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Tee tästä linkistä yksityinen</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>Syötä napsautusten enimmäismäärä</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>Enimmäisklikkaukset</value>
   </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Uusi salasana</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
   <data name="Private links require a password to access." xml:space="preserve">
     <value>Yksityiset linkit vaativat salasanan käyttöoikeuden saamiseksi.</value>
   </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Uusi salasana</value>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Pikatoiminnot</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Recent Hits</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Tallenna</value>
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Tallenna muutokset</value>
   </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>Jätä tyhjäksi säilyttääksesi nykyisen salasanan.</value>
-  </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Luotu</value>
-  </data>
   <data name="Statistics" xml:space="preserve">
     <value>Tilastot</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>käytetyt napsautukset</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>Kohde-URL</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Otsikko / Huomautus</value>
   </data>
   <data name="Total Clicks" xml:space="preserve">
     <value>Kokonaismäärä napsautuksia</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Siirry linkkiin</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>Pikatoiminnot</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Kopioi linkki</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Poista linkki</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Kopiointi leikepöydälle epäonnistui</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Kopioitu!</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
-  <data name="Recent Hits" xml:space="preserve">
-    <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="Referer" xml:space="preserve">
-    <value>Referer</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Time</value>
-  </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
-  </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
   </data>
 
 </root>

@@ -18,68 +18,68 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
-    <value>Klick</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Radera</value>
-  </data>
-  <data name="Create New" xml:space="preserve">
-    <value>Skapa ny</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Redigera</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Original URL</value>
-  </data>
-  <data name="Creation Time" xml:space="preserve">
-    <value>Skapad</value>
-  </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>Kortlänk</value>
-  </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Mina länkar</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Länkinformation</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>Prestanda</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Offentlig länk</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>Åtgärder</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Länkhantering</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Privat länk</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Mål</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Utgången</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>Aktiv</value>
   </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klick</value>
+  </data>
+  <data name="Create New" xml:space="preserve">
+    <value>Skapa ny</value>
+  </data>
+  <data name="Creation Time" xml:space="preserve">
+    <value>Skapad</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Utgången</value>
+  </data>
   <data name="Expires at" xml:space="preserve">
     <value>Går ut</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Besök länk</value>
+  <data name="Link Info" xml:space="preserve">
+    <value>Länkinformation</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Länkhantering</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Mina länkar</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Original URL</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Prestanda</value>
   </data>
   <data name="Permanent" xml:space="preserve">
     <value>Permanent</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privat länk</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Offentlig länk</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Kortlänk</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Besök länk</value>
   </data>
 
 </root>

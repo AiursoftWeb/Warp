@@ -18,35 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Save" xml:space="preserve">
-    <value>Αποθήκευση</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Πίσω στη Λίστα</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Επεξεργασία Συνδέσμου</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>κλικ χρησιμοποιήθηκαν</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Σύνδεσμος Προορισμού</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Αντιγράφτηκε!</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Λεπτομέρειες Συνδέσμου</value>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Αντιγραφή Συνδέσμου</value>
   </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>Εισάγετε τίτλο</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Τίτλος / Σχόλιο</value>
-  </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>Αφήστε το κενό για μόνιμη λειτουργία.</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Χρόνος Λήξης</value>
+  <data name="Created At" xml:space="preserve">
+    <value>Δημιουργήθηκε στις</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>Προσαρμοσμένος Κώδικας</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Διαγραφή Συνδέσμου</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Επεξεργασία Συνδέσμου</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>Εισάγετε προσαρμοσμένο κωδικό</value>
@@ -54,79 +51,80 @@
   <data name="Enter max clicks" xml:space="preserve">
     <value>Εισάγετε μέγιστο αριθμό κλικ</value>
   </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>Εισάγετε τίτλο</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Χρόνος Λήξης</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Αποτυχία αντιγραφής στο πρόχειρο</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Αφήστε το κενό για μόνιμη λειτουργία.</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Αφήστε κενό για απεριόριστο.</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Αφήστε το κενό για να διατηρήσετε τον τρέχοντα κωδικό πρόσβασης</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Λεπτομέρειες Συνδέσμου</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
+  </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>Μέγιστα Κλικ</value>
   </data>
   <data name="New Password" xml:space="preserve">
     <value>Νέος Κωδικός Πρόσβασης</value>
   </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>Αποθήκευση Αλλαγών</value>
-  </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>Αφήστε το κενό για να διατηρήσετε τον τρέχοντα κωδικό πρόσβασης</value>
-  </data>
-  <data name="Leave empty for unlimited." xml:space="preserve">
-    <value>Αφήστε κενό για απεριόριστο.</value>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
   </data>
   <data name="Private links require a password to access." xml:space="preserve">
     <value>Οι ιδιωτικοί σύνδεσμοι απαιτούν κωδικό πρόσβασης για πρόσβαση.</value>
   </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>Στατιστικά</value>
-  </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>Συνολικοί Κλικ</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
-  </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Δημιουργήθηκε στις</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Επισκεφθείτε τον Σύνδεσμο</value>
-  </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>κλικ χρησιμοποιήθηκαν</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Αντιγραφή Συνδέσμου</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Διαγραφή Συνδέσμου</value>
-  </data>
   <data name="Quick Actions" xml:space="preserve">
     <value>Γρήγορες Ενέργειες</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Αντιγράφτηκε!</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Αποτυχία αντιγραφής στο πρόχειρο</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
   </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>Recent Hits</value>
   </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
   <data name="Region" xml:space="preserve">
     <value>Region</value>
   </data>
-  <data name="Referer" xml:space="preserve">
-    <value>Referer</value>
+  <data name="Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Αποθήκευση Αλλαγών</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Στατιστικά</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Σύνδεσμος Προορισμού</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Τίτλος / Σχόλιο</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Συνολικοί Κλικ</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Επισκεφθείτε τον Σύνδεσμο</value>
   </data>
 
 </root>

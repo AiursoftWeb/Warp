@@ -18,11 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Links by" xml:space="preserve">
-    <value>Посилання користувача</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Дії</value>
   </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>Деталі профілю</value>
+  <data name="Active" xml:space="preserve">
+    <value>Активний</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Назад до всіх посилань</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Кліки</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Редагувати посилання</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Термін дії закінчився</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Термін дії до</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>Інформація про посилання</value>
@@ -30,17 +51,17 @@
   <data name="Link Management" xml:space="preserve">
     <value>Керування посиланнями</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>Ім&apos;я користувача</value>
+  <data name="Links by" xml:space="preserve">
+    <value>Посилання користувача</value>
   </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>Цей користувач ще не створив жодних посилань.</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>Постійний</value>
   </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>Загалом документів</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватне посилання</value>
   </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>Назад до всіх посилань</value>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Деталі профілю</value>
   </data>
   <data name="Public Link" xml:space="preserve">
     <value>Публічне посилання</value>
@@ -51,38 +72,17 @@
   <data name="Target" xml:space="preserve">
     <value>Ціль</value>
   </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Дії</value>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Цей користувач ще не створив жодних посилань.</value>
   </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Кліки</value>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Загалом документів</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Приватне посилання</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Термін дії закінчився</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Активний</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Видалити</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Постійний</value>
+  <data name="Username" xml:space="preserve">
+    <value>Ім&apos;я користувача</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Перейти за посиланням</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Термін дії до</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Редагувати</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Редагувати посилання</value>
   </data>
 
 </root>

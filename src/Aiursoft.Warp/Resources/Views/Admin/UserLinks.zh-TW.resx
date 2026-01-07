@@ -18,50 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Username" xml:space="preserve">
-    <value>使用者名稱</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>連結資訊</value>
-  </data>
-  <data name="Links by" xml:space="preserve">
-    <value>由...建立的連結</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>總文件數</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>連結管理</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>返回所有連結</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>此使用者尚未建立任何連結。</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>個人檔案詳細資料</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>狀態</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>點擊次數</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>公開連結</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>啟用中</value>
   </data>
-  <data name="Target" xml:space="preserve">
-    <value>目標</value>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>返回所有連結</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>私人連結</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>點擊次數</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>編輯連結</value>
   </data>
   <data name="Expired" xml:space="preserve">
     <value>已過期</value>
@@ -69,20 +45,44 @@
   <data name="Expires at" xml:space="preserve">
     <value>於...到期</value>
   </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>連結資訊</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>連結管理</value>
+  </data>
+  <data name="Links by" xml:space="preserve">
+    <value>由...建立的連結</value>
+  </data>
   <data name="Permanent" xml:space="preserve">
     <value>永久</value>
   </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>私人連結</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>個人檔案詳細資料</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>公開連結</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>此使用者尚未建立任何連結。</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>總文件數</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>使用者名稱</value>
+  </data>
   <data name="Visit Link" xml:space="preserve">
     <value>前往連結</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>編輯</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>刪除</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>編輯連結</value>
   </data>
 
 </root>

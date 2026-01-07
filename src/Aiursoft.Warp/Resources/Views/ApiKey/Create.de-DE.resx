@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>Erstellen</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Zurück zur Liste</value>
   </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>Details zum neuen API-Schlüssel</value>
+  <data name="Create" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>API-Schlüssel erstellen</value>
   </data>
   <data name="e.g. My App" xml:space="preserve">
     <value>z. B. Meine App</value>
@@ -33,8 +33,8 @@
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Leer lassen für kein Ablaufdatum.</value>
   </data>
-  <data name="Create API Key" xml:space="preserve">
-    <value>API-Schlüssel erstellen</value>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>Details zum neuen API-Schlüssel</value>
   </data>
 
 </root>

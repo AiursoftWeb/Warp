@@ -21,59 +21,89 @@
       <data name="Back to List" xml:space="preserve">
     <value>Voltar à Lista</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>Guardar</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>cliques utilizados</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Editar Ligação</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiado!</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copiar Ligação</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Criado em</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>Código Personalizado</value>
   </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>Introduzir título</value>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Eliminar Ligação</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL de Destino</value>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editar Ligação</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>Introduza um código personalizado</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Título / Observação</value>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Introduza o número máximo de cliques</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Detalhes da Ligaçāo</value>
+  <data name="Enter title" xml:space="preserve">
+    <value>Introduzir título</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Data de Expiração</value>
   </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Falha ao copiar para a área de transferência</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
   <data name="Leave empty for permanent." xml:space="preserve">
     <value>Deixe em branco para permanente.</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Máximo de Cliques</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>Introduza o número máximo de cliques</value>
   </data>
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>Deixe em branco para ilimitado.</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>As ligações privadas requerem uma palavra-passe para acesso.</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Nova Palavra-passe</value>
-  </data>
   <data name="Leave empty to keep current password" xml:space="preserve">
     <value>Deixe em branco para manter a palavra-passe atual.</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Detalhes da Ligaçāo</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Tornar esta ligação Privada</value>
   </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>Total de Cliques</value>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Máximo de Cliques</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nova Palavra-passe</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>As ligações privadas requerem uma palavra-passe para acesso.</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Ações Rápidas</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Recent Hits</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Guardar Alterações</value>
@@ -81,52 +111,20 @@
   <data name="Statistics" xml:space="preserve">
     <value>Estatísticas</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>cliques utilizados</value>
-  </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Criado em</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>Ações Rápidas</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Copiar Ligação</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Visitar Ligação</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Eliminar Ligação</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Copiado!</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Falha ao copiar para a área de transferência</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
-  <data name="Recent Hits" xml:space="preserve">
-    <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="Referer" xml:space="preserve">
-    <value>Referer</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL de Destino</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Título / Observação</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Total de Cliques</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visitar Ligação</value>
   </data>
 
 </root>

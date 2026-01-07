@@ -18,11 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Link Info" xml:space="preserve">
-    <value>लिंक की जानकारी</value>
+      <data name="Actions" xml:space="preserve">
+    <value>कार्रवाइयाँ</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>सक्रिय</value>
   </data>
   <data name="Back to All Links" xml:space="preserve">
     <value>सभी लिंक पर वापस जाएं</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>क्लिक्स</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>हटाएं</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>लिंक संपादित करें</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>समाप्त</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>समाप्ति समय</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>लिंक की जानकारी</value>
   </data>
   <data name="Link Management" xml:space="preserve">
     <value>लिंक प्रबंधन</value>
@@ -30,59 +54,35 @@
   <data name="Links by" xml:space="preserve">
     <value>द्वारा लिंक</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>उपयोगकर्ता नाम</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>कुल दस्तावेज़</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>इस उपयोगकर्ता ने अभी तक कोई लिंक नहीं बनाया है।</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>प्रोफ़ाइल विवरण</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>लक्ष्य</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>क्लिक्स</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>स्थायी</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>निजी लिंक</value>
   </data>
-  <data name="Status" xml:space="preserve">
-    <value>स्थिति</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>समाप्त</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>कार्रवाइयाँ</value>
+  <data name="Profile Details" xml:space="preserve">
+    <value>प्रोफ़ाइल विवरण</value>
   </data>
   <data name="Public Link" xml:space="preserve">
     <value>सार्वजनिक लिंक</value>
   </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>समाप्ति समय</value>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>संपादित करें</value>
+  <data name="Target" xml:space="preserve">
+    <value>लक्ष्य</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>इस उपयोगकर्ता ने अभी तक कोई लिंक नहीं बनाया है।</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>कुल दस्तावेज़</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>उपयोगकर्ता नाम</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>लिंक पर जाएं</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>हटाएं</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>स्थायी</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>सक्रिय</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>लिंक संपादित करें</value>
   </data>
 
 </root>

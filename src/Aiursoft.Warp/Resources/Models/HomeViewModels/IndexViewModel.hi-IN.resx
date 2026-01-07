@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>कुछ गड़बड़ हो गई, कृपया बाद में पुनः प्रयास करें।</value>
-  </data>
-  <data name="Title contains invalid characters." xml:space="preserve">
-    <value>शीर्षक में अमान्य वर्ण हैं।</value>
-  </data>
-  <data name="Please input your target link!" xml:space="preserve">
-    <value>कृपया अपना लक्ष्य लिंक दर्ज करें!</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>कस्टम कोड</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>कस्टम कोड में केवल अक्षर, संख्याएँ और हाइफ़न हो सकते हैं, और यह अधिकतम 30 वर्णों का हो सकता है।</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} एक वैध URL नहीं है।</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>पासवर्ड</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>समाप्ति समय</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>निजी लिंक</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>अधिकतम क्लिक्स</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>कृपया अपना लक्ष्य लिंक दर्ज करें!</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>निजी लिंक</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>कुछ गड़बड़ हो गई, कृपया बाद में पुनः प्रयास करें।</value>
+  </data>
   <data name="Target URL" xml:space="preserve">
     <value>लक्ष्य यूआरएल</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} एक वैध URL नहीं है।</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>शीर्षक</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>कस्टम कोड</value>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>शीर्षक में अमान्य वर्ण हैं।</value>
   </data>
 
 </root>

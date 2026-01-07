@@ -21,20 +21,23 @@
       <data name="Actions" xml:space="preserve">
     <value>การดำเนินการ</value>
   </data>
-  <data name="Created" xml:space="preserve">
-    <value>สร้างเมื่อ</value>
-  </data>
-  <data name="Expires" xml:space="preserve">
-    <value>หมดอายุ</value>
-  </data>
   <data name="API Key" xml:space="preserve">
     <value>คีย์ API</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>ชื่อ</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการลบคีย์ API นี้?</value>
   </data>
   <data name="Create New Key" xml:space="preserve">
     <value>สร้างคีย์ใหม่</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>สร้างเมื่อ</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>หมดอายุ</value>
   </data>
   <data name="Manage your API keys" xml:space="preserve">
     <value>จัดการคีย์ API ของคุณ</value>
@@ -42,17 +45,14 @@
   <data name="My API Keys" xml:space="preserve">
     <value>คีย์ API ของฉัน</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
   <data name="Never" xml:space="preserve">
     <value>ไม่เคย</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>ลบ</value>
-  </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>คุณยังไม่มีคีย์ API ใด ๆ</value>
-  </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>คุณแน่ใจหรือว่าต้องการลบคีย์ API นี้?</value>
   </data>
 
 </root>

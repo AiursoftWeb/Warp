@@ -21,11 +21,11 @@
       <data name="Incorrect password." xml:space="preserve">
     <value>Väärä salasana.</value>
   </data>
-  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>Tämä mukautettu koodi on jo käytössä. Valitse toinen.</value>
-  </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>Kohde-URL ei voi olla sama kuin pikakuvakkeen URL.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Tämä mukautettu koodi on jo käytössä. Valitse toinen.</value>
   </data>
 
 </root>

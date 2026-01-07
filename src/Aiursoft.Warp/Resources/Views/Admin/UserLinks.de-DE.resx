@@ -18,71 +18,71 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Link Management" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>Aktionen</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Zurück zu allen Links</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klicks</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Link bearbeiten</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Abgelaufen</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Läuft ab am</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Link-Informationen</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
     <value>Link-Verwaltung</value>
   </data>
   <data name="Links by" xml:space="preserve">
     <value>Links von</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>Benutzername</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>Gesamte Dokumente</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>Zurück zu allen Links</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>Dieser Benutzer hat noch keine Links erstellt.</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Link-Informationen</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>Profildetails</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>Dauerhaft</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Privater Link</value>
   </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Profildetails</value>
+  </data>
   <data name="Public Link" xml:space="preserve">
     <value>Öffentlicher Link</value>
   </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Aktionen</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Klicks</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktiv</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Abgelaufen</value>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="Target" xml:space="preserve">
     <value>Ziel</value>
   </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Läuft ab am</value>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Dieser Benutzer hat noch keine Links erstellt.</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Gesamte Dokumente</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzername</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Link besuchen</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Dauerhaft</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Bearbeiten</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Löschen</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Link bearbeiten</value>
   </data>
 
 </root>

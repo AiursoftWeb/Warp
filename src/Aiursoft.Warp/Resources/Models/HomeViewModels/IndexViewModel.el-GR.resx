@@ -18,17 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Κάτι πήγε στραβά, δοκιμάστε ξανά αργότερα.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Προσαρμοσμένος Κωδικός</value>
+  </data>
+  <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
+    <value>Ο προσαρμοσμένος κωδικός μπορεί να περιέχει μόνο γράμματα, αριθμούς και παύλες και να έχει μέχρι 30 χαρακτήρες.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Χρόνος Λήξης</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Μέγιστα Κλικ</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
   </data>
   <data name="Please input your target link!" xml:space="preserve">
     <value>Παρακαλώ εισάγετε τον σύνδεσμο προορισμού σας!</value>
   </data>
-  <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Ο τίτλος περιέχει μη έγκυρους χαρακτήρες.</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>Ιδιωτικός Σύνδεσμος</value>
   </data>
-  <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
-    <value>Ο προσαρμοσμένος κωδικός μπορεί να περιέχει μόνο γράμματα, αριθμούς και παύλες και να έχει μέχρι 30 χαρακτήρες.</value>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Κάτι πήγε στραβά, δοκιμάστε ξανά αργότερα.</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Σύνδεσμος Προορισμού</value>
   </data>
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>Το {0} δεν είναι έγκυρη διεύθυνση URL.</value>
@@ -36,23 +51,8 @@
   <data name="Title" xml:space="preserve">
     <value>Τίτλος</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Προσαρμοσμένος Κωδικός</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Σύνδεσμος Προορισμού</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Κωδικός πρόσβασης</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Μέγιστα Κλικ</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Ιδιωτικός Σύνδεσμος</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Χρόνος Λήξης</value>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Ο τίτλος περιέχει μη έγκυρους χαρακτήρες.</value>
   </data>
 
 </root>

@@ -18,194 +18,188 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>欢迎</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>这是一个模板项目</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>多数据库支持</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>可轻松在 SQLite、MySQL、SQL Server 等数据库提供程序以及用于测试的内存数据库之间切换。</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect 集成</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>你好，世界！</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>为何选择 Aiursoft 模板？</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>基于角色的访问控制 (RBAC) 授权</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>无缝集成任何 OpenID Connect 提供商，并支持自动角色同步。</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>一个现代化、功能丰富且高度可扩展的基础框架，为您的下一个Web应用程序提供强大支持。</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>动态导航栏</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI 驱动翻译</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>导航栏会根据用户角色和权限自动调整显示内容。</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>全面文档支持</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>内置基于角色的访问控制（RBAC）系统，用于细粒度权限管理。</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>支持28种语言的自动AI驱动翻译，助力实现全球覆盖。</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>内置用户管理</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>包含详尽的文档和实用示例，助您快速上手。</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>自动依赖注入</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>开箱即用的完整用户认证与个人资料管理解决方案。</value>
   </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>集成文件管理</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>所有依赖项均自动注册，并始终可通过构造函数注入方式使用。</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>内置文件管理系统，支持自动头像压缩。</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>响应式设计</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>完全响应式布局，在桌面和移动设备上均呈现出色视觉效果。</value>
   </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>自动深色模式</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>一个现代化、功能丰富且高度可扩展的基础框架，为您的下一个Web应用程序提供强大支持。</value>
   </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>提供完整的 Docker 支持，实现简化、一致且可靠的部署。</value>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>一个用于缩短和管理链接的简单工具。</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>支持 Docker 部署</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>访问密码</value>
   </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>智能深色模式，可自动适应用户的系统设置。</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>阅读文档</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>这是一个模板项目，我们将从这里开启探索之旅...</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>开源</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>免费</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>更快</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT 许可证</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>构建你的下一个伟大项目，</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>使用</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>功能特性</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>前往仪表盘</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown 转 HTML</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>音乐工具</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>仪表板网站</value>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>访问密码（私有链接必填）</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>借助 Aiursoft Template 成就更多可能</value>
   </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>以下是我们社区的开发者们的评价。</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>高级设置</value>
   </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>用户评价</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>无论是作为SaaS应用的基础、移动应用的后端、企业官网还是个人博客，它都能胜任。无限可能，任您探索。</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>我们的开发者怎么说</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>技术负责人</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>常见问题解答</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>常见问题</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>使用 Aiursoft Template 是否免费？</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>以下是一些您可能正在寻找的答案。</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI 驱动翻译</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template 是我们企业项目的最终选择！它专为开发者打造，轻量级却功能强大。我们可以跳过所有身份验证和用户管理的样板代码。</value>
   </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>我需要准备什么才能开始？</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>所有依赖项均自动注册，并始终可通过构造函数注入方式使用。</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>是的，Aiursoft Template 在 MIT 许可证下完全免费且开源。您可以在个人和商业项目中免费使用它，无需任何费用。</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>数据分析</value>
   </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>如何部署我的应用程序？</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>自动深色模式</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>自动依赖注入</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>支持28种语言的自动AI驱动翻译，助力实现全球覆盖。</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>构建你的下一个伟大项目，</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>内置用户管理</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>提供完整的 Docker 支持，实现简化、一致且可靠的部署。</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>全面文档支持</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>已复制！</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>复制到剪贴板</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>创建新链接</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>创建短链接</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>自定义代码</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>自定义代码（可选）</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>仪表板网站</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>讨论页面</value>
   </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>如何获取支持？</value>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>支持 Docker 部署</value>
   </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>您需要安装 .NET 10 SDK、npm 以及您喜欢的 IDE（如 Visual Studio 或 JetBrains Rider）。完整的设置指南可在我们的文档中找到。</value>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>动态导航栏</value>
   </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>您可以通过 GitHub Discussions 获取社区支持。请访问我们的</value>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>例如：100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>例如：双十一活动</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>例如：双十一活动页面</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>例如：my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>例如：my-product 或留空</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>可轻松在 SQLite、MySQL、SQL Server 等数据库提供程序以及用于测试的内存数据库之间切换。</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>输入访问密码</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>过期时间</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>过期时间（可选）</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>常见问题解答</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>更快</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>功能特性</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>内置文件管理系统，支持自动头像压缩。</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>如有任何疑问或报告问题。</value>
   </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>该模板专为简化部署而设计，内置完整的Docker支持，您可以将应用容器化后随处运行。也可直接部署到IIS、Azure应用服务或任何支持ASP.NET Core的服务器。</value>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>仅用于内部标识。</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>免费</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>常见问题</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>借助我们优化的基础设施，即刻生成短链接。</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>前往仪表盘</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>你好，世界！</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>以下是一些您可能正在寻找的答案。</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>以下是我们社区的开发者们的评价。</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>如何获取支持？</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>如何部署我的应用程序？</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>如不填写，则永久有效（除非手动禁用）。</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>包含详尽的文档和实用示例，助您快速上手。</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>集成文件管理</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>使用 Aiursoft Template 是否免费？</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>参与讨论</value>
@@ -213,182 +207,188 @@
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>加入我们的社区，立即开始构建！</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>开始新项目</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>复制</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>成功！</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>短链接生成器</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>目标网址（必填）</value>
-  </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>一个用于缩短和管理链接的简单工具。</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>复制到剪贴板</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>您的短链接已创建：</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>请输入完整的 URL，例如：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>自定义代码（可选）</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>例如：my-product 或留空</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>过期时间（可选）</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>如不填写，则永久有效（除非手动禁用）。</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>可见性</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>私有（勾选后链接将变为私有并显示密码输入框）</value>
-  </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>访问密码（私有链接必填）</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>仅允许使用字母、数字和连字符等安全字符；如果留空，将自动生成一个短代码。</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>输入访问密码</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>仅在设置为私有时有效；服务器会对密码进行加密存储。</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>例如：100</value>
-  </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>最大点击次数（可选）</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>标题 / 备注（可选）</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>仅用于后台显示和标识，不影响跳转。</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>链接在达到此点击次数后将失效（留空表示无限制）。</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>已复制！</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>例如：双十一活动页面</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>创建短链接</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>此链接为私密链接，请输入访问密码。</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>自定义代码</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>例如：双十一活动</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>目标网址</value>
-  </data>
   <data name="Leave empty to auto-generate." xml:space="preserve">
     <value>留空以自动生成。</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>创建新链接</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>标题 / 备注</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>例如：my-product</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>请输入完整的 URL，例如：</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>仅用于内部标识。</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>过期时间</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>可选。留空表示永久有效。</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>最大点击次数</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>链接在达到此限制后失效。</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>将此链接设为私有</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>隐私设置</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>私有链接需要密码才能访问。</value>
-  </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>服务器将对密码进行加密并安全存储。</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>访问密码</value>
-  </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>高级设置</value>
-  </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>登录以开始</value>
-  </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>为何选择 Warp？</value>
-  </data>
-  <data name="Fast" xml:space="preserve">
-    <value>快速</value>
-  </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>借助我们优化的基础设施，即刻生成短链接。</value>
   </data>
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>留空则链接公开可见。若填写密码，链接将转为私有。</value>
   </data>
-  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
-    <value>Warp 是一款强大的网址缩短工具，它能帮助您轻松管理链接、追踪点击量并分享内容。为您的业务或个人用途创建简短、易记的链接。</value>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>链接在达到此限制后失效。</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>数据分析</value>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>短链接生成器</value>
   </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>缩短您的链接</value>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>将此链接设为私有</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown 转 HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大点击次数</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>最大点击次数（可选）</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT 许可证</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>多数据库支持</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>音乐工具</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>仅用于后台显示和标识，不影响跳转。</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>仅允许使用字母、数字和连字符等安全字符；如果留空，将自动生成一个短代码。</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>仅在设置为私有时有效；服务器会对密码进行加密存储。</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>开源</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect 集成</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>可选。留空表示永久有效。</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>请修正以下错误：</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>请输入完整的 URL，例如：</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>请输入完整的 URL，例如：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>隐私设置</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>私有（勾选后链接将变为私有并显示密码输入框）</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>私有链接需要密码才能访问。</value>
   </data>
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>通过密码保护您的链接并管理访问权限。</value>
   </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>基于角色的访问控制 (RBAC) 授权</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>阅读文档</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>响应式设计</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>用户评价</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>无缝集成任何 OpenID Connect 提供商，并支持自动角色同步。</value>
+  </data>
   <data name="Secure" xml:space="preserve">
     <value>安全</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>缩短您的链接</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>登录以开始</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>智能深色模式，可自动适应用户的系统设置。</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>开始新项目</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>成功！</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>目标网址</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>目标网址（必填）</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>技术负责人</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>链接在达到此点击次数后将失效（留空表示无限制）。</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>导航栏会根据用户角色和权限自动调整显示内容。</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>服务器将对密码进行加密并安全存储。</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>该模板专为简化部署而设计，内置完整的Docker支持，您可以将应用容器化后随处运行。也可直接部署到IIS、Azure应用服务或任何支持ASP.NET Core的服务器。</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>这是一个模板项目</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>这是一个模板项目，我们将从这里开启探索之旅...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>此链接为私密链接，请输入访问密码。</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>标题 / 备注</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>标题 / 备注（可选）</value>
   </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>通过详细统计数据追踪点击量并了解您的受众。</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>请修正以下错误：</value>
+  <data name="Usage" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>无论是作为SaaS应用的基础、移动应用的后端、企业官网还是个人博客，它都能胜任。无限可能，任您探索。</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp 是一款强大的网址缩短工具，它能帮助您轻松管理链接、追踪点击量并分享内容。为您的业务或个人用途创建简短、易记的链接。</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>我需要准备什么才能开始？</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>我们的开发者怎么说</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>为何选择 Aiursoft 模板？</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>为何选择 Warp？</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>是的，Aiursoft Template 在 MIT 许可证下完全免费且开源。您可以在个人和商业项目中免费使用它，无需任何费用。</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>您可以通过 GitHub Discussions 获取社区支持。请访问我们的</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>您需要安装 .NET 10 SDK、npm 以及您喜欢的 IDE（如 Visual Studio 或 JetBrains Rider）。完整的设置指南可在我们的文档中找到。</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>您的短链接已创建：</value>
   </data>
 
 </root>

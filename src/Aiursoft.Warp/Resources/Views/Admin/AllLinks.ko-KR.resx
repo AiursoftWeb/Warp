@@ -18,44 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
-    <value>클릭수</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>대상</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>링크 정보</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>소유자</value>
-  </data>
-  <data name="All Links" xml:space="preserve">
-    <value>모든 링크</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>링크 관리</value>
-  </data>
-  <data name="View and manage all links across the entire system." xml:space="preserve">
-    <value>전체 시스템의 모든 링크를 보고 관리합니다.</value>
-  </data>
-  <data name="No links found in the system." xml:space="preserve">
-    <value>시스템에서 링크를 찾을 수 없습니다.</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>상태</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>작업</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>활성</value>
   </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>공개 링크</value>
+  <data name="All Links" xml:space="preserve">
+    <value>모든 링크</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>비공개 링크</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>클릭수</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>수정</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>링크 편집</value>
   </data>
   <data name="Expired" xml:space="preserve">
     <value>만료됨</value>
@@ -63,20 +45,38 @@
   <data name="Expires at" xml:space="preserve">
     <value>만료일:</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>수정</value>
+  <data name="Link Info" xml:space="preserve">
+    <value>링크 정보</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>링크 관리</value>
+  </data>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>시스템에서 링크를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>소유자</value>
   </data>
   <data name="Permanent" xml:space="preserve">
     <value>영구적</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>삭제</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>비공개 링크</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>공개 링크</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>대상</value>
+  </data>
+  <data name="View and manage all links across the entire system." xml:space="preserve">
+    <value>전체 시스템의 모든 링크를 보고 관리합니다.</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>링크 방문</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>링크 편집</value>
   </data>
 
 </root>

@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Delete" xml:space="preserve">
+      <data name="Are you sure you want to delete this?" xml:space="preserve">
+    <value>Ви впевнені, що хочете це видалити?</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Назад до списку</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
     <value>Видалити</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Видалити посилання</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Оригінальна URL-адреса</value>
   </data>
   <data name="Short Link" xml:space="preserve">
     <value>Коротке посилання</value>
   </data>
   <data name="ShorterLink" xml:space="preserve">
     <value>Коротке посилання</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Назад до списку</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Оригінальна URL-адреса</value>
-  </data>
-  <data name="Are you sure you want to delete this?" xml:space="preserve">
-    <value>Ви впевнені, що хочете це видалити?</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Видалити посилання</value>
   </data>
 
 </root>

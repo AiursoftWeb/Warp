@@ -18,71 +18,71 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Link Management" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Tilbage til alle links</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klik</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Rediger link</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Udløbet</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Udløber kl.</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Linkoplysninger</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
     <value>Linkstyring</value>
   </data>
   <data name="Links by" xml:space="preserve">
     <value>Links af</value>
   </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Linkoplysninger</value>
-  </data>
-  <data name="Username" xml:space="preserve">
-    <value>Brugernavn</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>Profildetaljer</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>Samlede dokumenter</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>Tilbage til alle links</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>Denne bruger har ikke oprettet nogen links endnu.</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Mål</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Handlinger</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Udløbet</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanent</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Privat Link</value>
   </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Profildetaljer</value>
+  </data>
   <data name="Public Link" xml:space="preserve">
     <value>Offentligt link</value>
   </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Klik</value>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktiv</value>
+  <data name="Target" xml:space="preserve">
+    <value>Mål</value>
   </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Permanent</value>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Denne bruger har ikke oprettet nogen links endnu.</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Samlede dokumenter</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brugernavn</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Besøg link</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Rediger</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Udløber kl.</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Slet</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Rediger link</value>
   </data>
 
 </root>

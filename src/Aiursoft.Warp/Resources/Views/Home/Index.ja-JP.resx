@@ -18,344 +18,284 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>ようこそ</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>これはテンプレートプロジェクトです</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>こんにちは、世界！</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>複数データベースサポート</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC認可</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect 連携</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Aiursoftテンプレートを使用する理由</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>あらゆるOpenID Connectプロバイダーとシームレスに統合し、自動的なロール同期を実現します。</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>モダンで機能豊富、かつ高度に拡張可能な基盤を、あなたの次のWebアプリケーションに提供します。</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>SQLite、MySQL、SQL Server、およびテスト用のインメモリデータベースなどのプロバイダーを簡単に切り替えられます。</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AIによる翻訳</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>動的ナビゲーションバー</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>きめ細かい権限管理のための組み込みのロールベースアクセス制御（RBAC）システム。</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>ナビゲーションバーは、ユーザーの役割と権限に基づいて自動的に調整されます。</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>AIによる自動翻訳で28言語に対応し、グローバルな展開を実現します。</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>包括的なドキュメント</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>豊富なドキュメントと実用的な例を含んでいるため、すぐに使い始めることができます。</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>組み込みユーザー管理</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>ユーザー認証とプロファイル管理のための完全なソリューションが、すぐに利用できます。</value>
   </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>統合ファイル管理</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>レスポンシブデザイン</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>自動アバター圧縮機能を備えた組み込みファイル管理システムを特徴としています。</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>自動依存性注入</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>すべての依存関係は自動的に登録され、コンストラクタインジェクションを通じて常に利用可能です。</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>自動ダークモード</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>デスクトップとモバイルの両方のデバイスで美しく表示される、完全なレスポンシブレイアウト。</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Docker化によるデプロイ</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>ユーザーのシステム設定に自動的に適応するスマートダークモード。</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>完全なDockerサポートにより、簡素化された一貫性のある信頼性の高いデプロイが可能です。</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>ドキュメントを読む</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>これはテンプレートプロジェクトであり、ここからボイジャーの旅が始まります...</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>機能</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>より迅速に</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>使用方法</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MITライセンス</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>ダッシュボードへ</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>オープンソース</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>無料</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>次の大きなプロジェクトを構築しよう、</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Templateでさらに多くのことを実現</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>音楽ツール</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>レビュー</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>MarkdownからHTMLへ</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>ダッシュボードウェブサイト</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>コミュニティの開発者からの声をご紹介します。</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>SaaSの基盤として、モバイルアプリのバックエンドとして、コーポレートサイトとして、個人ブログとしてお使いいただけます。可能性は無限大です。</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>開発者の声</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>よくある質問</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>テクニカルリード</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>よくある質問</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>以下に、お探しの回答の一部をご紹介します。</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>始めるには何が必要ですか？</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Aiursoft Templateは無料で使用できますか？</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>アプリケーションをデプロイするにはどうすればよいですか？</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Templateは、エンタープライズプロジェクトにおける私たちの確固たる選択です！開発者のために構築されており、軽量でありながら強力です。認証やユーザー管理に関する定型コードをすべて省略できます。</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>はい、Aiursoft TemplateはMITライセンスの下で完全に無料かつオープンソースです。個人プロジェクトや商用プロジェクトで無償でご利用いただけます。</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>.NET 10 SDK、npm、そしてVisual StudioやJetBrains Riderのようなお好みのIDEが必要です。完全なセットアップガイドはドキュメントでご覧いただけます。</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>GitHub Discussionsでコミュニティサポートを受けることができます。当社の</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>サポートを受けるにはどうすればよいですか？</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>ディスカッションページ</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>お問い合わせや問題の報告はこちらへ。</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>コミュニティに参加して、今すぐ構築を始めましょう！</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>ディスカッションに参加</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>このテンプレートは簡単なデプロイを実現するために構築されています。完全なDockerサポートを含んでいるため、アプリをコンテナ化してどこでも実行できます。また、IIS、Azure App Service、またはASP.NET Coreをサポートする任意のサーバーに直接デプロイすることも可能です。</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>新規プロジェクトを開始</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>ターゲットURL（必須）</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>リンク短縮</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>クリップボードにコピー</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>コピー</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>モダンで機能豊富、かつ高度に拡張可能な基盤を、あなたの次のWebアプリケーションに提供します。</value>
   </data>
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>リンクを短縮・管理するためのシンプルなツール。</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>成功しました！</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>完全なURLを入力してください。例：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>短縮リンクが作成されました:</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>カスタムコード（任意）</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>例: my-product または空欄のまま</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>公開範囲</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>有効期限（任意）</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>英数字とハイフンなどの安全な文字のみ使用可能です。空欄の場合は短いコードが自動生成されます。</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>アクセスパスワードを入力</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>非公開 (チェックするとリンクを非公開にし、パスワード入力欄を表示します)</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>アクセスパスワード</value>
   </data>
   <data name="Access Password (Required for Private Links)" xml:space="preserve">
     <value>アクセスパスワード（非公開リンクに必須）</value>
   </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>入力がない場合、無期限で有効です（手動で無効化しない限り）。</value>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Templateでさらに多くのことを実現</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>例: 100</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>詳細設定</value>
   </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>プライベート設定時のみ有効です。サーバーはパスワードを暗号化して保存する必要があります。</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AIによる翻訳</value>
   </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>最大クリック数（任意）</value>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Templateは、エンタープライズプロジェクトにおける私たちの確固たる選択です！開発者のために構築されており、軽量でありながら強力です。認証やユーザー管理に関する定型コードをすべて省略できます。</value>
   </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>例：ダブルイレブンイベントページ</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>すべての依存関係は自動的に登録され、コンストラクタインジェクションを通じて常に利用可能です。</value>
   </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>この回数に達するとリンクは期限切れになります（空欄の場合は無制限）。</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>分析</value>
   </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>タイトル / 備考 (任意)</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
   </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>短縮リンクを作成</value>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>自動ダークモード</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>自動依存性注入</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>AIによる自動翻訳で28言語に対応し、グローバルな展開を実現します。</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>次の大きなプロジェクトを構築しよう、</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>組み込みユーザー管理</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>完全なDockerサポートにより、簡素化された一貫性のある信頼性の高いデプロイが可能です。</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>包括的なドキュメント</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>コピーしました！</value>
   </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>バックグラウンドでの表示および識別のみに使用され、リダイレクトには影響しません。</value>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
   </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>このリンクは非公開です。アクセスパスワードを入力してください。</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>ターゲットURL</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>カスタムコード</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>例：ダブルイレブンキャンペーン</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>例：my-product</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>タイトル / 備考</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>完全なURLを入力してください（例：</value>
-  </data>
-  <data name="Leave empty to auto-generate." xml:space="preserve">
-    <value>空欄のままにすると自動生成されます。</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>有効期限</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>内部識別専用です。</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>この制限に達するとリンクは失効します。</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>最大クリック数</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>任意項目です。空欄の場合は永続的に有効となります。</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>プライバシー設定</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>このリンクを非公開にする</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>アクセスパスワード</value>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>クリップボードにコピー</value>
   </data>
   <data name="Create New Link" xml:space="preserve">
     <value>新規リンクを作成</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>プライベートリンクにはアクセスするためのパスワードが必要です。</value>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>短縮リンクを作成</value>
   </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>サーバーはパスワードを暗号化して安全に保存します。</value>
+  <data name="Custom Code" xml:space="preserve">
+    <value>カスタムコード</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>カスタムコード（任意）</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>ダッシュボードウェブサイト</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>ディスカッションページ</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Docker化によるデプロイ</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>動的ナビゲーションバー</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>例: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>例：ダブルイレブンキャンペーン</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>例：ダブルイレブンイベントページ</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>例：my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>例: my-product または空欄のまま</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>SQLite、MySQL、SQL Server、およびテスト用のインメモリデータベースなどのプロバイダーを簡単に切り替えられます。</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>アクセスパスワードを入力</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>有効期限（任意）</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>よくある質問</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>高速</value>
   </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Warpを選ぶ理由は？</value>
+  <data name="faster" xml:space="preserve">
+    <value>より迅速に</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>自動アバター圧縮機能を備えた組み込みファイル管理システムを特徴としています。</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>お問い合わせや問題の報告はこちらへ。</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>内部識別専用です。</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>無料</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>最適化されたインフラストラクチャで、短いリンクを即座に生成できます。</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>ダッシュボードへ</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>こんにちは、世界！</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>以下に、お探しの回答の一部をご紹介します。</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>コミュニティの開発者からの声をご紹介します。</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>サポートを受けるにはどうすればよいですか？</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>アプリケーションをデプロイするにはどうすればよいですか？</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>入力がない場合、無期限で有効です（手動で無効化しない限り）。</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>豊富なドキュメントと実用的な例を含んでいるため、すぐに使い始めることができます。</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>統合ファイル管理</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft Templateは無料で使用できますか？</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>ディスカッションに参加</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>コミュニティに参加して、今すぐ構築を始めましょう！</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>空欄のままにすると自動生成されます。</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>空欄のままにすると、このリンクは公開されます。入力すると、リンクは非公開になります。</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>この制限に達するとリンクは失効します。</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>リンク短縮</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>このリンクを非公開にする</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>MarkdownからHTMLへ</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大クリック数</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>最大クリック数（任意）</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MITライセンス</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>複数データベースサポート</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>音楽ツール</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>バックグラウンドでの表示および識別のみに使用され、リダイレクトには影響しません。</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>英数字とハイフンなどの安全な文字のみ使用可能です。空欄の場合は短いコードが自動生成されます。</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>プライベート設定時のみ有効です。サーバーはパスワードを暗号化して保存する必要があります。</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>オープンソース</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect 連携</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>任意項目です。空欄の場合は永続的に有効となります。</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>以下のエラーを修正してください：</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>完全なURLを入力してください（例：</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>完全なURLを入力してください。例：&lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>プライバシー設定</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>非公開 (チェックするとリンクを非公開にし、パスワード入力欄を表示します)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>プライベートリンクにはアクセスするためのパスワードが必要です。</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>パスワードでリンクを保護し、アクセス制御を管理できます。</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC認可</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>ドキュメントを読む</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>レスポンシブデザイン</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>レビュー</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>あらゆるOpenID Connectプロバイダーとシームレスに統合し、自動的なロール同期を実現します。</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>セキュア</value>
   </data>
   <data name="Shorten Your Links" xml:space="preserve">
     <value>リンクを短縮</value>
@@ -363,32 +303,92 @@
   <data name="Sign In to Start" xml:space="preserve">
     <value>開始するにはサインイン</value>
   </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>詳細設定</value>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>ユーザーのシステム設定に自動的に適応するスマートダークモード。</value>
   </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>最適化されたインフラストラクチャで、短いリンクを即座に生成できます。</value>
+  <data name="Start a new project" xml:space="preserve">
+    <value>新規プロジェクトを開始</value>
   </data>
-  <data name="Secure" xml:space="preserve">
-    <value>セキュア</value>
+  <data name="Success!" xml:space="preserve">
+    <value>成功しました！</value>
   </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>空欄のままにすると、このリンクは公開されます。入力すると、リンクは非公開になります。</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>ターゲットURL</value>
   </data>
-  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
-    <value>Warpは、リンクの管理、クリック数の追跡、コンテンツの共有を簡単に行える強力なURL短縮サービスです。ビジネスや個人利用のために、短くて覚えやすいリンクを作成しましょう。</value>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>ターゲットURL（必須）</value>
   </data>
-  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
-    <value>パスワードでリンクを保護し、アクセス制御を管理できます。</value>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>テクニカルリード</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>分析</value>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>この回数に達するとリンクは期限切れになります（空欄の場合は無制限）。</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>ナビゲーションバーは、ユーザーの役割と権限に基づいて自動的に調整されます。</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>サーバーはパスワードを暗号化して安全に保存します。</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>このテンプレートは簡単なデプロイを実現するために構築されています。完全なDockerサポートを含んでいるため、アプリをコンテナ化してどこでも実行できます。また、IIS、Azure App Service、またはASP.NET Coreをサポートする任意のサーバーに直接デプロイすることも可能です。</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>これはテンプレートプロジェクトです</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>これはテンプレートプロジェクトであり、ここからボイジャーの旅が始まります...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>このリンクは非公開です。アクセスパスワードを入力してください。</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>タイトル / 備考</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>タイトル / 備考 (任意)</value>
   </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>クリック数を追跡し、詳細な統計で視聴者を理解しましょう。</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>以下のエラーを修正してください：</value>
+  <data name="Usage" xml:space="preserve">
+    <value>使用方法</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>SaaSの基盤として、モバイルアプリのバックエンドとして、コーポレートサイトとして、個人ブログとしてお使いいただけます。可能性は無限大です。</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>公開範囲</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warpは、リンクの管理、クリック数の追跡、コンテンツの共有を簡単に行える強力なURL短縮サービスです。ビジネスや個人利用のために、短くて覚えやすいリンクを作成しましょう。</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>始めるには何が必要ですか？</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>開発者の声</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoftテンプレートを使用する理由</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Warpを選ぶ理由は？</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>はい、Aiursoft TemplateはMITライセンスの下で完全に無料かつオープンソースです。個人プロジェクトや商用プロジェクトで無償でご利用いただけます。</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>GitHub Discussionsでコミュニティサポートを受けることができます。当社の</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>.NET 10 SDK、npm、そしてVisual StudioやJetBrains Riderのようなお好みのIDEが必要です。完全なセットアップガイドはドキュメントでご覧いただけます。</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>短縮リンクが作成されました:</value>
   </data>
 
 </root>

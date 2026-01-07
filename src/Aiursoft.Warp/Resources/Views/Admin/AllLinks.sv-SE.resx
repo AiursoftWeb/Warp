@@ -18,23 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Target" xml:space="preserve">
-    <value>Mål</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
   </data>
   <data name="All Links" xml:space="preserve">
     <value>Alla länkar</value>
   </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Ägare</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klick</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Redigera länk</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Utgången</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Upphör vid</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>Länkinformation</value>
-  </data>
-  <data name="View and manage all links across the entire system." xml:space="preserve">
-    <value>Visa och hantera alla länkar i hela systemet.</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Klick</value>
   </data>
   <data name="Link Management" xml:space="preserve">
     <value>Länkhantering</value>
@@ -42,41 +54,29 @@
   <data name="No links found in the system." xml:space="preserve">
     <value>Inga länkar hittades i systemet.</value>
   </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Åtgärder</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Privat länk</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Upphör vid</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktiv</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Utgången</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Offentlig länk</value>
+  <data name="Owner" xml:space="preserve">
+    <value>Ägare</value>
   </data>
   <data name="Permanent" xml:space="preserve">
     <value>Permanent</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Redigera</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privat länk</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Radera</value>
+  <data name="Public Link" xml:space="preserve">
+    <value>Offentlig länk</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="View and manage all links across the entire system." xml:space="preserve">
+    <value>Visa och hantera alla länkar i hela systemet.</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Besök länk</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Redigera länk</value>
   </data>
 
 </root>

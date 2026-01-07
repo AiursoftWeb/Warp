@@ -18,38 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Name" xml:space="preserve">
-    <value>नाम</value>
-  </data>
-  <data name="Created" xml:space="preserve">
-    <value>बनाया गया</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>कार्रवाइयाँ</value>
-  </data>
-  <data name="Expires" xml:space="preserve">
-    <value>समाप्त होता है</value>
-  </data>
-  <data name="Create New Key" xml:space="preserve">
-    <value>नया कुंजी बनाएं</value>
   </data>
   <data name="API Key" xml:space="preserve">
     <value>एपीआई कुंजी</value>
   </data>
-  <data name="My API Keys" xml:space="preserve">
-    <value>मेरी एपीआई कुंजियाँ</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>क्या आप वाकई इस API कुंजी को हटाना चाहते हैं?</value>
   </data>
-  <data name="Manage your API keys" xml:space="preserve">
-    <value>अपनी API कुंजियाँ प्रबंधित करें</value>
+  <data name="Create New Key" xml:space="preserve">
+    <value>नया कुंजी बनाएं</value>
   </data>
-  <data name="Never" xml:space="preserve">
-    <value>कभी नहीं</value>
+  <data name="Created" xml:space="preserve">
+    <value>बनाया गया</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>हटाएं</value>
   </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>क्या आप वाकई इस API कुंजी को हटाना चाहते हैं?</value>
+  <data name="Expires" xml:space="preserve">
+    <value>समाप्त होता है</value>
+  </data>
+  <data name="Manage your API keys" xml:space="preserve">
+    <value>अपनी API कुंजियाँ प्रबंधित करें</value>
+  </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>मेरी एपीआई कुंजियाँ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>कभी नहीं</value>
   </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>आपके पास अभी तक कोई API कुंजी नहीं है।</value>

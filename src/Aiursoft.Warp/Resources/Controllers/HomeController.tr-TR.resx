@@ -21,11 +21,11 @@
       <data name="Incorrect password." xml:space="preserve">
     <value>Yanlış şifre.</value>
   </data>
-  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>Bu özel kod zaten kullanımda. Lütfen başka bir tane seçin.</value>
-  </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>Hedef URL, kısayol URL&apos;si ile aynı olamaz.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Bu özel kod zaten kullanımda. Lütfen başka bir tane seçin.</value>
   </data>
 
 </root>

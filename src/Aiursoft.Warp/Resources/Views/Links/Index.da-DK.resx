@@ -18,8 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
     <value>Klik</value>
+  </data>
+  <data name="Create New" xml:space="preserve">
+    <value>Opret ny</value>
+  </data>
+  <data name="Creation Time" xml:space="preserve">
+    <value>Oprettelsestidspunkt</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Slet</value>
@@ -27,35 +39,11 @@
   <data name="Edit" xml:space="preserve">
     <value>Rediger</value>
   </data>
-  <data name="Create New" xml:space="preserve">
-    <value>Opret ny</value>
+  <data name="Expired" xml:space="preserve">
+    <value>Udløbet</value>
   </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>Kort link</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Oprindelig URL</value>
-  </data>
-  <data name="Creation Time" xml:space="preserve">
-    <value>Oprettelsestidspunkt</value>
-  </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Mine links</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Handlinger</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Offentligt link</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Mål</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>Ydeevne</value>
+  <data name="Expires at" xml:space="preserve">
+    <value>Udløber</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>Linkoplysninger</value>
@@ -63,23 +51,35 @@
   <data name="Link Management" xml:space="preserve">
     <value>Linkhåndtering</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Privat Link</value>
+  <data name="My Links" xml:space="preserve">
+    <value>Mine links</value>
   </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Udløber</value>
+  <data name="Original URL" xml:space="preserve">
+    <value>Oprindelig URL</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Udløbet</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktiv</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Besøg link</value>
+  <data name="Performance" xml:space="preserve">
+    <value>Ydeevne</value>
   </data>
   <data name="Permanent" xml:space="preserve">
     <value>Permanent</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privat Link</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Offentligt link</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Kort link</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Besøg link</value>
   </data>
 
 </root>

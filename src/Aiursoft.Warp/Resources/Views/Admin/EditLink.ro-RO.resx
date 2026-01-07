@@ -18,68 +18,62 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Link updated successfully." xml:space="preserve">
-    <value>Link actualizat cu succes.</value>
+      <data name="-- Select an Owner --" xml:space="preserve">
+    <value>-- Selectați un Proprietar --</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Succes!</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>Înapoi la listă</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Șterge</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>clicuri utilizate</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL-ul țintă</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiat!</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Editează Linkul</value>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Copiază Link</value>
   </data>
-  <data name="Enter the target URL" xml:space="preserve">
-    <value>Introduceți adresa URL țintă</value>
-  </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Detalii Link</value>
-  </data>
-  <data name="Modify link content, title, and owner." xml:space="preserve">
-    <value>Modificați conținutul, titlul și proprietarul linkului.</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Proprietar</value>
+  <data name="Created At" xml:space="preserve">
+    <value>Creat la</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>Cod Personalizat</value>
   </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Data expirării</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Șterge Legătura</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Editează Linkul</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>Introduceți codul personalizat</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Titlu / Observație</value>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Introduceți numărul maxim de clicuri</value>
   </data>
   <data name="Enter the link title" xml:space="preserve">
     <value>Introduceți titlul linkului</value>
   </data>
+  <data name="Enter the target URL" xml:space="preserve">
+    <value>Introduceți adresa URL țintă</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Data expirării</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Nu s-a putut copia în clipboard</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
   <data name="Leave empty for permanent." xml:space="preserve">
     <value>Lăsați necompletat pentru permanent.</value>
-  </data>
-  <data name="-- Select an Owner --" xml:space="preserve">
-    <value>-- Selectați un Proprietar --</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Fă acest link privat</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>Introduceți numărul maxim de clicuri</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Numărul maxim de clicuri</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Linkurile private necesită o parolă pentru acces.</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Parolă Nouă</value>
   </data>
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>Lăsați necompletat pentru nelimitat.</value>
@@ -87,64 +81,68 @@
   <data name="Leave empty to keep current password" xml:space="preserve">
     <value>Lăsați gol pentru a păstra parola actuală.</value>
   </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>Statistici</value>
+  <data name="Link Details" xml:space="preserve">
+    <value>Detalii Link</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Înapoi la listă</value>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>Link actualizat cu succes.</value>
   </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>Total Clicks</value>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Fă acest link privat</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>Salvează</value>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Numărul maxim de clicuri</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>clicuri utilizate</value>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>Modificați conținutul, titlul și proprietarul linkului.</value>
   </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Creat la</value>
+  <data name="New Password" xml:space="preserve">
+    <value>Parolă Nouă</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Accesează Linkul</value>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Proprietar</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Linkurile private necesită o parolă pentru acces.</value>
   </data>
   <data name="Quick Actions" xml:space="preserve">
     <value>Acțiuni Rapide</value>
   </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Copiază Link</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Copiat!</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Șterge Legătura</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Nu s-a putut copia în clipboard</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
   </data>
   <data name="Referer" xml:space="preserve">
     <value>Referer</value>
   </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistici</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succes!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL-ul țintă</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titlu / Observație</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Total Clicks</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Accesează Linkul</value>
   </data>
 
 </root>

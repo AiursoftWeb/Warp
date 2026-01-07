@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>Create</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Back to List</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
   </data>
   <data name="Create API Key" xml:space="preserve">
     <value>Create API Key</value>
-  </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>New API Key Details</value>
   </data>
   <data name="e.g. My App" xml:space="preserve">
     <value>e.g. My App</value>
   </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Leave blank for no expiry.</value>
+  </data>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>New API Key Details</value>
   </data>
 
 </root>

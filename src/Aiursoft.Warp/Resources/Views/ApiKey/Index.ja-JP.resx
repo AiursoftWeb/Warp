@@ -21,11 +21,26 @@
       <data name="Actions" xml:space="preserve">
     <value>操作</value>
   </data>
-  <data name="Manage your API keys" xml:space="preserve">
-    <value>APIキーの管理</value>
+  <data name="API Key" xml:space="preserve">
+    <value>APIキー</value>
+  </data>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>このAPIキーを削除してもよろしいですか？</value>
   </data>
   <data name="Create New Key" xml:space="preserve">
     <value>新しいキーを作成</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>作成日時</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Manage your API keys" xml:space="preserve">
+    <value>APIキーの管理</value>
   </data>
   <data name="My API Keys" xml:space="preserve">
     <value>私のAPIキー</value>
@@ -33,26 +48,11 @@
   <data name="Name" xml:space="preserve">
     <value>名前</value>
   </data>
-  <data name="Expires" xml:space="preserve">
-    <value>有効期限</value>
-  </data>
-  <data name="Created" xml:space="preserve">
-    <value>作成日時</value>
-  </data>
-  <data name="API Key" xml:space="preserve">
-    <value>APIキー</value>
-  </data>
   <data name="Never" xml:space="preserve">
     <value>期限なし</value>
   </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>まだAPIキーがありません。</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>削除</value>
-  </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>このAPIキーを削除してもよろしいですか？</value>
   </data>
 
 </root>

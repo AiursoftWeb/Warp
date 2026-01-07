@@ -18,29 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit Link" xml:space="preserve">
-    <value>リンクを編集</value>
+      <data name="-- Select an Owner --" xml:space="preserve">
+    <value>-- 所有者を選択 --</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>成功しました！</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>リストに戻る</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>リンク詳細</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>クリック使用済み</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>コピーしました！</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>リンクをコピー</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>作成日時</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>カスタムコード</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>削除</value>
   </data>
-  <data name="Link updated successfully." xml:space="preserve">
-    <value>リンクが正常に更新されました。</value>
+  <data name="Delete Link" xml:space="preserve">
+    <value>リンクを削除</value>
   </data>
-  <data name="Modify link content, title, and owner." xml:space="preserve">
-    <value>リンクの内容、タイトル、所有者を変更します。</value>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>デバイス / ユーザーエージェント</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>ターゲットURL</value>
+  <data name="Edit Link" xml:space="preserve">
+    <value>リンクを編集</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>カスタムコードを入力</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>最大クリック数を入力</value>
   </data>
   <data name="Enter the link title" xml:space="preserve">
     <value>リンクのタイトルを入力</value>
@@ -48,101 +63,86 @@
   <data name="Enter the target URL" xml:space="preserve">
     <value>ターゲットURLを入力</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>タイトル / 備考</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>所有者</value>
-  </data>
-  <data name="-- Select an Owner --" xml:space="preserve">
-    <value>-- 所有者を選択 --</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>カスタムコード</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>有効期限</value>
-  </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>空欄のままにすると永続的になります。</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>最大クリック数を入力</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>最大クリック数</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>新しいパスワード</value>
-  </data>
-  <data name="Leave empty for unlimited." xml:space="preserve">
-    <value>空欄の場合は無制限です。</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>このリンクを非公開にする</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>プライベートリンクにはアクセスにパスワードが必要です。</value>
-  </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>現在のパスワードを維持するには空欄のままにしてください</value>
-  </data>
-  <data name="Save" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>リストに戻る</value>
-  </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>統計</value>
-  </data>
-  <data name="Created At" xml:space="preserve">
-    <value>作成日時</value>
-  </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>総クリック数</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>クイックアクション</value>
-  </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>クリック使用済み</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>リンクを開く</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>リンクをコピー</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>コピーしました！</value>
   </data>
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>クリップボードへのコピーに失敗しました</value>
   </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>リンクを削除</value>
+  <data name="IP Address" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>空欄のままにすると永続的になります。</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>空欄の場合は無制限です。</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>現在のパスワードを維持するには空欄のままにしてください</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>リンク詳細</value>
+  </data>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>リンクが正常に更新されました。</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>このリンクを非公開にする</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大クリック数</value>
+  </data>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>リンクの内容、タイトル、所有者を変更します。</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>新しいパスワード</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>ヒット記録はまだ見つかりません。</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>プライベートリンクにはアクセスにパスワードが必要です。</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>クイックアクション</value>
   </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>最近のアクセス</value>
   </data>
+  <data name="Referer" xml:space="preserve">
+    <value>参照元</value>
+  </data>
   <data name="Region" xml:space="preserve">
     <value>地域</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>統計</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>成功しました！</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>ターゲットURL</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>時間</value>
   </data>
-  <data name="IP Address" xml:space="preserve">
-    <value>IPアドレス</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>タイトル / 備考</value>
   </data>
-  <data name="Referer" xml:space="preserve">
-    <value>参照元</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>総クリック数</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>デバイス / ユーザーエージェント</value>
-  </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>ヒット記録はまだ見つかりません。</value>
+  <data name="Visit Link" xml:space="preserve">
+    <value>リンクを開く</value>
   </data>
 
 </root>

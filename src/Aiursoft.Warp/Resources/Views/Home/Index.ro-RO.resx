@@ -18,107 +18,134 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Bun venit</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Acesta este un proiect tip</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Salut Lume!</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Autorizare RBAC</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Integrare OpenID Connect</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Suport pentru Multiple Baze de Date</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>De ce să folosești Șablonul Aiursoft?</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Integrați fără probleme cu orice furnizor OpenID Connect, cu sincronizare automată a rolurilor.</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>O fundație modernă, bogată în funcționalități și extrem de extensibilă pentru următoarea ta aplicație web.</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Comută cu ușurință între furnizori precum SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Bara de Navigare Dinamică</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Traduceri alimentate de IA</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Un sistem integrat de control al accesului bazat pe roluri (RBAC) pentru gestionarea granulară a permisiunilor.</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Documentație Cuprinzătoare</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Gestionare Utilizatori Integrată</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Include documentație extinsă și exemple practice pentru a începe rapid.</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Traducere automată, bazată pe inteligență artificială, în 28 de limbi pentru o acoperire globală.</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Gestionare Integrată a Fișierelor</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Injectare Automată de Dependințe</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>O soluție completă pentru autentificarea utilizatorilor și gestionarea profilului, disponibilă imediat.</value>
   </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Un layout complet responsive care arată excelent atât pe dispozitive desktop, cât și pe mobile.</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>O fundație modernă, bogată în funcționalități și extrem de extensibilă pentru următoarea ta aplicație web.</value>
+  </data>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Un instrument simplu pentru a scurta și gestiona linkurile tale.</value>
+  </data>
+  <data name="Access Password" xml:space="preserve">
+    <value>Parolă de acces</value>
+  </data>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Parolă de acces (obligatorie pentru linkuri private)</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Realizați mai multe cu Aiursoft Template</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Setări Avansate</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Traduceri alimentate de IA</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template este alegerea noastră definitivă pentru proiectele enterprise! Este construit pentru dezvoltatori și este ușor, dar puternic. Putem sărim peste toate secțiunile repetitive pentru autentificare și managementul utilizatorilor.</value>
+  </data>
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Toate dependențele sunt înregistrate automat și sunt întotdeauna disponibile prin injectare în constructor.</value>
   </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Include un sistem integrat de gestionare a fișierelor cu compresie automată a avatarurilor.</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
   </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Design Responsiv</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
   </data>
   <data name="Automatic Dark Mode" xml:space="preserve">
     <value>Mod Întunecat Automat</value>
   </data>
-  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
-    <value>Un layout complet responsive care arată excelent atât pe dispozitive desktop, cât și pe mobile.</value>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Injectare Automată de Dependințe</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Containerizat pentru Implementare</value>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Traducere automată, bazată pe inteligență artificială, în 28 de limbi pentru o acoperire globală.</value>
   </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Mod întunecat inteligent care se adaptează automat la setările de sistem ale utilizatorului.</value>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Construiește-ți următorul proiect important,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Gestionare Utilizatori Integrată</value>
   </data>
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Oferă suport complet pentru Docker, pentru implementări simplificate, consistente și fiabile.</value>
   </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Citește documentația</value>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Documentație Cuprinzătoare</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Acesta este un proiect tipic, de unde începem călătoria...</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copiat!</value>
   </data>
-  <data name="Free" xml:space="preserve">
-    <value>Gratuit</value>
+  <data name="Copy" xml:space="preserve">
+    <value>Copiază</value>
   </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Open Source</value>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Copiază în clipboard</value>
   </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Accesează panoul de control</value>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Creează Legătură Nouă</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Creează Link Scurt</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Cod Personalizat</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Cod Personalizat (Opțional)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Site-ul Panoului de Control</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Pagina de discuții</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Containerizat pentru Implementare</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Bara de Navigare Dinamică</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>exemplu: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>exemplu: Campania Double Eleven</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>ex.: Pagina Evenimentului Double Eleven</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>exemplu: produsul-meu</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>de ex.: my-product sau lăsați gol</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Comută cu ușurință între furnizori precum SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Introduceți parola de acces</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Data expirării</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Timp de expirare (Opțional)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Întrebări frecvente</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Rapid</value>
   </data>
   <data name="faster" xml:space="preserve">
     <value>mai rapid</value>
@@ -126,239 +153,149 @@
   <data name="Features" xml:space="preserve">
     <value>Funcționalități</value>
   </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Utilizare</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Licență MIT</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Construiește-ți următorul proiect important,</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown în HTML</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Realizați mai multe cu Aiursoft Template</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Recenzii</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Ce spun dezvoltatorii noștri</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Instrumente Muzicale</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Site-ul Panoului de Control</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Folosește-l ca fundație pentru SaaS-ul tău, ca backend pentru aplicația ta mobilă, ca site corporativ sau ca blog personal. Posibilitățile sunt nelimitate.</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Iată ce au de spus dezvoltatorii din comunitatea noastră.</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Întrebări frecvente</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Conducător Tehnic</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>Întrebări frecvente</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Iată câteva dintre răspunsurile pe care le căutați.</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Este gratuit să folosești Aiursoft Template?</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>De ce am nevoie pentru a începe?</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Cum îmi implementez aplicația?</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template este alegerea noastră definitivă pentru proiectele enterprise! Este construit pentru dezvoltatori și este ușor, dar puternic. Putem sărim peste toate secțiunile repetitive pentru autentificare și managementul utilizatorilor.</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Da, Aiursoft Template este complet gratuit și open-source sub Licența MIT. Îl puteți utiliza pentru proiecte personale și comerciale fără niciun cost.</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Cum pot obține asistență?</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Vei avea nevoie de .NET 10 SDK, npm și IDE-ul tău preferat, cum ar fi Visual Studio sau JetBrains Rider. Poți găsi ghidul complet de configurare în documentația noastră.</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Puteți obține suport din partea comunității prin GitHub Discussions. Vă rugăm să vizitați pagina noastră de</value>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Include un sistem integrat de gestionare a fișierelor cu compresie automată a avatarurilor.</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>pentru orice întrebări sau pentru a raporta probleme.</value>
   </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Alătură-te discuțiilor</value>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Doar pentru identificare internă.</value>
   </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Pagina de discuții</value>
+  <data name="Free" xml:space="preserve">
+    <value>Gratuit</value>
   </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>Alăturați-vă comunității noastre și începeți să construiți astăzi!</value>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Întrebări frecvente</value>
   </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Șablonul este construit pentru o implementare ușoară. Include suport complet pentru Docker, astfel încât poți containeriza aplicația și să o rulezi oriunde. De asemenea, îl poți implementa direct pe IIS, Azure App Service sau pe orice server care suportă ASP.NET Core.</value>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generați linkuri scurte instantaneu cu infrastructura noastră optimizată.</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Începe un proiect nou</value>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Accesează panoul de control</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Succes!</value>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Salut Lume!</value>
   </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Copiază</value>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Iată câteva dintre răspunsurile pe care le căutați.</value>
   </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>Un instrument simplu pentru a scurta și gestiona linkurile tale.</value>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Iată ce au de spus dezvoltatorii din comunitatea noastră.</value>
   </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Copiază în clipboard</value>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Cum pot obține asistență?</value>
   </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>Linkul dvs. scurt a fost creat:</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>URL-ul țintă (Obligatoriu)</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Vă rugăm să introduceți adresa URL completă, de exemplu: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Cod Personalizat (Opțional)</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Scurtător de linkuri</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>de ex.: my-product sau lăsați gol</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Timp de expirare (Opțional)</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Vizibilitate</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Privat (Bifați pentru a face linkul privat și pentru a afișa câmpul de parolă)</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Sunt permise doar caractere sigure, cum ar fi litere, cifre și cratime; dacă este lăsat necompletat, un cod scurt va fi generat automat.</value>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Cum îmi implementez aplicația?</value>
   </data>
   <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
     <value>Dacă nu este completat, va fi permanent valabil (cu excepția cazului în care este dezactivat manual).</value>
   </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Introduceți parola de acces</value>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Include documentație extinsă și exemple practice pentru a începe rapid.</value>
   </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>Parolă de acces (obligatorie pentru linkuri private)</value>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Gestionare Integrată a Fișierelor</value>
   </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Număr maxim de clicuri (Opțional)</value>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Este gratuit să folosești Aiursoft Template?</value>
   </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Valabil doar când este setat ca privat; serverul ar trebui să cripteze și să stocheze parola.</value>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Alătură-te discuțiilor</value>
   </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>ex.: Pagina Evenimentului Double Eleven</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Titlu / Observație (Opțional)</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>exemplu: 100</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>Linkul va expira după ce atinge acest număr (poate fi lăsat liber pentru nelimitat).</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>Creează Link Scurt</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Copiat!</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Acest link este privat, vă rugăm să introduceți parola de acces.</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Doar pentru afișare și identificare în fundal, nu afectează redirecționarea.</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Cod Personalizat</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Titlu / Observație</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>exemplu: Campania Double Eleven</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL-ul țintă</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>exemplu: produsul-meu</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Creează Legătură Nouă</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Vă rugăm să introduceți adresa URL completă, de exemplu:</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Data expirării</value>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Alăturați-vă comunității noastre și începeți să construiți astăzi!</value>
   </data>
   <data name="Leave empty to auto-generate." xml:space="preserve">
     <value>Lăsați necompletat pentru a genera automat.</value>
   </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Număr maxim de clicuri</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Doar pentru identificare internă.</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Opțional. Lăsați necompletat pentru permanent.</value>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Lăsați necompletat pentru ca acest link să fie public. Dacă este completat, linkul va fi privat.</value>
   </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Link-ul expiră după atingerea acestei limite.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Scurtător de linkuri</value>
+  </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Faceți acest link privat</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown în HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Număr maxim de clicuri</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Număr maxim de clicuri (Opțional)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Licență MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Suport pentru Multiple Baze de Date</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Instrumente Muzicale</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Doar pentru afișare și identificare în fundal, nu afectează redirecționarea.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Sunt permise doar caractere sigure, cum ar fi litere, cifre și cratime; dacă este lăsat necompletat, un cod scurt va fi generat automat.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Valabil doar când este setat ca privat; serverul ar trebui să cripteze și să stocheze parola.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Open Source</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Integrare OpenID Connect</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Opțional. Lăsați necompletat pentru permanent.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Vă rugăm să corectați următoarele erori:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Vă rugăm să introduceți adresa URL completă, de exemplu:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Vă rugăm să introduceți adresa URL completă, de exemplu: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
   </data>
   <data name="Privacy Settings" xml:space="preserve">
     <value>Setări de confidențialitate</value>
   </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privat (Bifați pentru a face linkul privat și pentru a afișa câmpul de parolă)</value>
+  </data>
   <data name="Private links require a password to access." xml:space="preserve">
     <value>Linkurile private necesită o parolă pentru acces.</value>
   </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Parolă de acces</value>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Protejează-ți linkurile cu parole și gestionează controlul accesului.</value>
   </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>Serverul va cripta și va stoca parola în siguranță.</value>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Autorizare RBAC</value>
   </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Setări Avansate</value>
+  <data name="Read the document" xml:space="preserve">
+    <value>Citește documentația</value>
   </data>
-  <data name="Fast" xml:space="preserve">
-    <value>Rapid</value>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Design Responsiv</value>
   </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>De ce Warp?</value>
+  <data name="Reviews" xml:space="preserve">
+    <value>Recenzii</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Integrați fără probleme cu orice furnizor OpenID Connect, cu sincronizare automată a rolurilor.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Sigur</value>
   </data>
   <data name="Shorten Your Links" xml:space="preserve">
     <value>Scurtați-vă linkurile</value>
@@ -366,29 +303,92 @@
   <data name="Sign In to Start" xml:space="preserve">
     <value>Autentifică-te pentru a începe</value>
   </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>Generați linkuri scurte instantaneu cu infrastructura noastră optimizată.</value>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Mod întunecat inteligent care se adaptează automat la setările de sistem ale utilizatorului.</value>
   </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>Lăsați necompletat pentru ca acest link să fie public. Dacă este completat, linkul va fi privat.</value>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Începe un proiect nou</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Analytics</value>
+  <data name="Success!" xml:space="preserve">
+    <value>Succes!</value>
   </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Sigur</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL-ul țintă</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL-ul țintă (Obligatoriu)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Conducător Tehnic</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Linkul va expira după ce atinge acest număr (poate fi lăsat liber pentru nelimitat).</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Serverul va cripta și va stoca parola în siguranță.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Șablonul este construit pentru o implementare ușoară. Include suport complet pentru Docker, astfel încât poți containeriza aplicația și să o rulezi oriunde. De asemenea, îl poți implementa direct pe IIS, Azure App Service sau pe orice server care suportă ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Acesta este un proiect tip</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Acesta este un proiect tipic, de unde începem călătoria...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Acest link este privat, vă rugăm să introduceți parola de acces.</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titlu / Observație</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titlu / Observație (Opțional)</value>
   </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Urmăriți clicurile și înțelegeți-vă audiența cu statistici detaliate.</value>
   </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Utilizare</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Folosește-l ca fundație pentru SaaS-ul tău, ca backend pentru aplicația ta mobilă, ca site corporativ sau ca blog personal. Posibilitățile sunt nelimitate.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Vizibilitate</value>
+  </data>
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Warp este un scurtător de URL-uri puternic care te ajută să îți gestionezi linkurile, să urmărești clicurile și să partajezi conținut cu ușurință. Creează linkuri scurte și memorabile pentru afacerea sau uzul tău personal.</value>
   </data>
-  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
-    <value>Protejează-ți linkurile cu parole și gestionează controlul accesului.</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bun venit</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Vă rugăm să corectați următoarele erori:</value>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>De ce am nevoie pentru a începe?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Ce spun dezvoltatorii noștri</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>De ce să folosești Șablonul Aiursoft?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>De ce Warp?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Da, Aiursoft Template este complet gratuit și open-source sub Licența MIT. Îl puteți utiliza pentru proiecte personale și comerciale fără niciun cost.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Puteți obține suport din partea comunității prin GitHub Discussions. Vă rugăm să vizitați pagina noastră de</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Vei avea nevoie de .NET 10 SDK, npm și IDE-ul tău preferat, cum ar fi Visual Studio sau JetBrains Rider. Poți găsi ghidul complet de configurare în documentația noastră.</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Linkul dvs. scurt a fost creat:</value>
   </data>
 
 </root>
