@@ -18,56 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Owner" xml:space="preserve">
-    <value>所有者</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>リンク情報</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>ターゲット</value>
-  </data>
-  <data name="All Links" xml:space="preserve">
-    <value>すべてのリンク</value>
-  </data>
-  <data name="No links found in the system." xml:space="preserve">
-    <value>システム内にリンクが見つかりません。</value>
-  </data>
-  <data name="View and manage all links across the entire system." xml:space="preserve">
-    <value>システム全体のすべてのリンクを表示および管理します。</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>リンク管理</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>クリック数</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>操作</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>ステータス</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>非公開リンク</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>有効</value>
   </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>公開リンク</value>
+  <data name="All Links" xml:space="preserve">
+    <value>すべてのリンク</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>期限切れ</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>有効期限</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>永続的</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>リンクを開く</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>クリック数</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>削除</value>
@@ -77,6 +38,45 @@
   </data>
   <data name="Edit Link" xml:space="preserve">
     <value>リンクを編集</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>期限切れ</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>有効期限</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>リンク情報</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>リンク管理</value>
+  </data>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>システム内にリンクが見つかりません。</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>永続的</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>非公開リンク</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>公開リンク</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>ターゲット</value>
+  </data>
+  <data name="View and manage all links across the entire system." xml:space="preserve">
+    <value>システム全体のすべてのリンクを表示および管理します。</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>リンクを開く</value>
   </data>
 
 </root>

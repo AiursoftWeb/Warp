@@ -21,11 +21,11 @@
       <data name="Incorrect password." xml:space="preserve">
     <value>Parolă incorectă.</value>
   </data>
-  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>Acest cod personalizat este deja în uz. Vă rugăm să alegeți altul.</value>
-  </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>URL-ul țintă nu poate fi același cu URL-ul scurtăturii.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>Acest cod personalizat este deja în uz. Vă rugăm să alegeți altul.</value>
   </data>
 
 </root>

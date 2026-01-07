@@ -18,8 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Delete" xml:space="preserve">
+      <data name="Are you sure you want to delete this?" xml:space="preserve">
+    <value>Tem a certeza de que pretende eliminar isto?</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Voltar à Lista</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
     <value>Eliminar</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Eliminar Ligação</value>
   </data>
   <data name="Original URL" xml:space="preserve">
     <value>URL Original</value>
@@ -29,15 +38,6 @@
   </data>
   <data name="ShorterLink" xml:space="preserve">
     <value>Link Mais Curto</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Voltar à Lista</value>
-  </data>
-  <data name="Are you sure you want to delete this?" xml:space="preserve">
-    <value>Tem a certeza de que pretende eliminar isto?</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Eliminar Ligação</value>
   </data>
 
 </root>

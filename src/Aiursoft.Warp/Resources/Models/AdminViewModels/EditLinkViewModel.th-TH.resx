@@ -18,23 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Expiration Time" xml:space="preserve">
-    <value>เวลาหมดอายุ</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>รหัสกำหนดเอง</value>
   </data>
-  <data name="Owner" xml:space="preserve">
-    <value>เจ้าของ</value>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>เวลาหมดอายุ</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>จำนวนคลิกสูงสุด</value>
   </data>
+  <data name="Owner" xml:space="preserve">
+    <value>เจ้าของ</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
   <data name="Please select the owner of this Link!" xml:space="preserve">
     <value>กรุณาเลือกเจ้าของของลิงก์นี้!</value>
   </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>ลิงก์ส่วนตัว</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL ปลายทาง</value>
+  </data>
   <data name="The {0} is not a valid URL." xml:space="preserve">
     <value>{0} ไม่ใช่ URL ที่ถูกต้อง</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>รหัสกำหนดเอง</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} จำเป็นต้องระบุ</value>
@@ -42,17 +51,8 @@
   <data name="The {0} must be at max {1} characters long." xml:space="preserve">
     <value>{0} ต้องมีความยาวไม่เกิน {1} ตัวอักษร</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>ลิงก์ส่วนตัว</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>รหัสผ่าน</value>
-  </data>
   <data name="Title" xml:space="preserve">
     <value>หัวข้อ</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL ปลายทาง</value>
   </data>
 
 </root>

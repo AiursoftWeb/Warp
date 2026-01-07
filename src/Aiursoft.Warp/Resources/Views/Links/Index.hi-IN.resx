@@ -18,44 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
-    <value>क्लिक्स</value>
+      <data name="Actions" xml:space="preserve">
+    <value>कार्रवाइयाँ</value>
   </data>
-  <data name="Creation Time" xml:space="preserve">
-    <value>निर्माण समय</value>
+  <data name="Active" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>क्लिक्स</value>
   </data>
   <data name="Create New" xml:space="preserve">
     <value>नया बनाएँ</value>
   </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>मूल यूआरएल</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>संपादित करें</value>
+  <data name="Creation Time" xml:space="preserve">
+    <value>निर्माण समय</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>हटाएं</value>
   </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>शॉर्ट लिंक</value>
+  <data name="Edit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>समाप्त</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>समाप्ति समय</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>लिंक की जानकारी</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>लिंक प्रबंधन</value>
   </data>
   <data name="My Links" xml:space="preserve">
     <value>मेरे लिंक्स</value>
   </data>
-  <data name="Target" xml:space="preserve">
-    <value>लक्ष्य</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>कार्रवाइयाँ</value>
+  <data name="Original URL" xml:space="preserve">
+    <value>मूल यूआरएल</value>
   </data>
   <data name="Performance" xml:space="preserve">
     <value>प्रदर्शन</value>
   </data>
-  <data name="Status" xml:space="preserve">
-    <value>स्थिति</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>लिंक प्रबंधन</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>स्थायी</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>निजी लिंक</value>
@@ -63,20 +69,14 @@
   <data name="Public Link" xml:space="preserve">
     <value>सार्वजनिक लिंक</value>
   </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>लिंक की जानकारी</value>
+  <data name="Short Link" xml:space="preserve">
+    <value>शॉर्ट लिंक</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>समाप्त</value>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>सक्रिय</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>स्थायी</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>समाप्ति समय</value>
+  <data name="Target" xml:space="preserve">
+    <value>लक्ष्य</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>लिंक पर जाएँ</value>

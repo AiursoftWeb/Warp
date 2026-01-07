@@ -18,188 +18,188 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Καλώς ήρθατε</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Αυτό είναι ένα πρότυπο έργο</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Εξουσιοδότηση RBAC</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Ενσωμάτωση OpenID Connect</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Γεια σου Κόσμε!</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Εύκολη εναλλαγή μεταξύ παρόχων όπως SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Δυναμική Γραμμή Πλοήγησης</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Αυτόματη, τεχνητή νοημοσύνη μετάφραση σε 28 γλώσσες για παγκόσμια εμβέλεια.</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Πληρέστερη Τεκμηρίωση</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Περιλαμβάνει εκτενή τεκμηρίωση και πρακτικά παραδείγματα για να ξεκινήσετε γρήγορα.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Ένα ενσωματωμένο σύστημα Ελέγχου Πρόσβασης Βάσει Ρόλων (RBAC) για λεπτομερή διαχείριση δικαιωμάτων.</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Αυτόματη Ενσωμάτωση Εξαρτήσεων</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Ενσωματωμένη Διαχείριση Αρχείων</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>Μια ολοκληρωμένη λύση για την πιστοποίηση χρηστών και τη διαχείριση προφίλ, έτοιμη προς χρήση.</value>
   </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Όλες οι εξαρτήσεις εγγράφονται αυτόματα και είναι πάντα διαθέσιμες μέσω της εισαγωγής από κατασκευαστή.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Αποκρισιμό Σχεδιασμό</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Αυτόματη Λειτουργία Σκούρου Θέματος</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Μια πλήρως ανταποκρινόμενη διάταξη που φαίνεται εξαιρετική τόσο σε επιτραπέζιους υπολογιστές όσο και σε κινητές συσκευές.</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Σε Docker για Ανάπτυξη</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
   </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Ένα απλό εργαλείο για να συντομεύετε και να διαχειρίζεστε τους συνδέσμους σας.</value>
   </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Διαθέτει πλήρη υποστήριξη Docker για απλοποιημένες, συνεπείς και αξιόπιστες αναπτύξεις.</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>Κωδικός Πρόσβασης</value>
   </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Διαβάστε το έγγραφο</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>γρηγορότερα</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Χρήση</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Λειτουργίες</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Ανοιχτού Κώδικα</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Μετάβαση στον πίνακα ελέγχου</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Άδεια MIT</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Δωρεάν</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Δημιουργήστε το επόμενό σας μεγάλο πράγμα,</value>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Κωδικός Πρόσβασης (Απαιτείται για Ιδιωτικούς Συνδέσμους)</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
   </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown σε HTML</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Προηγμένες Ρυθμίσεις</value>
   </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Κριτικές</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Εργαλεία Μουσικής</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Τι λένε οι προγραμματιστές μας</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Αυτά έχουν να πουν οι προγραμματιστές από την κοινότητά μας.</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Τεχνικός Υπεύθυνος</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Συχνές ερωτήσεις</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Χρησιμοποιήστε το ως θεμέλιο για το SaaS σας, ως backend για την εφαρμογή του κινητού σας, ως εταιρική ιστοσελίδα ή ως προσωπικό ιστολόγιο. Οι δυνατότητες είναι ατελείωτες.</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>Συχνές Ερωτήσεις</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Ακολουθούν μερικές από τις απαντήσεις που ίσως ψάχνετε.</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Είναι δωρεάν η χρήση του Aiursoft Template;</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Τι χρειάζομαι για να ξεκινήσω;</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Πώς μπορώ να λάβω υποστήριξη;</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Το Aiursoft Template είναι η απόλυτη μας επιλογή για εταιρικά έργα! Είναι φτιαγμένο για προγραμματιστές και είναι ελαφρύ αλλά και ισχυρό. Μπορούμε να παραλείψουμε όλο τον τυπικό κώδικα για την ταυτοποίηση και τη διαχείριση χρηστών.</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Όλες οι εξαρτήσεις εγγράφονται αυτόματα και είναι πάντα διαθέσιμες μέσω της εισαγωγής από κατασκευαστή.</value>
   </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των Συζητήσεων GitHub. Παρακαλούμε επισκεφτείτε την</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Αναλυτικά</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Αυτόματη Λειτουργία Σκούρου Θέματος</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Αυτόματη Ενσωμάτωση Εξαρτήσεων</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Αυτόματη, τεχνητή νοημοσύνη μετάφραση σε 28 γλώσσες για παγκόσμια εμβέλεια.</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Δημιουργήστε το επόμενό σας μεγάλο πράγμα,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Διαθέτει πλήρη υποστήριξη Docker για απλοποιημένες, συνεπείς και αξιόπιστες αναπτύξεις.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Πληρέστερη Τεκμηρίωση</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Αντιγράφτηκε!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Αντιγραφή</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Αντιγραφή στο πρόχειρο</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Δημιουργία Νέου Συνδέσμου</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Δημιουργία Σύντομου Συνδέσμου</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Προσαρμοσμένος Κωδικός</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Προσαρμοσμένος Κωδικός (Προαιρετικό)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Σελίδα Συζητήσεων</value>
   </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Θα χρειαστείτε το .NET 10 SDK, το npm και το αγαπημένο σας περιβάλλον ανάπτυξης (IDE), όπως το Visual Studio ή το JetBrains Rider. Μπορείτε να βρείτε τον πλήρη οδηγό ρύθμισης στην τεκμηρίωσή μας.</value>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Σε Docker για Ανάπτυξη</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Δυναμική Γραμμή Πλοήγησης</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>π.χ.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>π.χ.: Εκστρατεία Double Eleven</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>π.χ.: Σελίδα Εκδήλωσης Double Eleven</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>π.χ.: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>π.χ.: my-product ή αφήστε το κενό</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Εύκολη εναλλαγή μεταξύ παρόχων όπως SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Εισάγετε κωδικό πρόσβασης</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Χρόνος Λήξης</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Χρόνος Λήξης (Προαιρετικό)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Συχνές Ερωτήσεις</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Γρήγορο</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>γρηγορότερα</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Λειτουργίες</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Μόνο για εσωτερική αναγνώριση.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Δωρεάν</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Συχνές ερωτήσεις</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Δημιουργήστε σύντομους συνδέσμους αμέσως με τη βελτιστοποιημένη μας υποδομή.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Μετάβαση στον πίνακα ελέγχου</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Γεια σου Κόσμε!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Ακολουθούν μερικές από τις απαντήσεις που ίσως ψάχνετε.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Αυτά έχουν να πουν οι προγραμματιστές από την κοινότητά μας.</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Πώς μπορώ να λάβω υποστήριξη;</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Εάν δεν συμπληρωθεί, θα είναι μόνιμα έγκυρη (εκτός εάν απενεργοποιηθεί χειροκίνητα).</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Περιλαμβάνει εκτενή τεκμηρίωση και πρακτικά παραδείγματα για να ξεκινήσετε γρήγορα.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Ενσωματωμένη Διαχείριση Αρχείων</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Είναι δωρεάν η χρήση του Aiursoft Template;</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>Συμμετέχετε στις Συζητήσεις</value>
@@ -207,11 +207,104 @@
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>Γίνετε μέλος της κοινότητάς μας και ξεκινήστε να χτίζετε σήμερα!</value>
   </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Το πρότυπο είναι κατασκευασμένο για εύκολη ανάπτυξη. Περιλαμβάνει πλήρη υποστήριξη Docker, ώστε να μπορείτε να συσκευάσετε την εφαρμογή σας σε containers και να την εκτελέσετε οπουδήποτε. Μπορείτε επίσης να την αναπτύξετε απευθείας στο IIS, στο Azure App Service ή σε οποιονδήποτε διακομιστή που υποστηρίζει ASP.NET Core.</value>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Αφήστε το κενό για αυτόματη δημιουργία.</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Αφήστε το κενό για να είναι ο σύνδεσμος δημόσιος. Αν συμπληρωθεί, ο σύνδεσμος θα είναι ιδιωτικός.</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Ο σύνδεσμος λήγει μετά την επίτευξη αυτού του ορίου.</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Συντομευτής Συνδέσμων</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown σε HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Μέγιστος Αριθμός Κλικ</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Μέγιστος Αριθμός Κλικ (Προαιρετικό)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Εργαλεία Μουσικής</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Μόνο για εμφάνιση στο παρασκήνιο και αναγνώριση, δεν επηρεάζει την ανακατεύθυνση.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Επιτρέπονται μόνο ασφαλείς χαρακτήρες όπως γράμματα, αριθμοί και παύλες· εάν αφεθεί κενό, θα δημιουργηθεί αυτόματα ένας σύντομος κωδικός.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Ισχύει μόνο όταν ορίζεται ως ιδιωτικός· ο διακομιστής πρέπει να κρυπτογραφεί και να αποθηκεύει τον κωδικό πρόσβασης.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Ανοιχτού Κώδικα</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Ενσωμάτωση OpenID Connect</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Προαιρετικό. Αφήστε κενό για μόνιμη σύνδεση.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Παρακαλώ διορθώστε τα ακόλουθα λάθη:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε την πλήρη διεύθυνση URL, π.χ.:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε την πλήρη διεύθυνση URL, π.χ.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Ρυθμίσεις Απορρήτου</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Ιδιωτικό (Επιλέξτε για να κάνετε τον σύνδεσμο ιδιωτικό και να εμφανιστεί η εισαγωγή κωδικού πρόσβασης)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Οι ιδιωτικοί σύνδεσμοι απαιτούν κωδικό πρόσβασης για πρόσβαση.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Προστατέψτε τους συνδέσμους σας με κωδικούς πρόσβασης και διαχειριστείτε τον έλεγχο πρόσβασης.</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Εξουσιοδότηση RBAC</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Διαβάστε το έγγραφο</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Αποκρισιμό Σχεδιασμό</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Κριτικές</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Ασφαλής</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Συντομεύστε τους Συνδέσμους σας</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Συνδεθείτε για να ξεκινήσετε</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Ξεκινήστε ένα νέο έργο</value>
@@ -219,176 +312,83 @@
   <data name="Success!" xml:space="preserve">
     <value>Επιτυχία!</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Συντομευτής Συνδέσμων</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Αντιγραφή στο πρόχειρο</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>Σύνδεσμος Προορισμού</value>
   </data>
   <data name="Target URL (Required)" xml:space="preserve">
     <value>URL Προορισμού (Απαιτείται)</value>
   </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Αντιγραφή</value>
-  </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>Ένα απλό εργαλείο για να συντομεύετε και να διαχειρίζεστε τους συνδέσμους σας.</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>Ο σύντομος σύνδεσμός σας δημιουργήθηκε:</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Παρακαλώ εισάγετε την πλήρη διεύθυνση URL, π.χ.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Προσαρμοσμένος Κωδικός (Προαιρετικό)</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>π.χ.: my-product ή αφήστε το κενό</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Χρόνος Λήξης (Προαιρετικό)</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Ορατότητα</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>Εάν δεν συμπληρωθεί, θα είναι μόνιμα έγκυρη (εκτός εάν απενεργοποιηθεί χειροκίνητα).</value>
-  </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>Κωδικός Πρόσβασης (Απαιτείται για Ιδιωτικούς Συνδέσμους)</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Εισάγετε κωδικό πρόσβασης</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Ιδιωτικό (Επιλέξτε για να κάνετε τον σύνδεσμο ιδιωτικό και να εμφανιστεί η εισαγωγή κωδικού πρόσβασης)</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Επιτρέπονται μόνο ασφαλείς χαρακτήρες όπως γράμματα, αριθμοί και παύλες· εάν αφεθεί κενό, θα δημιουργηθεί αυτόματα ένας σύντομος κωδικός.</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>π.χ.: 100</value>
-  </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Μέγιστος Αριθμός Κλικ (Προαιρετικό)</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>π.χ.: Σελίδα Εκδήλωσης Double Eleven</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Ισχύει μόνο όταν ορίζεται ως ιδιωτικός· ο διακομιστής πρέπει να κρυπτογραφεί και να αποθηκεύει τον κωδικό πρόσβασης.</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Τίτλος / Παρατήρηση (Προαιρετικό)</value>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Τεχνικός Υπεύθυνος</value>
   </data>
   <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
     <value>Ο σύνδεσμος θα λήξει μετά την επίτευξη αυτού του αριθμού (μπορεί να μείνει κενό για απεριόριστο).</value>
   </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>Δημιουργία Σύντομου Συνδέσμου</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Μόνο για εμφάνιση στο παρασκήνιο και αναγνώριση, δεν επηρεάζει την ανακατεύθυνση.</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Αντιγράφτηκε!</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Αυτός ο σύνδεσμος είναι ιδιωτικός, παρακαλώ εισάγετε τον κωδικό πρόσβασης.</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>π.χ.: my-product</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Τίτλος / Παρατήρηση</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Δημιουργία Νέου Συνδέσμου</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>π.χ.: Εκστρατεία Double Eleven</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Προσαρμοσμένος Κωδικός</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Παρακαλώ εισάγετε την πλήρη διεύθυνση URL, π.χ.:</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Σύνδεσμος Προορισμού</value>
-  </data>
-  <data name="Leave empty to auto-generate." xml:space="preserve">
-    <value>Αφήστε το κενό για αυτόματη δημιουργία.</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Χρόνος Λήξης</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Μέγιστος Αριθμός Κλικ</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Μόνο για εσωτερική αναγνώριση.</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Προαιρετικό. Αφήστε κενό για μόνιμη σύνδεση.</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>Ο σύνδεσμος λήγει μετά την επίτευξη αυτού του ορίου.</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>Ρυθμίσεις Απορρήτου</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Κωδικός Πρόσβασης</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Οι ιδιωτικοί σύνδεσμοι απαιτούν κωδικό πρόσβασης για πρόσβαση.</value>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
   </data>
   <data name="The server will encrypt and store the password safely." xml:space="preserve">
     <value>Ο διακομιστής θα κρυπτογραφήσει και θα αποθηκεύσει τον κωδικό πρόσβασης με ασφάλεια.</value>
   </data>
-  <data name="Fast" xml:space="preserve">
-    <value>Γρήγορο</value>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Το πρότυπο είναι κατασκευασμένο για εύκολη ανάπτυξη. Περιλαμβάνει πλήρη υποστήριξη Docker, ώστε να μπορείτε να συσκευάσετε την εφαρμογή σας σε containers και να την εκτελέσετε οπουδήποτε. Μπορείτε επίσης να την αναπτύξετε απευθείας στο IIS, στο Azure App Service ή σε οποιονδήποτε διακομιστή που υποστηρίζει ASP.NET Core.</value>
   </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>Συντομεύστε τους Συνδέσμους σας</value>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Αυτό είναι ένα πρότυπο έργο</value>
   </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Γιατί το Warp;</value>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
   </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Προηγμένες Ρυθμίσεις</value>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Αυτός ο σύνδεσμος είναι ιδιωτικός, παρακαλώ εισάγετε τον κωδικό πρόσβασης.</value>
   </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>Συνδεθείτε για να ξεκινήσετε</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Τίτλος / Παρατήρηση</value>
   </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>Δημιουργήστε σύντομους συνδέσμους αμέσως με τη βελτιστοποιημένη μας υποδομή.</value>
-  </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>Αφήστε το κενό για να είναι ο σύνδεσμος δημόσιος. Αν συμπληρωθεί, ο σύνδεσμος θα είναι ιδιωτικός.</value>
-  </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Ασφαλής</value>
-  </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Αναλυτικά</value>
-  </data>
-  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
-    <value>Προστατέψτε τους συνδέσμους σας με κωδικούς πρόσβασης και διαχειριστείτε τον έλεγχο πρόσβασης.</value>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Τίτλος / Παρατήρηση (Προαιρετικό)</value>
   </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Παρακολουθήστε τα κλικ και κατανοήστε το κοινό σας με λεπτομερείς στατιστικές.</value>
   </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Χρήση</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Χρησιμοποιήστε το ως θεμέλιο για το SaaS σας, ως backend για την εφαρμογή του κινητού σας, ως εταιρική ιστοσελίδα ή ως προσωπικό ιστολόγιο. Οι δυνατότητες είναι ατελείωτες.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Ορατότητα</value>
+  </data>
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Το Warp είναι ένας ισχυρός συντομευτής URL που σας βοηθά να διαχειριστείτε τους συνδέσμους σας, να παρακολουθείτε τα κλικ και να μοιράζεστε περιεχόμενο με ευκολία. Δημιουργήστε σύντομους, εύκολα να θυμόμαστε συνδέσμους για επαγγελματική ή προσωπική χρήση.</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Παρακαλώ διορθώστε τα ακόλουθα λάθη:</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>Καλώς ήρθατε</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Τι χρειάζομαι για να ξεκινήσω;</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Τι λένε οι προγραμματιστές μας</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Γιατί το Warp;</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των Συζητήσεων GitHub. Παρακαλούμε επισκεφτείτε την</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Θα χρειαστείτε το .NET 10 SDK, το npm και το αγαπημένο σας περιβάλλον ανάπτυξης (IDE), όπως το Visual Studio ή το JetBrains Rider. Μπορείτε να βρείτε τον πλήρη οδηγό ρύθμισης στην τεκμηρίωσή μας.</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Ο σύντομος σύνδεσμός σας δημιουργήθηκε:</value>
   </data>
 
 </root>

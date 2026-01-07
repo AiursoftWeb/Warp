@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Name" xml:space="preserve">
-    <value>Nazwa</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Akcje</value>
   </data>
   <data name="API Key" xml:space="preserve">
     <value>Klucz API</value>
   </data>
-  <data name="Created" xml:space="preserve">
-    <value>Utworzono</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Akcje</value>
-  </data>
-  <data name="Expires" xml:space="preserve">
-    <value>Wygasa</value>
-  </data>
-  <data name="My API Keys" xml:space="preserve">
-    <value>Moje klucze API</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>Czy na pewno chcesz usunąć ten klucz API?</value>
   </data>
   <data name="Create New Key" xml:space="preserve">
     <value>Utwórz nowy klucz</value>
   </data>
-  <data name="Manage your API keys" xml:space="preserve">
-    <value>Zarządzaj swoimi kluczami API</value>
-  </data>
-  <data name="Never" xml:space="preserve">
-    <value>Nigdy</value>
+  <data name="Created" xml:space="preserve">
+    <value>Utworzono</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Usuń</value>
   </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Wygasa</value>
+  </data>
+  <data name="Manage your API keys" xml:space="preserve">
+    <value>Zarządzaj swoimi kluczami API</value>
+  </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Moje klucze API</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nazwa</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Nigdy</value>
+  </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>Nie masz jeszcze żadnych kluczy API.</value>
-  </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>Czy na pewno chcesz usunąć ten klucz API?</value>
   </data>
 
 </root>

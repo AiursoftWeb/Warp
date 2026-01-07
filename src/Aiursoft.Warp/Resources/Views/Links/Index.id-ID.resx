@@ -18,53 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit" xml:space="preserve">
-    <value>Edit</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Tindakan</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
   </data>
   <data name="Clicks" xml:space="preserve">
     <value>Klik</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Hapus</value>
+  <data name="Create New" xml:space="preserve">
+    <value>Buat Baru</value>
   </data>
   <data name="Creation Time" xml:space="preserve">
     <value>Waktu Pembuatan</value>
   </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>URL Asli</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Hapus</value>
   </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>Tautan Pendek</value>
-  </data>
-  <data name="Create New" xml:space="preserve">
-    <value>Buat Baru</value>
-  </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Tautan Saya</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Tujuan</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>Kinerja</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Manajemen Tautan</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Tautan Pribadi</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Tautan Publik</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Informasi Tautan</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Tindakan</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
   </data>
   <data name="Expired" xml:space="preserve">
     <value>Kadaluarsa</value>
@@ -72,14 +45,41 @@
   <data name="Expires at" xml:space="preserve">
     <value>Kadaluarsa pada</value>
   </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Informasi Tautan</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Manajemen Tautan</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Tautan Saya</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>URL Asli</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Kinerja</value>
+  </data>
   <data name="Permanent" xml:space="preserve">
     <value>Permanen</value>
   </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Tautan Pribadi</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Tautan Publik</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Tautan Pendek</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Tujuan</value>
+  </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Kunjungi Tautan</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktif</value>
   </data>
 
 </root>

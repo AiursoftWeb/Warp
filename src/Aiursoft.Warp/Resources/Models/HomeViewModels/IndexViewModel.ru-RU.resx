@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Заголовок содержит недопустимые символы.</value>
-  </data>
-  <data name="Please input your target link!" xml:space="preserve">
-    <value>Пожалуйста, введите целевую ссылку!</value>
-  </data>
-  <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Что-то пошло не так, пожалуйста, попробуйте позже.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Пользовательский код</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Пользовательский код может содержать только буквы, цифры и дефисы, и его длина не должна превышать 30 символов.</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>Поле {0} не является допустимым URL-адресом.</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Срок действия</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>Название</value>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимум переходов</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Пароль</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Целевой URL</value>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Пожалуйста, введите целевую ссылку!</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Приватная ссылка</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Пользовательский код</value>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Что-то пошло не так, пожалуйста, попробуйте позже.</value>
   </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Максимум переходов</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>Целевой URL</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Поле {0} не является допустимым URL-адресом.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Заголовок содержит недопустимые символы.</value>
   </data>
 
 </root>

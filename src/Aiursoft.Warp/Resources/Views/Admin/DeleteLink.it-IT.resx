@@ -18,8 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Original URL" xml:space="preserve">
-    <value>URL originale</value>
+      <data name="Are you sure you want to delete this?" xml:space="preserve">
+    <value>Sei sicuro di volerlo eliminare?</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Torna all&apos;elenco</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Elimina</value>
@@ -27,8 +30,8 @@
   <data name="Delete Link" xml:space="preserve">
     <value>Elimina collegamento</value>
   </data>
-  <data name="ShorterLink" xml:space="preserve">
-    <value>Collegamento Breve</value>
+  <data name="Original URL" xml:space="preserve">
+    <value>URL originale</value>
   </data>
   <data name="Owner" xml:space="preserve">
     <value>Proprietario</value>
@@ -36,11 +39,8 @@
   <data name="Short Link" xml:space="preserve">
     <value>Collegamento Breve</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Torna all&apos;elenco</value>
-  </data>
-  <data name="Are you sure you want to delete this?" xml:space="preserve">
-    <value>Sei sicuro di volerlo eliminare?</value>
+  <data name="ShorterLink" xml:space="preserve">
+    <value>Collegamento Breve</value>
   </data>
 
 </root>

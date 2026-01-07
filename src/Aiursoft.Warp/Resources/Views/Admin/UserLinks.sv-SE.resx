@@ -18,8 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Username" xml:space="preserve">
-    <value>Användarnamn</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Tillbaka till alla länkar</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>Klick</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Radera</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Redigera länk</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Utgången</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Upphör vid</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Länkinformation</value>
   </data>
   <data name="Link Management" xml:space="preserve">
     <value>Länkhantering</value>
@@ -27,62 +54,35 @@
   <data name="Links by" xml:space="preserve">
     <value>Länkar av</value>
   </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Länkinformation</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>Den här användaren har inte skapat några länkar ännu.</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>Tillbaka till alla länkar</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>Totalt antal dokument</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>Profildetaljer</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Klick</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Utgången</value>
+  <data name="Permanent" xml:space="preserve">
+    <value>Permanent</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Privat länk</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktiv</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Mål</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Åtgärder</value>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Profildetaljer</value>
   </data>
   <data name="Public Link" xml:space="preserve">
     <value>Offentlig länk</value>
   </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Permanent</value>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Redigera</value>
+  <data name="Target" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Den här användaren har inte skapat några länkar ännu.</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Totalt antal dokument</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Besök länk</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Radera</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Upphör vid</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Redigera länk</value>
   </data>
 
 </root>

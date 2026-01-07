@@ -18,8 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Owner" xml:space="preserve">
-    <value>擁有者</value>
+      <data name="Actions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>啟用中</value>
+  </data>
+  <data name="All Links" xml:space="preserve">
+    <value>所有連結</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>點擊次數</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>編輯連結</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>已過期</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>於...到期</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>連結資訊</value>
@@ -27,8 +51,23 @@
   <data name="Link Management" xml:space="preserve">
     <value>連結管理</value>
   </data>
-  <data name="All Links" xml:space="preserve">
-    <value>所有連結</value>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>系統中未找到任何連結。</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>擁有者</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>永久</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>私人連結</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>公開連結</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>狀態</value>
   </data>
   <data name="Target" xml:space="preserve">
     <value>目標</value>
@@ -36,47 +75,8 @@
   <data name="View and manage all links across the entire system." xml:space="preserve">
     <value>檢視並管理整個系統中的所有連結。</value>
   </data>
-  <data name="No links found in the system." xml:space="preserve">
-    <value>系統中未找到任何連結。</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>點擊次數</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>狀態</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>私人連結</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>操作</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>啟用中</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>公開連結</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>永久</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>已過期</value>
-  </data>
   <data name="Visit Link" xml:space="preserve">
     <value>前往連結</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>編輯</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>刪除</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>於...到期</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>編輯連結</value>
   </data>
 
 </root>

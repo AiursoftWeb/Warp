@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Sorry, the link you are trying to access has expired." xml:space="preserve">
-    <value>抱歉，您尝试访问的链接已过期。</value>
-  </data>
-  <data name="Create a new link" xml:space="preserve">
+      <data name="Create a new link" xml:space="preserve">
     <value>创建新链接</value>
   </data>
   <data name="Link Expired" xml:space="preserve">
     <value>链接已过期</value>
+  </data>
+  <data name="Sorry, the link you are trying to access has expired." xml:space="preserve">
+    <value>抱歉，您尝试访问的链接已过期。</value>
   </data>
 
 </root>

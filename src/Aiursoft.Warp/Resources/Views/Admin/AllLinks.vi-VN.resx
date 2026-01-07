@@ -18,8 +18,56 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Đang hoạt động</value>
+  </data>
+  <data name="All Links" xml:space="preserve">
+    <value>Tất cả liên kết</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
     <value>Lượt nhấp</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Chỉnh sửa Liên kết</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Đã hết hạn</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Hết hạn vào</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Thông tin Liên kết</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Quản lý Liên kết</value>
+  </data>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>Không tìm thấy liên kết nào trong hệ thống.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Chủ sở hữu</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Vĩnh viễn</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Liên kết Riêng tư</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Liên kết Công khai</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Trạng thái</value>
   </data>
   <data name="Target" xml:space="preserve">
     <value>Đích đến</value>
@@ -27,56 +75,8 @@
   <data name="View and manage all links across the entire system." xml:space="preserve">
     <value>Xem và quản lý tất cả các liên kết trên toàn hệ thống.</value>
   </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Quản lý Liên kết</value>
-  </data>
-  <data name="All Links" xml:space="preserve">
-    <value>Tất cả liên kết</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Thông tin Liên kết</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Chủ sở hữu</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Trạng thái</value>
-  </data>
-  <data name="No links found in the system." xml:space="preserve">
-    <value>Không tìm thấy liên kết nào trong hệ thống.</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Hành động</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Liên kết Riêng tư</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Đang hoạt động</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Liên kết Công khai</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Đã hết hạn</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Vĩnh viễn</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Chỉnh sửa</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Xóa</value>
-  </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Truy cập Liên kết</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Hết hạn vào</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Chỉnh sửa Liên kết</value>
   </data>
 
 </root>

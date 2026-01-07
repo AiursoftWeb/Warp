@@ -18,107 +18,53 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Link Details" xml:space="preserve">
-    <value>Link Details</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Edit Link</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Success!</value>
-  </data>
-  <data name="Link updated successfully." xml:space="preserve">
-    <value>Link updated successfully.</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Destination URL</value>
-  </data>
-  <data name="Enter the target URL" xml:space="preserve">
-    <value>Enter the target URL</value>
-  </data>
-  <data name="Modify link content, title, and owner." xml:space="preserve">
-    <value>Modify link content, title, and owner.</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Custom Code</value>
-  </data>
-  <data name="Enter custom code" xml:space="preserve">
-    <value>Enter custom code</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Title / Remark</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Owner</value>
-  </data>
-  <data name="Enter the link title" xml:space="preserve">
-    <value>Enter the link title</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Expiry Time</value>
-  </data>
-  <data name="-- Select an Owner --" xml:space="preserve">
+      <data name="-- Select an Owner --" xml:space="preserve">
     <value>-- Select an Owner --</value>
-  </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>Leave blank for permanent.</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>Enter maximum clicks</value>
-  </data>
-  <data name="Leave empty for unlimited." xml:space="preserve">
-    <value>Leave blank for unlimited.</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Maximum Clicks</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Make this link Private</value>
-  </data>
-  <data name="Save" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>Leave blank to keep current password</value>
-  </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>Statistics</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>New Password</value>
-  </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>Total Clicks</value>
   </data>
   <data name="Back to List" xml:space="preserve">
     <value>Back to List</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Private links require a password to access.</value>
-  </data>
   <data name="clicks used" xml:space="preserve">
     <value>clicks used</value>
   </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Created At</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>Quick Actions</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Delete Link</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Visit Link</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Copied!</value>
   </data>
   <data name="Copy Link" xml:space="preserve">
     <value>Copy Link</value>
   </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Copied!</value>
+  <data name="Created At" xml:space="preserve">
+    <value>Created At</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Custom Code</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Delete Link</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Edit Link</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Enter custom code</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Enter maximum clicks</value>
+  </data>
+  <data name="Enter the link title" xml:space="preserve">
+    <value>Enter the link title</value>
+  </data>
+  <data name="Enter the target URL" xml:space="preserve">
+    <value>Enter the target URL</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Expiry Time</value>
   </data>
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>Failed to copy to clipboard</value>
@@ -126,23 +72,77 @@
   <data name="IP Address" xml:space="preserve">
     <value>IP Address</value>
   </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Leave blank for permanent.</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>Leave blank for unlimited.</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>Leave blank to keep current password</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Link Details</value>
+  </data>
+  <data name="Link updated successfully." xml:space="preserve">
+    <value>Link updated successfully.</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Make this link Private</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximum Clicks</value>
+  </data>
+  <data name="Modify link content, title, and owner." xml:space="preserve">
+    <value>Modify link content, title, and owner.</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Private links require a password to access.</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Quick Actions</value>
+  </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
   </data>
   <data name="Referer" xml:space="preserve">
     <value>Referer</value>
   </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Destination URL</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Title / Remark</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Total Clicks</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visit Link</value>
   </data>
 
 </root>

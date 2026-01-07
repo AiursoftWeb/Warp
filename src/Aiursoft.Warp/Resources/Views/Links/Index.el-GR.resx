@@ -18,20 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Short Link" xml:space="preserve">
-    <value>Σύντομος Σύνδεσμος</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Ενέργειες</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Διαγραφή</value>
+  <data name="Active" xml:space="preserve">
+    <value>Ενεργό</value>
   </data>
   <data name="Clicks" xml:space="preserve">
     <value>Κλικ</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Αρχικό URL</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Επεξεργασία</value>
   </data>
   <data name="Create New" xml:space="preserve">
     <value>Δημιουργία Νέου</value>
@@ -39,44 +33,50 @@
   <data name="Creation Time" xml:space="preserve">
     <value>Χρόνος Δημιουργίας</value>
   </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Οι Σύνδεσμοί μου</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
   </data>
-  <data name="Status" xml:space="preserve">
-    <value>Κατάσταση</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Ενέργειες</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>Απόδοση</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Δημόσιος Σύνδεσμος</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Ιδιωτικός Σύνδεσμος</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Διαχείριση Συνδέσμων</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Πληροφορίες Συνδέσμου</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Προορισμός</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
   </data>
   <data name="Expired" xml:space="preserve">
     <value>Έληξε</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>Ενεργό</value>
-  </data>
   <data name="Expires at" xml:space="preserve">
     <value>Λήγει στις</value>
   </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Πληροφορίες Συνδέσμου</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Διαχείριση Συνδέσμων</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Οι Σύνδεσμοί μου</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Αρχικό URL</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Απόδοση</value>
+  </data>
   <data name="Permanent" xml:space="preserve">
     <value>Μόνιμο</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Ιδιωτικός Σύνδεσμος</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Δημόσιος Σύνδεσμος</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Σύντομος Σύνδεσμος</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Προορισμός</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Επισκεφθείτε τον Σύνδεσμο</value>

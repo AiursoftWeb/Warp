@@ -18,17 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Expires" xml:space="preserve">
-    <value>Λήγει</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Ενέργειες</value>
   </data>
   <data name="API Key" xml:space="preserve">
     <value>Κλειδί API</value>
   </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Ενέργειες</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το κλειδί API;</value>
+  </data>
+  <data name="Create New Key" xml:space="preserve">
+    <value>Δημιουργία νέου κλειδιού</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Λήγει</value>
+  </data>
+  <data name="Manage your API keys" xml:space="preserve">
+    <value>Διαχειριστείτε τα κλειδιά API σας</value>
   </data>
   <data name="My API Keys" xml:space="preserve">
     <value>Τα κλειδιά API μου</value>
@@ -36,23 +48,11 @@
   <data name="Name" xml:space="preserve">
     <value>Όνομα</value>
   </data>
-  <data name="Create New Key" xml:space="preserve">
-    <value>Δημιουργία νέου κλειδιού</value>
-  </data>
-  <data name="Manage your API keys" xml:space="preserve">
-    <value>Διαχειριστείτε τα κλειδιά API σας</value>
-  </data>
   <data name="Never" xml:space="preserve">
     <value>Ποτέ</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Διαγραφή</value>
-  </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>Δεν έχετε ακόμη κλειδιά API.</value>
-  </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το κλειδί API;</value>
   </data>
 
 </root>

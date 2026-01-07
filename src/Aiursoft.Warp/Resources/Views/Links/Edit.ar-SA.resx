@@ -21,68 +21,11 @@
       <data name="Back to List" xml:space="preserve">
     <value>العودة إلى القائمة</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>حفظ</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>تعديل الرابط</value>
-  </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>تفاصيل الرابط</value>
-  </data>
-  <data name="Enter custom code" xml:space="preserve">
-    <value>أدخل رمزًا مخصصًا</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>الكود المخصص</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>الرابط الهدف</value>
-  </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>أدخل العنوان</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>العنوان / الملاحظة</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>أقصى عدد من النقرات</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>أدخل الحد الأقصى للنقرات</value>
-  </data>
-  <data name="Leave empty for unlimited." xml:space="preserve">
-    <value>اتركه فارغًا ليكون غير محدود.</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>وقت الانتهاء</value>
-  </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>اتركه فارغًا ليكون دائمًا.</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>اجعل هذا الرابط خاصاً</value>
-  </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>الإحصائيات</value>
-  </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>حفظ التغييرات</value>
-  </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>اتركه فارغًا للحفاظ على كلمة المرور الحالية</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>كلمة مرور جديدة</value>
-  </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>إجمالي النقرات</value>
-  </data>
   <data name="clicks used" xml:space="preserve">
     <value>النقرات المستخدمة</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>تتطلب الروابط الخاصة كلمة مرور للوصول.</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>تم النسخ!</value>
   </data>
   <data name="Copy Link" xml:space="preserve">
     <value>نسخ الرابط</value>
@@ -90,43 +33,98 @@
   <data name="Created At" xml:space="preserve">
     <value>تم الإنشاء في</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>زيارة الرابط</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>الإجراءات السريعة</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>تم النسخ!</value>
+  <data name="Custom Code" xml:space="preserve">
+    <value>الكود المخصص</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>حذف الرابط</value>
   </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>تعديل الرابط</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>أدخل رمزًا مخصصًا</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>أدخل الحد الأقصى للنقرات</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>أدخل العنوان</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>وقت الانتهاء</value>
+  </data>
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>فشل النسخ إلى الحافظة</value>
   </data>
-
-
   <data name="IP Address" xml:space="preserve">
     <value>IP Address</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>اتركه فارغًا ليكون دائمًا.</value>
+  </data>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>اتركه فارغًا ليكون غير محدود.</value>
+  </data>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>اتركه فارغًا للحفاظ على كلمة المرور الحالية</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>تفاصيل الرابط</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>اجعل هذا الرابط خاصاً</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>أقصى عدد من النقرات</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>كلمة مرور جديدة</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>تتطلب الروابط الخاصة كلمة مرور للوصول.</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>الإجراءات السريعة</value>
   </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>Recent Hits</value>
   </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
   <data name="Region" xml:space="preserve">
     <value>Region</value>
   </data>
-  <data name="Referer" xml:space="preserve">
-    <value>Referer</value>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>حفظ التغييرات</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>الإحصائيات</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>الرابط الهدف</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>العنوان / الملاحظة</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>إجمالي النقرات</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>زيارة الرابط</value>
   </data>
 
 </root>

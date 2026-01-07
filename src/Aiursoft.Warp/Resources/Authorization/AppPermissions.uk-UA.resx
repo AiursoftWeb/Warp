@@ -18,80 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Read Users" xml:space="preserve">
-    <value>Перегляд користувачів</value>
+      <data name="Add New Roles" xml:space="preserve">
+    <value>Додати нові ролі</value>
   </data>
   <data name="Add New Users" xml:space="preserve">
     <value>Додати нових користувачів</value>
   </data>
-  <data name="Delete Users" xml:space="preserve">
-    <value>Видалення користувачів</value>
-  </data>
-  <data name="Edit User Information" xml:space="preserve">
-    <value>Редагування інформації користувача</value>
-  </data>
-  <data name="Allows viewing the list of all users." xml:space="preserve">
-    <value>Дозволяє переглядати список усіх користувачів.</value>
-  </data>
-  <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
-    <value>Дозволяє остаточне видалення облікових записів користувачів.</value>
-  </data>
-  <data name="Grants permission to create new user accounts." xml:space="preserve">
-    <value>Надає дозвіл на створення нових облікових записів користувачів.</value>
-  </data>
-  <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
-    <value>Дозволяє змінювати дані користувача, такі як електронна пошта та ролі, а також скидати паролі користувачів.</value>
-  </data>
-  <data name="Delete Roles" xml:space="preserve">
-    <value>Видалити ролі</value>
-  </data>
-  <data name="Read Roles" xml:space="preserve">
-    <value>Перегляд ролей</value>
-  </data>
-  <data name="Allows viewing the list of roles and their assigned permissions." xml:space="preserve">
-    <value>Дозволяє переглядати список ролей та призначені для них дозволи.</value>
-  </data>
-  <data name="Allows the permanent deletion of roles." xml:space="preserve">
-    <value>Дозволяє остаточне видалення ролей.</value>
-  </data>
-  <data name="Add New Roles" xml:space="preserve">
-    <value>Додати нові ролі</value>
-  </data>
-  <data name="Edit Role Information" xml:space="preserve">
-    <value>Редагувати інформацію про роль</value>
-  </data>
-  <data name="Grants permission to create new roles." xml:space="preserve">
-    <value>Надає дозвіл на створення нових ролей.</value>
-  </data>
-  <data name="Allows modification of role names and their assigned permissions." xml:space="preserve">
-    <value>Дозволяє змінювати назви ролей та призначені для них дозволи.</value>
-  </data>
-  <data name="View System Context" xml:space="preserve">
-    <value>Перегляд системного контексту</value>
-  </data>
-  <data name="Assign Roles to Users" xml:space="preserve">
-    <value>Призначити ролі користувачам</value>
-  </data>
-  <data name="Allows viewing system-level information and settings." xml:space="preserve">
-    <value>Дозволяє перегляд системної інформації та налаштувань.</value>
-  </data>
-  <data name="Reboot This App" xml:space="preserve">
-    <value>Перезавантажити цей додаток</value>
-  </data>
   <data name="Allows assigning or removing roles for any user." xml:space="preserve">
     <value>Дозволяє призначати або знімати ролі для будь-кого користувача.</value>
-  </data>
-  <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
-    <value>Надає дозвіл на перезапуск екземпляра програми. Може призвести до перерв у доступності, але всі налаштування та кеш буде перезавантажено.</value>
-  </data>
-  <data name="Read All Links" xml:space="preserve">
-    <value>Переглядати всі посилання</value>
-  </data>
-  <data name="Edit Any Link" xml:space="preserve">
-    <value>Редагувати будь-яке посилання</value>
-  </data>
-  <data name="Delete Any Link" xml:space="preserve">
-    <value>Видалити будь-яке посилання</value>
   </data>
   <data name="Allows deletion of any link, regardless of ownership." xml:space="preserve">
     <value>Дозволяє видалення будь-якого посилання, незалежно від прав власності.</value>
@@ -99,8 +33,74 @@
   <data name="Allows editing of any link, regardless of ownership." xml:space="preserve">
     <value>Дозволяє редагувати будь-яке посилання, незалежно від прав власності.</value>
   </data>
+  <data name="Allows modification of role names and their assigned permissions." xml:space="preserve">
+    <value>Дозволяє змінювати назви ролей та призначені для них дозволи.</value>
+  </data>
+  <data name="Allows modification of user details like email and roles, and can also reset user passwords." xml:space="preserve">
+    <value>Дозволяє змінювати дані користувача, такі як електронна пошта та ролі, а також скидати паролі користувачів.</value>
+  </data>
+  <data name="Allows the permanent deletion of roles." xml:space="preserve">
+    <value>Дозволяє остаточне видалення ролей.</value>
+  </data>
+  <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
+    <value>Дозволяє остаточне видалення облікових записів користувачів.</value>
+  </data>
   <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
     <value>Дозволяє переглядати всі посилання в системі, незалежно від власності.</value>
+  </data>
+  <data name="Allows viewing system-level information and settings." xml:space="preserve">
+    <value>Дозволяє перегляд системної інформації та налаштувань.</value>
+  </data>
+  <data name="Allows viewing the list of all users." xml:space="preserve">
+    <value>Дозволяє переглядати список усіх користувачів.</value>
+  </data>
+  <data name="Allows viewing the list of roles and their assigned permissions." xml:space="preserve">
+    <value>Дозволяє переглядати список ролей та призначені для них дозволи.</value>
+  </data>
+  <data name="Assign Roles to Users" xml:space="preserve">
+    <value>Призначити ролі користувачам</value>
+  </data>
+  <data name="Delete Any Link" xml:space="preserve">
+    <value>Видалити будь-яке посилання</value>
+  </data>
+  <data name="Delete Roles" xml:space="preserve">
+    <value>Видалити ролі</value>
+  </data>
+  <data name="Delete Users" xml:space="preserve">
+    <value>Видалення користувачів</value>
+  </data>
+  <data name="Edit Any Link" xml:space="preserve">
+    <value>Редагувати будь-яке посилання</value>
+  </data>
+  <data name="Edit Role Information" xml:space="preserve">
+    <value>Редагувати інформацію про роль</value>
+  </data>
+  <data name="Edit User Information" xml:space="preserve">
+    <value>Редагування інформації користувача</value>
+  </data>
+  <data name="Grants permission to create new roles." xml:space="preserve">
+    <value>Надає дозвіл на створення нових ролей.</value>
+  </data>
+  <data name="Grants permission to create new user accounts." xml:space="preserve">
+    <value>Надає дозвіл на створення нових облікових записів користувачів.</value>
+  </data>
+  <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
+    <value>Надає дозвіл на перезапуск екземпляра програми. Може призвести до перерв у доступності, але всі налаштування та кеш буде перезавантажено.</value>
+  </data>
+  <data name="Read All Links" xml:space="preserve">
+    <value>Переглядати всі посилання</value>
+  </data>
+  <data name="Read Roles" xml:space="preserve">
+    <value>Перегляд ролей</value>
+  </data>
+  <data name="Read Users" xml:space="preserve">
+    <value>Перегляд користувачів</value>
+  </data>
+  <data name="Reboot This App" xml:space="preserve">
+    <value>Перезавантажити цей додаток</value>
+  </data>
+  <data name="View System Context" xml:space="preserve">
+    <value>Перегляд системного контексту</value>
   </data>
 
 </root>

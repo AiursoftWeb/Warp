@@ -18,113 +18,113 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Save" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>返回列表</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>编辑链接</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>过期时间</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>标题 / 备注</value>
-  </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>留空表示永久有效。</value>
-  </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>输入标题</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>目标网址</value>
-  </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>链接详情</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>自定义代码</value>
-  </data>
-  <data name="Enter custom code" xml:space="preserve">
-    <value>输入自定义代码</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>最大点击次数</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>输入最大点击次数</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>新密码</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>将此链接设为私有</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>私有链接需要密码才能访问。</value>
-  </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>保存更改</value>
-  </data>
-  <data name="Leave empty to keep current password" xml:space="preserve">
-    <value>留空以保持当前密码</value>
-  </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>总点击次数</value>
-  </data>
-  <data name="Created At" xml:space="preserve">
-    <value>创建时间</value>
-  </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>统计</value>
   </data>
   <data name="clicks used" xml:space="preserve">
     <value>已使用点击次数</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>访问链接</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>快速操作</value>
-  </data>
-  <data name="Leave empty for unlimited." xml:space="preserve">
-    <value>留空表示无限制。</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>已复制！</value>
   </data>
   <data name="Copy Link" xml:space="preserve">
     <value>复制链接</value>
   </data>
+  <data name="Created At" xml:space="preserve">
+    <value>创建时间</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>自定义代码</value>
+  </data>
   <data name="Delete Link" xml:space="preserve">
     <value>删除链接</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>设备 / 用户代理</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>编辑链接</value>
+  </data>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>输入自定义代码</value>
+  </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>输入最大点击次数</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>输入标题</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>过期时间</value>
   </data>
   <data name="Failed to copy to clipboard" xml:space="preserve">
     <value>复制到剪贴板失败</value>
   </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>已复制！</value>
-  </data>
   <data name="IP Address" xml:space="preserve">
     <value>IP地址</value>
   </data>
-  <data name="Recent Hits" xml:space="preserve">
-    <value>最近点击</value>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>留空表示永久有效。</value>
   </data>
-  <data name="Time" xml:space="preserve">
-    <value>时间</value>
+  <data name="Leave empty for unlimited." xml:space="preserve">
+    <value>留空表示无限制。</value>
   </data>
-  <data name="Region" xml:space="preserve">
-    <value>地区</value>
+  <data name="Leave empty to keep current password" xml:space="preserve">
+    <value>留空以保持当前密码</value>
+  </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>链接详情</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>将此链接设为私有</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>最大点击次数</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>新密码</value>
   </data>
   <data name="No hit records found yet." xml:space="preserve">
     <value>暂无访问记录</value>
   </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>私有链接需要密码才能访问。</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>快速操作</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>最近点击</value>
+  </data>
   <data name="Referer" xml:space="preserve">
     <value>来源</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>设备 / 用户代理</value>
+  <data name="Region" xml:space="preserve">
+    <value>地区</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>统计</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>目标网址</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>标题 / 备注</value>
+  </data>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>总点击次数</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>访问链接</value>
   </data>
 
 </root>

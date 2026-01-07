@@ -18,23 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Bir şeyler yanlış gitti, lütfen daha sonra tekrar deneyin.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Özel Kod</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Özel kod yalnızca harf, rakam ve tire içerebilir ve en fazla 30 karakter uzunluğunda olabilir.</value>
-  </data>
-  <data name="Please input your target link!" xml:space="preserve">
-    <value>Lütfen hedef bağlantınızı girin!</value>
-  </data>
-  <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Başlık geçersiz karakterler içeriyor.</value>
-  </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} geçerli bir URL değil.</value>
-  </data>
-  <data name="Title" xml:space="preserve">
-    <value>Başlık</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Son Kullanma Süresi</value>
@@ -45,14 +33,26 @@
   <data name="Password" xml:space="preserve">
     <value>Şifre</value>
   </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Lütfen hedef bağlantınızı girin!</value>
+  </data>
   <data name="Private Link" xml:space="preserve">
     <value>Özel Bağlantı</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Özel Kod</value>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Bir şeyler yanlış gitti, lütfen daha sonra tekrar deneyin.</value>
   </data>
   <data name="Target URL" xml:space="preserve">
     <value>Hedef URL</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} geçerli bir URL değil.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Başlık geçersiz karakterler içeriyor.</value>
   </data>
 
 </root>
