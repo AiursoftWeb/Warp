@@ -4,7 +4,6 @@ using Aiursoft.UiStack.Navigation;
 using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Localization;
 
 namespace Aiursoft.Warp.Controllers;
 
@@ -13,7 +12,7 @@ namespace Aiursoft.Warp.Controllers;
 /// </summary>
 [AllowAnonymous]
 [LimitPerMin]
-public class SelfHostController(IStringLocalizer<SelfHostController> localizer) : Controller
+public class SelfHostController : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Self Host",
