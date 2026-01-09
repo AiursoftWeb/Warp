@@ -13,7 +13,7 @@ namespace Aiursoft.Warp.Controllers;
 /// </summary>
 [AllowAnonymous]
 [LimitPerMin]
-public class SelfHostController(IStringLocalizer<SelfHostController> localizer) : Controller
+public class SelfHostController : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Self Host",
