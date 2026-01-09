@@ -18,20 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create API Key" xml:space="preserve">
-    <value>建立 API 金鑰</value>
+      <data name="Back to List" xml:space="preserve">
+    <value>返回列表</value>
   </data>
   <data name="Create" xml:space="preserve">
     <value>建立</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>返回列表</value>
-  </data>
-  <data name="Leave empty for no expiration." xml:space="preserve">
-    <value>留空表示永不過期。</value>
+  <data name="Create API Key" xml:space="preserve">
+    <value>建立 API 金鑰</value>
   </data>
   <data name="e.g. My App" xml:space="preserve">
     <value>例如：我的應用程式</value>
+  </data>
+  <data name="Leave empty for no expiration." xml:space="preserve">
+    <value>留空表示永不過期。</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>新 API 金鑰詳細資訊</value>

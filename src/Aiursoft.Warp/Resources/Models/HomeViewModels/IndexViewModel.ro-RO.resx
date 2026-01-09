@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Titlul conține caractere invalide.</value>
-  </data>
-  <data name="Please input your target link!" xml:space="preserve">
-    <value>Vă rugăm să introduceți linkul țintă!</value>
-  </data>
-  <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Ceva nu a funcționat corect, vă rugăm să încercați din nou mai târziu.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Cod Personalizat</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Codul personalizat poate conține doar litere, cifre și cratime și poate avea maximum 30 de caractere.</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} nu este o adresă URL validă.</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Timp de expirare</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Parolă</value>
-  </data>
-  <data name="Title" xml:space="preserve">
-    <value>Titlu</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Cod Personalizat</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Legătură Privată</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>Numărul maxim de clicuri</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Vă rugăm să introduceți linkul țintă!</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Legătură Privată</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Ceva nu a funcționat corect, vă rugăm să încercați din nou mai târziu.</value>
+  </data>
   <data name="Target URL" xml:space="preserve">
     <value>URL-ul țintă</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} nu este o adresă URL validă.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Titlul conține caractere invalide.</value>
   </data>
 
 </root>

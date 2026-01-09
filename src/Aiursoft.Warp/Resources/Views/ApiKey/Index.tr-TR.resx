@@ -18,20 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Name" xml:space="preserve">
-    <value>Ad</value>
-  </data>
-  <data name="Expires" xml:space="preserve">
-    <value>Son Kullanma Tarihi</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>İşlemler</value>
   </data>
   <data name="API Key" xml:space="preserve">
     <value>API Anahtarı</value>
   </data>
-  <data name="My API Keys" xml:space="preserve">
-    <value>API Anahtarlarım</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>Bu API anahtarını silmek istediğinizden emin misiniz?</value>
   </data>
   <data name="Create New Key" xml:space="preserve">
     <value>Yeni Anahtar Oluştur</value>
@@ -39,17 +33,23 @@
   <data name="Created" xml:space="preserve">
     <value>Oluşturulma Tarihi</value>
   </data>
-  <data name="Manage your API keys" xml:space="preserve">
-    <value>API Anahtarlarınızı Yönetin</value>
-  </data>
-  <data name="Never" xml:space="preserve">
-    <value>Asla</value>
-  </data>
   <data name="Delete" xml:space="preserve">
     <value>Sil</value>
   </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>Bu API anahtarını silmek istediğinizden emin misiniz?</value>
+  <data name="Expires" xml:space="preserve">
+    <value>Son Kullanma Tarihi</value>
+  </data>
+  <data name="Manage your API keys" xml:space="preserve">
+    <value>API Anahtarlarınızı Yönetin</value>
+  </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>API Anahtarlarım</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Never" xml:space="preserve">
+    <value>Asla</value>
   </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>Henüz hiç API anahtarınız yok.</value>

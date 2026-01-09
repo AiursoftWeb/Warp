@@ -21,44 +21,50 @@
       <data name="Back to List" xml:space="preserve">
     <value>返回列表</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>儲存</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>已使用點擊次數</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>編輯連結</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>已複製！</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>目標網址</value>
+  <data name="Copy Link" xml:space="preserve">
+    <value>複製連結</value>
   </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>到期時間</value>
-  </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>連結詳情</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>標題 / 備註</value>
+  <data name="Created At" xml:space="preserve">
+    <value>建立時間</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>自訂代碼</value>
   </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>輸入標題</value>
+  <data name="Delete Link" xml:space="preserve">
+    <value>刪除連結</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>裝置 / 使用者代理</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>編輯連結</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>輸入自訂代碼</value>
   </data>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>輸入最大點擊次數</value>
+  </data>
+  <data name="Enter title" xml:space="preserve">
+    <value>輸入標題</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>到期時間</value>
+  </data>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>複製到剪貼簿失敗</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP 位址</value>
+  </data>
   <data name="Leave empty for permanent." xml:space="preserve">
     <value>留空代表永久有效。</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>私人連結需要密碼才能存取。</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>新密碼</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>將此連結設為私人</value>
   </data>
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>留空代表無限制。</value>
@@ -66,11 +72,38 @@
   <data name="Leave empty to keep current password" xml:space="preserve">
     <value>留空以保留現有密碼</value>
   </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>連結詳情</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>將此連結設為私人</value>
+  </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>最大點擊次數</value>
   </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>輸入最大點擊次數</value>
+  <data name="New Password" xml:space="preserve">
+    <value>新密碼</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>暫無點擊記錄。</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>私人連結需要密碼才能存取。</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>快速操作</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>近期點擊</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>來源網址</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>地區</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>儲存</value>
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>儲存變更</value>
@@ -78,53 +111,20 @@
   <data name="Statistics" xml:space="preserve">
     <value>統計</value>
   </data>
-  <data name="Created At" xml:space="preserve">
-    <value>建立時間</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>目標網址</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>標題 / 備註</value>
   </data>
   <data name="Total Clicks" xml:space="preserve">
     <value>總點擊次數</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>已使用點擊次數</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>快速操作</value>
-  </data>
   <data name="Visit Link" xml:space="preserve">
     <value>前往連結</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>複製連結</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>刪除連結</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>複製到剪貼簿失敗</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>已複製！</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>地區</value>
-  </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>暫無點擊記錄。</value>
-  </data>
-  <data name="Recent Hits" xml:space="preserve">
-    <value>近期點擊</value>
-  </data>
-  <data name="IP Address" xml:space="preserve">
-    <value>IP 位址</value>
-  </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>裝置 / 使用者代理</value>
-  </data>
-  <data name="Referer" xml:space="preserve">
-    <value>來源網址</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>時間</value>
   </data>
 
 </root>

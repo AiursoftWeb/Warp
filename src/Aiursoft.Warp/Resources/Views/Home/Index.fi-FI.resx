@@ -18,185 +18,368 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Tervetuloa</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Tämä on malliprojekti</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Hei maailma!</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC-valtuutus</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect -integraatio</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Usean tietokannan tuki</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Miksi käyttää Aiursoft Templatea?</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Nykyaikainen, ominaisuuksiltaan monipuolinen ja erittäin laajennettava perusta seuraavaa verkkosovellustasi varten.</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Vaihda helposti tietokantapalveluntarjoajien, kuten SQLite, MySQL, SQL Server ja testaukseen tarkoitetun muistissa olevan tietokannan, välillä.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Saatumattomasti integroi minkä tahansa OpenID Connect -palveluntarjoajan kanssa, automaattisen roolisynkronoinnin avulla.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Dynaaminen navigointipalkki</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Tehokäännökset tekoälyllä</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Kattava dokumentaatio</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Sisäänrakennettu roolipohjainen käyttöoikeusjärjestelmä (RBAC) hienojakoista käyttöoikeudenhallintaa varten.</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Automaattinen, tekoälyavusteinen käännös 28 kielelle maailmanlaajuista saavutettavuutta varten.</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Sisäänrakennettu käyttäjienhallinta</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Sisältää laajan dokumentaation ja käytännön esimerkit, joiden avulla pääset nopeasti alkuun.</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>Valmis ratkaisu käyttäjätunnistukseen ja profiilin hallintaan heti käyttöönoton yhteydessä.</value>
   </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Integroitu tiedostonhallinta</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Automaattinen riippuvuuden injektointi</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Responsiivinen suunnittelu</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Automaattinen tumma tila</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Kaikki riippuvuudet rekisteröidään automaattisesti ja ne ovat aina saatavilla konstruktorin kautta tapahtuvan injektoinnin välityksellä.</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Täysin responsiivinen ulkoasu, joka näyttää erinomaiselta sekä työpöytä- että mobiililaitteilla.</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Dockeröity käyttöönottoa varten</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Nykyaikainen, ominaisuuksiltaan monipuolinen ja erittäin laajennettava perusta seuraavaa verkkosovellustasi varten.</value>
   </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Älykäs tumma tila, joka mukautuu automaattisesti käyttäjän järjestelmäasetuksiin.</value>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Yksinkertainen työkalu linkkien lyhentämiseen ja hallintaan.</value>
   </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Tukee täysin Docker-ympäristöä, mikä helpottaa, tehostaa ja luotettavistaa käyttöönottoa.</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>Käyttösalasana</value>
   </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Lue dokumentti</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Tämä on malliprojekti, josta aloitamme matkan...</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>nopeammin</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Käyttö</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Siirry kojelautaan</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Avoin lähdekoodi</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Ominaisuudet</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Rakenna seuraava suuri juttusi,</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Ilmainen</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-lisenssi</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Kojelauta-sivusto</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Musiikkityökalut</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdownista HTML:ksi</value>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Käyttäjätunnus (Pakollinen yksityisille linkeille)</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Saavuta enemmän Aiursoft Templatella</value>
   </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Arvostelut</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Lisäasetukset</value>
   </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Tässä on mitä yhteisömme kehittäjät sanovat.</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Mitä kehittäjämme sanovat</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Tekninen Päällikkö</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Käytä sitä perustana SaaS-palvelullesi, mobiilisovelluksesi taustajärjestelmänä, yrityssivustona tai henkilökohtaisena blogina. Mahdollisuudet ovat rajattomat.</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Usein kysytyt kysymykset</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>UKK</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Onko Aiursoft Templaten käyttö ilmaista?</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Tässä on joitain vastauksia, joita saatat etsiä.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Mitä tarvitsen aloittamiseen?</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Tehokäännökset tekoälyllä</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template on ratkaiseva valintamme yritysprojekteihin! Se on rakennettu kehittäjille ja on kevyt mutta tehokas. Voimme ohittaa kaiken valmiin koodin todennukseen ja käyttäjien hallintaan.</value>
   </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Kuinka otan sovellukseni käyttöön?</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Kaikki riippuvuudet rekisteröidään automaattisesti ja ne ovat aina saatavilla konstruktorin kautta tapahtuvan injektoinnin välityksellä.</value>
   </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Miten saan tukea?</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytiikka</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Kyllä, Aiursoft Template on täysin ilmainen ja avoin lähdekoodi MIT-lisenssin alla. Voit käyttää sitä henkilökohtaisiin ja kaupallisiin projekteihin ilman mitään kustannuksia.</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automaattinen tumma tila</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automaattinen riippuvuuden injektointi</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Automaattinen, tekoälyavusteinen käännös 28 kielelle maailmanlaajuista saavutettavuutta varten.</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Rakenna seuraava suuri juttusi,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Sisäänrakennettu käyttäjienhallinta</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Tukee täysin Docker-ympäristöä, mikä helpottaa, tehostaa ja luotettavistaa käyttöönottoa.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Kattava dokumentaatio</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopioitu!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopioi</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopioi leikepöydälle</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Luo uusi linkki</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Luo lyhyt linkki</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Mukainen koodi</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Mukautettu koodi (valinnainen)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Kojelauta-sivusto</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Keskustelusivu</value>
   </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockeröity käyttöönottoa varten</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynaaminen navigointipalkki</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>esim.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>esim.: Double Eleven -kampanja</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>esim.: Double Eleven -tapahtumasivu</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>esim.: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>esim.: my-product tai jätä tyhjäksi</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Vaihda helposti tietokantapalveluntarjoajien, kuten SQLite, MySQL, SQL Server ja testaukseen tarkoitetun muistissa olevan tietokannan, välillä.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Syötä pääsalasana</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vanhentumisaika</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Vanhenemisaika (valinnainen)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>UKK</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Nopea</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>nopeammin</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Ominaisuudet</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Vain sisäistä tunnistusta varten.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Ilmainen</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Usein kysytyt kysymykset</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Luo lyhyitä linkkejä välittömästi optimoidulla infrastruktuurillamme.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Siirry kojelautaan</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hei maailma!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Tässä on joitain vastauksia, joita saatat etsiä.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Tässä on mitä yhteisömme kehittäjät sanovat.</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Miten saan tukea?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Kuinka otan sovellukseni käyttöön?</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Jos kenttää ei täytetä, linkki on pysyvästi voimassa (ellei sitä poisteta käytöstä manuaalisesti).</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Sisältää laajan dokumentaation ja käytännön esimerkit, joiden avulla pääset nopeasti alkuun.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Integroitu tiedostonhallinta</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Onko Aiursoft Templaten käyttö ilmaista?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Liity keskusteluun</value>
+  </data>
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>Liity yhteisöömme ja aloita rakentaminen tänään!</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Jätä tyhjäksi, niin se luodaan automaattisesti.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Jätä tyhjäksi, niin linkki on julkinen. Jos täytät kentän, linkki on yksityinen.</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Linkki vanhenee tämän rajan saavuttamisen jälkeen.</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Link-lyhennys</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Tee tästä linkistä yksityinen</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdownista HTML:ksi</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Enimmäisklikkaukset</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maksimiklikkausmäärä (valinnainen)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-lisenssi</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Usean tietokannan tuki</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Musiikkityökalut</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Vain taustanäyttöä ja tunnistusta varten, ei vaikuta uudelleenohjaukseen.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Sallittuja ovat vain turvalliset merkit, kuten kirjaimet, numerot ja väliviivat; jos kenttä jätetty tyhjäksi, lyhyt koodi luodaan automaattisesti.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Vain yksityiseksi asetettaessa voimassa; palvelimen tulee salata ja tallentaa salasana.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Avoin lähdekoodi</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect -integraatio</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Valinnainen. Jätä tyhjäksi, jos haluat pysyvän linkin.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Korjaa seuraavat virheet:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Syötä täydellinen URL-osoite, esim.:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Syötä täydellinen URL-osoite, esim.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Tietosuoja-asetukset</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Yksityinen (Valitse tämä tehdäksesi linkistä yksityisen ja näyttääksesi salasanakentän)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Yksityiset linkit vaativat salasanan käyttöoikeuden saamiseksi.</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Suojaa linkkisi salasanoilla ja hallitse pääsynvalvontaa.</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC-valtuutus</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Lue dokumentti</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsiivinen suunnittelu</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Arvostelut</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Saatumattomasti integroi minkä tahansa OpenID Connect -palveluntarjoajan kanssa, automaattisen roolisynkronoinnin avulla.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Turvallinen</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Lyhennä linkkisi</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Kirjaudu sisään aloittaaksesi</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Älykäs tumma tila, joka mukautuu automaattisesti käyttäjän järjestelmäasetuksiin.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Aloita uusi projekti</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Onnistui!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Kohde-URL</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Kohde-URL (Pakollinen)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Tekninen Päällikkö</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Linkki vanhenee tämän määrän saavuttamisen jälkeen (voi olla tyhjä rajoittamattomalle).</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Palvelin salaa ja tallentaa salasanan turvallisesti.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Malli on suunniteltu helppokäyttöiseksi käyttöönottoa varten. Se sisältää täyden Docker-tuen, joten voit konttipohjata sovelluksesi ja ajaa sitä missä tahansa. Voit myös ottaa sen käyttöön suoraan IIS:ään, Azure App Serviceen tai mihin tahansa palvelimeen, joka tukee ASP.NET Corea.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Tämä on malliprojekti</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Tämä on malliprojekti, josta aloitamme matkan...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Tämä linkki on yksityinen, syötä pääsalasana.</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Otsikko / Huomautus</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Otsikko / Huomautus (Valinnainen)</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Seuraa napsautuksia ja ymmärrä yleisösi yksityiskohtaisten tilastojen avulla.</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Käyttö</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Käytä sitä perustana SaaS-palvelullesi, mobiilisovelluksesi taustajärjestelmänä, yrityssivustona tai henkilökohtaisena blogina. Mahdollisuudet ovat rajattomat.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Näkyvyys</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp on tehokas URL-osoitteen lyhentäjä, joka auttaa sinua hallitsemaan linkkejäsi, seuraamaan napsautuksia ja jakamaan sisältöä vaivattomasti. Luo lyhyitä, helposti muistettavia linkkejä yrityksellesi tai henkilökohtaiseen käyttöösi.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Tervetuloa</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Mitä tarvitsen aloittamiseen?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Mitä kehittäjämme sanovat</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Miksi käyttää Aiursoft Templatea?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Miksi Warp?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Kyllä, Aiursoft Template on täysin ilmainen ja avoin lähdekoodi MIT-lisenssin alla. Voit käyttää sitä henkilökohtaisiin ja kaupallisiin projekteihin ilman mitään kustannuksia.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Saat yhteisötukea GitHub Discussionsin kautta. Käy meidän</value>
@@ -204,191 +387,8 @@
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Tarvitset .NET 10 SDK:n, npm:n ja suosikki-IDE:si, kuten Visual Studion tai JetBrains Riderin. Löydät täydellisen asennusoppaan dokumentaatiostamme.</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Liity keskusteluun</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Malli on suunniteltu helppokäyttöiseksi käyttöönottoa varten. Se sisältää täyden Docker-tuen, joten voit konttipohjata sovelluksesi ja ajaa sitä missä tahansa. Voit myös ottaa sen käyttöön suoraan IIS:ään, Azure App Serviceen tai mihin tahansa palvelimeen, joka tukee ASP.NET Corea.</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Aloita uusi projekti</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Link-lyhennys</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Onnistui!</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Kopioi</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>Kohde-URL (Pakollinen)</value>
-  </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Lyhyt linkkisi on luotu:</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Kopioi leikepöydälle</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Syötä täydellinen URL-osoite, esim.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>Yksinkertainen työkalu linkkien lyhentämiseen ja hallintaan.</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Mukautettu koodi (valinnainen)</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Näkyvyys</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Vanhenemisaika (valinnainen)</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>esim.: my-product tai jätä tyhjäksi</value>
-  </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>Käyttäjätunnus (Pakollinen yksityisille linkeille)</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Sallittuja ovat vain turvalliset merkit, kuten kirjaimet, numerot ja väliviivat; jos kenttä jätetty tyhjäksi, lyhyt koodi luodaan automaattisesti.</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Yksityinen (Valitse tämä tehdäksesi linkistä yksityisen ja näyttääksesi salasanakentän)</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>esim.: 100</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>Jos kenttää ei täytetä, linkki on pysyvästi voimassa (ellei sitä poisteta käytöstä manuaalisesti).</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Vain yksityiseksi asetettaessa voimassa; palvelimen tulee salata ja tallentaa salasana.</value>
-  </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Maksimiklikkausmäärä (valinnainen)</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Syötä pääsalasana</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Otsikko / Huomautus (Valinnainen)</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>Luo lyhyt linkki</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>esim.: Double Eleven -tapahtumasivu</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Kopioitu!</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>Linkki vanhenee tämän määrän saavuttamisen jälkeen (voi olla tyhjä rajoittamattomalle).</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Vain taustanäyttöä ja tunnistusta varten, ei vaikuta uudelleenohjaukseen.</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Tämä linkki on yksityinen, syötä pääsalasana.</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Kohde-URL</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>esim.: Double Eleven -kampanja</value>
-  </data>
-  <data name="Leave empty to auto-generate." xml:space="preserve">
-    <value>Jätä tyhjäksi, niin se luodaan automaattisesti.</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Syötä täydellinen URL-osoite, esim.:</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Luo uusi linkki</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Vain sisäistä tunnistusta varten.</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Enimmäisklikkaukset</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Mukainen koodi</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>esim.: my-product</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Otsikko / Huomautus</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>Linkki vanhenee tämän rajan saavuttamisen jälkeen.</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Valinnainen. Jätä tyhjäksi, jos haluat pysyvän linkin.</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>Tietosuoja-asetukset</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Vanhentumisaika</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Tee tästä linkistä yksityinen</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Käyttösalasana</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Yksityiset linkit vaativat salasanan käyttöoikeuden saamiseksi.</value>
-  </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>Palvelin salaa ja tallentaa salasanan turvallisesti.</value>
-  </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>Kirjaudu sisään aloittaaksesi</value>
-  </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>Lyhennä linkkisi</value>
-  </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Lisäasetukset</value>
-  </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>Luo lyhyitä linkkejä välittömästi optimoidulla infrastruktuurillamme.</value>
-  </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Miksi Warp?</value>
-  </data>
-  <data name="Fast" xml:space="preserve">
-    <value>Nopea</value>
-  </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>Jätä tyhjäksi, niin linkki on julkinen. Jos täytät kentän, linkki on yksityinen.</value>
-  </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Turvallinen</value>
-  </data>
-  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
-    <value>Suojaa linkkisi salasanoilla ja hallitse pääsynvalvontaa.</value>
-  </data>
-  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
-    <value>Warp on tehokas URL-osoitteen lyhentäjä, joka auttaa sinua hallitsemaan linkkejäsi, seuraamaan napsautuksia ja jakamaan sisältöä vaivattomasti. Luo lyhyitä, helposti muistettavia linkkejä yrityksellesi tai henkilökohtaiseen käyttöösi.</value>
-  </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Analytiikka</value>
-  </data>
-  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
-    <value>Seuraa napsautuksia ja ymmärrä yleisösi yksityiskohtaisten tilastojen avulla.</value>
-  </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Korjaa seuraavat virheet:</value>
   </data>
 
 </root>

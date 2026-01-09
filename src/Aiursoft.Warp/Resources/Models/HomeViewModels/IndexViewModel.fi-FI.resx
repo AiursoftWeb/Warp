@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Otsikko sisältää virheellisiä merkkejä.</value>
-  </data>
-  <data name="Please input your target link!" xml:space="preserve">
-    <value>Syötä kohdelinkkisi!</value>
-  </data>
-  <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Jotain meni pieleen, yritä myöhemmin uudelleen.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Mukainen koodi</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Mukautettu koodi voi sisältää vain kirjaimia, numeroita ja väliviivoja, ja sen pituus voi olla enintään 30 merkkiä.</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} ei ole kelvollinen URL-osoite.</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Kohde-URL</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Vanhentumisaika</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Yksityinen linkki</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Mukainen koodi</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Salasana</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>Maksimiklikkaukset</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Salasana</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Syötä kohdelinkkisi!</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Yksityinen linkki</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Jotain meni pieleen, yritä myöhemmin uudelleen.</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Kohde-URL</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} ei ole kelvollinen URL-osoite.</value>
+  </data>
   <data name="Title" xml:space="preserve">
     <value>Otsikko</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Otsikko sisältää virheellisiä merkkejä.</value>
   </data>
 
 </root>

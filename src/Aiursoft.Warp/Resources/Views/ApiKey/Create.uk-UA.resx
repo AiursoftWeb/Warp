@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>Створити</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Назад до списку</value>
   </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>Деталі нового API-ключа</value>
-  </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>напр. Мій додаток</value>
+  <data name="Create" xml:space="preserve">
+    <value>Створити</value>
   </data>
   <data name="Create API Key" xml:space="preserve">
     <value>Створити API-ключ</value>
   </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>напр. Мій додаток</value>
+  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Залиште порожнім, якщо термін дії не обмежений.</value>
+  </data>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>Деталі нового API-ключа</value>
   </data>
 
 </root>

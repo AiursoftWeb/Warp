@@ -18,17 +18,59 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Links by" xml:space="preserve">
-    <value>الروابط بواسطة</value>
+      <data name="Actions" xml:space="preserve">
+    <value>الإجراءات</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>اسم المستخدم</value>
+  <data name="Active" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>العودة إلى جميع الروابط</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
+    <value>النقرات</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="Edit Link" xml:space="preserve">
+    <value>تعديل الرابط</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>منتهي</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>ينتهي في</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>معلومات الرابط</value>
   </data>
   <data name="Link Management" xml:space="preserve">
     <value>إدارة الروابط</value>
   </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>معلومات الرابط</value>
+  <data name="Links by" xml:space="preserve">
+    <value>الروابط بواسطة</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>دائم</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>رابط خاص</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>تفاصيل الملف الشخصي</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>رابط عام</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>الهدف</value>
   </data>
   <data name="This user has not created any links yet." xml:space="preserve">
     <value>لم يقم هذا المستخدم بإنشاء أي روابط بعد.</value>
@@ -36,53 +78,11 @@
   <data name="Total Docs" xml:space="preserve">
     <value>إجمالي المستندات</value>
   </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>تفاصيل الملف الشخصي</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>العودة إلى جميع الروابط</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>رابط خاص</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>الهدف</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>رابط عام</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>الإجراءات</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>الحالة</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>النقرات</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>منتهي</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>نشط</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>دائم</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>ينتهي في</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>تعديل</value>
+  <data name="Username" xml:space="preserve">
+    <value>اسم المستخدم</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>زيارة الرابط</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>حذف</value>
-  </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>تعديل الرابط</value>
   </data>
 
 </root>

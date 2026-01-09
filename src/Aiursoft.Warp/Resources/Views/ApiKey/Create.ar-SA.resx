@@ -21,20 +21,20 @@
       <data name="Back to List" xml:space="preserve">
     <value>العودة إلى القائمة</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>مثلاً: تطبيقي</value>
-  </data>
   <data name="Create" xml:space="preserve">
     <value>إنشاء</value>
   </data>
   <data name="Create API Key" xml:space="preserve">
     <value>إنشاء مفتاح API</value>
   </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>تفاصيل مفتاح API الجديد</value>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>مثلاً: تطبيقي</value>
   </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>اتركه فارغًا لعدم وجود تاريخ انتهاء.</value>
+  </data>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>تفاصيل مفتاح API الجديد</value>
   </data>
 
 </root>

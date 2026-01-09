@@ -21,11 +21,11 @@
       <data name="Create a new link" xml:space="preserve">
     <value>Buat tautan baru</value>
   </data>
-  <data name="Sorry, the link you are trying to access has expired." xml:space="preserve">
-    <value>Maaf, tautan yang Anda coba akses telah kedaluwarsa.</value>
-  </data>
   <data name="Link Expired" xml:space="preserve">
     <value>Tautan Kedaluwarsa</value>
+  </data>
+  <data name="Sorry, the link you are trying to access has expired." xml:space="preserve">
+    <value>Maaf, tautan yang Anda coba akses telah kedaluwarsa.</value>
   </data>
 
 </root>

@@ -18,56 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Delete" xml:space="preserve">
-    <value>Sil</value>
+      <data name="Actions" xml:space="preserve">
+    <value>İşlemler</value>
   </data>
-  <data name="Create New" xml:space="preserve">
-    <value>Yeni Oluştur</value>
-  </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>Kısa Bağlantı</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Orijinal URL</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Düzenle</value>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
   </data>
   <data name="Clicks" xml:space="preserve">
     <value>Tıklamalar</value>
   </data>
+  <data name="Create New" xml:space="preserve">
+    <value>Yeni Oluştur</value>
+  </data>
   <data name="Creation Time" xml:space="preserve">
     <value>Oluşturulma Zamanı</value>
   </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Bağlantılarım</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
   </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Bağlantı Yönetimi</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Hedef</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Özel Bağlantı</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Durum</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Genel Bağlantı</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>Performans</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>İşlemler</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Bağlantı Bilgisi</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>Aktif</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
   </data>
   <data name="Expired" xml:space="preserve">
     <value>Süresi Dolmuş</value>
@@ -75,8 +45,38 @@
   <data name="Expires at" xml:space="preserve">
     <value>Son kullanma tarihi</value>
   </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Bağlantı Bilgisi</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Bağlantı Yönetimi</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Bağlantılarım</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Orijinal URL</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>Performans</value>
+  </data>
   <data name="Permanent" xml:space="preserve">
     <value>Kalıcı</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Özel Bağlantı</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Genel Bağlantı</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Kısa Bağlantı</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Hedef</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Bağlantıyı Ziyaret Et</value>

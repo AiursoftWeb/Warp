@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Expiration Time" xml:space="preserve">
-    <value>وقت الانتهاء</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>كلمة المرور</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} مطلوب.</value>
-  </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} ليس عنوان URL صالحًا.</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>رابط خاص</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
+      <data name="Custom Code" xml:space="preserve">
     <value>كود مخصص</value>
   </data>
-  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
-    <value>يجب أن يكون {0} بحد أقصى {1} حرفًا.</value>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>وقت الانتهاء</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>الحد الأقصى للنقرات</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>العنوان</value>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>رابط خاص</value>
   </data>
   <data name="Target URL" xml:space="preserve">
     <value>الرابط الهدف</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} ليس عنوان URL صالحًا.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} مطلوب.</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>يجب أن يكون {0} بحد أقصى {1} حرفًا.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>العنوان</value>
   </data>
 
 </root>

@@ -21,50 +21,50 @@
       <data name="Back to List" xml:space="preserve">
     <value>Terug naar lijst</value>
   </data>
-  <data name="Save" xml:space="preserve">
-    <value>Opslaan</value>
+  <data name="clicks used" xml:space="preserve">
+    <value>kliks gebruikt</value>
   </data>
-  <data name="Edit Link" xml:space="preserve">
-    <value>Link bewerken</value>
+  <data name="Copied!" xml:space="preserve">
+    <value>Gekopieerd!</value>
   </data>
-  <data name="Leave empty for permanent." xml:space="preserve">
-    <value>Laat leeg voor permanent.</value>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Link kopiëren</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Aangemaakt op</value>
   </data>
   <data name="Custom Code" xml:space="preserve">
     <value>Aangepaste Code</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Doel-URL</value>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Link verwijderen</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Linkgegevens</value>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
   </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Vervaltijd</value>
-  </data>
-  <data name="Enter title" xml:space="preserve">
-    <value>Voer titel in</value>
+  <data name="Edit Link" xml:space="preserve">
+    <value>Link bewerken</value>
   </data>
   <data name="Enter custom code" xml:space="preserve">
     <value>Voer aangepaste code in</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Titel / Opmerking</value>
-  </data>
   <data name="Enter max clicks" xml:space="preserve">
     <value>Voer maximaal aantal klikken in</value>
   </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Maximaal aantal klikken</value>
+  <data name="Enter title" xml:space="preserve">
+    <value>Voer titel in</value>
   </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Maak deze link Privé</value>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vervaltijd</value>
   </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Nieuw wachtwoord</value>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Kan niet naar klembord kopiëren</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Voor privélinks is een wachtwoord vereist om toegang te krijgen.</value>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="Leave empty for permanent." xml:space="preserve">
+    <value>Laat leeg voor permanent.</value>
   </data>
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>Laat leeg voor onbeperkt.</value>
@@ -72,61 +72,59 @@
   <data name="Leave empty to keep current password" xml:space="preserve">
     <value>Laat leeg om het huidige wachtwoord te behouden</value>
   </data>
+  <data name="Link Details" xml:space="preserve">
+    <value>Linkgegevens</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Maak deze link Privé</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maximaal aantal klikken</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nieuw wachtwoord</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Voor privélinks is een wachtwoord vereist om toegang te krijgen.</value>
+  </data>
+  <data name="Quick Actions" xml:space="preserve">
+    <value>Snelle Acties</value>
+  </data>
+  <data name="Recent Hits" xml:space="preserve">
+    <value>Recent Hits</value>
+  </data>
+  <data name="Referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Wijzigingen opslaan</value>
   </data>
   <data name="Statistics" xml:space="preserve">
     <value>Statistieken</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>kliks gebruikt</value>
+  <data name="Target URL" xml:space="preserve">
+    <value>Doel-URL</value>
   </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Aangemaakt op</value>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
   </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Link kopiëren</value>
-  </data>
-  <data name="Quick Actions" xml:space="preserve">
-    <value>Snelle Acties</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titel / Opmerking</value>
   </data>
   <data name="Total Clicks" xml:space="preserve">
     <value>Totaal aantal klikken</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Bezoek Link</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Gekopieerd!</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Link verwijderen</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Kan niet naar klembord kopiëren</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
-  <data name="Recent Hits" xml:space="preserve">
-    <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
-  </data>
-  <data name="Referer" xml:space="preserve">
-    <value>Referer</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Time</value>
-  </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
-  </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
   </data>
 
 </root>

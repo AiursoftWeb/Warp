@@ -18,38 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The {0} is required." xml:space="preserve">
-    <value>{0} wajib diisi.</value>
-  </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} bukan URL yang valid.</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
+      <data name="Custom Code" xml:space="preserve">
     <value>Kode Kustom</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Pemilik</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Klik Maksimum</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Waktu Kedaluwarsa</value>
   </data>
-  <data name="Please select the owner of this Link!" xml:space="preserve">
-    <value>Silakan pilih pemilik dari Tautan ini!</value>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Klik Maksimum</value>
   </data>
-  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
-    <value>{0} harus memiliki panjang maksimal {1} karakter.</value>
+  <data name="Owner" xml:space="preserve">
+    <value>Pemilik</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Kata Sandi</value>
+  </data>
+  <data name="Please select the owner of this Link!" xml:space="preserve">
+    <value>Silakan pilih pemilik dari Tautan ini!</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Tautan Pribadi</value>
   </data>
   <data name="Target URL" xml:space="preserve">
     <value>URL Tujuan</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} bukan URL yang valid.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} wajib diisi.</value>
+  </data>
+  <data name="The {0} must be at max {1} characters long." xml:space="preserve">
+    <value>{0} harus memiliki panjang maksimal {1} karakter.</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Judul</value>

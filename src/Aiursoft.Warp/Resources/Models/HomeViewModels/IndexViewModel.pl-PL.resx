@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Please input your target link!" xml:space="preserve">
-    <value>Wprowadź swój docelowy link!</value>
-  </data>
-  <data name="Title contains invalid characters." xml:space="preserve">
-    <value>Tytuł zawiera nieprawidłowe znaki.</value>
-  </data>
-  <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>Coś poszło nie tak, spróbuj ponownie później.</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Niestandardowy kod</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>Niestandardowy kod może zawierać tylko litery, cyfry i myślniki oraz mieć maksymalnie 30 znaków.</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>Wartość {0} nie jest prawidłowym adresem URL.</value>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Czas wygaśnięcia</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maksymalna liczba kliknięć</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Hasło</value>
   </data>
-  <data name="Title" xml:space="preserve">
-    <value>Tytuł</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Czas wygaśnięcia</value>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Wprowadź swój docelowy link!</value>
   </data>
   <data name="Private Link" xml:space="preserve">
     <value>Prywatny link</value>
   </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Coś poszło nie tak, spróbuj ponownie później.</value>
+  </data>
   <data name="Target URL" xml:space="preserve">
     <value>Docelowy adres URL</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Niestandardowy kod</value>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>Wartość {0} nie jest prawidłowym adresem URL.</value>
   </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Maksymalna liczba kliknięć</value>
+  <data name="Title" xml:space="preserve">
+    <value>Tytuł</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Tytuł zawiera nieprawidłowe znaki.</value>
   </data>
 
 </root>

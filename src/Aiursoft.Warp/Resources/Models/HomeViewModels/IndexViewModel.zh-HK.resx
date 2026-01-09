@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Please input your target link!" xml:space="preserve">
-    <value>請輸入您的目標連結！</value>
-  </data>
-  <data name="Title contains invalid characters." xml:space="preserve">
-    <value>標題包含無效字符。</value>
-  </data>
-  <data name="Something went wrong, please try again later." xml:space="preserve">
-    <value>發生錯誤，請稍後再試。</value>
+      <data name="Custom Code" xml:space="preserve">
+    <value>自訂代碼</value>
   </data>
   <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
     <value>自訂代碼只能包含字母、數字及連字號，且長度最多為30個字符。</value>
   </data>
-  <data name="The {0} is not a valid URL." xml:space="preserve">
-    <value>{0} 並非有效的網址。</value>
-  </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>到期時間</value>
-  </data>
-  <data name="Title" xml:space="preserve">
-    <value>標題</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>密碼</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>私人連結</value>
   </data>
   <data name="Max Clicks" xml:space="preserve">
     <value>最大點擊次數</value>
   </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>自訂代碼</value>
+  <data name="Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>請輸入您的目標連結！</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>私人連結</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>發生錯誤，請稍後再試。</value>
   </data>
   <data name="Target URL" xml:space="preserve">
     <value>目標網址</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} 並非有效的網址。</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>標題包含無效字符。</value>
   </data>
 
 </root>

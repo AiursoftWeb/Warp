@@ -18,377 +18,377 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>स्वागत है</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>यह एक टेम्पलेट प्रोजेक्ट है</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>नमस्ते दुनिया!</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>एकाधिक डेटाबेस समर्थन</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC प्राधिकरण</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>ओपनआईडी कनेक्ट एकीकरण</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Aiursoft टेम्पलेट का उपयोग क्यों करें?</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>किसी भी OpenID Connect प्रदाता के साथ सहज एकीकरण, स्वचालित भूमिका सिंक्रनाइज़ेशन के साथ।</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>आपके अगले वेब एप्लिकेशन के लिए एक आधुनिक, सुविधा-संपन्न, और अत्यधिक विस्तार योग्य आधारशिला।</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>SQLite, MySQL, SQL Server जैसे प्रदाताओं और परीक्षण के लिए इन-मेमोरी डेटाबेस के बीच आसानी से स्विच करें।</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>डायनामिक नेविगेशन बार</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-संचालित अनुवाद</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>अनुमति प्रबंधन के लिए एक अंतर्निहित रोल-आधारित एक्सेस कंट्रोल (RBAC) प्रणाली।</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>व्यापक प्रलेखन</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>नेविगेशन बार स्वचालित रूप से उपयोगकर्ता की भूमिकाओं और अनुमतियों के आधार पर समायोजित होता है।</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>वैश्विक पहुंच के लिए 28 भाषाओं में स्वचालित, AI-संचालित अनुवाद।</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>अंतर्निहित उपयोगकर्ता प्रबंधन</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>स्वचालित निर्भरता इंजेक्शन</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>विस्तृत दस्तावेज़ीकरण और व्यावहारिक उदाहरण शामिल हैं ताकि आप जल्दी शुरुआत कर सकें।</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>बॉक्स से बाहर निकलते ही उपयोगकर्ता प्रमाणीकरण और प्रोफ़ाइल प्रबंधन के लिए एक संपूर्ण समाधान।</value>
   </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>एकीकृत फ़ाइल प्रबंधन</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>उत्तरदायी डिज़ाइन</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>स्वचालित अवतार संपीड़न के साथ एक अंतर्निहित फ़ाइल प्रबंधन प्रणाली की सुविधा।</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>सभी निर्भरताएँ स्वचालित रूप से पंजीकृत होती हैं और कंस्ट्रक्टर इंजेक्शन के माध्यम से हमेशा उपलब्ध रहती हैं।</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>स्वचालित डार्क मोड</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>एक पूरी तरह से उत्तरदायी लेआउट जो डेस्कटॉप और मोबाइल डिवाइस दोनों पर शानदार दिखता है।</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>डॉकराइज्ड डिप्लॉयमेंट के लिए</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>स्मार्ट डार्क मोड जो स्वचालित रूप से उपयोगकर्ता की सिस्टम सेटिंग्स के अनुकूल हो जाता है।</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>पूर्ण Docker समर्थन के साथ आता है, जो सरल, सुसंगत और विश्वसनीय डेप्लॉयमेंट के लिए है।</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>दस्तावेज़ पढ़ें</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>यह एक टेम्पलेट प्रोजेक्ट है, जहाँ से हम वॉयजर की शुरुआत करते हैं...</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>मुफ़्त</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>तेज़</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>अपनी अगली बड़ी चीज़ बनाएं,</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>ओपन सोर्स</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>एमआईटी लाइसेंस</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>प्रयोग</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>विशेषताएँ</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>डैशबोर्ड पर जाएं</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft टेम्पलेट के साथ और अधिक हासिल करें</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>संगीत उपकरण</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>समीक्षाएँ</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>मार्कडाउन से एचटीएमएल</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>डैशबोर्ड वेबसाइट</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>हमारे डेवलपर्स क्या कहते हैं</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>हमारे समुदाय के डेवलपर्स का क्या कहना है, यहाँ देखें।</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>तकनीकी लीड</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>इसे अपने SaaS की नींव के रूप में, अपने मोबाइल ऐप के लिए बैकएंड के रूप में, एक कॉर्पोरेट वेबसाइट के रूप में, या एक व्यक्तिगत ब्लॉग के रूप में उपयोग करें। संभावनाएं अनंत हैं।</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>अक्सर पूछे जाने वाले प्रश्न</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>अक्सर पूछे जाने वाले प्रश्न</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>यहाँ कुछ ऐसे उत्तर दिए गए हैं जिनकी आप तलाश कर रहे होंगे।</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>क्या Aiursoft Template का उपयोग करना मुफ़्त है?</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>शुरुआत करने के लिए मुझे क्या चाहिए?</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>मैं अपने एप्लिकेशन को कैसे डिप्लॉय करूं?</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>मुझे सहायता कैसे मिल सकती है?</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>चर्चा पृष्ठ</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template उद्यम परियोजनाओं के लिए हमारा सर्वोत्तम विकल्प है! यह डेवलपर्स के लिए बनाया गया है और हल्का होने के साथ-साथ शक्तिशाली भी है। हम प्रमाणीकरण और उपयोगकर्ता प्रबंधन के लिए सभी बॉयलरप्लेट को छोड़ सकते हैं।</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>आपको .NET 10 SDK, npm और अपना पसंदीदा IDE, जैसे Visual Studio या JetBrains Rider की आवश्यकता होगी। आप हमारे दस्तावेज़ीकरण में पूर्ण सेटअप गाइड पा सकते हैं।</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>आप GitHub Discussions के माध्यम से सामुदायिक सहायता प्राप्त कर सकते हैं। कृपया हमारे</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>हाँ, Aiursoft Template MIT लाइसेंस के तहत पूरी तरह से मुफ़्त और ओपन-सोर्स है। आप इसे किसी भी लागत के बिना व्यक्तिगत और व्यावसायिक परियोजनाओं के लिए उपयोग कर सकते हैं।</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>किसी भी जानकारी के लिए या समस्याओं की रिपोर्ट करने के लिए।</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>हमारे समुदाय से जुड़ें और आज ही निर्माण शुरू करें!</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>चर्चाओं में शामिल हों</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>यह टेम्पलेट आसान डेप्लॉयमेंट के लिए बनाया गया है। इसमें पूर्ण Docker सपोर्ट शामिल है, जिससे आप अपने ऐप को कंटेनराइज़ करके कहीं भी चला सकते हैं। आप इसे सीधे IIS, Azure App Service, या किसी भी सर्वर पर डेप्लॉय कर सकते हैं जो ASP.NET Core को सपोर्ट करता है।</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>एक नया प्रोजेक्ट शुरू करें</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>कॉपी करें</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>आपका शॉर्ट लिंक बन गया है:</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>लक्ष्य यूआरएल (आवश्यक)</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>सफलता!</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>लिंक शॉर्टनर</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>क्लिपबोर्ड पर कॉपी करें</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>आपके अगले वेब एप्लिकेशन के लिए एक आधुनिक, सुविधा-संपन्न, और अत्यधिक विस्तार योग्य आधारशिला।</value>
   </data>
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>आपके लिंक्स को छोटा करने और प्रबंधित करने के लिए एक सरल उपकरण।</value>
   </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>कृपया पूरा URL दर्ज करें, उदाहरण के लिए: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>उदाहरण: my-product या खाली छोड़ दें</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>कस्टम कोड (वैकल्पिक)</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>समाप्ति समय (वैकल्पिक)</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>दृश्यता</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>पहुंच पासवर्ड</value>
   </data>
   <data name="Access Password (Required for Private Links)" xml:space="preserve">
     <value>पहुँच पासवर्ड (निजी लिंक्स के लिए आवश्यक)</value>
   </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>अधिकतम क्लिक्स (वैकल्पिक)</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>निजी (इस लिंक को निजी बनाने और पासवर्ड इनपुट दिखाने के लिए चेक करें)</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>उदाहरण के लिए: 100</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>पहुँच पासवर्ड दर्ज करें</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>यदि भरा नहीं गया है, तो यह स्थायी रूप से मान्य रहेगा (जब तक कि मैन्युअल रूप से अक्षम न किया जाए)।</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>यह केवल तब मान्य है जब निजी पर सेट किया गया हो; सर्वर को पासवर्ड को एन्क्रिप्ट करके संग्रहित करना चाहिए।</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>उदाहरण: डबल इलेवन इवेंट पेज</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>केवल सुरक्षित वर्ण जैसे अक्षर, संख्याएँ और हाइफ़न की अनुमति है; यदि खाली छोड़ दिया जाए, तो एक छोटा कोड स्वचालित रूप से जनरेट कर दिया जाएगा।</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>शीर्षक / टिप्पणी (वैकल्पिक)</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>शॉर्ट लिंक बनाएं</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>यह लिंक इस संख्या तक पहुँचने के बाद समाप्त हो जाएगा (असीमित के लिए खाली छोड़ा जा सकता है)।</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>कॉपी किया गया!</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>केवल पृष्ठभूमि प्रदर्शन और पहचान के लिए, पुनर्निर्देशन को प्रभावित नहीं करता।</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>यह लिंक निजी है, कृपया पहुँच पासवर्ड दर्ज करें।</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>नया लिंक बनाएं</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>उदाहरण: my-product</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>लक्ष्य यूआरएल</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>शीर्षक / टिप्पणी</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>कस्टम कोड</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>उदाहरण: डबल इलेवन कैंपेन</value>
-  </data>
-  <data name="Leave empty to auto-generate." xml:space="preserve">
-    <value>खाली छोड़ें ताकि स्वचालित रूप से जनरेट हो जाए।</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>कृपया पूरा URL दर्ज करें, उदाहरण के लिए:</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>समाप्ति समय</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>वैकल्पिक। स्थायी के लिए खाली छोड़ दें।</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>अधिकतम क्लिक्स</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>इस सीमा तक पहुँचने के बाद लिंक समाप्त हो जाएगा।</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>गोपनीयता सेटिंग्स</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>केवल आंतरिक पहचान के लिए।</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>इस लिंक को निजी बनाएं</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>पहुंच पासवर्ड</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>निजी लिंक तक पहुँचने के लिए पासवर्ड की आवश्यकता होती है।</value>
-  </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>सर्वर पासवर्ड को एन्क्रिप्ट करके सुरक्षित रूप से संग्रहीत करेगा।</value>
-  </data>
-  <data name="Fast" xml:space="preserve">
-    <value>तेज़</value>
-  </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>वार्प क्यों?</value>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft टेम्पलेट के साथ और अधिक हासिल करें</value>
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>उन्नत सेटिंग्स</value>
   </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>शुरू करने के लिए साइन इन करें</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-संचालित अनुवाद</value>
   </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>अपने लिंक्स को छोटा करें</value>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template उद्यम परियोजनाओं के लिए हमारा सर्वोत्तम विकल्प है! यह डेवलपर्स के लिए बनाया गया है और हल्का होने के साथ-साथ शक्तिशाली भी है। हम प्रमाणीकरण और उपयोगकर्ता प्रबंधन के लिए सभी बॉयलरप्लेट को छोड़ सकते हैं।</value>
   </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>हमारे अनुकूलित बुनियादी ढांचे के साथ तुरंत छोटे लिंक बनाएं।</value>
-  </data>
-  <data name="Secure" xml:space="preserve">
-    <value>सुरक्षित</value>
-  </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>इसे खाली छोड़ने पर लिंक सार्वजनिक रहेगा। यदि भरा जाएगा, तो लिंक निजी हो जाएगा।</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>सभी निर्भरताएँ स्वचालित रूप से पंजीकृत होती हैं और कंस्ट्रक्टर इंजेक्शन के माध्यम से हमेशा उपलब्ध रहती हैं।</value>
   </data>
   <data name="Analytics" xml:space="preserve">
     <value>विश्लेषण</value>
   </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>स्वचालित डार्क मोड</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>स्वचालित निर्भरता इंजेक्शन</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>वैश्विक पहुंच के लिए 28 भाषाओं में स्वचालित, AI-संचालित अनुवाद।</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>अपनी अगली बड़ी चीज़ बनाएं,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>अंतर्निहित उपयोगकर्ता प्रबंधन</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>पूर्ण Docker समर्थन के साथ आता है, जो सरल, सुसंगत और विश्वसनीय डेप्लॉयमेंट के लिए है।</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>व्यापक प्रलेखन</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>कॉपी किया गया!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>कॉपी करें</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>क्लिपबोर्ड पर कॉपी करें</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>नया लिंक बनाएं</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>शॉर्ट लिंक बनाएं</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>कस्टम कोड</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>कस्टम कोड (वैकल्पिक)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>डैशबोर्ड वेबसाइट</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>चर्चा पृष्ठ</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>डॉकराइज्ड डिप्लॉयमेंट के लिए</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>डायनामिक नेविगेशन बार</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>उदाहरण के लिए: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>उदाहरण: डबल इलेवन कैंपेन</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>उदाहरण: डबल इलेवन इवेंट पेज</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>उदाहरण: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>उदाहरण: my-product या खाली छोड़ दें</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>SQLite, MySQL, SQL Server जैसे प्रदाताओं और परीक्षण के लिए इन-मेमोरी डेटाबेस के बीच आसानी से स्विच करें।</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>पहुँच पासवर्ड दर्ज करें</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>समाप्ति समय</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>समाप्ति समय (वैकल्पिक)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>अक्सर पूछे जाने वाले प्रश्न</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>तेज़</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>तेज़</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>विशेषताएँ</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>स्वचालित अवतार संपीड़न के साथ एक अंतर्निहित फ़ाइल प्रबंधन प्रणाली की सुविधा।</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>किसी भी जानकारी के लिए या समस्याओं की रिपोर्ट करने के लिए।</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>केवल आंतरिक पहचान के लिए।</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>मुफ़्त</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>अक्सर पूछे जाने वाले प्रश्न</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>हमारे अनुकूलित बुनियादी ढांचे के साथ तुरंत छोटे लिंक बनाएं।</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>डैशबोर्ड पर जाएं</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>नमस्ते दुनिया!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>यहाँ कुछ ऐसे उत्तर दिए गए हैं जिनकी आप तलाश कर रहे होंगे।</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>हमारे समुदाय के डेवलपर्स का क्या कहना है, यहाँ देखें।</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>मुझे सहायता कैसे मिल सकती है?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>मैं अपने एप्लिकेशन को कैसे डिप्लॉय करूं?</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>यदि भरा नहीं गया है, तो यह स्थायी रूप से मान्य रहेगा (जब तक कि मैन्युअल रूप से अक्षम न किया जाए)।</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>विस्तृत दस्तावेज़ीकरण और व्यावहारिक उदाहरण शामिल हैं ताकि आप जल्दी शुरुआत कर सकें।</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>एकीकृत फ़ाइल प्रबंधन</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>क्या Aiursoft Template का उपयोग करना मुफ़्त है?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>चर्चाओं में शामिल हों</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>हमारे समुदाय से जुड़ें और आज ही निर्माण शुरू करें!</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>खाली छोड़ें ताकि स्वचालित रूप से जनरेट हो जाए।</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>इसे खाली छोड़ने पर लिंक सार्वजनिक रहेगा। यदि भरा जाएगा, तो लिंक निजी हो जाएगा।</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>इस सीमा तक पहुँचने के बाद लिंक समाप्त हो जाएगा।</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>लिंक शॉर्टनर</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>इस लिंक को निजी बनाएं</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>मार्कडाउन से एचटीएमएल</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>अधिकतम क्लिक्स</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>अधिकतम क्लिक्स (वैकल्पिक)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>एमआईटी लाइसेंस</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>एकाधिक डेटाबेस समर्थन</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>संगीत उपकरण</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>केवल पृष्ठभूमि प्रदर्शन और पहचान के लिए, पुनर्निर्देशन को प्रभावित नहीं करता।</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>केवल सुरक्षित वर्ण जैसे अक्षर, संख्याएँ और हाइफ़न की अनुमति है; यदि खाली छोड़ दिया जाए, तो एक छोटा कोड स्वचालित रूप से जनरेट कर दिया जाएगा।</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>यह केवल तब मान्य है जब निजी पर सेट किया गया हो; सर्वर को पासवर्ड को एन्क्रिप्ट करके संग्रहित करना चाहिए।</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>ओपन सोर्स</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>ओपनआईडी कनेक्ट एकीकरण</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>वैकल्पिक। स्थायी के लिए खाली छोड़ दें।</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>कृपया निम्नलिखित त्रुटियों को सही करें:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>कृपया पूरा URL दर्ज करें, उदाहरण के लिए:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>कृपया पूरा URL दर्ज करें, उदाहरण के लिए: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>गोपनीयता सेटिंग्स</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>निजी (इस लिंक को निजी बनाने और पासवर्ड इनपुट दिखाने के लिए चेक करें)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>निजी लिंक तक पहुँचने के लिए पासवर्ड की आवश्यकता होती है।</value>
+  </data>
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>अपने लिंक्स को पासवर्ड से सुरक्षित रखें और एक्सेस नियंत्रण प्रबंधित करें।</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC प्राधिकरण</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>दस्तावेज़ पढ़ें</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>उत्तरदायी डिज़ाइन</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>समीक्षाएँ</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>किसी भी OpenID Connect प्रदाता के साथ सहज एकीकरण, स्वचालित भूमिका सिंक्रनाइज़ेशन के साथ।</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>सुरक्षित</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>अपने लिंक्स को छोटा करें</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>शुरू करने के लिए साइन इन करें</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>स्मार्ट डार्क मोड जो स्वचालित रूप से उपयोगकर्ता की सिस्टम सेटिंग्स के अनुकूल हो जाता है।</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>एक नया प्रोजेक्ट शुरू करें</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>सफलता!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>लक्ष्य यूआरएल</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>लक्ष्य यूआरएल (आवश्यक)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>तकनीकी लीड</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>यह लिंक इस संख्या तक पहुँचने के बाद समाप्त हो जाएगा (असीमित के लिए खाली छोड़ा जा सकता है)।</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>नेविगेशन बार स्वचालित रूप से उपयोगकर्ता की भूमिकाओं और अनुमतियों के आधार पर समायोजित होता है।</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>सर्वर पासवर्ड को एन्क्रिप्ट करके सुरक्षित रूप से संग्रहीत करेगा।</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>यह टेम्पलेट आसान डेप्लॉयमेंट के लिए बनाया गया है। इसमें पूर्ण Docker सपोर्ट शामिल है, जिससे आप अपने ऐप को कंटेनराइज़ करके कहीं भी चला सकते हैं। आप इसे सीधे IIS, Azure App Service, या किसी भी सर्वर पर डेप्लॉय कर सकते हैं जो ASP.NET Core को सपोर्ट करता है।</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>यह एक टेम्पलेट प्रोजेक्ट है</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>यह एक टेम्पलेट प्रोजेक्ट है, जहाँ से हम वॉयजर की शुरुआत करते हैं...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>यह लिंक निजी है, कृपया पहुँच पासवर्ड दर्ज करें।</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>शीर्षक / टिप्पणी</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>शीर्षक / टिप्पणी (वैकल्पिक)</value>
   </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>क्लिक्स ट्रैक करें और विस्तृत आँकड़ों के साथ अपने दर्शकों को समझें।</value>
   </data>
+  <data name="Usage" xml:space="preserve">
+    <value>प्रयोग</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>इसे अपने SaaS की नींव के रूप में, अपने मोबाइल ऐप के लिए बैकएंड के रूप में, एक कॉर्पोरेट वेबसाइट के रूप में, या एक व्यक्तिगत ब्लॉग के रूप में उपयोग करें। संभावनाएं अनंत हैं।</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>दृश्यता</value>
+  </data>
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Warp एक शक्तिशाली URL शॉर्टनर है जो आपको अपने लिंक्स को प्रबंधित करने, क्लिक्स को ट्रैक करने और सामग्री को आसानी से साझा करने में मदद करता है। अपने व्यवसाय या व्यक्तिगत उपयोग के लिए छोटे, यादगार लिंक बनाएं।</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>कृपया निम्नलिखित त्रुटियों को सही करें:</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>स्वागत है</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>शुरुआत करने के लिए मुझे क्या चाहिए?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>हमारे डेवलपर्स क्या कहते हैं</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft टेम्पलेट का उपयोग क्यों करें?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>वार्प क्यों?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>हाँ, Aiursoft Template MIT लाइसेंस के तहत पूरी तरह से मुफ़्त और ओपन-सोर्स है। आप इसे किसी भी लागत के बिना व्यक्तिगत और व्यावसायिक परियोजनाओं के लिए उपयोग कर सकते हैं।</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>आप GitHub Discussions के माध्यम से सामुदायिक सहायता प्राप्त कर सकते हैं। कृपया हमारे</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>आपको .NET 10 SDK, npm और अपना पसंदीदा IDE, जैसे Visual Studio या JetBrains Rider की आवश्यकता होगी। आप हमारे दस्तावेज़ीकरण में पूर्ण सेटअप गाइड पा सकते हैं।</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>आपका शॉर्ट लिंक बन गया है:</value>
   </data>
 
 </root>

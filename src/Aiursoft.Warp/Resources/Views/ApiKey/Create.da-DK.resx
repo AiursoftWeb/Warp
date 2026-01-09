@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="e.g. My App" xml:space="preserve">
-    <value>f.eks. Min App</value>
+      <data name="Back to List" xml:space="preserve">
+    <value>Tilbage til listen</value>
   </data>
   <data name="Create" xml:space="preserve">
     <value>Opret</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Tilbage til listen</value>
-  </data>
   <data name="Create API Key" xml:space="preserve">
     <value>Opret API-nøgle</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>f.eks. Min App</value>
   </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Efterlad tom for ingen udløbsdato.</value>

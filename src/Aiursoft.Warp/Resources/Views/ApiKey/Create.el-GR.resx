@@ -18,8 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="e.g. My App" xml:space="preserve">
-    <value>π.χ. My App</value>
+      <data name="Back to List" xml:space="preserve">
+    <value>Επιστροφή στη Λίστα</value>
   </data>
   <data name="Create" xml:space="preserve">
     <value>Δημιουργία</value>
@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>Δημιουργία Κλειδιού API</value>
   </data>
-  <data name="New API Key Details" xml:space="preserve">
-    <value>Στοιχεία νέου κλειδιού API</value>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>π.χ. My App</value>
   </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Αφήστε το κενό για να μην υπάρχει λήξη.</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Επιστροφή στη Λίστα</value>
+  <data name="New API Key Details" xml:space="preserve">
+    <value>Στοιχεία νέου κλειδιού API</value>
   </data>
 
 </root>

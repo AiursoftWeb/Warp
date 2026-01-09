@@ -18,23 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Save" xml:space="preserve">
-    <value>Kaydet</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Listeye Dön</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>kullanılan tıklamalar</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopyalandı!</value>
+  </data>
+  <data name="Copy Link" xml:space="preserve">
+    <value>Bağlantıyı Kopyala</value>
+  </data>
+  <data name="Created At" xml:space="preserve">
+    <value>Oluşturulma Tarihi</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Özel Kod</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Bağlantıyı Sil</value>
+  </data>
+  <data name="Device / User Agent" xml:space="preserve">
+    <value>Device / User Agent</value>
   </data>
   <data name="Edit Link" xml:space="preserve">
     <value>Bağlantıyı Düzenle</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Hedef URL</value>
+  <data name="Enter custom code" xml:space="preserve">
+    <value>Özel kod girin</value>
   </data>
-  <data name="Link Details" xml:space="preserve">
-    <value>Bağlantı Detayları</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Özel Kod</value>
+  <data name="Enter max clicks" xml:space="preserve">
+    <value>Maksimum tıklama sayısını girin</value>
   </data>
   <data name="Enter title" xml:space="preserve">
     <value>Başlık girin</value>
@@ -42,91 +57,74 @@
   <data name="Expiration Time" xml:space="preserve">
     <value>Son Kullanma Tarihi</value>
   </data>
-  <data name="Enter custom code" xml:space="preserve">
-    <value>Özel kod girin</value>
+  <data name="Failed to copy to clipboard" xml:space="preserve">
+    <value>Panoya kopyalama başarısız oldu.</value>
+  </data>
+  <data name="IP Address" xml:space="preserve">
+    <value>IP Address</value>
   </data>
   <data name="Leave empty for permanent." xml:space="preserve">
     <value>Boş bırakılırsa kalıcı olur.</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Başlık / Açıklama</value>
-  </data>
-  <data name="Enter max clicks" xml:space="preserve">
-    <value>Maksimum tıklama sayısını girin</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Maksimum Tıklama</value>
-  </data>
   <data name="Leave empty for unlimited." xml:space="preserve">
     <value>Sınırsız için boş bırakın.</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Yeni Şifre</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Bu bağlantıyı Özel yap</value>
-  </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>Değişiklikleri Kaydet</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Özel bağlantılara erişmek için bir parola gereklidir.</value>
   </data>
   <data name="Leave empty to keep current password" xml:space="preserve">
     <value>Mevcut şifreyi korumak için boş bırakın</value>
   </data>
-  <data name="Total Clicks" xml:space="preserve">
-    <value>Toplam Tıklamalar</value>
+  <data name="Link Details" xml:space="preserve">
+    <value>Bağlantı Detayları</value>
   </data>
-  <data name="Statistics" xml:space="preserve">
-    <value>İstatistikler</value>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Bu bağlantıyı Özel yap</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Bağlantıyı Ziyaret Et</value>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maksimum Tıklama</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="No hit records found yet." xml:space="preserve">
+    <value>No hit records found yet.</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Özel bağlantılara erişmek için bir parola gereklidir.</value>
   </data>
   <data name="Quick Actions" xml:space="preserve">
     <value>Hızlı İşlemler</value>
   </data>
-  <data name="Created At" xml:space="preserve">
-    <value>Oluşturulma Tarihi</value>
-  </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>kullanılan tıklamalar</value>
-  </data>
-  <data name="Copy Link" xml:space="preserve">
-    <value>Bağlantıyı Kopyala</value>
-  </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Bağlantıyı Sil</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Kopyalandı!</value>
-  </data>
-  <data name="Failed to copy to clipboard" xml:space="preserve">
-    <value>Panoya kopyalama başarısız oldu.</value>
-  </data>
-
-
-  <data name="IP Address" xml:space="preserve">
-    <value>IP Address</value>
-  </data>
   <data name="Recent Hits" xml:space="preserve">
     <value>Recent Hits</value>
-  </data>
-  <data name="Region" xml:space="preserve">
-    <value>Region</value>
   </data>
   <data name="Referer" xml:space="preserve">
     <value>Referer</value>
   </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Değişiklikleri Kaydet</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>İstatistikler</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Hedef URL</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
-  <data name="Device / User Agent" xml:space="preserve">
-    <value>Device / User Agent</value>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Başlık / Açıklama</value>
   </data>
-  <data name="No hit records found yet." xml:space="preserve">
-    <value>No hit records found yet.</value>
+  <data name="Total Clicks" xml:space="preserve">
+    <value>Toplam Tıklamalar</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Bağlantıyı Ziyaret Et</value>
   </data>
 
 </root>

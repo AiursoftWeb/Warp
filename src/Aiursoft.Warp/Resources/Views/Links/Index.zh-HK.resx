@@ -18,14 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Delete" xml:space="preserve">
-    <value>刪除</value>
+      <data name="Actions" xml:space="preserve">
+    <value>操作</value>
   </data>
-  <data name="Creation Time" xml:space="preserve">
-    <value>建立時間</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>原始網址</value>
+  <data name="Active" xml:space="preserve">
+    <value>有效</value>
   </data>
   <data name="Clicks" xml:space="preserve">
     <value>點擊次數</value>
@@ -33,50 +30,53 @@
   <data name="Create New" xml:space="preserve">
     <value>建立新連結</value>
   </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>短連結</value>
+  <data name="Creation Time" xml:space="preserve">
+    <value>建立時間</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>
   </data>
-  <data name="My Links" xml:space="preserve">
-    <value>我的連結</value>
+  <data name="Expired" xml:space="preserve">
+    <value>已過期</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>於</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>連結資訊</value>
   </data>
   <data name="Link Management" xml:space="preserve">
     <value>連結管理</value>
+  </data>
+  <data name="My Links" xml:space="preserve">
+    <value>我的連結</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>原始網址</value>
+  </data>
+  <data name="Performance" xml:space="preserve">
+    <value>表現</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>永久</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>私人連結</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>公開連結</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>短連結</value>
   </data>
   <data name="Status" xml:space="preserve">
     <value>狀態</value>
   </data>
   <data name="Target" xml:space="preserve">
     <value>目標</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>私人連結</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>連結資訊</value>
-  </data>
-  <data name="Performance" xml:space="preserve">
-    <value>表現</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>操作</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>公開連結</value>
-  </data>
-  <data name="Active" xml:space="preserve">
-    <value>有效</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>永久</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>於</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>已過期</value>
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>前往連結</value>

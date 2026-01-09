@@ -18,11 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to List" xml:space="preserve">
+      <data name="Are you sure you want to delete this?" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να το διαγράψετε;</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
     <value>Πίσω στη Λίστα</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Διαγραφή</value>
+  </data>
+  <data name="Delete Link" xml:space="preserve">
+    <value>Διαγραφή Συνδέσμου</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>Αρχικό URL</value>
   </data>
   <data name="Owner" xml:space="preserve">
     <value>Ιδιοκτήτης</value>
@@ -30,17 +39,8 @@
   <data name="Short Link" xml:space="preserve">
     <value>Σύνδεσμος Σύντομος</value>
   </data>
-  <data name="Delete Link" xml:space="preserve">
-    <value>Διαγραφή Συνδέσμου</value>
-  </data>
   <data name="ShorterLink" xml:space="preserve">
     <value>Σύντομος Σύνδεσμος</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>Αρχικό URL</value>
-  </data>
-  <data name="Are you sure you want to delete this?" xml:space="preserve">
-    <value>Είστε σίγουροι ότι θέλετε να το διαγράψετε;</value>
   </data>
 
 </root>

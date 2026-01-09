@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
-    <value>URL đích không thể giống với URL rút gọn.</value>
-  </data>
-  <data name="Incorrect password." xml:space="preserve">
+      <data name="Incorrect password." xml:space="preserve">
     <value>Mật khẩu không chính xác.</value>
+  </data>
+  <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
+    <value>URL đích không thể giống với URL rút gọn.</value>
   </data>
   <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
     <value>Mã tùy chỉnh này đã được sử dụng. Vui lòng chọn mã khác.</value>

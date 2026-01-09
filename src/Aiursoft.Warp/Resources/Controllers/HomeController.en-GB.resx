@@ -21,11 +21,11 @@
       <data name="Incorrect password." xml:space="preserve">
     <value>Incorrect password.</value>
   </data>
-  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
-    <value>This custom code is already in use. Please choose another one.</value>
-  </data>
   <data name="The target URL cannot be the same as the shortcut URL." xml:space="preserve">
     <value>The target URL cannot be the same as the shortcut URL.</value>
+  </data>
+  <data name="This custom code is already in use. Please choose another one." xml:space="preserve">
+    <value>This custom code is already in use. Please choose another one.</value>
   </data>
 
 </root>

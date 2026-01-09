@@ -24,32 +24,32 @@
   <data name="API Key" xml:space="preserve">
     <value>Chave da API</value>
   </data>
-  <data name="My API Keys" xml:space="preserve">
-    <value>Minhas Chaves de API</value>
+  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
+    <value>Tem certeza de que deseja excluir esta chave de API?</value>
   </data>
   <data name="Create New Key" xml:space="preserve">
     <value>Criar Nova Chave</value>
   </data>
-  <data name="Expires" xml:space="preserve">
-    <value>Expira</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nome</value>
-  </data>
   <data name="Created" xml:space="preserve">
     <value>Criado</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="Expires" xml:space="preserve">
+    <value>Expira</value>
   </data>
   <data name="Manage your API keys" xml:space="preserve">
     <value>Gerenciar suas chaves de API</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Minhas Chaves de API</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
   <data name="Never" xml:space="preserve">
     <value>Nunca</value>
-  </data>
-  <data name="Are you sure you want to delete this API key?" xml:space="preserve">
-    <value>Tem certeza de que deseja excluir esta chave de API?</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Excluir</value>
   </data>
   <data name="You don&apos;t have any API keys yet." xml:space="preserve">
     <value>Você ainda não tem nenhuma chave de API.</value>

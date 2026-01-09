@@ -18,281 +18,80 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Добро пожаловать</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Это шаблонный проект</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Здравствуй, мир!</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Авторизация RBAC</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Поддержка нескольких баз данных</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Интеграция OpenID Connect</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Современная, многофункциональная и легко расширяемая основа для вашего следующего веб-приложения.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Беспрепятственно интегрируйтесь с любым провайдером OpenID Connect с автоматической синхронизацией ролей.</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Почему стоит использовать шаблон Aiursoft?</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Легко переключайтесь между поставщиками, такими как SQLite, MySQL, SQL Server, и используйте базу данных в памяти для тестирования.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Динамическая панель навигации</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Панель навигации автоматически настраивается в зависимости от ролей и разрешений пользователя.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Встроенная система управления доступом на основе ролей (RBAC) для детализированного управления разрешениями.</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Переводы на основе ИИ</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Полная документация</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Автоматический перевод с использованием искусственного интеллекта на 28 языков для глобального охвата.</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Включает обширную документацию и практические примеры для быстрого начала работы.</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Автоматическое внедрение зависимостей</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Интегрированное управление файлами</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Все зависимости автоматически регистрируются и всегда доступны через внедрение в конструктор.</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Оснащена встроенной системой управления файлами с автоматическим сжатием аватаров.</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>Полное решение для аутентификации пользователей и управления профилями, готовое к использованию сразу после установки.</value>
   </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Встроенное управление пользователями</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Адаптивный дизайн</value>
-  </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Подготовлено для развертывания в Docker</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Автоматический тёмный режим</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Умный тёмный режим, который автоматически подстраивается под системные настройки пользователя.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Предоставляет полную поддержку Docker для упрощённых, согласованных и надёжных развёртываний.</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Адаптивный макет, который отлично выглядит как на настольных компьютерах, так и на мобильных устройствах.</value>
   </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Прочитать документацию</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Это шаблонный проект, с которого мы начинаем путешествие...</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Использование</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Открытое ПО</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Возможности</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>быстрее</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Бесплатно</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Лицензия MIT</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Перейти в панель управления</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Создайте свой следующий большой проект,</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Отзывы</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Музыкальные инструменты</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Веб-сайт панели управления</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Достигайте большего с Aiursoft Template</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Что говорят наши разработчики</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown в HTML</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Вот что говорят разработчики из нашего сообщества.</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Используйте его как основу для вашего SaaS, бэкенд для мобильного приложения, корпоративный сайт или личный блог. Возможности безграничны.</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Ведущий разработчик</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Андуин</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>ЧАВО</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Часто задаваемые вопросы</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Бесплатно ли использовать Aiursoft Template?</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Вот некоторые из ответов, которые вы, возможно, ищете.</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template — это наш окончательный выбор для корпоративных проектов! Он создан для разработчиков, легковесный, но мощный. Мы можем пропустить всю стандартную работу по аутентификации и управлению пользователями.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Что мне нужно, чтобы начать?</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Как развернуть моё приложение?</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Да, Aiursoft Template полностью бесплатен и имеет открытый исходный код под лицензией MIT. Вы можете использовать его для личных и коммерческих проектов без каких-либо затрат.</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Как я могу получить поддержку?</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Вы можете получить поддержку сообщества через GitHub Discussions. Пожалуйста, посетите нашу</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Страница обсуждений</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Вам понадобятся .NET 10 SDK, npm и ваша любимая IDE, например Visual Studio или JetBrains Rider. Полное руководство по настройке вы найдёте в нашей документации.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>по любым вопросам или для сообщения о проблемах.</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Шаблон создан для простого развертывания. Он включает полную поддержку Docker, что позволяет контейнеризировать ваше приложение и запускать его где угодно. Вы также можете развернуть его напрямую в IIS, Azure App Service или на любом сервере, который поддерживает ASP.NET Core.</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>Присоединяйтесь к нашему сообществу и начните создавать уже сегодня!</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Присоединиться к обсуждениям</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Начать новый проект</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Копировать</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>Ваша короткая ссылка создана:</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>Целевой URL (обязательно)</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Успех!</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Современная, многофункциональная и легко расширяемая основа для вашего следующего веб-приложения.</value>
   </data>
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Простой инструмент для сокращения и управления вашими ссылками.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Сокращатель ссылок</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Пожалуйста, введите полный URL, например: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Скопировать в буфер обмена</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Пользовательский код (необязательно)</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Срок действия (необязательно)</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>например: my-product или оставьте пустым</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>Если не указано, ссылка будет действовать бессрочно (если не отключить вручную).</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>Пароль для доступа</value>
   </data>
   <data name="Access Password (Required for Private Links)" xml:space="preserve">
     <value>Пароль доступа (обязателен для приватных ссылок)</value>
   </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Видимость</value>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Достигайте большего с Aiursoft Template</value>
   </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Введите пароль доступа</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Дополнительные настройки</value>
   </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Приватная (отметьте, чтобы сделать ссылку приватной и отобразить поле для ввода пароля)</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Переводы на основе ИИ</value>
   </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Разрешены только безопасные символы, такие как буквы, цифры и дефисы; если оставить поле пустым, короткий код будет сгенерирован автоматически.</value>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template — это наш окончательный выбор для корпоративных проектов! Он создан для разработчиков, легковесный, но мощный. Мы можем пропустить всю стандартную работу по аутентификации и управлению пользователями.</value>
   </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Действительно только при установке приватности; сервер должен зашифровать и сохранить пароль.</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Все зависимости автоматически регистрируются и всегда доступны через внедрение в конструктор.</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>напр.: 100</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Аналитика</value>
   </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Максимум переходов (необязательно)</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Андуин</value>
   </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Название / Примечание (Необязательно)</value>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Автоматический тёмный режим</value>
   </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>например: Страница акции «Двойная одиннадцать»</value>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Автоматическое внедрение зависимостей</value>
   </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>Ссылка станет недействительной после достижения этого числа (можно оставить пустым для неограниченного количества переходов).</value>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Автоматический перевод с использованием искусственного интеллекта на 28 языков для глобального охвата.</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Создайте свой следующий большой проект,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Встроенное управление пользователями</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Предоставляет полную поддержку Docker для упрощённых, согласованных и надёжных развёртываний.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Полная документация</value>
   </data>
   <data name="Copied!" xml:space="preserve">
     <value>Скопировано!</value>
   </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Только для отображения в интерфейсе и идентификации, не влияет на переадресацию.</value>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
   </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Эта ссылка приватная, пожалуйста, введите пароль для доступа.</value>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Скопировать в буфер обмена</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Создать новую ссылку</value>
   </data>
   <data name="Create Short Link" xml:space="preserve">
     <value>Создать короткую ссылку</value>
@@ -300,95 +99,296 @@
   <data name="Custom Code" xml:space="preserve">
     <value>Пользовательский код</value>
   </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>например: my-product</value>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Пользовательский код (необязательно)</value>
   </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Целевой URL</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Веб-сайт панели управления</value>
   </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Название / Примечание</value>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Страница обсуждений</value>
   </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Создать новую ссылку</value>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Подготовлено для развертывания в Docker</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Динамическая панель навигации</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>напр.: 100</value>
   </data>
   <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
     <value>напр.: Акция «Двойная одиннадцатка»</value>
   </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Пожалуйста, введите полный URL, например:</value>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>например: Страница акции «Двойная одиннадцать»</value>
   </data>
-  <data name="Leave empty to auto-generate." xml:space="preserve">
-    <value>Оставьте пустым для автоматической генерации.</value>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>например: my-product</value>
   </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Только для внутренней идентификации.</value>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>например: my-product или оставьте пустым</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Легко переключайтесь между поставщиками, такими как SQLite, MySQL, SQL Server, и используйте базу данных в памяти для тестирования.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Введите пароль доступа</value>
   </data>
   <data name="Expiration Time" xml:space="preserve">
     <value>Срок действия</value>
   </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Максимум переходов</value>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Срок действия (необязательно)</value>
   </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>Ссылка станет недействительной после достижения этого лимита.</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>Настройки конфиденциальности</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Сделать ссылку приватной</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Для доступа к приватным ссылкам требуется пароль.</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Необязательно. Оставьте пустым для бессрочной ссылки.</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Пароль для доступа</value>
-  </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>Сервер зашифрует и безопасно сохранит пароль.</value>
-  </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>Войти, чтобы начать</value>
+  <data name="FAQ" xml:space="preserve">
+    <value>ЧАВО</value>
   </data>
   <data name="Fast" xml:space="preserve">
     <value>Быстро</value>
   </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Почему Warp?</value>
+  <data name="faster" xml:space="preserve">
+    <value>быстрее</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Оснащена встроенной системой управления файлами с автоматическим сжатием аватаров.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>по любым вопросам или для сообщения о проблемах.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Только для внутренней идентификации.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Бесплатно</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
   </data>
   <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
     <value>Создавайте короткие ссылки мгновенно благодаря нашей оптимизированной инфраструктуре.</value>
   </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>Сократите свои ссылки</value>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Перейти в панель управления</value>
   </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Дополнительные настройки</value>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Здравствуй, мир!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Вот некоторые из ответов, которые вы, возможно, ищете.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Вот что говорят разработчики из нашего сообщества.</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Как я могу получить поддержку?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Как развернуть моё приложение?</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Если не указано, ссылка будет действовать бессрочно (если не отключить вручную).</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Включает обширную документацию и практические примеры для быстрого начала работы.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Интегрированное управление файлами</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Бесплатно ли использовать Aiursoft Template?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Присоединиться к обсуждениям</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Присоединяйтесь к нашему сообществу и начните создавать уже сегодня!</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Оставьте пустым для автоматической генерации.</value>
   </data>
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Оставьте пустым, чтобы сделать ссылку публичной. Если заполнено, ссылка будет приватной.</value>
   </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Безопасность</value>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Ссылка станет недействительной после достижения этого лимита.</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Аналитика</value>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Сокращатель ссылок</value>
+  </data>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Сделать ссылку приватной</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown в HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Максимум переходов</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Максимум переходов (необязательно)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Лицензия MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Поддержка нескольких баз данных</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Музыкальные инструменты</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Только для отображения в интерфейсе и идентификации, не влияет на переадресацию.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Разрешены только безопасные символы, такие как буквы, цифры и дефисы; если оставить поле пустым, короткий код будет сгенерирован автоматически.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Действительно только при установке приватности; сервер должен зашифровать и сохранить пароль.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Открытое ПО</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Интеграция OpenID Connect</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Необязательно. Оставьте пустым для бессрочной ссылки.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Пожалуйста, исправьте следующие ошибки:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Пожалуйста, введите полный URL, например:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Пожалуйста, введите полный URL, например: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Настройки конфиденциальности</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Приватная (отметьте, чтобы сделать ссылку приватной и отобразить поле для ввода пароля)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Для доступа к приватным ссылкам требуется пароль.</value>
   </data>
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>Защищайте свои ссылки паролями и управляйте контролем доступа.</value>
   </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Авторизация RBAC</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Прочитать документацию</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Адаптивный дизайн</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Отзывы</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Беспрепятственно интегрируйтесь с любым провайдером OpenID Connect с автоматической синхронизацией ролей.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Сократите свои ссылки</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Войти, чтобы начать</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Умный тёмный режим, который автоматически подстраивается под системные настройки пользователя.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Начать новый проект</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Успех!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Целевой URL</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Целевой URL (обязательно)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Ведущий разработчик</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Ссылка станет недействительной после достижения этого числа (можно оставить пустым для неограниченного количества переходов).</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Панель навигации автоматически настраивается в зависимости от ролей и разрешений пользователя.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Сервер зашифрует и безопасно сохранит пароль.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Шаблон создан для простого развертывания. Он включает полную поддержку Docker, что позволяет контейнеризировать ваше приложение и запускать его где угодно. Вы также можете развернуть его напрямую в IIS, Azure App Service или на любом сервере, который поддерживает ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Это шаблонный проект</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Это шаблонный проект, с которого мы начинаем путешествие...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Эта ссылка приватная, пожалуйста, введите пароль для доступа.</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Название / Примечание</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Название / Примечание (Необязательно)</value>
+  </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Отслеживайте клики и анализируйте свою аудиторию с помощью детальной статистики.</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Используйте его как основу для вашего SaaS, бэкенд для мобильного приложения, корпоративный сайт или личный блог. Возможности безграничны.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Видимость</value>
   </data>
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Warp — это мощный сервис для сокращения URL, который помогает вам управлять ссылками, отслеживать клики и легко делиться контентом. Создавайте короткие, запоминающиеся ссылки для бизнеса или личного использования.</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Пожалуйста, исправьте следующие ошибки:</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Что мне нужно, чтобы начать?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Что говорят наши разработчики</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Почему стоит использовать шаблон Aiursoft?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Почему Warp?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Да, Aiursoft Template полностью бесплатен и имеет открытый исходный код под лицензией MIT. Вы можете использовать его для личных и коммерческих проектов без каких-либо затрат.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Вы можете получить поддержку сообщества через GitHub Discussions. Пожалуйста, посетите нашу</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Вам понадобятся .NET 10 SDK, npm и ваша любимая IDE, например Visual Studio или JetBrains Rider. Полное руководство по настройке вы найдёте в нашей документации.</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Ваша короткая ссылка создана:</value>
   </data>
 
 </root>

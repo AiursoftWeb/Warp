@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Clicks" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>활성</value>
+  </data>
+  <data name="Clicks" xml:space="preserve">
     <value>클릭 수</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>수정</value>
-  </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>단축 링크</value>
   </data>
   <data name="Create New" xml:space="preserve">
     <value>새로 만들기</value>
@@ -36,23 +36,14 @@
   <data name="Delete" xml:space="preserve">
     <value>삭제</value>
   </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>원본 URL</value>
+  <data name="Edit" xml:space="preserve">
+    <value>수정</value>
   </data>
-  <data name="My Links" xml:space="preserve">
-    <value>내 링크</value>
+  <data name="Expired" xml:space="preserve">
+    <value>만료됨</value>
   </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>비공개 링크</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>작업</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>상태</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>대상</value>
+  <data name="Expires at" xml:space="preserve">
+    <value>만료일:</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>링크 정보</value>
@@ -60,26 +51,35 @@
   <data name="Link Management" xml:space="preserve">
     <value>링크 관리</value>
   </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>공개 링크</value>
+  <data name="My Links" xml:space="preserve">
+    <value>내 링크</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>원본 URL</value>
   </data>
   <data name="Performance" xml:space="preserve">
     <value>성능</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>만료됨</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>링크 방문</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>만료일:</value>
-  </data>
   <data name="Permanent" xml:space="preserve">
     <value>영구적</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>활성</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>비공개 링크</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>공개 링크</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>단축 링크</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>대상</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>링크 방문</value>
   </data>
 
 </root>

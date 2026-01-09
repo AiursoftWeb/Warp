@@ -18,194 +18,188 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Selamat datang</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Ini adalah proyek templat</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Halo Dunia!</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Sebuah fondasi yang modern, kaya fitur, dan sangat dapat diperluas untuk aplikasi web Anda berikutnya.</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Otorisasi RBAC</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Integrasi OpenID Connect</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Dukungan Banyak Basis Data</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Mengapa Menggunakan Template Aiursoft?</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Terintegrasi dengan mulus bersama penyedia OpenID Connect apa pun, dengan sinkronisasi peran otomatis.</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Dengan mudah beralih di antara penyedia seperti SQLite, MySQL, SQL Server, dan database dalam memori untuk pengujian.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Sistem Role-Based Access Control (RBAC) bawaan untuk manajemen izin yang terperinci.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Bilah Navigasi Dinamis</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Terjemahan Berbasis AI</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Dokumentasi Komprehensif</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Terjemahan otomatis berbasis AI ke dalam 28 bahasa untuk jangkauan global.</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Bilah navigasi secara otomatis menyesuaikan berdasarkan peran dan izin pengguna.</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Termasuk dokumentasi yang luas dan contoh praktis untuk memulai dengan cepat.</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Manajemen Pengguna Bawaan</value>
   </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>Solusi lengkap untuk autentikasi pengguna dan manajemen profil yang siap pakai.</value>
   </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Desain Responsif</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Injeksi Dependensi Otomatis</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Manajemen File Terintegrasi</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Fitur sistem manajemen file bawaan dengan kompresi avatar otomatis.</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Semua dependensi terdaftar secara otomatis dan selalu tersedia melalui constructor injection.</value>
-  </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Tata letak yang sepenuhnya responsif dan terlihat bagus di perangkat desktop maupun seluler.</value>
   </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Mode Gelap Otomatis</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Sebuah fondasi yang modern, kaya fitur, dan sangat dapat diperluas untuk aplikasi web Anda berikutnya.</value>
   </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Mode gelap cerdas yang secara otomatis menyesuaikan dengan pengaturan sistem pengguna.</value>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Alat sederhana untuk mempersingkat dan mengelola tautan Anda.</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Terdockerisasi untuk Deployment</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>Kata Sandi Akses</value>
   </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Dilengkapi dengan dukungan Docker penuh untuk penyebaran yang disederhanakan, konsisten, dan andal.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Baca dokumen</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Ini adalah proyek templat, tempat kami memulai perjalanan...</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Sumber Terbuka</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Penggunaan</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Fitur</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Lisensi MIT</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Buka dasbor</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Gratis</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>lebih cepat</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Bangun hal besar berikutnya Anda,</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Alat Musik</value>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Kata Sandi Akses (Diperlukan untuk Tautan Pribadi)</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Raih lebih banyak dengan Aiursoft Template</value>
   </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Gunakan sebagai fondasi untuk SaaS Anda, backend untuk aplikasi seluler Anda, situs web perusahaan, atau blog pribadi. Kemungkinannya tidak terbatas.</value>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Pengaturan Lanjutan</value>
   </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown ke HTML</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Ulasan</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Situs Web Dashboard</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Apa Kata Developer Kami</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Inilah yang dikatakan para pengembang dari komunitas kami.</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>FAQ</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Pemimpin Teknis</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Pertanyaan yang Sering Diajukan</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Berikut adalah beberapa jawaban yang mungkin Anda cari.</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Apakah Aiursoft Template gratis digunakan?</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Apa yang saya perlukan untuk memulai?</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Terjemahan Berbasis AI</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template adalah pilihan utama kami untuk proyek perusahaan! Template ini dibangun untuk pengembang, ringan namun bertenaga. Kami bisa melewati semua kode boilerplate untuk autentikasi dan manajemen pengguna.</value>
   </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Bagaimana cara saya menerapkan aplikasi saya?</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Semua dependensi terdaftar secara otomatis dan selalu tersedia melalui constructor injection.</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Ya, Aiursoft Template sepenuhnya gratis dan open-source di bawah Lisensi MIT. Anda dapat menggunakannya untuk proyek pribadi dan komersial tanpa biaya apa pun.</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analitik</value>
   </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Anda akan memerlukan .NET 10 SDK, npm, dan IDE favorit Anda, seperti Visual Studio atau JetBrains Rider. Anda dapat menemukan panduan penyiapan lengkap di dokumentasi kami.</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
   </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Bagaimana saya bisa mendapatkan dukungan?</value>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Mode Gelap Otomatis</value>
   </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Anda bisa mendapatkan dukungan komunitas melalui GitHub Discussions. Silakan kunjungi</value>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Injeksi Dependensi Otomatis</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Terjemahan otomatis berbasis AI ke dalam 28 bahasa untuk jangkauan global.</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Bangun hal besar berikutnya Anda,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Manajemen Pengguna Bawaan</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Dilengkapi dengan dukungan Docker penuh untuk penyebaran yang disederhanakan, konsisten, dan andal.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Dokumentasi Komprehensif</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Tersalin!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Salin</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Salin ke papan klip</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Buat Tautan Baru</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Buat Tautan Pendek</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Kode Kustom</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Kode Kustom (Opsional)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Situs Web Dashboard</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Halaman Diskusi</value>
   </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Terdockerisasi untuk Deployment</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Bilah Navigasi Dinamis</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>misalnya: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>misalnya: Kampanye Double Eleven</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>misalnya: Halaman Acara Double Eleven</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>misalnya: produk-saya</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>misalnya: my-product atau biarkan kosong</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Dengan mudah beralih di antara penyedia seperti SQLite, MySQL, SQL Server, dan database dalam memori untuk pengujian.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Masukkan kata sandi akses</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Waktu Kedaluwarsa</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Waktu Kedaluwarsa (Opsional)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Cepat</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>lebih cepat</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Fitur</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Fitur sistem manajemen file bawaan dengan kompresi avatar otomatis.</value>
+  </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>untuk pertanyaan apa pun atau untuk melaporkan masalah.</value>
   </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Template ini dibangun untuk kemudahan penerapan. Template ini mencakup dukungan Docker penuh, sehingga Anda dapat meng-container-kan aplikasi Anda dan menjalankannya di mana saja. Anda juga dapat menerapkannya langsung ke IIS, Azure App Service, atau server apa pun yang mendukung ASP.NET Core.</value>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Hanya untuk identifikasi internal.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Pertanyaan yang Sering Diajukan</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Hasilkan tautan pendek secara instan dengan infrastruktur kami yang telah dioptimalkan.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Buka dasbor</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Halo Dunia!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Berikut adalah beberapa jawaban yang mungkin Anda cari.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Inilah yang dikatakan para pengembang dari komunitas kami.</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Bagaimana saya bisa mendapatkan dukungan?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Bagaimana cara saya menerapkan aplikasi saya?</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Jika tidak diisi, tautan akan berlaku selamanya (kecuali dinonaktifkan secara manual).</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Termasuk dokumentasi yang luas dan contoh praktis untuk memulai dengan cepat.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Manajemen File Terintegrasi</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Apakah Aiursoft Template gratis digunakan?</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>Bergabung dalam Diskusi</value>
@@ -213,182 +207,188 @@
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>Bergabunglah dengan komunitas kami dan mulailah membangun hari ini!</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Mulai proyek baru</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Salin ke papan klip</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>URL Tujuan (Wajib)</value>
-  </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>Alat sederhana untuk mempersingkat dan mengelola tautan Anda.</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Silakan masukkan URL lengkap, misalnya: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>Tautan pendek Anda telah berhasil dibuat:</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Salin</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Kode Kustom (Opsional)</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Pemendek Tautan</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>misalnya: my-product atau biarkan kosong</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Berhasil!</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Visibilitas</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Waktu Kedaluwarsa (Opsional)</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>Jika tidak diisi, tautan akan berlaku selamanya (kecuali dinonaktifkan secara manual).</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Hanya karakter aman seperti huruf, angka, dan tanda hubung yang diperbolehkan; jika dikosongkan, kode pendek akan dibuat secara otomatis.</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Masukkan kata sandi akses</value>
-  </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>Kata Sandi Akses (Diperlukan untuk Tautan Pribadi)</value>
-  </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Maksimum Klik (Opsional)</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Pribadi (Centang untuk membuat tautan menjadi pribadi dan menampilkan input kata sandi)</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>misalnya: 100</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Hanya berlaku saat diatur ke privat; server harus mengenkripsi dan menyimpan kata sandi.</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>Tautan akan kedaluwarsa setelah mencapai jumlah ini (dapat dikosongkan untuk tak terbatas).</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Judul / Keterangan (Opsional)</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>misalnya: Halaman Acara Double Eleven</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>Buat Tautan Pendek</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Hanya untuk tampilan latar belakang dan identifikasi, tidak memengaruhi pengalihan.</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Tersalin!</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Tautan ini bersifat pribadi, silakan masukkan kata sandi akses.</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Buat Tautan Baru</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>misalnya: Kampanye Double Eleven</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>URL Tujuan</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Kode Kustom</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>misalnya: produk-saya</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Silakan masukkan URL lengkap, contoh:</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Judul / Keterangan</value>
-  </data>
   <data name="Leave empty to auto-generate." xml:space="preserve">
     <value>Biarkan kosong untuk dibuat otomatis.</value>
-  </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Waktu Kedaluwarsa</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Hanya untuk identifikasi internal.</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Opsional. Kosongkan untuk permanen.</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Klik Maksimum</value>
-  </data>
-  <data name="Link expires after reaching this limit." xml:space="preserve">
-    <value>Tautan akan kedaluwarsa setelah mencapai batas ini.</value>
-  </data>
-  <data name="Privacy Settings" xml:space="preserve">
-    <value>Pengaturan Privasi</value>
-  </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Kata Sandi Akses</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Buat tautan ini menjadi Pribadi</value>
-  </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Tautan pribadi memerlukan kata sandi untuk diakses.</value>
-  </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>Server akan mengenkripsi dan menyimpan kata sandi dengan aman.</value>
-  </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Mengapa Warp?</value>
-  </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>Masuk untuk Memulai</value>
-  </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Pengaturan Lanjutan</value>
-  </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>Persingkat Tautan Anda</value>
-  </data>
-  <data name="Fast" xml:space="preserve">
-    <value>Cepat</value>
-  </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>Hasilkan tautan pendek secara instan dengan infrastruktur kami yang telah dioptimalkan.</value>
   </data>
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Biarkan kosong untuk membuat tautan ini publik. Jika diisi, tautan akan menjadi privat.</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Analitik</value>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Tautan akan kedaluwarsa setelah mencapai batas ini.</value>
   </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Aman</value>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Pemendek Tautan</value>
   </data>
-  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
-    <value>Lacak klik dan pahami audiens Anda dengan statistik terperinci.</value>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Buat tautan ini menjadi Pribadi</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown ke HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Klik Maksimum</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maksimum Klik (Opsional)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Lisensi MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Dukungan Banyak Basis Data</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Alat Musik</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Hanya untuk tampilan latar belakang dan identifikasi, tidak memengaruhi pengalihan.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Hanya karakter aman seperti huruf, angka, dan tanda hubung yang diperbolehkan; jika dikosongkan, kode pendek akan dibuat secara otomatis.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Hanya berlaku saat diatur ke privat; server harus mengenkripsi dan menyimpan kata sandi.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Sumber Terbuka</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Integrasi OpenID Connect</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Opsional. Kosongkan untuk permanen.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Harap perbaiki kesalahan berikut:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Silakan masukkan URL lengkap, contoh:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Silakan masukkan URL lengkap, misalnya: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
+  </data>
+  <data name="Privacy Settings" xml:space="preserve">
+    <value>Pengaturan Privasi</value>
+  </data>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Pribadi (Centang untuk membuat tautan menjadi pribadi dan menampilkan input kata sandi)</value>
+  </data>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Tautan pribadi memerlukan kata sandi untuk diakses.</value>
   </data>
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>Lindungi tautan Anda dengan kata sandi dan kelola kontrol akses.</value>
   </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Otorisasi RBAC</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Baca dokumen</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Desain Responsif</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Ulasan</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Terintegrasi dengan mulus bersama penyedia OpenID Connect apa pun, dengan sinkronisasi peran otomatis.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Aman</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Persingkat Tautan Anda</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Masuk untuk Memulai</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Mode gelap cerdas yang secara otomatis menyesuaikan dengan pengaturan sistem pengguna.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Mulai proyek baru</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Berhasil!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>URL Tujuan</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>URL Tujuan (Wajib)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Pemimpin Teknis</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Tautan akan kedaluwarsa setelah mencapai jumlah ini (dapat dikosongkan untuk tak terbatas).</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Bilah navigasi secara otomatis menyesuaikan berdasarkan peran dan izin pengguna.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Server akan mengenkripsi dan menyimpan kata sandi dengan aman.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Template ini dibangun untuk kemudahan penerapan. Template ini mencakup dukungan Docker penuh, sehingga Anda dapat meng-container-kan aplikasi Anda dan menjalankannya di mana saja. Anda juga dapat menerapkannya langsung ke IIS, Azure App Service, atau server apa pun yang mendukung ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Ini adalah proyek templat</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Ini adalah proyek templat, tempat kami memulai perjalanan...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Tautan ini bersifat pribadi, silakan masukkan kata sandi akses.</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Judul / Keterangan</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Judul / Keterangan (Opsional)</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Lacak klik dan pahami audiens Anda dengan statistik terperinci.</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Penggunaan</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Gunakan sebagai fondasi untuk SaaS Anda, backend untuk aplikasi seluler Anda, situs web perusahaan, atau blog pribadi. Kemungkinannya tidak terbatas.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibilitas</value>
+  </data>
   <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
     <value>Warp adalah pemendek URL yang kuat yang membantu Anda mengelola tautan, melacak klik, dan berbagi konten dengan mudah. Buat tautan yang pendek dan mudah diingat untuk keperluan bisnis atau pribadi Anda.</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Harap perbaiki kesalahan berikut:</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>Selamat datang</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Apa yang saya perlukan untuk memulai?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Apa Kata Developer Kami</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Mengapa Menggunakan Template Aiursoft?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Mengapa Warp?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ya, Aiursoft Template sepenuhnya gratis dan open-source di bawah Lisensi MIT. Anda dapat menggunakannya untuk proyek pribadi dan komersial tanpa biaya apa pun.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Anda bisa mendapatkan dukungan komunitas melalui GitHub Discussions. Silakan kunjungi</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Anda akan memerlukan .NET 10 SDK, npm, dan IDE favorit Anda, seperti Visual Studio atau JetBrains Rider. Anda dapat menemukan panduan penyiapan lengkap di dokumentasi kami.</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Tautan pendek Anda telah berhasil dibuat:</value>
   </data>
 
 </root>

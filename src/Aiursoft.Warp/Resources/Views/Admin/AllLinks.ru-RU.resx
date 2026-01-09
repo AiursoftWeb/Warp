@@ -18,65 +18,65 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Target" xml:space="preserve">
-    <value>Цель</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Переходы</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Управление ссылками</value>
-  </data>
-  <data name="Owner" xml:space="preserve">
-    <value>Владелец</value>
-  </data>
-  <data name="No links found in the system." xml:space="preserve">
-    <value>В системе не найдено ссылок.</value>
-  </data>
-  <data name="All Links" xml:space="preserve">
-    <value>Все ссылки</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Информация о ссылке</value>
-  </data>
-  <data name="View and manage all links across the entire system." xml:space="preserve">
-    <value>Просматривайте и управляйте всеми ссылками во всей системе.</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Статус</value>
-  </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Публичная ссылка</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>Действия</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Приватная ссылка</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Истёк</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>Активен</value>
   </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Постоянная</value>
+  <data name="All Links" xml:space="preserve">
+    <value>Все ссылки</value>
   </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Истекает</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Перейти по ссылке</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Редактировать</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>Переходы</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
   <data name="Edit Link" xml:space="preserve">
     <value>Редактировать ссылку</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Истёк</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Истекает</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Информация о ссылке</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Управление ссылками</value>
+  </data>
+  <data name="No links found in the system." xml:space="preserve">
+    <value>В системе не найдено ссылок.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Постоянная</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватная ссылка</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Публичная ссылка</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Цель</value>
+  </data>
+  <data name="View and manage all links across the entire system." xml:space="preserve">
+    <value>Просматривайте и управляйте всеми ссылками во всей системе.</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Перейти по ссылке</value>
   </data>
 
 </root>

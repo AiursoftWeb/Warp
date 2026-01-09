@@ -18,71 +18,71 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Links by" xml:space="preserve">
-    <value>Ссылки пользователя</value>
-  </data>
-  <data name="This user has not created any links yet." xml:space="preserve">
-    <value>Этот пользователь ещё не создал ни одной ссылки.</value>
-  </data>
-  <data name="Username" xml:space="preserve">
-    <value>Имя пользователя</value>
-  </data>
-  <data name="Back to All Links" xml:space="preserve">
-    <value>Назад ко всем ссылкам</value>
-  </data>
-  <data name="Total Docs" xml:space="preserve">
-    <value>Всего документов</value>
-  </data>
-  <data name="Link Management" xml:space="preserve">
-    <value>Управление ссылками</value>
-  </data>
-  <data name="Link Info" xml:space="preserve">
-    <value>Информация о ссылке</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>Детали профиля</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Цель</value>
-  </data>
-  <data name="Clicks" xml:space="preserve">
-    <value>Переходы</value>
-  </data>
-  <data name="Status" xml:space="preserve">
-    <value>Статус</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Истёк</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Приватная ссылка</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>Действия</value>
   </data>
   <data name="Active" xml:space="preserve">
     <value>Активен</value>
   </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Публичная ссылка</value>
+  <data name="Back to All Links" xml:space="preserve">
+    <value>Назад ко всем ссылкам</value>
   </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Перейти по ссылке</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Редактировать</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Истекает</value>
-  </data>
-  <data name="Permanent" xml:space="preserve">
-    <value>Постоянная</value>
+  <data name="Clicks" xml:space="preserve">
+    <value>Переходы</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
   <data name="Edit Link" xml:space="preserve">
     <value>Редактировать ссылку</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Истёк</value>
+  </data>
+  <data name="Expires at" xml:space="preserve">
+    <value>Истекает</value>
+  </data>
+  <data name="Link Info" xml:space="preserve">
+    <value>Информация о ссылке</value>
+  </data>
+  <data name="Link Management" xml:space="preserve">
+    <value>Управление ссылками</value>
+  </data>
+  <data name="Links by" xml:space="preserve">
+    <value>Ссылки пользователя</value>
+  </data>
+  <data name="Permanent" xml:space="preserve">
+    <value>Постоянная</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Приватная ссылка</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>Детали профиля</value>
+  </data>
+  <data name="Public Link" xml:space="preserve">
+    <value>Публичная ссылка</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Цель</value>
+  </data>
+  <data name="This user has not created any links yet." xml:space="preserve">
+    <value>Этот пользователь ещё не создал ни одной ссылки.</value>
+  </data>
+  <data name="Total Docs" xml:space="preserve">
+    <value>Всего документов</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Перейти по ссылке</value>
   </data>
 
 </root>

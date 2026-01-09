@@ -18,56 +18,179 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Välkommen</value>
+      <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Ett inbyggt rollbaserat åtkomstkontrollsystem (RBAC) för detaljerad behörighetshantering.</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Det här är ett mallprojekt</value>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>En komplett lösning för användarautentisering och profilanpassning direkt ur lådan.</value>
   </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Stöd för flera databaser</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Hej Världen!</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Varför använda Aiursoft Template?</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC-auktorisering</value>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>En helt responsiv layout som ser bra ut på både skrivbord och mobila enheter.</value>
   </data>
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>En modern, funktionsrik och mycket utbyggbar grund för din nästa webbapplikation.</value>
   </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect-integrering</value>
+  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
+    <value>Ett enkelt verktyg för att förkorta och hantera dina länkar.</value>
   </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
+  <data name="Access Password" xml:space="preserve">
+    <value>Åtkomstlösenord</value>
   </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
+  <data name="Access Password (Required for Private Links)" xml:space="preserve">
+    <value>Åtkomstlösenord (Obligatoriskt för privata länkar)</value>
   </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Dynamiskt navigeringsfält</value>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Uppnå mer med Aiursoft Template</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Avancerade inställningar</value>
   </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI-drivna översättningar</value>
   </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Omfattande dokumentation</value>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template är vårt slutgiltiga val för företagsprojekt! Den är byggd för utvecklare och är lättviktig men ändå kraftfull. Vi kan hoppa över all standardkod för autentisering och användarhantering.</value>
   </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
-    <value>Ett inbyggt rollbaserat åtkomstkontrollsystem (RBAC) för detaljerad behörighetshantering.</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
   </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Inbyggd användarhantering</value>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automatiskt mörkt läge</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automatisk beroendeinjektion</value>
   </data>
   <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
     <value>Automatisk, AI-driven översättning till 28 språk för global räckvidd.</value>
   </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Bygg din nästa stora grej,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Inbyggd användarhantering</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Levererar fullt Docker-stöd för förenklade, konsekventa och pålitliga distributioner.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Omfattande dokumentation</value>
+  </data>
+  <data name="Copied!" xml:space="preserve">
+    <value>Kopierad!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopiera till urklipp</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Skapa ny länk</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Skapa kort länk</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Anpassad kod</value>
+  </data>
+  <data name="Custom Code (Optional)" xml:space="preserve">
+    <value>Anpassad kod (valfritt)</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Instrumentpanelswebbplats</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Diskussionssida</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockeriserad för distribution</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynamiskt navigeringsfält</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>t.ex.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>t.ex.: Double Eleven-kampanjen</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>t.ex.: Double Eleven Event-sida</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>t.ex.: min-produkt</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>t.ex.: mitt-produkt eller lämna tomt</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Ange åtkomstlösenord</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Utgångstid</value>
+  </data>
+  <data name="Expiration Time (Optional)" xml:space="preserve">
+    <value>Utgångstid (Valfritt)</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Snabb</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>snabbare</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funktioner</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>för frågor eller för att rapportera problem.</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Endast för intern identifiering.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generera korta länkar direkt med vår optimerade infrastruktur.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Gå till instrumentpanelen</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hej Världen!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Här är några av de svar du kanske letar efter.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Här är vad utvecklare från vår community har att säga.</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Hur får jag support?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Hur distribuerar jag min applikation?</value>
+  </data>
+  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
+    <value>Om den inte fylls i, är den permanent giltig (om den inte inaktiveras manuellt).</value>
   </data>
   <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
     <value>Inkluderar omfattande dokumentation och praktiska exempel för att du snabbt ska komma igång.</value>
@@ -75,320 +198,197 @@
   <data name="Integrated File Management" xml:space="preserve">
     <value>Integrerad filhantering</value>
   </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Automatisk beroendeinjektion</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
-  </data>
-  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
-    <value>En komplett lösning för användarautentisering och profilanpassning direkt ur lådan.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Responsiv Design</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Automatiskt mörkt läge</value>
-  </data>
-  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
-    <value>En helt responsiv layout som ser bra ut på både skrivbord och mobila enheter.</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
-  </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Dockeriserad för distribution</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Levererar fullt Docker-stöd för förenklade, konsekventa och pålitliga distributioner.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Läs dokumentet</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Det här är ett mallprojekt, där vi startar resan...</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Funktioner</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Gratis</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>snabbare</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Användning</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-licens</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Öppen källkod</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Gå till instrumentpanelen</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Bygg din nästa stora grej,</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Uppnå mer med Aiursoft Template</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Musikverktyg</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Recensioner</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown till HTML</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Vad våra utvecklare säger</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Här är vad utvecklare från vår community har att säga.</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Instrumentpanelswebbplats</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Teknisk ledare</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>Vanliga frågor</value>
-  </data>
   <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
     <value>Är det gratis att använda Aiursoft Template?</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Vanliga frågor</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Här är några av de svar du kanske letar efter.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Vad behöver jag för att komma igång?</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template är vårt slutgiltiga val för företagsprojekt! Den är byggd för utvecklare och är lättviktig men ändå kraftfull. Vi kan hoppa över all standardkod för autentisering och användarhantering.</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Hur distribuerar jag min applikation?</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Diskussionssida</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Hur får jag support?</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>Delta i diskussioner</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>för frågor eller för att rapportera problem.</value>
-  </data>
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>Gå med i vår community och börja bygga idag!</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Mallen är byggd för enkel distribution. Den inkluderar fullt Docker-stöd, så du kan containerisera din app och köra den var som helst. Du kan också distribuera den direkt till IIS, Azure App Service eller vilken server som helst som stöder ASP.NET Core.</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Starta ett nytt projekt</value>
-  </data>
-  <data name="Copy to clipboard" xml:space="preserve">
-    <value>Kopiera till urklipp</value>
-  </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Länkförkortare</value>
-  </data>
-  <data name="Your short link has been created:" xml:space="preserve">
-    <value>Din korta länk har skapats:</value>
-  </data>
-  <data name="Copy" xml:space="preserve">
-    <value>Kopiera</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Lyckades!</value>
-  </data>
-  <data name="Target URL (Required)" xml:space="preserve">
-    <value>Mål-URL (Obligatorisk)</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
-    <value>Ange den fullständiga URL:en, t.ex.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
-  </data>
-  <data name="A simple tool to shorten and manage your links." xml:space="preserve">
-    <value>Ett enkelt verktyg för att förkorta och hantera dina länkar.</value>
-  </data>
-  <data name="Custom Code (Optional)" xml:space="preserve">
-    <value>Anpassad kod (valfritt)</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>t.ex.: mitt-produkt eller lämna tomt</value>
-  </data>
-  <data name="Visibility" xml:space="preserve">
-    <value>Synlighet</value>
-  </data>
-  <data name="Expiration Time (Optional)" xml:space="preserve">
-    <value>Utgångstid (Valfritt)</value>
-  </data>
-  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
-    <value>Endast säkra tecken som bokstäver, siffror och bindestreck är tillåtna; om fältet lämnas tomt genereras en kort kod automatiskt.</value>
-  </data>
-  <data name="If not filled, it will be permanently valid (unless manually disabled)." xml:space="preserve">
-    <value>Om den inte fylls i, är den permanent giltig (om den inte inaktiveras manuellt).</value>
-  </data>
-  <data name="Max Clicks (Optional)" xml:space="preserve">
-    <value>Maximalt antal klick (Valfritt)</value>
-  </data>
-  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
-    <value>Privat (Markera för att göra länken privat och visa lösenordsfält)</value>
-  </data>
-  <data name="Enter access password" xml:space="preserve">
-    <value>Ange åtkomstlösenord</value>
-  </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>t.ex.: 100</value>
-  </data>
-  <data name="Access Password (Required for Private Links)" xml:space="preserve">
-    <value>Åtkomstlösenord (Obligatoriskt för privata länkar)</value>
-  </data>
-  <data name="Title / Remark (Optional)" xml:space="preserve">
-    <value>Titel / Kommentar (Valfritt)</value>
-  </data>
-  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
-    <value>Gäller endast när inställt på privat; servern bör kryptera och lagra lösenordet.</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>t.ex.: Double Eleven Event-sida</value>
-  </data>
-  <data name="Copied!" xml:space="preserve">
-    <value>Kopierad!</value>
-  </data>
-  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
-    <value>Länken kommer att upphöra att gälla efter att ha nått detta antal (kan lämnas tomt för obegränsat).</value>
-  </data>
-  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
-    <value>Endast för bakgrundsvisning och identifiering, påverkar inte omdirigering.</value>
-  </data>
-  <data name="This link is private, please enter the access password." xml:space="preserve">
-    <value>Den här länken är privat, vänligen ange åtkomstlösenordet.</value>
-  </data>
-  <data name="Create Short Link" xml:space="preserve">
-    <value>Skapa kort länk</value>
-  </data>
-  <data name="Create New Link" xml:space="preserve">
-    <value>Skapa ny länk</value>
-  </data>
-  <data name="Custom Code" xml:space="preserve">
-    <value>Anpassad kod</value>
-  </data>
-  <data name="Title / Remark" xml:space="preserve">
-    <value>Titel / Kommentar</value>
-  </data>
-  <data name="Target URL" xml:space="preserve">
-    <value>Mål-URL</value>
-  </data>
-  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
-    <value>Ange den fullständiga webbadressen, t.ex.:</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>t.ex.: min-produkt</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>t.ex.: Double Eleven-kampanjen</value>
   </data>
   <data name="Leave empty to auto-generate." xml:space="preserve">
     <value>Lämna tomt för att automatiskt generera.</value>
   </data>
-  <data name="Expiration Time" xml:space="preserve">
-    <value>Utgångstid</value>
-  </data>
-  <data name="For internal identification only." xml:space="preserve">
-    <value>Endast för intern identifiering.</value>
-  </data>
-  <data name="Max Clicks" xml:space="preserve">
-    <value>Max antal klick</value>
-  </data>
-  <data name="Optional. Leave empty for permanent." xml:space="preserve">
-    <value>Valfritt. Lämna tomt för permanent.</value>
-  </data>
-  <data name="Make this link Private" xml:space="preserve">
-    <value>Gör denna länk privat</value>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Lämna tomt för att göra denna länk publik. Om fältet fylls i blir länken privat.</value>
   </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Länken upphör att gälla när denna gräns har nåtts.</value>
   </data>
-  <data name="Access Password" xml:space="preserve">
-    <value>Åtkomstlösenord</value>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Länkförkortare</value>
   </data>
-  <data name="Private links require a password to access." xml:space="preserve">
-    <value>Privata länkar kräver ett lösenord för åtkomst.</value>
+  <data name="Make this link Private" xml:space="preserve">
+    <value>Gör denna länk privat</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown till HTML</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Max antal klick</value>
+  </data>
+  <data name="Max Clicks (Optional)" xml:space="preserve">
+    <value>Maximalt antal klick (Valfritt)</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Stöd för flera databaser</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Musikverktyg</value>
+  </data>
+  <data name="Only for background display and identification, does not affect redirection." xml:space="preserve">
+    <value>Endast för bakgrundsvisning och identifiering, påverkar inte omdirigering.</value>
+  </data>
+  <data name="Only safe characters like letters, numbers, and hyphens are allowed; if left blank, a short code will be automatically generated." xml:space="preserve">
+    <value>Endast säkra tecken som bokstäver, siffror och bindestreck är tillåtna; om fältet lämnas tomt genereras en kort kod automatiskt.</value>
+  </data>
+  <data name="Only valid when set to private; the server should encrypt and store the password." xml:space="preserve">
+    <value>Gäller endast när inställt på privat; servern bör kryptera och lagra lösenordet.</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Öppen källkod</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect-integrering</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Valfritt. Lämna tomt för permanent.</value>
+  </data>
+  <data name="Please correct the following errors:" xml:space="preserve">
+    <value>Vänligen rätta följande fel:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Ange den fullständiga webbadressen, t.ex.:</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.: &lt;code&gt;https://example.com/path&lt;/code&gt;" xml:space="preserve">
+    <value>Ange den fullständiga URL:en, t.ex.: &lt;code&gt;https://example.com/path&lt;/code&gt;</value>
   </data>
   <data name="Privacy Settings" xml:space="preserve">
     <value>Integritetsinställningar</value>
   </data>
-  <data name="The server will encrypt and store the password safely." xml:space="preserve">
-    <value>Servern kommer att kryptera och lagra lösenordet på ett säkert sätt.</value>
+  <data name="Private (Check to make the link private and display password input)" xml:space="preserve">
+    <value>Privat (Markera för att göra länken privat och visa lösenordsfält)</value>
   </data>
-  <data name="Fast" xml:space="preserve">
-    <value>Snabb</value>
-  </data>
-  <data name="Why Warp?" xml:space="preserve">
-    <value>Varför Warp?</value>
-  </data>
-  <data name="Advanced Settings" xml:space="preserve">
-    <value>Avancerade inställningar</value>
-  </data>
-  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
-    <value>Lämna tomt för att göra denna länk publik. Om fältet fylls i blir länken privat.</value>
-  </data>
-  <data name="Sign In to Start" xml:space="preserve">
-    <value>Logga in för att börja</value>
-  </data>
-  <data name="Shorten Your Links" xml:space="preserve">
-    <value>Förkorta dina länkar</value>
-  </data>
-  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
-    <value>Generera korta länkar direkt med vår optimerade infrastruktur.</value>
-  </data>
-  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
-    <value>Warp är en kraftfull URL-förkortare som hjälper dig att hantera dina länkar, spåra klick och dela innehåll med lätthet. Skapa korta, minnesvärda länkar för ditt företag eller privat bruk.</value>
-  </data>
-  <data name="Secure" xml:space="preserve">
-    <value>Säker</value>
+  <data name="Private links require a password to access." xml:space="preserve">
+    <value>Privata länkar kräver ett lösenord för åtkomst.</value>
   </data>
   <data name="Protect your links with passwords and manage access control." xml:space="preserve">
     <value>Skydda dina länkar med lösenord och hantera åtkomstkontroll.</value>
   </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC-auktorisering</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Läs dokumentet</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsiv Design</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Recensioner</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Säker</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Förkorta dina länkar</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Logga in för att börja</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Starta ett nytt projekt</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Lyckades!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Mål-URL</value>
+  </data>
+  <data name="Target URL (Required)" xml:space="preserve">
+    <value>Mål-URL (Obligatorisk)</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Teknisk ledare</value>
+  </data>
+  <data name="The link will expire after reaching this number (can be empty for unlimited)." xml:space="preserve">
+    <value>Länken kommer att upphöra att gälla efter att ha nått detta antal (kan lämnas tomt för obegränsat).</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
+  </data>
+  <data name="The server will encrypt and store the password safely." xml:space="preserve">
+    <value>Servern kommer att kryptera och lagra lösenordet på ett säkert sätt.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Mallen är byggd för enkel distribution. Den inkluderar fullt Docker-stöd, så du kan containerisera din app och köra den var som helst. Du kan också distribuera den direkt till IIS, Azure App Service eller vilken server som helst som stöder ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Det här är ett mallprojekt</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Det här är ett mallprojekt, där vi startar resan...</value>
+  </data>
+  <data name="This link is private, please enter the access password." xml:space="preserve">
+    <value>Den här länken är privat, vänligen ange åtkomstlösenordet.</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Titel / Kommentar</value>
+  </data>
+  <data name="Title / Remark (Optional)" xml:space="preserve">
+    <value>Titel / Kommentar (Valfritt)</value>
+  </data>
   <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
     <value>Spåra klick och förstå din publik med detaljerad statistik.</value>
   </data>
-  <data name="Analytics" xml:space="preserve">
-    <value>Analytics</value>
+  <data name="Usage" xml:space="preserve">
+    <value>Användning</value>
   </data>
-  <data name="Please correct the following errors:" xml:space="preserve">
-    <value>Vänligen rätta följande fel:</value>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Synlighet</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp är en kraftfull URL-förkortare som hjälper dig att hantera dina länkar, spåra klick och dela innehåll med lätthet. Skapa korta, minnesvärda länkar för ditt företag eller privat bruk.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Vad behöver jag för att komma igång?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Vad våra utvecklare säger</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Varför använda Aiursoft Template?</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Varför Warp?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Din korta länk har skapats:</value>
   </data>
 
 </root>

@@ -18,44 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit" xml:space="preserve">
-    <value>Editar</value>
+      <data name="Actions" xml:space="preserve">
+    <value>Ações</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Eliminar</value>
+  <data name="Active" xml:space="preserve">
+    <value>Ativo</value>
   </data>
   <data name="Clicks" xml:space="preserve">
     <value>Cliques</value>
   </data>
-  <data name="Short Link" xml:space="preserve">
-    <value>Link Curto</value>
-  </data>
   <data name="Create New" xml:space="preserve">
     <value>Criar Novo</value>
-  </data>
-  <data name="Original URL" xml:space="preserve">
-    <value>URL Original</value>
   </data>
   <data name="Creation Time" xml:space="preserve">
     <value>Data de Criação</value>
   </data>
-  <data name="My Links" xml:space="preserve">
-    <value>Os Meus Links</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
   </data>
-  <data name="Public Link" xml:space="preserve">
-    <value>Ligação Pública</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
   </data>
-  <data name="Target" xml:space="preserve">
-    <value>Destino</value>
+  <data name="Expired" xml:space="preserve">
+    <value>Expirado</value>
   </data>
-  <data name="Status" xml:space="preserve">
-    <value>Estado</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Ações</value>
-  </data>
-  <data name="Private Link" xml:space="preserve">
-    <value>Ligação Privada</value>
+  <data name="Expires at" xml:space="preserve">
+    <value>Expira em</value>
   </data>
   <data name="Link Info" xml:space="preserve">
     <value>Informação da Ligação</value>
@@ -63,23 +51,35 @@
   <data name="Link Management" xml:space="preserve">
     <value>Gestão de Ligações</value>
   </data>
+  <data name="My Links" xml:space="preserve">
+    <value>Os Meus Links</value>
+  </data>
+  <data name="Original URL" xml:space="preserve">
+    <value>URL Original</value>
+  </data>
   <data name="Performance" xml:space="preserve">
     <value>Desempenho</value>
-  </data>
-  <data name="Expires at" xml:space="preserve">
-    <value>Expira em</value>
-  </data>
-  <data name="Visit Link" xml:space="preserve">
-    <value>Visitar Ligação</value>
   </data>
   <data name="Permanent" xml:space="preserve">
     <value>Permanente</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Expirado</value>
+  <data name="Private Link" xml:space="preserve">
+    <value>Ligação Privada</value>
   </data>
-  <data name="Active" xml:space="preserve">
-    <value>Ativo</value>
+  <data name="Public Link" xml:space="preserve">
+    <value>Ligação Pública</value>
+  </data>
+  <data name="Short Link" xml:space="preserve">
+    <value>Link Curto</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="Visit Link" xml:space="preserve">
+    <value>Visitar Ligação</value>
   </data>
 
 </root>
