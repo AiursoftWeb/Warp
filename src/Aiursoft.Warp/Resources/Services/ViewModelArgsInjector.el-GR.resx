@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Ανώνυμος</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API Keys</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Αλλαγή Avatar</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Ρόλοι</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Αυτοδιαχείριση</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Αυτοδιαχείριση ενός νέου διακομιστή</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Ρυθμίσεις</value>

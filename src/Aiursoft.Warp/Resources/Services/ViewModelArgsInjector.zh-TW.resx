@@ -39,6 +39,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API 金鑰</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>變更大頭貼</value>
   </data>
@@ -137,6 +140,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>角色</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>自架設</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>自架設一台新伺服器</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>設定</value>

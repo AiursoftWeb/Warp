@@ -39,6 +39,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anónimo</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>Claves de la API</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Cambiar avatar</value>
   </data>
@@ -137,6 +140,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Roles</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Autohospedado</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Autoalojar un nuevo servidor</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Configuración</value>

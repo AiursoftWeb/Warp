@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonyymi</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API-avaimet</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Vaihda avataria</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Roolit</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Oma palvelin</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Omistajana uusi palvelin</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Asetukset</value>

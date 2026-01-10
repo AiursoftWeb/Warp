@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>Cheile API</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Schimbă Avatarul</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Roluri</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Autogestionare</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Găzduiește singur un server nou</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Setări</value>
