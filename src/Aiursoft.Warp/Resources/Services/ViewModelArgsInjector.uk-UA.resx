@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Анонімний</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>Ключі API</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Змінити аватар</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Ролі</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Самостійна доставка</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Власне хостуйте новий сервер</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Налаштування</value>

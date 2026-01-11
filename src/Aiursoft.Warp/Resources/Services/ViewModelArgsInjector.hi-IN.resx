@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>अनाम</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API कीज़</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>अवतार बदलें</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>भूमिकाएँ</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>स्वयं होस्ट</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>एक नया सर्वर स्वयं होस्ट करें</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>सेटिंग्स</value>

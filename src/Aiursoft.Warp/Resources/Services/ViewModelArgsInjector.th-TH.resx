@@ -39,6 +39,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>ไม่ระบุชื่อ</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>คีย์ API</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>เปลี่ยนรูปโปรไฟล์</value>
   </data>
@@ -137,6 +140,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>บทบาท</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>โฮสต์เอง</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>ตั้งเซิร์ฟเวอร์ของคุณเองใหม่</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>การตั้งค่า</value>

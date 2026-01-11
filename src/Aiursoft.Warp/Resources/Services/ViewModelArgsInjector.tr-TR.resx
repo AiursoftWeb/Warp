@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API Anahtarları</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Profil Resmini Değiştir</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Roller</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Kendi Sunucunu Kur</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Yeni bir sunucu kendi sunucunuzda barındırın</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Ayarlar</value>

@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>API-nøgler</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Skift avatar</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Roller</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Selvhost</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Selvhost en ny server</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Indstillinger</value>

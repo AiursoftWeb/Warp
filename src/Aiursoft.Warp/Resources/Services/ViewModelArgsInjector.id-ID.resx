@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>Kunci API</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Ubah Avatar</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>Peran</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Host Sendiri</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>Menghosting sendiri server baru</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Pengaturan</value>

@@ -75,6 +75,10 @@ public class ViewModelArgsInjector(
         _ = localizer["Expired"];
         _ = localizer["Lockout"];
         _ = localizer["Register"];
+    
+        _ = localizer["API Keys"];
+        _ = localizer["Self Host"];
+        _ = localizer["Self host a new server"];
     }
 
     public void InjectSimple(

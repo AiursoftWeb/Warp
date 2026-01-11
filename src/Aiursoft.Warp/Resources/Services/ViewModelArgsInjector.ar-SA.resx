@@ -36,6 +36,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>مجهول</value>
   </data>
+  <data name="API Keys" xml:space="preserve">
+    <value>مفاتيح واجهة برمجة التطبيقات</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>تغيير الصورة الشخصية</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="Roles" xml:space="preserve">
     <value>الأدوار</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>استضافة ذاتية</value>
+  </data>
+  <data name="Self host a new server" xml:space="preserve">
+    <value>إطلاق خادم جديد ذاتيًا</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>الإعدادات</value>
