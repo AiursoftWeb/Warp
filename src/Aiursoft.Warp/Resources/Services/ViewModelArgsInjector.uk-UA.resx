@@ -39,6 +39,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>Ключі API</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Фонові завдання</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Змінити аватар</value>
   </data>
@@ -90,6 +93,9 @@
   <data name="Features" xml:space="preserve">
     <value>Функції</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Глобальні налаштування</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Головна</value>
   </data>
@@ -119,6 +125,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>Мої посилання</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Дозволи</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Особисті</value>

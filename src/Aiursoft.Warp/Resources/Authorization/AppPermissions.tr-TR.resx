@@ -48,8 +48,17 @@
   <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
     <value>Sahipliğine bakılmaksızın sistemdeki tüm bağlantıları görüntülemeye izin verir.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Genel uygulama ayarlarının görüntülendiğini ve değiştirildiğini izin verir.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Sistem düzeyindeki bilgileri ve ayarları görüntülemeye izin verir.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Arka plan işi panosunu görüntülemeye ve işleri yönetmeye izin verir.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Rollere ve kullanıcılar için tüm izinlerin listesini ve atamalarını görüntüleme izni verir.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Tüm kullanıcıların listesini görüntülemeye izin verir.</value>
@@ -87,8 +96,14 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Uygulama örneğini yeniden başlatma iznini verir. Kullanılabilirlik kesintilerine neden olabilir ancak tüm ayarlar ve önbellek yeniden yüklenecektir.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Genel Ayarları Yönet</value>
+  </data>
   <data name="Read All Links" xml:space="preserve">
     <value>Tüm Bağlantıları Oku</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>İzinleri Oku</value>
   </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Rolleri Oku</value>
@@ -98,6 +113,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Bu Uygulamayı Yeniden Başlat</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Arka Plan İşlerini Görüntüle</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Sistem Bağlamını Görüntüle</value>

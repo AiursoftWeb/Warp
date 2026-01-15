@@ -39,6 +39,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>API-nøgler</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Baggrundsjob</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Skift avatar</value>
   </data>
@@ -90,6 +93,9 @@
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Globale indstillinger</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Hjem</value>
   </data>
@@ -119,6 +125,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>Mine links</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Tilladelser</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Personlig</value>
