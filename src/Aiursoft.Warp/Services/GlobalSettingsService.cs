@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Aiursoft.Warp.Services;
 
-public class GlobalSettingsService(TemplateDbContext dbContext, IConfiguration configuration) : IScopedDependency
+public class GlobalSettingsService(WarpDbContext dbContext, IConfiguration configuration) : IScopedDependency
 {
     public async Task<string> GetSettingValueAsync(string key)
     {
