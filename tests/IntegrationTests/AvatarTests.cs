@@ -1,12 +1,10 @@
-using System.Net;
-
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 // JB scanner bug. Not a warning.
 #pragma warning disable CS8602
 
 [TestClass]
-public class AvatarTests : FunctionalTestBase
+public class AvatarTests : TestBase
 {
     [TestMethod]
     public async Task ChangeAvatarSuccessfullyTest()
@@ -15,9 +13,6 @@ public class AvatarTests : FunctionalTestBase
         await RegisterAndLoginAsync();
 
         // 2. Upload a file
-        // We need a valid image file. We can create a small dummy image or just use a text file if the server doesn't strictly validate image content (ManageController does check IsValidImageAsync).
-        // Since we don't have a real image, we might fail the IsValidImageAsync check if we upload text.
-        // However, let's try to upload a small valid GIF or PNG bytes.
         // 1x1 transparent GIF
         var gifBytes = Convert.FromBase64String("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
         var fileContent = new ByteArrayContent(gifBytes);
@@ -34,18 +29,13 @@ public class AvatarTests : FunctionalTestBase
         Assert.IsNotNull(uploadResult.Path);
 
         // 3. Change Avatar
-        var changeAvatarToken = await GetAntiCsrfToken("/Manage/ChangeAvatar");
-        var changeAvatarContent = new FormUrlEncodedContent(new Dictionary<string, string>
+        var changeAvatarResponse = await PostForm("/Manage/ChangeAvatar", new Dictionary<string, string>
         {
-            { "AvatarUrl", uploadResult.Path },
-            { "__RequestVerificationToken", changeAvatarToken }
+            { "AvatarUrl", uploadResult.Path }
         });
 
-        var changeAvatarResponse = await Http.PostAsync("/Manage/ChangeAvatar", changeAvatarContent);
-
         // 4. Verify Success
-        Assert.AreEqual(HttpStatusCode.Found, changeAvatarResponse.StatusCode);
-        Assert.AreEqual("/Manage?Message=ChangeAvatarSuccess", changeAvatarResponse.Headers.Location?.OriginalString);
+        AssertRedirect(changeAvatarResponse, "/Manage?Message=ChangeAvatarSuccess");
     }
 
     [TestMethod]
@@ -152,10 +142,40 @@ public class AvatarTests : FunctionalTestBase
         Assert.AreEqual(128, image.Height);
     }
 
+    [TestMethod]
+    public async Task AvatarPngCompressionWidthOnlyTest()
+    {
+        // 1. Register and Login
+        await RegisterAndLoginAsync();
+
+        // 2. Upload a PNG file
+        var pngBytes = Convert.FromBase64String("iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAIAAAAW4yFwAAAAEElEQVR4nGP4z8DAxMDAAAAHCQEClNBcOwAAAABJRU5ErkJggg==");
+        var fileContent = new ByteArrayContent(pngBytes);
+        fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("image/png");
+
+        var multipartContent = new MultipartFormDataContent();
+        multipartContent.Add(fileContent, "file", "avatar.png");
+
+        var uploadResponse = await Http.PostAsync("/upload/avatars", multipartContent);
+        uploadResponse.EnsureSuccessStatusCode();
+
+        var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
+        Assert.IsNotNull(uploadResult);
+
+        // 3. Test Compression with width only
+        var compressedResponse = await Http.GetAsync(uploadResult.InternetPath + "?w=100");
+        compressedResponse.EnsureSuccessStatusCode();
+
+        await using var stream = await compressedResponse.Content.ReadAsStreamAsync();
+        using var image = await SixLabors.ImageSharp.Image.LoadAsync(stream);
+        Assert.AreEqual(128, image.Width);
+    }
+
     private class UploadResult
     {
         public string Path { get; init; } = string.Empty;
         public string InternetPath { get; init; } = string.Empty;
     }
 }
+#pragma warning restore CS8602
 #pragma warning restore CS8602

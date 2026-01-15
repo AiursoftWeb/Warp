@@ -9,6 +9,15 @@ public class AppPermissions
 {
     public const string Type = "Permission";
 
+    /// <summary>
+    /// A fake localizer that returns the input string as is.
+    /// This is used to trick auto scanning tools to detect these strings for localization.
+    /// </summary>
+    public class FakeLocalizer
+    {
+        public string this[string name] => name;
+    }
+
     public static List<PermissionDescriptor> GetAllPermissions()
     {
         // Make a fake localizer. This returns as is.
@@ -43,13 +52,15 @@ public class AppPermissions
             new(AppPermissionNames.CanAssignRoleToUser,
                 localizer["Assign Roles to Users"],
                 localizer["Allows assigning or removing roles for any user."]),
+            new(AppPermissionNames.CanReadPermissions,
+                localizer["Read Permissions"],
+                localizer["Allows viewing the list of all permissions and their assignments to roles and users."]),
             new(AppPermissionNames.CanViewSystemContext,
                 localizer["View System Context"],
                 localizer["Allows viewing system-level information and settings."]),
             new(AppPermissionNames.CanRebootThisApp,
                 localizer["Reboot This App"],
                 localizer["Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded."]),
-
             new(AppPermissionNames.CanReadAllLinks,
                 localizer["Read All Links"],
                 localizer["Allows viewing all links in the system, regardless of ownership."]),
@@ -59,6 +70,12 @@ public class AppPermissions
             new(AppPermissionNames.CanEditAnyLink,
                 localizer["Edit Any Link"],
                 localizer["Allows editing of any link, regardless of ownership."]),
+            new(AppPermissionNames.CanViewBackgroundJobs,
+                localizer["View Background Jobs"],
+                localizer["Allows viewing the background job dashboard and managing jobs."]),
+            new(AppPermissionNames.CanManageGlobalSettings,
+                localizer["Manage Global Settings"],
+                localizer["Allows viewing and modifying global application settings."])
         ];
         return allPermission;
     }

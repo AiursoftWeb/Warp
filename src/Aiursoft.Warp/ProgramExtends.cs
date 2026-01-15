@@ -3,6 +3,7 @@ using Aiursoft.Warp.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Aiursoft.Warp.Services;
 using Aiursoft.Warp.Services.FileStorage;
 
 namespace Aiursoft.Warp;
@@ -53,6 +54,10 @@ public static class ProgramExtends
         var services = scope.ServiceProvider;
         var db = services.GetRequiredService<WarpDbContext>();
         var logger = services.GetRequiredService<ILogger<Program>>();
+        
+        var settingsService = services.GetRequiredService<GlobalSettingsService>();
+        await settingsService.SeedSettingsAsync();
+
         var shouldSeed = await ShouldSeedAsync(db);
         if (!shouldSeed)
         {

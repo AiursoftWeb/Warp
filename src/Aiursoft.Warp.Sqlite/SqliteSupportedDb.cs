@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using Aiursoft.DbTools;
 using Aiursoft.DbTools.Sqlite;
 using Aiursoft.Warp.Entities;
@@ -5,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Aiursoft.Warp.Sqlite;
 
+[ExcludeFromCodeCoverage]
 public class SqliteSupportedDb(bool allowCache, bool splitQuery) : SupportedDatabaseType<WarpDbContext>
 {
     public override string DbType => "Sqlite";

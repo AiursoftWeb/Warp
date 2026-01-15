@@ -26,4 +26,10 @@ public static class AppPermissionNames
     public const string CanReadAllLinks = nameof(CanReadAllLinks);
     public const string CanDeleteAnyLink = nameof(CanDeleteAnyLink);
     public const string CanEditAnyLink = nameof(CanEditAnyLink);
+    // Permission Management
+    public const string CanReadPermissions = nameof(CanReadPermissions);
+
+    // System Management
+    public const string CanViewBackgroundJobs = nameof(CanViewBackgroundJobs);
+    public const string CanManageGlobalSettings = nameof(CanManageGlobalSettings);
 }

@@ -5,7 +5,7 @@ using Aiursoft.UiStack.Layout;
 
 namespace Aiursoft.Warp.Models.UsersViewModels;
 
-public class CreateViewModel : UiStackLayoutViewModel
+public class CreateViewModel: UiStackLayoutViewModel
 {
     public CreateViewModel()
     {
@@ -20,8 +20,8 @@ public class CreateViewModel : UiStackLayoutViewModel
     [Required(ErrorMessage = "The {0} is required.")]
     [Display(Name = "Name")]
     [NotNull]
-    [MaxLength(30, ErrorMessage = "The {0} must be at max {1} characters long.")]
-    [MinLength(2, ErrorMessage = "The {0} must be at least {1} characters long.")]
+    [MaxLength(30)]
+    [MinLength(2)]
     public string? DisplayName { get; set; }
 
     [EmailAddress(ErrorMessage = "The {0} is not a valid email address.")]
