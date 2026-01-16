@@ -48,8 +48,17 @@
   <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
     <value>Mahdollistaa kaikkien järjestelmän linkkien katselun riippumatta omistajuudesta.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Sallii näyttää ja muokata sovelluksen yleisiä asetuksia.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Mahdollistaa järjestelmätason tietojen ja asetusten tarkastelemisen.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Sallii taustatehtävien hallintapaneelin tarkastelun ja tehtävien hallinnan.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Sallii nähdä kaikkien käyttöoikeuksien ja niiden myöntämien roolien ja käyttäjien luettelon.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Mahdollistaa kaikkien käyttäjien luettelon katsomisen.</value>
@@ -87,8 +96,14 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Antaa luvan sovelluksen uudelleenkäynnistämiseen. Saattaa aiheuttaa käyttökatkoksia, mutta kaikki asetukset ja välimuisti ladataan uudelleen.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Hallinnoi yleisiä asetuksia</value>
+  </data>
   <data name="Read All Links" xml:space="preserve">
     <value>Lue kaikki linkit</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Lue Oikeudet</value>
   </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Lue roolit</value>
@@ -98,6 +113,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Käynnistä tämä sovellus uudelleen</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Näytä taustatehtävät</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Näytä järjestelmän konteksti</value>

@@ -42,6 +42,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>API 密钥</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>后台任务</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>更换头像</value>
   </data>
@@ -93,6 +96,9 @@
   <data name="Features" xml:space="preserve">
     <value>功能</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>全局设置</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>主页</value>
   </data>
@@ -122,6 +128,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>我的链接</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>权限</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>个人</value>

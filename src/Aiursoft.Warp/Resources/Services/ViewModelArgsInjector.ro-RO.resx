@@ -39,6 +39,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>Cheile API</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Sarcini în fundal</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Schimbă Avatarul</value>
   </data>
@@ -90,6 +93,9 @@
   <data name="Features" xml:space="preserve">
     <value>Caracteristici</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Setări globale</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Acasă</value>
   </data>
@@ -119,6 +125,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>Linkurile mele</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Permisiuni</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Personal</value>

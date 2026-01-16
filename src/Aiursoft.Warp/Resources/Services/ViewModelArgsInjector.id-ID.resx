@@ -39,6 +39,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>Kunci API</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Pekerjaan Latar Belakang</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Ubah Avatar</value>
   </data>
@@ -90,6 +93,9 @@
   <data name="Features" xml:space="preserve">
     <value>Fitur</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Pengaturan Global</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Beranda</value>
   </data>
@@ -119,6 +125,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>Tautan Saya</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Izin</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Pribadi</value>

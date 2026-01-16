@@ -42,6 +42,9 @@
   <data name="API Keys" xml:space="preserve">
     <value>คีย์ API</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>งานหลังบ้าน</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>เปลี่ยนรูปโปรไฟล์</value>
   </data>
@@ -93,6 +96,9 @@
   <data name="Features" xml:space="preserve">
     <value>คุณสมบัติ</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>การตั้งค่าทั่วไป</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>หน้าแรก</value>
   </data>
@@ -122,6 +128,9 @@
   </data>
   <data name="My Links" xml:space="preserve">
     <value>ลิงก์ของฉัน</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>สิทธิ์การเข้าถึง</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>ส่วนตัว</value>

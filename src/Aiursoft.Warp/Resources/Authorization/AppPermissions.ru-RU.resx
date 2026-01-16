@@ -48,8 +48,17 @@
   <data name="Allows viewing all links in the system, regardless of ownership." xml:space="preserve">
     <value>Позволяет просматривать все ссылки в системе, независимо от владельца.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Позволяет просматривать и изменять глобальные параметры приложения.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Разрешает просмотр системной информации и настроек.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Позволяет просматривать панель мониторинга фоновых задач и управлять заданиями.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Позволяет просматривать список всех разрешений и их назначений ролям и пользователям.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Разрешает просмотр списка всех пользователей.</value>
@@ -87,8 +96,14 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Предоставляет разрешение на перезапуск экземпляра приложения. Может привести к перерывам в доступности, но все настройки и кэш будут перезагружены.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Управление глобальными настройками</value>
+  </data>
   <data name="Read All Links" xml:space="preserve">
     <value>Просмотр всех ссылок</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Просмотр разрешений</value>
   </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Просмотр ролей</value>
@@ -98,6 +113,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Перезапустить это приложение</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Просмотр фоновых задач</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Просмотр контекста системы</value>
