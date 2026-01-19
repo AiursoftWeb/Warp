@@ -5,8 +5,6 @@ using Aiursoft.DbTools;
 using Aiursoft.Warp.Entities;
 using static Aiursoft.WebTools.Extends;
 
-[assembly: DoNotParallelize]
-
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 public abstract class FunctionalTestBase
