@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Account Settings" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>存取被拒</value>
+  </data>
+  <data name="Account Settings" xml:space="preserve">
     <value>帳戶設定</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -45,6 +48,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>背景工作</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>錯誤的請求</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>變更大頭貼</value>
   </data>
@@ -57,11 +63,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>點擊登入</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>建立 API 金鑰</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>建立角色</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>建立使用者</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>儀表板</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>刪除連結</value>
@@ -108,6 +120,9 @@
   <data name="Info" xml:space="preserve">
     <value>資訊</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>內部伺服器錯誤</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>短網址服務</value>
   </data>
@@ -126,8 +141,17 @@
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>我的 API 金鑰</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>我的連結</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>找不到</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>權限詳細資訊</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>權限</value>

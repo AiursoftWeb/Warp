@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Adgang nægtet</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Administrator</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Baggrundsjob</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Bad Request</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Skift avatar</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klik for at logge ind</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Opret API-nøgle</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Opret rolle</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Opret bruger</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Slet link</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Info</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Intern serverfejl</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Link Forkorter</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Administrer</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Mine API-nøgler</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Mine links</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Ikke fundet</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Tilladelsesdetaljer</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Tilladelser</value>

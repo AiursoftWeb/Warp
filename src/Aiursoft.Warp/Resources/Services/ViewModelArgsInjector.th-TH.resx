@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Account Settings" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>การเข้าถึงถูกปฏิเสธ</value>
+  </data>
+  <data name="Account Settings" xml:space="preserve">
     <value>การตั้งค่าบัญชี</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -45,6 +48,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>งานหลังบ้าน</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>คำขอผิดพลาด</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>เปลี่ยนรูปโปรไฟล์</value>
   </data>
@@ -57,11 +63,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>คลิกเพื่อเข้าสู่ระบบ</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>สร้างคีย์ API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>สร้างบทบาท</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>สร้างผู้ใช้</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>แดชบอร์ด</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>ลบลิงก์</value>
@@ -108,6 +120,9 @@
   <data name="Info" xml:space="preserve">
     <value>ข้อมูล</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>ข้อผิดพลาดของเซิร์ฟเวอร์ภายใน</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>ย่อลิงก์</value>
   </data>
@@ -126,8 +141,17 @@
   <data name="Manage" xml:space="preserve">
     <value>จัดการ</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>คีย์ API ของฉัน</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>ลิงก์ของฉัน</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>ไม่พบ</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>รายละเอียดสิทธิ์</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>สิทธิ์การเข้าถึง</value>

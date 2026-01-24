@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Доступ заборонено</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Адмін</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Фонові завдання</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Помилка запиту</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Змінити аватар</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Натисніть, щоб увійти</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Створити ключ API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Створити роль</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Створити користувача</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Панель керування</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Видалити посилання</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Інформація</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Internal Server Error</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Скорочувач посилань</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Керування</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Мої ключі API</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Мої посилання</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Не знайдено</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Деталі дозволів</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Дозволи</value>

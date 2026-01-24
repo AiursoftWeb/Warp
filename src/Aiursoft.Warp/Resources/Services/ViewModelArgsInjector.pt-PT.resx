@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Acesso Negado</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Administrador</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Tarefas em Segundo Plano</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Pedido Inválido</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Alterar Avatar</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Clique para iniciar sessão</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Criar Chave de API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Criar Função</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Criar Utilizador</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Painel de Controle</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Eliminar Ligação</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informação</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Erro Interno do Servidor</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Encurtador de Ligações</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Gerir</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Meus Chaves de API</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>As Minhas Ligações</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Não Encontrado</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Detalhes da Permissão</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Permissões</value>

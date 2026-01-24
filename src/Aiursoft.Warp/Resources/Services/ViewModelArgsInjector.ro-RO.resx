@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Acces respins</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Administrator</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Sarcini în fundal</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Cerere greșită</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Schimbă Avatarul</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Apasă pentru a te autentifica</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Creare cheie API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Creează Rol</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Creează utilizator</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Panou de control</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Șterge Legătura</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informații</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Eroare interne a serverului</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Scurtător de link-uri</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Gestionează</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Cheile Mele API</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Linkurile mele</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Nu a fost găsit</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Detalii permisiuni</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Permisiuni</value>

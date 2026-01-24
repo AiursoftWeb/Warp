@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Akses Ditolak</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Administrator</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Pekerjaan Latar Belakang</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Permintaan Buruk</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Ubah Avatar</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klik untuk masuk</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Buat Kunci API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Buat Peran</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Buat Pengguna</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dasbor</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Hapus Tautan</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informasi</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Kesalahan Server Internal</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Pemendek Tautan</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Kelola</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Kunci API Saya</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Tautan Saya</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Tidak Ditemukan</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Detail Izin</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Izin</value>

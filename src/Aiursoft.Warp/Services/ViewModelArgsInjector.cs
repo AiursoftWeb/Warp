@@ -82,6 +82,15 @@ public class ViewModelArgsInjector(
         _ = localizer["Permissions"];
         _ = localizer["Background Jobs"];
         _ = localizer["Global Settings"];
+    
+        _ = localizer["Access Denied"];
+        _ = localizer["Bad Request"];
+        _ = localizer["Create API Key"];
+        _ = localizer["Dashboard"];
+        _ = localizer["Internal Server Error"];
+        _ = localizer["My API Keys"];
+        _ = localizer["Not Found"];
+        _ = localizer["Permission Details"];
     }
 
     public void InjectSimple(
