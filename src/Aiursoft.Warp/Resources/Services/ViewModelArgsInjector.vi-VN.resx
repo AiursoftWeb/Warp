@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Account Settings" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Truy cập bị từ chối</value>
+  </data>
+  <data name="Account Settings" xml:space="preserve">
     <value>Cài đặt Tài khoản</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -45,6 +48,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Các nhiệm vụ nền</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Yêu cầu sai</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Thay đổi Ảnh đại diện</value>
   </data>
@@ -57,11 +63,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Nhấp để đăng nhập</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Tạo khóa API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Tạo Vai Trò</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Tạo Người Dùng</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Bảng điều khiển</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Xóa Liên kết</value>
@@ -108,6 +120,9 @@
   <data name="Info" xml:space="preserve">
     <value>Thông tin</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Lỗi máy chủ nội bộ</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Rút gọn liên kết</value>
   </data>
@@ -126,8 +141,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Quản lý</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Các Khóa API của Tôi</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Liên kết của tôi</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Không tìm thấy</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Chi tiết quyền truy cập</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Quyền hạn</value>

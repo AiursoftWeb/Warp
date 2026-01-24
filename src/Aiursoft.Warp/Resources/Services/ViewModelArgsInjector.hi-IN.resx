@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>प्रवेश अस्वीकृत</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>प्रशासक</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>बैकग्राउंड जॉब्स</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>बैड रिक्वेस्ट</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>अवतार बदलें</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>लॉगिन करने के लिए क्लिक करें</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>API की बनाएँ</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>भूमिका बनाएं</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>उपयोगकर्ता बनाएं</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>डैशबोर्ड</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>लिंक हटाएं</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>जानकारी</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>आ interनल सर्वर त्रुटि</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>लिंक शॉर्टनर</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>प्रबंधित करें</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>मेरे API कीज़</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>मेरे लिंक्स</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>नहीं मिला</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>अनुमति विवरण</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>अनुमतियाँ</value>

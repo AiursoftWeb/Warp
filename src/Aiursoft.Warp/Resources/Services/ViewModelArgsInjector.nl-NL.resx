@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Toegang geweigerd</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Beheerder</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Achtergrondtaken</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Ongeldige aanvraag</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Avatar wijzigen</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klik om in te loggen</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>API-sleutel aanmaken</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Rol aanmaken</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Gebruiker aanmaken</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Link verwijderen</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informatie</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Interne serverfout</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Linkverkorter</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Beheren</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Mijn API-sleutels</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Mijn Links</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Niet gevonden</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Toegangsdetails</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Machtigingen</value>

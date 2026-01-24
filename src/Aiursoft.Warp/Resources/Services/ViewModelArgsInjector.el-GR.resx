@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Πρόσβαση απαγορευμένη</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Διαχειριστής</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -42,6 +45,9 @@
   <data name="Background Jobs" xml:space="preserve">
     <value>Ημίκυκλα Εργασιών</value>
   </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Λάθος αίτημα</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Αλλαγή Avatar</value>
   </data>
@@ -54,11 +60,17 @@
   <data name="Click to login" xml:space="preserve">
     <value>Κάντε κλικ για σύνδεση</value>
   </data>
+  <data name="Create API Key" xml:space="preserve">
+    <value>Δημιουργία Κλειδιού API</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Δημιουργία Ρόλου</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Δημιουργία Χρήστη</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Πίνακας ελέγχου</value>
   </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Διαγραφή Συνδέσμου</value>
@@ -105,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>Πληροφορίες</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Internal Server Error</value>
+  </data>
   <data name="Link Shorter" xml:space="preserve">
     <value>Σύντομος Σύνδεσμος</value>
   </data>
@@ -123,8 +138,17 @@
   <data name="Manage" xml:space="preserve">
     <value>Διαχείριση</value>
   </data>
+  <data name="My API Keys" xml:space="preserve">
+    <value>Τα Αποσπάσματα Αποσπασμάτων μου</value>
+  </data>
   <data name="My Links" xml:space="preserve">
     <value>Οι Σύνδεσμοί μου</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Δεν βρέθηκε</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Λεπτομέρειες Άδειας</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Άδειες</value>
