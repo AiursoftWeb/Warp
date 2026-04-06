@@ -14,6 +14,9 @@ using Aiursoft.ClickhouseLoggerProvider;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Diagnostics.CodeAnalysis;
+using Aiursoft.Canon.TaskQueue;
+using Aiursoft.Canon.BackgroundJobs;
+using Aiursoft.Canon.ScheduledTasks;
 
 namespace Aiursoft.Warp;
 
@@ -54,8 +57,11 @@ public class Startup : IWebStartup
         services.AddSingleton<NavigationState<Startup>>();
 
         // Background job queue
-        services.AddSingleton<Services.BackgroundJobs.BackgroundJobQueue>();
-        services.AddHostedService<Services.BackgroundJobs.QueueWorkerService>();
+        services.AddTaskQueueEngine();
+        services.AddScheduledTaskEngine();
+        services.RegisterBackgroundJob<Services.BackgroundJobs.DummyJob>();
+        var orphanAvatarCleanupJob = services.RegisterBackgroundJob<Services.BackgroundJobs.OrphanAvatarCleanupJob>();
+        services.RegisterScheduledTask(registration: orphanAvatarCleanupJob, period: TimeSpan.FromHours(6), startDelay: TimeSpan.FromMinutes(5));
 
         // Controllers and localization
         services.AddControllersWithViews()
