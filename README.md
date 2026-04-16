@@ -1,9 +1,9 @@
 # Warp - A sample project
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/blob/master/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/aiursoftweb/warp/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
 [![Test Coverage](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
-[![Man hours](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/warp.svg)](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/warp.html)
+[![Man hours](https://manhours.aiursoft.com/r/github.com/aiursoftweb/warp.svg)](https://manhours.aiursoft.com/r/github.com/aiursoftweb/warp.html)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com)](https://warp.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/warp.svg)](https://hub.docker.com/r/aiursoft/warp)
 
@@ -24,13 +24,13 @@ The following script will install\update this app on your Ubuntu server. Support
 On your Ubuntu server, run the following command:
 
 ```bash
-curl -sL https://gitlab.aiursoft.com/aiursoft/warp/-/raw/master/install.sh | sudo bash
+curl -sL https://github.com/aiursoftweb/warp/raw/master/install.sh | sudo bash
 ```
 
 Of course it is suggested that append a custom port number to the command:
 
 ```bash
-curl -sL https://gitlab.aiursoft.com/aiursoft/warp/-/raw/master/install.sh | sudo bash -s 8080
+curl -sL https://github.com/aiursoftweb/warp/raw/master/install.sh | sudo bash -s 8080
 ```
 
 It will install the app as a systemd service, and start it automatically. Binary files will be located at `/opt/apps`. Service files will be located at `/etc/systemd/system`.
