@@ -1,4 +1,4 @@
-# Warp - A sample project
+# Warp
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
