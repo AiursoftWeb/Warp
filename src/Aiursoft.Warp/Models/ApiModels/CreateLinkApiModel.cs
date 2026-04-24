@@ -22,4 +22,7 @@ public class CreateLinkApiModel
     public string? Password { get; set; }
 
     public long? MaxClicks { get; set; }
+
+    [EmailAddress]
+    public string? Email { get; set; }
 }

@@ -1,8 +1,10 @@
+using Aiursoft.Warp.Configuration;
 using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Models.ApiModels;
 using Aiursoft.Warp.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Aiursoft.Warp.Controllers;
 
@@ -10,41 +12,53 @@ namespace Aiursoft.Warp.Controllers;
 [ApiController]
 public class ApiController(
     WarpDbContext dbContext,
-    PasswordService passwordService) : ControllerBase
+    PasswordService passwordService,
+    IOptions<AppSettings> appSettings) : ControllerBase
 {
-    private async Task<User?> GetUserByApiKey()
+    private async Task<(User? user, bool isGlobal)> GetUserByApiKey()
     {
         if (!Request.Headers.TryGetValue("X-API-Key", out var apiKeyValues))
         {
-            return null;
+            return (null, false);
         }
 
         var apiKeyStr = apiKeyValues.ToString();
+        var globalKey = appSettings.Value.ApiKey;
+        if (!string.IsNullOrEmpty(globalKey) && apiKeyStr == globalKey)
+        {
+            return (null, true);
+        }
+
         var apiKey = await dbContext.WarpApiKeys
             .Include(k => k.User)
             .FirstOrDefaultAsync(k => k.ApiKey == apiKeyStr);
 
         if (apiKey == null)
         {
-            return null;
+            return (null, false);
         }
 
         if (apiKey.ExpireAt.HasValue && apiKey.ExpireAt < DateTime.UtcNow)
         {
-            return null;
+            return (null, false);
         }
 
-        return apiKey.User;
+        return (apiKey.User, false);
     }
 
     [HttpGet("links")]
     public async Task<IActionResult> ListLinks()
     {
-        var user = await GetUserByApiKey();
-        if (user == null) return Unauthorized();
+        var (user, isGlobal) = await GetUserByApiKey();
+        if (user == null && !isGlobal) return Unauthorized();
 
-        var links = await dbContext.ShorterLinks
-            .Where(l => l.UserId == user.Id)
+        var query = dbContext.ShorterLinks.AsQueryable();
+        if (!isGlobal)
+        {
+            query = query.Where(l => l.UserId == user!.Id);
+        }
+        
+        var links = await query
             .OrderByDescending(l => l.CreationTime)
             .ToListAsync();
 
@@ -54,8 +68,8 @@ public class ApiController(
     [HttpPost("links")]
     public async Task<IActionResult> CreateLink([FromBody] CreateLinkApiModel model)
     {
-        var user = await GetUserByApiKey();
-        if (user == null) return Unauthorized();
+        var (user, isGlobal) = await GetUserByApiKey();
+        if (user == null && !isGlobal) return Unauthorized();
 
         if (!ModelState.IsValid) return BadRequest(ModelState);
 
@@ -71,6 +85,13 @@ public class ApiController(
             return Conflict(new { message = "This custom code is already in use." });
         }
 
+        string? userId = user?.Id;
+        if (isGlobal && !string.IsNullOrEmpty(model.Email))
+        {
+            var userByEmail = await dbContext.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
+            userId = userByEmail?.Id;
+        }
+
         var shorterLink = new ShorterLink
         {
             Title = model.Title,
@@ -80,7 +101,7 @@ public class ApiController(
             IsCustom = !string.IsNullOrEmpty(model.CustomCode),
             IsPrivate = model.IsPrivate,
             MaxClicks = model.MaxClicks,
-            UserId = user.Id
+            UserId = userId
         };
 
         if (model.IsPrivate && !string.IsNullOrEmpty(model.Password))
@@ -97,10 +118,16 @@ public class ApiController(
     [HttpGet("links/{id:guid}")]
     public async Task<IActionResult> GetLink(Guid id)
     {
-        var user = await GetUserByApiKey();
-        if (user == null) return Unauthorized();
+        var (user, isGlobal) = await GetUserByApiKey();
+        if (user == null && !isGlobal) return Unauthorized();
 
-        var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.Id == id && l.UserId == user.Id);
+        var query = dbContext.ShorterLinks.AsQueryable();
+        if (!isGlobal)
+        {
+            query = query.Where(l => l.UserId == user!.Id);
+        }
+
+        var link = await query.FirstOrDefaultAsync(l => l.Id == id);
         if (link == null) return NotFound();
 
         return Ok(link);
@@ -109,10 +136,16 @@ public class ApiController(
     [HttpPatch("links/{id:guid}")]
     public async Task<IActionResult> UpdateLink(Guid id, [FromBody] UpdateLinkApiModel model)
     {
-        var user = await GetUserByApiKey();
-        if (user == null) return Unauthorized();
+        var (user, isGlobal) = await GetUserByApiKey();
+        if (user == null && !isGlobal) return Unauthorized();
 
-        var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.Id == id && l.UserId == user.Id);
+        var query = dbContext.ShorterLinks.AsQueryable();
+        if (!isGlobal)
+        {
+            query = query.Where(l => l.UserId == user!.Id);
+        }
+
+        var link = await query.FirstOrDefaultAsync(l => l.Id == id);
         if (link == null) return NotFound();
 
         if (model.Title != null) link.Title = model.Title;
@@ -152,10 +185,16 @@ public class ApiController(
     [HttpDelete("links/{id:guid}")]
     public async Task<IActionResult> DeleteLink(Guid id)
     {
-        var user = await GetUserByApiKey();
-        if (user == null) return Unauthorized();
+        var (user, isGlobal) = await GetUserByApiKey();
+        if (user == null && !isGlobal) return Unauthorized();
 
-        var link = await dbContext.ShorterLinks.FirstOrDefaultAsync(l => l.Id == id && l.UserId == user.Id);
+        var query = dbContext.ShorterLinks.AsQueryable();
+        if (!isGlobal)
+        {
+            query = query.Where(l => l.UserId == user!.Id);
+        }
+
+        var link = await query.FirstOrDefaultAsync(l => l.Id == id);
         if (link != null)
         {
             dbContext.ShorterLinks.Remove(link);

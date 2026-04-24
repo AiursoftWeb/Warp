@@ -24,9 +24,8 @@ public class EditLinkViewModel : UiStackLayoutViewModel
     [Display(Name = "Target URL")]
     public string TargetUrl { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "Please select the owner of this Link!")]
     [Display(Name = "Owner")]
-    public string SelectedUserId { get; set; } = string.Empty;
+    public string? SelectedUserId { get; set; }
 
     public List<SelectListItem> AllUsers { get; set; } = new();
 

@@ -1,0 +1,75 @@
+@model Aiursoft.Warp.Models.ApiKeyViewModels.GlobalApiKeyViewModel
+
+<h1 class="h3 mb-3">@Localizer["Global API Key & Documentation"]</h1>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Your Global API Key"]</h5>
+            </div>
+            <div class="card-body">
+                <p>@Localizer["Use this API key to call the Warp API globally. This key is configured in the system settings."]</p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" value="@Model.ApiKey" readonly id="apiKeyInput">
+                    <button class="btn btn-outline-secondary" type="button" onclick="copyToClipboard('apiKeyInput')">
+                        <i class="align-middle" data-lucide="copy"></i>
+                        @Localizer["Copy"]
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["API Documentation"]</h5>
+            </div>
+            <div class="card-body">
+                <h6>@Localizer["Create a Short Link"]</h6>
+                <p><code>POST @Model.ApiUrl</code></p>
+                
+                <h6>@Localizer["Headers"]</h6>
+                <ul>
+                    <li><code>X-API-Key</code>: <code>@Model.ApiKey</code></li>
+                    <li><code>Content-Type</code>: <code>application/json</code></li>
+                </ul>
+
+                <h6>@Localizer["Request Body (JSON)"]</h6>
+                <pre class="bg-light p-3"><code>{
+    "TargetUrl": "https://www.google.com",
+    "Title": "Google Link",
+    "CustomCode": "google",
+    "ExpireAt": "2026-12-31T23:59:59Z",
+    "IsPrivate": false,
+    "Password": "optional-password",
+    "MaxClicks": 100,
+    "Email": "user@example.com"
+}</code></pre>
+                
+                <h6>@Localizer["Parameters"]</h6>
+                <ul>
+                    <li><strong>TargetUrl</strong> (Required): @Localizer["The destination URL."]</li>
+                    <li><strong>Title</strong> (Optional): @Localizer["A title for the link."]</li>
+                    <li><strong>CustomCode</strong> (Optional): @Localizer["A custom short code. If omitted, a random 6-character code will be generated."]</li>
+                    <li><strong>ExpireAt</strong> (Optional): @Localizer["The expiration date and time in ISO 8601 format."]</li>
+                    <li><strong>IsPrivate</strong> (Optional): @Localizer["Whether the link is private."]</li>
+                    <li><strong>Password</strong> (Optional): @Localizer["Password for private links."]</li>
+                    <li><strong>MaxClicks</strong> (Optional): @Localizer["Maximum number of allowed clicks."]</li>
+                    <li><strong>Email</strong> (Optional): @Localizer["The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn't exist, a headless link will be created."]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        function copyToClipboard(elementId) {
+            var copyText = document.getElementById(elementId);
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            alert("@Localizer["Copied to clipboard!"]");
+        }
+    </script>
+}

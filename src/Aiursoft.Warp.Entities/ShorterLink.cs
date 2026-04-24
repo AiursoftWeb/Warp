@@ -34,9 +34,8 @@ public class ShorterLink
     public DateTime CreationTime { get; init; } = DateTime.UtcNow;
 
     [StringLength(64)]
-    public required string UserId { get; set; }
+    public string? UserId { get; set; }
 
     [ForeignKey(nameof(UserId))]
-    [NotNull]
     public User? User { get; set; }
 }

@@ -24,7 +24,7 @@
             @Localizer["Owner"]
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Link.User.DisplayName)
+            @(Model.Link.User?.DisplayName ?? Localizer["Headless"].Value)
         </dd>
     </dl>
 

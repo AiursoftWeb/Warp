@@ -37,7 +37,7 @@ public class DeleteViewModel : UiStackLayoutViewModel
     public DateTime CreationTime { get; init; } = DateTime.UtcNow;
 
 
-    public required string UserId { get; set; }
+    public string? UserId { get; set; }
 
 
 }

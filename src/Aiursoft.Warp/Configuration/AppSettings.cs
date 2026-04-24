@@ -18,4 +18,9 @@ public class AppSettings
     /// Automatically assign the user to this role when they log in.
     /// </summary>
     public string? DefaultRole { get; init; } = string.Empty;
+
+    /// <summary>
+    /// The global API key for the application.
+    /// </summary>
+    public string? ApiKey { get; init; } = string.Empty;
 }

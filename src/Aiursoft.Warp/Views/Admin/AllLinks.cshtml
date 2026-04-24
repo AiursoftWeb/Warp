@@ -112,9 +112,16 @@
                                 </div>
                             </td>
                             <td class="d-none d-md-table-cell align-middle">
-                                <a asp-action="UserLinks" asp-route-id="@item.UserId">
-                                    @item.User.DisplayName
-                                </a>
+                                @if (item.User != null)
+                                {
+                                    <a asp-action="UserLinks" asp-route-id="@item.UserId">
+                                        @item.User.DisplayName
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">@Localizer["Headless"]</span>
+                                }
                             </td>
                             <td class="d-none d-md-table-cell align-middle">
                                 @if (isExpired)

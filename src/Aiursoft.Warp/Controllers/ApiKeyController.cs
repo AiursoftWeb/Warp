@@ -1,16 +1,21 @@
 using System.Security.Claims;
 using Aiursoft.UiStack.Navigation;
+using Aiursoft.Warp.Authorization;
+using Aiursoft.Warp.Configuration;
 using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Models.ApiKeyViewModels;
 using Aiursoft.Warp.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Aiursoft.Warp.Controllers;
 
 [Authorize]
-public class ApiKeyController(WarpDbContext dbContext) : Controller
+public class ApiKeyController(
+    WarpDbContext dbContext,
+    IOptions<AppSettings> appSettings) : Controller
 {
     [HttpGet]
     [RenderInNavBar(
@@ -32,6 +37,32 @@ public class ApiKeyController(WarpDbContext dbContext) : Controller
         var model = new IndexViewModel
         {
             ApiKeys = keys
+        };
+        return this.StackView(model);
+    }
+
+    [HttpGet]
+    [Authorize(Policy = AppPermissionNames.CanViewApiKey)]
+    [RenderInNavBar(
+        NavGroupName = "Administration",
+        NavGroupOrder = 9999,
+        CascadedLinksGroupName = "System",
+        CascadedLinksIcon = "settings",
+        CascadedLinksOrder = 9999,
+        LinkText = "Global API Key",
+        LinkOrder = 2)]
+    public IActionResult Global()
+    {
+        var apiKey = appSettings.Value.ApiKey;
+        if (string.IsNullOrEmpty(apiKey))
+        {
+            return NotFound("Global API key is not configured in appsettings.json.");
+        }
+
+        var model = new GlobalApiKeyViewModel
+        {
+            ApiKey = apiKey,
+            ApiUrl = $"{Request.Scheme}://{Request.Host}/api/links"
         };
         return this.StackView(model);
     }
