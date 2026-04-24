@@ -1,5 +1,4 @@
 using System.Net;
-using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Models.ApiModels;
 using Microsoft.EntityFrameworkCore;
 
