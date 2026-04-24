@@ -92,6 +92,8 @@ public class ViewModelArgsInjector(
         _ = localizer["My API Keys"];
         _ = localizer["Not Found"];
         _ = localizer["Permission Details"];
+    
+        _ = localizer["Global API Key"];
     }
 
     public void InjectSimple(
