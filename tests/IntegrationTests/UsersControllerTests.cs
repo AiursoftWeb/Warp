@@ -1,5 +1,4 @@
 using System.Net;
-using Aiursoft.Warp.Entities;
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 

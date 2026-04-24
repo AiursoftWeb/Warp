@@ -140,13 +140,8 @@ public class AdminController(
     [Authorize(Policy = AppPermissionNames.CanEditAnyLink)]
     public async Task<IActionResult> EditLink(EditLinkViewModel model)
     {
-        var newOwner = await userManager.FindByIdAsync(model.SelectedUserId);
-        if (!ModelState.IsValid || newOwner == null)
+        if (!ModelState.IsValid)
         {
-            if (newOwner == null)
-            {
-                ModelState.AddModelError(nameof(model.SelectedUserId), localizer["The selected new owner does not exist."]);
-            }
             var allUsers = await userManager.Users.OrderBy(u => u.UserName).ToListAsync();
             model.AllUsers = allUsers.Select(user => new SelectListItem
             {

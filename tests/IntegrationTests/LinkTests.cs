@@ -1,7 +1,6 @@
 using System.Net;
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore;
-using Aiursoft.Warp.Entities;
 
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
