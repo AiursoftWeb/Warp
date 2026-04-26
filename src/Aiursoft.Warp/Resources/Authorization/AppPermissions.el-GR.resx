@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Επιτρέπει την προβολή της πίνακα ελέγχου των εργασιών στο παρασκήνιο και τη διαχείριση των εργασιών.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Επιτρέπει την προβολή του καθολικού κλειδιού API και του εγχειριδίου χρήσης του.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Επιτρέπει την προβολή της λίστας όλων των δικαιωμάτων και των αντιστοιχίσεών τους σε ρόλους και χρήστες.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Επανεκκίνηση αυτής της εφαρμογής</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Προβολή Κλειδιού API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Προβολή Εργασιών Παρασκηνίου</value>

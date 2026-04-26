@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>만료일:</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>무계정</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>링크 정보</value>
   </data>

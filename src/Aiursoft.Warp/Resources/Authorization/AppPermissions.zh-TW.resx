@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>允許檢視背景工作儀表板並管理工作。</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>允許查看全局 API 金鑰及使用說明文件。</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>允許檢視所有權限及其指派給角色和使用者的清單。</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>重新啟動此應用程式</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>查看 API 金鑰</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>檢視背景工作</value>

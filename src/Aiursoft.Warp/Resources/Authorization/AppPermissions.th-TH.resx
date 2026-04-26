@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>อนุญาตให้ดูแดชบอร์ดงานเบื้องหลังและจัดการงานต่างๆ</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>อนุญาตให้ดูคีย์ API ทั่วโลกและเอกสารประกอบสำหรับการใช้งาน</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>อนุญาตให้ดูรายการสิทธิ์ทั้งหมดและบทบาทการมอบหมายให้กับบทบาทและผู้ใช้</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>รีบูตแอปนี้</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>ดูคีย์ API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>ดูงานพื้นหลัง</value>

@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>Ominaisuudet</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Globaali API-avain</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Yleiset asetukset</value>
   </data>

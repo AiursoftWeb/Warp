@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>バックグラウンドジョブダッシュボードの表示とジョブの管理を許可します。</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>グローバルAPIキーと使用方法の説明を表示できます。</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>すべての権限およびそれらのロールおよびユーザーへの割り当ての一覧を表示できるようにします。</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>このアプリを再起動</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>APIキーを表示</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>バックグラウンドジョブの表示</value>

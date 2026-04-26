@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Permite vizualizarea panoului de control al sarcinilor în fundal și gestionarea sarcinilor.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Permite vizualizarea cheii globale API și a documentației privind utilizarea acesteia.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Permite vizualizarea listei tuturor permisiunilor și a atribuirii lor către roluri și utilizatori.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Repornește această aplicație</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Vizualizare cheie API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Vizualizează sarcinile în fundal</value>

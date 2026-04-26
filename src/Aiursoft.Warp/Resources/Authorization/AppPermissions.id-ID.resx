@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Memungkinkan melihat dasbor pekerjaan latar belakang dan mengelola pekerjaan.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Memungkinkan untuk melihat kunci API global dan dokumentasi mengenai cara menggunakannya.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Memungkinkan melihat daftar semua izin dan penugasan mereka ke peran serta pengguna.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Mulai Ulang Aplikasi Ini</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Lihat Kunci API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Lihat Pekerjaan Latar Belakang</value>

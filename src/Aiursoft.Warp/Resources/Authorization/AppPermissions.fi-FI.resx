@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Sallii taustatehtävien hallintapaneelin tarkastelun ja tehtävien hallinnan.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Mahdollistaa globaalin API-avaimen ja sen käyttöohjeiden katselun.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Sallii nähdä kaikkien käyttöoikeuksien ja niiden myöntämien roolien ja käyttäjien luettelon.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Käynnistä tämä sovellus uudelleen</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Näytä API-avain</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Näytä taustatehtävät</value>

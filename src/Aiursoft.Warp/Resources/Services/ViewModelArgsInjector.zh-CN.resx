@@ -108,6 +108,9 @@
   <data name="Features" xml:space="preserve">
     <value>功能</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>全局 API 密钥</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>全局设置</value>
   </data>

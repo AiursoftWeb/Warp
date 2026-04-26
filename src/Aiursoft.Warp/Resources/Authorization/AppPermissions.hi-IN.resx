@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>पृष्ठभूमि कार्य डैशबोर्ड को देखने और कार्यों को प्रबंधित करने की अनुमति देता है।</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>ग्लोबल API कुंजी देखने और इसे कैसे उपयोग करें, इसके लिए दस्तावेज़ देखने की अनुमति देता है।</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>सभी परमिशन्स और उनके रोल्स और उपयोगकर्ताओं को नियुक्त करने की सूची को देखने की अनुमति देता है।</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>इस ऐप को पुनरारंभ करें</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>API कुंजी देखें</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>बैकग्राउंड जॉब्स देखें</value>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>Mã rút gọn tùy chỉnh. Nếu bỏ qua, một mã ngẫu nhiên gồm 6 ký tự sẽ được tạo.</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>Tiêu đề cho liên kết.</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>Tài liệu API</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>Đã sao chép vào khay nhớ tạm!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>Tạo liên kết ngắn</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>Khóa API Toàn cầu &amp; Tài liệu</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>Số lần nhấp tối đa được phép.</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Các tham số</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>Mật khẩu cho liên kết riêng tư.</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>Thân yêu cầu (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>Đường dẫn đích.</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>Email của người dùng để tạo liên kết. Nếu người dùng tồn tại, liên kết sẽ thuộc quyền sở hữu của người dùng đó. Nếu không được cung cấp hoặc người dùng không tồn tại, một liên kết không có chủ sở hữu sẽ được tạo.</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>Ngày và giờ hết hạn theo định dạng ISO 8601.</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>Sử dụng khóa API này để gọi Warp API trên toàn cầu. Khóa này đã được cấu hình trong cài đặt hệ thống.</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>Cho biết liên kết có ở chế độ riêng tư hay không.</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>Khóa API Toàn cầu của bạn</value>
+  </data>
+
+</root>

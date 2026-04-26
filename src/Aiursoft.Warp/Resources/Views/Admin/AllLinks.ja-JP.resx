@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>有効期限</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>ヘッドレス</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>リンク情報</value>
   </data>

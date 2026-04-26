@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>Возможности</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Глобальный ключ API</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Глобальные настройки</value>
   </data>

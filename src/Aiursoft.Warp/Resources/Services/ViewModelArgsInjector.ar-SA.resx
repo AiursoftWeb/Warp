@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>الميزات</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>مفتاح API العالمي</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>الإعدادات العالمية</value>
   </data>

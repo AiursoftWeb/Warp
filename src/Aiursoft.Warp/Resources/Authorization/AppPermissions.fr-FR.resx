@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Permet d&apos;afficher le tableau de bord des tâches en arrière-plan et de gérer les tâches.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Permet de consulter la clé API globale et la documentation pour savoir comment l&apos;utiliser.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Permet de visualiser la liste de toutes les autorisations et de leurs affectations aux rôles et aux utilisateurs.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Redémarrer cette application</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Afficher la clé API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Visualiser les tâches en arrière-plan</value>

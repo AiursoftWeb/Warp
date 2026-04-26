@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>विशेषताएँ</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>ग्लोबल एपीआई कुंजी</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>सार्वभौम सेटिंग्स</value>
   </data>
