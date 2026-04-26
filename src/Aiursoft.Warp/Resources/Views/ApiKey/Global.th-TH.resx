@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>รหัสย่อที่กำหนดเอง หากไม่ระบุ จะสร้างรหัสแบบสุ่มความยาว 6 ตัวอักษร</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>ชื่อเรื่องสำหรับลิงก์</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>เอกสาร API</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>คัดลอกไปยังคลิปบอร์ดแล้ว!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>สร้างลิงก์สั้น</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>คีย์ API ทั่วโลกและเอกสารประกอบ</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>ส่วนหัว</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>จำนวนครั้งที่คลิกสูงสุดที่อนุญาต</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>รหัสผ่านสำหรับลิงก์ส่วนตัว</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>ร่างกายคำขอ (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>URL ปลายทาง</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>อีเมลของผู้ใช้ที่จะสร้างลิงก์ให้ หากผู้ใช้มีอยู่ ลิงก์จะถือเป็นของผู้ใช้นั้น หากไม่ได้ระบุหรือผู้ใช้ไม่มีอยู่ จะสร้างลิงก์แบบไม่มีเจ้าของ</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>วันที่และเวลาหมดอายุในรูปแบบ ISO 8601</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>ใช้คีย์ API นี้เพื่อเรียกใช้ Warp API ทั่วโลก คีย์นี้ถูกกำหนดค่าในการตั้งค่าระบบ</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>ว่าลิงก์นี้เป็นแบบส่วนตัวหรือไม่</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>คีย์ API ส่วนกลางของคุณ</value>
+  </data>
+
+</root>

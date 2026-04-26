@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Global API-nyckel</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Globala inställningar</value>
   </data>

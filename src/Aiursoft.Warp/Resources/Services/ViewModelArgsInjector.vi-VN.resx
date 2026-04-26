@@ -108,6 +108,9 @@
   <data name="Features" xml:space="preserve">
     <value>Tính năng</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Khóa API Toàn cầu</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Cài đặt toàn cục</value>
   </data>

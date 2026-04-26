@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Cho phép xem bảng điều khiển công việc nền và quản lý các công việc.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Cho phép xem khóa API toàn cầu và tài liệu hướng dẫn cách sử dụng.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Cho phép xem danh sách tất cả các quyền và việc gán chúng cho vai trò và người dùng.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Khởi Động Lại Ứng Dụng Này</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Xem Khóa API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Xem Các Nhiệm Vụ Nền</value>

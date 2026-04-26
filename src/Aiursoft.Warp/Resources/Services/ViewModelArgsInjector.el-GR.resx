@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>Λειτουργίες</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Καθολικό Κλειδί API</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Καθολικές Ρυθμίσεις</value>
   </data>

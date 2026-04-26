@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Дозволяє переглядати панель керування фоновими завданнями та керувати завданнями.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Дозволяє переглядати глобальний API-ключ та документацію щодо його використання.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Дозволяє переглядати список усіх дозволів та їхніх призначень ролям і користувачам.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Перезавантажити цей додаток</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Переглянути ключ API</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Переглянути фонові завдання</value>

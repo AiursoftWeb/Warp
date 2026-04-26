@@ -108,6 +108,9 @@
   <data name="Features" xml:space="preserve">
     <value>คุณสมบัติ</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>คีย์ API ทั่วไป</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>การตั้งค่าทั่วไป</value>
   </data>

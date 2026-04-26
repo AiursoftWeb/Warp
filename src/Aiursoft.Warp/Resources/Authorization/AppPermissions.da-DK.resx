@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Tillader visning af baggrundsjob-dashboardet og håndtering af jobs.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Tillader visning af den globale API-nøgle og dokumentation til brug.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Tillader visning af listen over alle tilladelser og deres tilknytning til roller og brugere.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Genstart denne app</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>Se API-nøgle</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>Vis baggrundsjobs</value>

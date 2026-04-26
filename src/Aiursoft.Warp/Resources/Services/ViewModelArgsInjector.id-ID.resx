@@ -105,6 +105,9 @@
   <data name="Features" xml:space="preserve">
     <value>Fitur</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>Kunci API Global</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Pengaturan Global</value>
   </data>

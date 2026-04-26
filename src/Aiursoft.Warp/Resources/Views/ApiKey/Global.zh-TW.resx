@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>自訂短碼。若省略，將產生隨機的 6 位元碼。</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>鏈結的標題。</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>API 文件</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>已複製到剪貼簿！</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>建立短連結</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>全球 API 金鑰與文件</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>標頭</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>允許的最大點擊次數。</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>參數</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>私密連結的密碼。</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>請求主體 (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>目的網址。</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>用於建立連結的使用者電子郵件。如果該使用者存在，連結將歸該使用者所有。若未提供或使用者不存在，則將建立無主連結。</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>ISO 8601 格式的到期日期和時間。</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>使用此 API 金鑰在全球範圍內調用 Warp API。此金鑰已在系統設定中配置。</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>該連結是否為私密。</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>您的全域 API 金鑰</value>
+  </data>
+
+</root>

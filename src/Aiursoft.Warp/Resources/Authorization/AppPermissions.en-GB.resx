@@ -57,6 +57,9 @@
   <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
     <value>Allows viewing the background job dashboard and managing jobs.</value>
   </data>
+  <data name="Allows viewing the global API key and documentation for how to use it." xml:space="preserve">
+    <value>Allows viewing of the global API key and documentation on how to use it.</value>
+  </data>
   <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
     <value>Allows viewing the list of all permissions and their assignments to roles and users.</value>
   </data>
@@ -113,6 +116,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Restart This Application</value>
+  </data>
+  <data name="View API Key" xml:space="preserve">
+    <value>View API Key</value>
   </data>
   <data name="View Background Jobs" xml:space="preserve">
     <value>View Background Jobs</value>

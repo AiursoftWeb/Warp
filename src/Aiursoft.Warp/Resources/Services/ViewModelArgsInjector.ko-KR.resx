@@ -108,6 +108,9 @@
   <data name="Features" xml:space="preserve">
     <value>기능</value>
   </data>
+  <data name="Global API Key" xml:space="preserve">
+    <value>전역 API 키</value>
+  </data>
   <data name="Global Settings" xml:space="preserve">
     <value>전역 설정</value>
   </data>
