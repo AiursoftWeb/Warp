@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>Özel bir kısa kod. Belirtilmezse, rastgele 6 karakterli bir kod oluşturulur.</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>Bağlantı için bir başlık.</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>API Dokümantasyonu</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>Panoya kopyalandı!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>Kısa Bağlantı Oluştur</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>Global API Anahtarı &amp; Belgeler</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Başlıklar</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>İzin verilen maksimum tıklama sayısı.</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parametreler</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>Özel bağlantılar için şifre.</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>İstek Gövdesi (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>Hedef URL.</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>Bağlantıyı oluşturmak için kullanıcının e-posta adresi. Kullanıcı mevcutsa, bağlantı o kullanıcıya ait olacaktır. Sağlanmazsa veya kullanıcı mevcut değilse, başlıksız bir bağlantı oluşturulur.</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>ISO 8601 formatında son kullanma tarihi ve saati.</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>Bu API anahtarını Warp API&apos;ye global erişim sağlamak için kullanın. Bu anahtar sistem ayarlarında yapılandırılmıştır.</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>Bağlantının gizli olup olmadığı.</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>Genel API Anahtarınız</value>
+  </data>
+
+</root>

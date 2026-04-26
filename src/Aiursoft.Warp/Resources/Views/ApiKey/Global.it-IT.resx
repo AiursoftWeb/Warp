@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>Un codice breve personalizzato. Se omesso, verrà generato un codice casuale di 6 caratteri.</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>Un titolo per il link.</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>Documentazione API</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>Copiato negli appunti!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>Crea un link breve</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>Chiave API globale e documentazione</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Intestazioni</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>Numero massimo di click consentiti.</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parametri</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>Password per i link privati.</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>Corpo della richiesta (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>L&apos;URL di destinazione.</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>L&apos;email dell&apos;utente per cui creare il link. Se l&apos;utente esiste, il link sarà di proprietà di tale utente. Se non fornito o se l&apos;utente non esiste, verrà creato un link headless.</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>La data e l&apos;ora di scadenza in formato ISO 8601.</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>Utilizza questa chiave API per chiamare l&apos;API Warp a livello globale. Questa chiave è configurata nelle impostazioni di sistema.</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>Se il link è privato.</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>La tua chiave API globale</value>
+  </data>
+
+</root>

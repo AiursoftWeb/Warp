@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>Scade alle</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>Senza account</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>Informazioni sul Link</value>
   </data>
