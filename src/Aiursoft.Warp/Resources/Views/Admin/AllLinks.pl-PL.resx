@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>Wygasa</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>Brak użytkownika</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>Informacje o łączu</value>
   </data>

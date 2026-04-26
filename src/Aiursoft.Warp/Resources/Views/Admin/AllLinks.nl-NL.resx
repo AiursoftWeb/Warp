@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>Verloopt op</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>Zonder gebruiker</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>Linkinformatie</value>
   </data>

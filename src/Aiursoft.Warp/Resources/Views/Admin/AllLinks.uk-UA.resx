@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>Термін дії до</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>Безкористувача</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>Інформація про посилання</value>
   </data>

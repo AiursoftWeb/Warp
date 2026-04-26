@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="A custom short code. If omitted, a random 6-character code will be generated." xml:space="preserve">
+    <value>Власний короткий код. Якщо не вказано, буде згенеровано випадковий 6-символьний код.</value>
+  </data>
+  <data name="A title for the link." xml:space="preserve">
+    <value>Назва для посилання.</value>
+  </data>
+  <data name="API Documentation" xml:space="preserve">
+    <value>Документація API</value>
+  </data>
+  <data name="Copied to clipboard!" xml:space="preserve">
+    <value>Скопійовано до буфера обміну!</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="Create a Short Link" xml:space="preserve">
+    <value>Створити коротке посилання</value>
+  </data>
+  <data name="Global API Key &amp; Documentation" xml:space="preserve">
+    <value>Глобальний API-ключ та документація</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Заголовки</value>
+  </data>
+  <data name="Maximum number of allowed clicks." xml:space="preserve">
+    <value>Максимальна кількість дозволених кліків.</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Параметри</value>
+  </data>
+  <data name="Password for private links." xml:space="preserve">
+    <value>Пароль для приватних посилань.</value>
+  </data>
+  <data name="Request Body (JSON)" xml:space="preserve">
+    <value>Тіло запиту (JSON)</value>
+  </data>
+  <data name="The destination URL." xml:space="preserve">
+    <value>Цільова URL-адреса.</value>
+  </data>
+  <data name="The email of the user to create the link for. If the user exists, the link will be owned by that user. If not provided or the user doesn&apos;t exist, a headless link will be created." xml:space="preserve">
+    <value>Електронна пошта користувача, для якого створюється посилання. Якщо користувач існує, посилання буде належати цьому користувачу. Якщо не вказано або користувач не існує, буде створено посилання без прив&apos;язки до користувача.</value>
+  </data>
+  <data name="The expiration date and time in ISO 8601 format." xml:space="preserve">
+    <value>Дата і час закінчення терміну дії у форматі ISO 8601.</value>
+  </data>
+  <data name="Use this API key to call the Warp API globally. This key is configured in the system settings." xml:space="preserve">
+    <value>Використовуйте цей API-ключ для глобального виклику Warp API. Цей ключ налаштовано в системних налаштуваннях.</value>
+  </data>
+  <data name="Whether the link is private." xml:space="preserve">
+    <value>Чи є посилання приватним.</value>
+  </data>
+  <data name="Your Global API Key" xml:space="preserve">
+    <value>Ваш глобальний API-ключ</value>
+  </data>
+
+</root>

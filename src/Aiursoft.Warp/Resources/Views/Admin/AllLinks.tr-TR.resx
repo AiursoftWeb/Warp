@@ -45,6 +45,9 @@
   <data name="Expires at" xml:space="preserve">
     <value>Bitiş Tarihi</value>
   </data>
+  <data name="Headless" xml:space="preserve">
+    <value>Kullanıcı Yok</value>
+  </data>
   <data name="Link Info" xml:space="preserve">
     <value>Bağlantı Bilgisi</value>
   </data>
