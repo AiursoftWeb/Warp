@@ -182,7 +182,7 @@ public class LinkTests : FunctionalTestBase
         var loginContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
             { "EmailOrUserName", "admin" },
-            { "Password", "admin123" },
+            { "Password", "Admin@123456!" },
             { "__RequestVerificationToken", loginToken }
         });
         var loginResponse = await Http.PostAsync("/Account/Login", loginContent);
@@ -218,7 +218,7 @@ public class LinkTests : FunctionalTestBase
             var loginContent = new FormUrlEncodedContent(new Dictionary<string, string>
             {
                 { "EmailOrUserName", "admin" },
-                { "Password", "admin123" },
+                { "Password", "Admin@123456!" },
                 { "__RequestVerificationToken", loginToken }
             });
             await Http.PostAsync("/Account/Login", loginContent);
@@ -261,7 +261,7 @@ public class LinkTests : FunctionalTestBase
         var loginContent = new FormUrlEncodedContent(new Dictionary<string, string>
         {
             { "EmailOrUserName", "admin" },
-            { "Password", "admin123" },
+            { "Password", "Admin@123456!" },
             { "__RequestVerificationToken", loginToken }
         });
         await Http.PostAsync("/Account/Login", loginContent);
