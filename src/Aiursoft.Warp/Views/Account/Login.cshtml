@@ -15,7 +15,7 @@
                     </p>
                 </div>
 
-                <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@Model.ReturnUrl" method="post">
 
                     @* Validation summary is preserved and placed logically at the top of the form *@
                     <div asp-validation-summary="All" class="text-danger mb-3"></div>
@@ -42,7 +42,7 @@
                 @if (AppSettings.Value.Local.AllowRegister)
                 {
                     <div class="text-center mt-3">
-                        @Localizer["Don't have an account?"] <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">@Localizer["Sign up"]</a>
+                        @Localizer["Don't have an account?"] <a asp-action="Register" asp-route-returnurl="@Model.ReturnUrl">@Localizer["Sign up"]</a>
                     </div>
                 }
             </div>

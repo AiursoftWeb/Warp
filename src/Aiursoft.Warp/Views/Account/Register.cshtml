@@ -12,7 +12,7 @@
                     </p>
                 </div>
 
-                <form asp-controller="Account" asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                <form asp-controller="Account" asp-action="Register" asp-route-returnurl="@Model.ReturnUrl" method="post">
 
                     @* The validation summary is preserved, providing a clear overview of any errors. *@
                     <div asp-validation-summary="All" class="text-danger mb-3"></div>
@@ -41,7 +41,7 @@
                 </form>
 
                 <div class="text-center mt-3">
-                    @Localizer["Already have an account?"] <a asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]">@Localizer["Sign in"]</a>
+                    @Localizer["Already have an account?"] <a asp-action="Login" asp-route-returnurl="@Model.ReturnUrl">@Localizer["Sign in"]</a>
                 </div>
 
             </div>

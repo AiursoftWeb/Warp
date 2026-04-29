@@ -10,6 +10,8 @@ public class RegisterViewModel: UiStackLayoutViewModel
         PageTitle = "Register";
     }
 
+    public string? ReturnUrl { get; set; }
+
     [Required(ErrorMessage = "The {0} is required.")]
     [EmailAddress(ErrorMessage = "The {0} is not a valid email address.")]
     [Display(Name = "Email Address (For login)")]

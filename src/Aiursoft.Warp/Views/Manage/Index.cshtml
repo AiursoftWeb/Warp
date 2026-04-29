@@ -7,7 +7,7 @@
 <h1 class="h3 mb-3">@Localizer["Account Management"]</h1>
 
 @* The StatusMessage logic is preserved, but the alert's icon and layout are enhanced. *@
-@if (!string.IsNullOrWhiteSpace(ViewData["StatusMessage"] as string))
+@if (!string.IsNullOrWhiteSpace(Model.StatusMessage))
 {
     <div class="alert alert-success alert-dismissible" role="alert">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -17,7 +17,7 @@
             </div>
             <div class="alert-message">
                 <strong>@Localizer["Success!"]</strong>
-                @ViewData["StatusMessage"]
+                @Model.StatusMessage
             </div>
         </div>
     </div>

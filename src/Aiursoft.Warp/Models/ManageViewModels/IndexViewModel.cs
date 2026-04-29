@@ -9,5 +9,7 @@ public class IndexViewModel: UiStackLayoutViewModel
         PageTitle = "Manage";
     }
 
+    public string? StatusMessage { get; set; }
+
     public bool AllowUserAdjustNickname { get; set; }
 }
