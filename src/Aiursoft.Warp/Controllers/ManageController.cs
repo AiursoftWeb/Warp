@@ -42,15 +42,14 @@ public class ManageController(
     [HttpGet]
     public async Task<IActionResult> Index(ManageMessageId? message = null)
     {
-        ViewData["StatusMessage"] =
-            message == ManageMessageId.ChangeProfileSuccess ? localizer["Your profile has been saved."] :
-            message == ManageMessageId.ChangeAvatarSuccess ? localizer["Your avatar has been saved."] :
-            message == ManageMessageId.ChangePasswordSuccess ? localizer["Your password has been changed."] :
-            message == ManageMessageId.Error ? localizer["An error has occurred."]
-            : "";
-
         var model = new IndexViewModel
         {
+            StatusMessage =
+                message == ManageMessageId.ChangeProfileSuccess ? localizer["Your profile has been saved."] :
+                message == ManageMessageId.ChangeAvatarSuccess ? localizer["Your avatar has been saved."] :
+                message == ManageMessageId.ChangePasswordSuccess ? localizer["Your password has been changed."] :
+                message == ManageMessageId.Error ? localizer["An error has occurred."]
+                : "",
             AllowUserAdjustNickname = await settingsService.GetBoolSettingAsync(SettingsMap.AllowUserAdjustNickname)
         };
         return this.StackView(model);

@@ -39,8 +39,10 @@ public class AccountController(
             return new ChallengeResult(provider, properties);
         }
 
-        ViewData["ReturnUrl"] = returnUrl;
-        return this.StackView(new LoginViewModel());
+        return this.StackView(new LoginViewModel
+        {
+            ReturnUrl = returnUrl
+        });
     }
 
     // POST: /Account/Login
@@ -53,7 +55,7 @@ public class AccountController(
             return BadRequest("Local login is disabled when OIDC authentication is enabled.");
         }
 
-        ViewData["ReturnUrl"] = returnUrl;
+        model.ReturnUrl = returnUrl;
         if (ModelState.IsValid)
         {
             var possibleUser = await userManager.FindByEmailAsync(model.EmailOrUserName!);
@@ -100,8 +102,10 @@ public class AccountController(
             return BadRequest("Registration is not allowed in the current configuration.");
         }
 
-        ViewData["ReturnUrl"] = returnUrl;
-        return this.StackView(new RegisterViewModel());
+        return this.StackView(new RegisterViewModel
+        {
+            ReturnUrl = returnUrl
+        });
     }
 
     // POST: /Account/Register
@@ -114,7 +118,7 @@ public class AccountController(
             return BadRequest("Registration is not allowed in the current configuration.");
         }
 
-        ViewData["ReturnUrl"] = returnUrl;
+        model.ReturnUrl = returnUrl;
         if (ModelState.IsValid)
         {
             var user = new User

@@ -10,6 +10,8 @@ public class LoginViewModel: UiStackLayoutViewModel
         PageTitle = "Login";
     }
 
+    public string? ReturnUrl { get; set; }
+
     [Required(ErrorMessage = "The {0} is required.")]
     [Display(Name ="Email or User name")]
     public string? EmailOrUserName { get; set; }
