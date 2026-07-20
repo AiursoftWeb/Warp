@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Pulpit</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Usuń konto</value>
+  </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Usuń łącze</value>
   </data>

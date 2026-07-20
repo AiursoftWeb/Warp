@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>Sei sicuro di voler eliminare il tuo account?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zona di pericolo</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Elimina account</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>Elimina i dati dell&apos;account</value>
+  </data>
+  <data name="Note about your Shortened Links:" xml:space="preserve">
+    <value>Nota sui tuoi link accorciati:</value>
+  </data>
+  <data name="This action will permanently erase your profile and API keys from our servers." xml:space="preserve">
+    <value>Questa azione cancellerà definitivamente il tuo profilo e le tue chiavi API dai nostri server.</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>Sì, elimina il mio account</value>
+  </data>
+  <data name="Your existing shortened links will NOT be deleted. They will become &apos;headless&apos; links and will continue to redirect users successfully. However, you will lose the ability to manage or track them. Only site administrators will be able to manage them." xml:space="preserve">
+    <value>I tuoi link abbreviati esistenti NON verranno eliminati. Diventeranno link &quot;orfani&quot; e continueranno a reindirizzare gli utenti con successo. Tuttavia, perderai la possibilità di gestirli o monitorarli. Solo gli amministratori del sito potranno gestirli.</value>
+  </data>
+
+</root>
