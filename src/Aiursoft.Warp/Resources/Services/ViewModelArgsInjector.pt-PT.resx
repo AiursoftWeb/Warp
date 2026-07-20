@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Painel de Controle</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Eliminar Conta</value>
+  </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Eliminar Ligação</value>
   </data>

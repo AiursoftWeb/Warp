@@ -94,6 +94,8 @@ public class ViewModelArgsInjector(
         _ = localizer["Permission Details"];
     
         _ = localizer["Global API Key"];
+    
+        _ = localizer["Delete Account"];
     }
 
     public void InjectSimple(

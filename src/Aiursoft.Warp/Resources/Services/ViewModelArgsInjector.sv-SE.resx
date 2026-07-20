@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Instrumentbräda</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Ta bort konto</value>
+  </data>
   <data name="Delete Link" xml:space="preserve">
     <value>Ta bort länk</value>
   </data>

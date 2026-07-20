@@ -72,6 +72,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>لوحة التحكم</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>حذف الحساب</value>
+  </data>
   <data name="Delete Link" xml:space="preserve">
     <value>حذف الرابط</value>
   </data>
