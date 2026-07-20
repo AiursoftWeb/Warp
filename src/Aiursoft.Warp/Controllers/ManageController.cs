@@ -1,3 +1,4 @@
+using Aiursoft.UiStack.Layout;
 using Aiursoft.Warp.Configuration;
 using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Models.ManageViewModels;
@@ -192,7 +193,7 @@ public class ManageController(
     [HttpGet]
     public IActionResult DeleteAccount()
     {
-        return this.StackView(new Aiursoft.UiStack.Layout.UiStackLayoutViewModel { PageTitle = "Delete Account" });
+        return this.StackView(new UiStackLayoutViewModel { PageTitle = "Delete Account" });
     }
 
     //

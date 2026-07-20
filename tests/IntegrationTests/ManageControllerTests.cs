@@ -1,10 +1,8 @@
 using Aiursoft.Warp.Services;
-
-using Aiursoft.Warp.Entities;
 using System.Net;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+
 namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 [TestClass]
@@ -46,7 +44,6 @@ public class ManageControllerTests : TestBase
         var (email, _) = await RegisterAndLoginAsync();
 
         string userId;
-        int entityId; // or Guid
         using (var scope = Server!.Services.CreateScope())
         {
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
