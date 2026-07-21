@@ -36,6 +36,12 @@
   <data name="Confirm Application Restart" xml:space="preserve">
     <value>Confirmar reinicio de la aplicación</value>
   </data>
+  <data name="CPU Architecture" xml:space="preserve">
+    <value>Arquitectura de CPU</value>
+  </data>
+  <data name="CPU Cores" xml:space="preserve">
+    <value>Núcleos de CPU</value>
+  </data>
   <data name="Created" xml:space="preserve">
     <value>Creado</value>
   </data>
@@ -53,6 +59,72 @@
   </data>
   <data name="Docker Container" xml:space="preserve">
     <value>Contenedor de Docker</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>The user wants to translate the word &quot;Environment&quot; into Spanish (Spain).
+Looking at the context, &quot;Environment&quot; appears in code snippets like `Environment.Is64BitOperatingSystem`, `Environment.MachineName`, etc. These are references to the .NET `Environment` class.
+In software localization, class names and technical identifiers from programming frameworks (like .NET&apos;s `System.Environment`) are typically **not translated** because they refer to specific code elements that must remain unchanged for the software to function or for developers to understand the logs/messages. Translating &quot;Environment&quot; to &quot;Entorno&quot; would break the reference to the class name in a technical context if this were meant to be displayed as code, but here it seems to be part of a string being localized.
+
+However, let&apos;s look closer at the prompt. The user says: &quot;I&apos;m translating a sentence in a paragraph. The sentence is `Environment`.&quot;
+And then provides a large block of Razor/C# code.
+In the code, `@Localizer[&quot;...&quot;]` indicates strings to be localized.
+The word `Environment` appears in:
+- `@(Environment.Is64BitOperatingSystem ? &quot;(64-bit)&quot; : &quot;(32-bit)&quot;)` -&gt; This is C# code logic, not a user-facing string directly. The output of this expression is either &quot;(64-bit)&quot; or &quot;(32-bit)&quot;. The word &quot;Environment&quot; here is the class name in C#.
+- `@Environment.MachineName` -&gt; Property access.
+- `@Environment.UserDomainName\@Environment.UserName` -&gt; Property access.
+- `@Environment.CurrentDirectory` -&gt; Property access.
+- `@Environment.Version` -&gt; Property access.
+
+None of these are inside `@Localizer[&quot;...&quot;]`. The prompt asks to translate the word `Environment` found in the paragraph.
+Usually, when localizing UI text, we don&apos;t translate code identifiers. If &quot;Environment&quot; is intended to be a label for a section or a value displayed to the user, it would likely be inside a Localizer call like `@Localizer[&quot;Environment&quot;]`. It is not.
+
+However, sometimes developers put technical terms in strings that get localized. But here, `Environment` is clearly used as a C# class reference (`Environment.Property`). Translating the word &quot;Environment&quot; itself in this context would be incorrect because it&apos;s code.
+
+Wait, looking at the prompt again: &quot;Please translate only the sentence or word `Environment` in the paragraph into the target language es-ES&quot;.
+If I treat &quot;Environment&quot; as a standalone term to be translated for a UI label (assuming the user might have extracted it incorrectly or wants to know the translation of the concept), the Spanish translation is &quot;Entorno&quot;.
+
+But there is a crucial instruction: &quot;Human names, Nicknames, Proper nouns, symbols, trademarks, etc. must be output as it is and do not translate them! So please consider if the sentence or word `Environment` is one of them.&quot;
+In the context of .NET development, `Environment` is a class name (a proper noun in the code namespace). It should not be translated.
+
+Let&apos;s look at similar entries in the code:
+- `@Localizer[&quot;Server &amp; Process Information&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Property&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Value&quot;]` -&gt; Localized.
+- `@Localizer[&quot;System&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Machine Name&quot;]` -&gt; Localized.
+- `@Localizer[&quot;User Name&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Directory&quot;]` -&gt; Localized.
+- `@Localizer[&quot;.NET Version&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Worker Process&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Start Time&quot;]` -&gt; Localized.
+- `@Localizer[&quot;Server Time&quot;]` -&gt; Localized.
+
+The word `Environment` does **not** appear inside any `@Localizer[...]` block. It appears as part of the C# code logic (`Environment.Is64BitOperatingSystem`, etc.). Therefore, it is not a user-facing string in this snippet. It is a programming identifier.
+
+According to standard localization practices and the instruction &quot;If you don&apos;t understand what you want to translate, please output it as it is!&quot;, and considering `Environment` here is a code class name (Proper noun/Identifier), it should remain unchanged.
+
+However, often users asking for translation of specific words from code snippets might be confused about what is localizable. If I strictly follow &quot;translate the word Environment&quot;, the linguistic translation is &quot;Entorno&quot;. But if I follow the context that it&apos;s a class name, it stays &quot;Environment&quot;.
+
+Let&apos;s re-read carefully: &quot;I&apos;m translating a sentence in a paragraph. The sentence is `Environment`.&quot;
+The user identifies `Environment` as the target.
+In the provided text, `Environment` is used as a class name.
+Class names are not translated.
+Therefore, the output should be `Environment`.
+
+Let&apos;s double check if there is any other occurrence. No.
+Is it possible the user wants to translate the *concept*? If this were a label &quot;Environment: C:\...&quot;, then yes. But here it&apos;s code.
+Given the strict instruction &quot;Do not output any other content&quot; and &quot;If you don&apos;t understand what you want to translate, please output it as it is!&quot;, treating `Environment` as a non-translatable code identifier is the safest and most technically correct action for a localization engineer. Translating class names breaks code or causes confusion in technical logs.
+
+Decision: Output `Environment`.</value>
+  </data>
+  <data name="GC Memory" xml:space="preserve">
+    <value>Memoria GC</value>
+  </data>
+  <data name="GC Mode" xml:space="preserve">
+    <value>Modo GC</value>
+  </data>
+  <data name="Handle Count" xml:space="preserve">
+    <value>Recuento de handles</value>
   </data>
   <data name="Header" xml:space="preserve">
     <value>Encabezado</value>
@@ -80,6 +152,9 @@
   </data>
   <data name="Path" xml:space="preserve">
     <value>Ruta</value>
+  </data>
+  <data name="Process Architecture" xml:space="preserve">
+    <value>Arquitectura del proceso</value>
   </data>
   <data name="Property" xml:space="preserve">
     <value>Propiedad</value>
@@ -137,6 +212,12 @@
   </data>
   <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
     <value>Esto apagará la aplicación de forma controlada. Se espera que un gestor de procesos la reinicie.</value>
+  </data>
+  <data name="Thread Count" xml:space="preserve">
+    <value>Número de subprocesos</value>
+  </data>
+  <data name="Uptime" xml:space="preserve">
+    <value>Tiempo en funcionamiento</value>
   </data>
   <data name="User Name" xml:space="preserve">
     <value>Nombre de usuario</value>
