@@ -5,7 +5,6 @@ namespace Aiursoft.Warp.Tests.IntegrationTests;
 
 public abstract class TestBase
 {
-    protected readonly int Port;
     protected readonly HttpClient Http;
     protected IHost? Server;
 
@@ -17,20 +16,28 @@ public abstract class TestBase
             CookieContainer = cookieContainer,
             AllowAutoRedirect = false
         };
-        Port = Network.GetAvailablePort();
-        Http = new HttpClient(handler)
-        {
-            BaseAddress = new Uri($"http://localhost:{Port}")
-        };
+        Http = new HttpClient(handler);
     }
 
     [TestInitialize]
     public virtual async Task CreateServer()
     {
-        Server = await AppAsync<Startup>([], port: Port);
-        await Server.UpdateDbAsync<WarpDbContext>();
-        await Server.SeedAsync();
-        await Server.StartAsync();
+        using var reservation = new TestPortReservation();
+        Http.BaseAddress = new Uri($"http://localhost:{reservation.Port}");
+        Server = await AppAsync<Startup>([], port: reservation.Port);
+        try
+        {
+            reservation.ConfigureServer(Server);
+            await Server.UpdateDbAsync<WarpDbContext>();
+            await Server.SeedAsync();
+            await Server.StartAsync();
+        }
+        catch
+        {
+            Server.Dispose();
+            Server = null;
+            throw;
+        }
     }
 
     [TestCleanup]
