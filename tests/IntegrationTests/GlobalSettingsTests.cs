@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Aiursoft.Warp.Entities;
 using System.Net;
 using Aiursoft.Warp.Configuration;
 using Aiursoft.Warp.Services;
