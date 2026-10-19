@@ -9,6 +9,39 @@ namespace Aiursoft.Warp.Tests.IntegrationTests;
 [TestClass]
 public class LinkTests : FunctionalTestBase
 {
+    [TestMethod]
+    public async Task LinkAndApiKeyExpiryFormsStoreUtcInstants()
+    {
+        await RegisterAndLoginAsync();
+        const string input = "2030-07-01T09:30:00+08:00";
+        var expected = new DateTime(2030, 7, 1, 1, 30, 0, DateTimeKind.Utc);
+        var token = await GetAntiCsrfToken("/Home/Index");
+        var response = await Http.PostAsync("/Home/Index", new FormUrlEncodedContent(new Dictionary<string, string>
+        {
+            { "TargetUrl", "https://example.com/utc-expiry" },
+            { "ExpireAt", input },
+            { "__RequestVerificationToken", token }
+        }));
+        response.EnsureSuccessStatusCode();
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<WarpDbContext>();
+        var link = await db.ShorterLinks.SingleAsync(l => l.TargetUrl == "https://example.com/utc-expiry");
+        Assert.AreEqual(expected, link.ExpireAt);
+        var editHtml = await Http.GetStringAsync($"/Links/Edit/{link.Id}");
+        Assert.Contains("data-utc-input", editHtml);
+        Assert.Contains("utc-input.js", editHtml);
+
+        token = await GetAntiCsrfToken("/ApiKey/Create");
+        response = await Http.PostAsync("/ApiKey/Create", new FormUrlEncodedContent(new Dictionary<string, string>
+        {
+            { "Name", "UTC expiry" }, { "ExpireAt", input }, { "__RequestVerificationToken", token }
+        }));
+        Assert.AreEqual(HttpStatusCode.Found, response.StatusCode);
+        var key = await db.WarpApiKeys.SingleAsync(k => k.Name == "UTC expiry");
+        Assert.AreEqual(expected, key.ExpireAt);
+    }
+
+
     private async Task<string> CreateLinkAsync(string targetUrl, string? password = null, DateTime? expireAt = null, int? maxClicks = null)
     {
         var token = await GetAntiCsrfToken("/Home/Index");
