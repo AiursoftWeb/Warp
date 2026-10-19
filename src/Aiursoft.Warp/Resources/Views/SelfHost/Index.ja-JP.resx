@@ -63,6 +63,9 @@
   <data name="First, install Docker. Then run the following commands in a Linux shell:" xml:space="preserve">
     <value>まず Docker をインストールしてください。その後、次のコマンドを Linux シェルで実行してください。</value>
   </data>
+  <data name="GitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
   <data name="GitLab" xml:space="preserve">
     <value>GitLab</value>
   </data>
