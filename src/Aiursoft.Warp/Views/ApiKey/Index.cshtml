@@ -1,3 +1,4 @@
+@using Aiursoft.WebTools
 @model Aiursoft.Warp.Models.ApiKeyViewModels.IndexViewModel
 
 <h1 class="h3 mb-3">@Localizer["My API Keys"]</h1>
@@ -33,12 +34,12 @@
                                 <td>
                                     <code>@key.ApiKey</code>
                                 </td>
-                                <td>@key.CreationTime.ToString("yyyy-MM-dd HH:mm")</td>
+                                <td><span data-utc-time="@key.CreationTime.ToHtmlDateTime()"></span></td>
                                 <td>
                                     @if (key.ExpireAt.HasValue)
                                     {
                                         <span class="@(key.ExpireAt < DateTime.UtcNow ? "text-danger" : "")">
-                                            @key.ExpireAt.Value.ToString("yyyy-MM-dd HH:mm")
+                                            <span data-utc-time="@key.ExpireAt.Value.ToHtmlDateTime()"></span>
                                         </span>
                                     }
                                     else
