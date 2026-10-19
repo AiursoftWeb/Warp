@@ -40,7 +40,8 @@
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label asp-for="ExpireAt" class="form-label">@Localizer["Expiration Time"]</label>
-                                <input asp-for="ExpireAt" class="form-control form-control-lg" type="datetime-local" />
+                                <input data-utc-input step="1" asp-for="ExpireAt" class="form-control form-control-lg" type="datetime-local" />
+<partial name="_UtcInput" />
                                 <span asp-validation-for="ExpireAt" class="text-danger"></span>
                                 <div class="form-text text-muted">@Localizer["Leave empty for permanent."]</div>
                             </div>

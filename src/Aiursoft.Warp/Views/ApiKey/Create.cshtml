@@ -18,9 +18,11 @@
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
 
+
                     <div class="mb-3">
                         <label asp-for="ExpireAt" class="form-label"></label>
-                        <input asp-for="ExpireAt" class="form-control" type="datetime-local" />
+                        <input data-utc-input step="1" asp-for="ExpireAt" class="form-control" type="datetime-local" />
+<partial name="_UtcInput" />
                         <span asp-validation-for="ExpireAt" class="text-danger"></span>
                         <small class="form-text text-muted">@Localizer["Leave empty for no expiration."]</small>
                     </div>
