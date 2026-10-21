@@ -24,6 +24,9 @@
   <data name="Community" xml:space="preserve">
     <value>Topluluk</value>
   </data>
+  <data name="Create a short link" xml:space="preserve">
+    <value>Kısa bağlantı oluştur</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>Dokümantasyon</value>
   </data>

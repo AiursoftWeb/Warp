@@ -24,6 +24,9 @@
   <data name="Community" xml:space="preserve">
     <value>Społeczność</value>
   </data>
+  <data name="Create a short link" xml:space="preserve">
+    <value>Utwórz krótki link</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>Dokumentacja</value>
   </data>

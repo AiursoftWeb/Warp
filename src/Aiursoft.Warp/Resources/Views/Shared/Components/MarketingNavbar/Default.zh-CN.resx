@@ -24,6 +24,9 @@
   <data name="Community" xml:space="preserve">
     <value>社区</value>
   </data>
+  <data name="Create a short link" xml:space="preserve">
+    <value>创建短链接</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>文档</value>
   </data>
