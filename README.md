@@ -1,8 +1,8 @@
 # Warp
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AiursoftWeb/warp/blob/master/LICENSE)
-[![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
-[![Test Coverage](https://gitlab.aiursoft.com/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
+[![Pipeline stat](https://badge-proxy.aiursoft.com/aiursoft/warp/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
+[![Test Coverage](https://badge-proxy.aiursoft.com/aiursoft/warp/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/warp/-/pipelines)
 [![S360 compliance](https://s360.aiursoft.com/badge.svg?project=aiursoft%2Fwarp)](https://s360.aiursoft.com/SupplyChain?tab=projects&project=aiursoft%2Fwarp&scope=baseline&ecosystem=all)
 [![Man hours](https://manhours.aiursoft.com/r/github.com/aiursoftweb/warp.svg)](https://manhours.aiursoft.com/r/github.com/aiursoftweb/warp.html)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwarp.aiursoft.com)](https://warp.aiursoft.com)
