@@ -37,7 +37,7 @@
                                 <p>@Localizer["Your short link has been created:"]</p>
                                 <div class="input-group mt-2">
                                     <input type="text" class="form-control" value="@Model.CreatedShortLink" id="short-link-output" readonly>
-                                    <button class="btn btn-primary" type="button" id="copy-button" title="@Localizer["Copy to clipboard"]">
+                                    <button class="btn btn-primary" type="button" id="copy-button" data-copy-short-link="@Model.CreatedShortLink" title="@Localizer["Copy to clipboard"]">
                                         <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy"]
                                     </button>
                                 </div>
@@ -119,6 +119,8 @@
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
+    <partial name="_ShortLinkCopyFeedback" />
+    <script src="~/scripts/short-link-copy.js" asp-append-version="true" defer></script>
     <script>
         (function () {
             const showAdvancedCheckbox = document.getElementById('showAdvanced');
@@ -146,31 +148,6 @@
 
 
 
-            const copyButton = document.getElementById('copy-button');
-            if (copyButton) {
-                copyButton.addEventListener('click', function () {
-                    const linkInput = document.getElementById('short-link-output');
-                    linkInput.select();
-                    document.execCommand('copy');
-
-                    // Visual feedback
-                    const originalHtml = copyButton.innerHTML;
-                    // 注意：直接修改 innerHTML 可能会丢失 lucide 图标的 SVG 渲染，
-                    // 如果你的页面引入了 lucide.js，你可能需要调用 lucide.createIcons();
-                    // 为了稳妥，这里暂时只改文字，或者你可以保留原文字增加 Copied 状态
-                    copyButton.innerHTML = '<span class="align-middle">@Localizer["Copied!"]</span>';
-                    copyButton.classList.replace('btn-primary', 'btn-success');
-
-                    setTimeout(() => {
-                        copyButton.innerHTML = originalHtml;
-                        copyButton.classList.replace('btn-success', 'btn-primary');
-                        // 尝试重新渲染图标（如果环境里有这个函数）
-                        if (typeof lucide !== 'undefined' && lucide.createIcons) {
-                            lucide.createIcons();
-                        }
-                    }, 2000);
-                });
-            }
         })();
     </script>
 }
