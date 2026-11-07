@@ -118,7 +118,7 @@
                         <a href="@Model.ShortLink" target="_blank" class="btn btn-outline-primary">
                             <i class="align-middle" data-lucide="external-link"></i> @Localizer["Visit Link"]
                         </a>
-                        <button class="btn btn-outline-secondary" id="copy-btn" data-link="@Model.ShortLink">
+                        <button class="btn btn-outline-secondary" type="button" id="copy-btn" data-copy-short-link="@Model.ShortLink">
                             <i class="align-middle" data-lucide="copy"></i> @Localizer["Copy Link"]
                         </button>
                         <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger">
@@ -185,6 +185,8 @@
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
+    <partial name="_ShortLinkCopyFeedback" />
+    <script src="~/scripts/short-link-copy.js" asp-append-version="true" defer></script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
                 // Password Toggle
@@ -204,28 +206,6 @@
                     privateCheckbox.addEventListener('change', updateVisibilityUI);
                 }
 
-                // Copy Button
-                const copyBtn = document.getElementById('copy-btn');
-                if (copyBtn) {
-                    copyBtn.addEventListener('click', function() {
-                        const link = this.getAttribute('data-link');
-                        navigator.clipboard.writeText(link).then(() => {
-                            const originalHtml = this.innerHTML;
-                            this.innerHTML = '<i class="align-middle" data-lucide="check"></i> @Localizer["Copied!"]';
-                            this.classList.replace('btn-outline-secondary', 'btn-success');
-                            if (typeof lucide !== 'undefined') lucide.createIcons();
-
-                            setTimeout(() => {
-                                this.innerHTML = originalHtml;
-                                this.classList.replace('btn-success', 'btn-outline-secondary');
-                                if (typeof lucide !== 'undefined') lucide.createIcons();
-                            }, 2000);
-                        }).catch(err => {
-                            console.error('Failed to copy: ', err);
-                            alert('@Localizer["Failed to copy to clipboard"]');
-                        });
-                    });
-                }
             });
         </script>
 }

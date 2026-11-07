@@ -1,0 +1,27 @@
+<div id="short-link-text" hidden>
+    <span data-key="manual">@Localizer["Automatic copying is unavailable. Copy this link manually."]</span>
+</div>
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="short-link-toast" class="toast" role="status" aria-live="polite" aria-atomic="true">
+        <div class="toast-body">
+            <i class="align-middle me-2 text-success" data-lucide="check"></i>@Localizer["Link copied"]
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="short-link-modal" tabindex="-1" aria-labelledby="short-link-title" aria-describedby="short-link-manual-message" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="short-link-title">@Localizer["Short link"]</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="@Localizer["Close"]"></button>
+            </div>
+            <div class="modal-body">
+                <p id="short-link-manual-message">@Localizer["Automatic copying is unavailable. Copy this link manually."]</p>
+                <input type="text" id="short-link-input" class="form-control" aria-labelledby="short-link-title" readonly />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">@Localizer["Close"]</button>
+            </div>
+        </div>
+    </div>
+</div>
