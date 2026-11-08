@@ -47,7 +47,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="flex-shrink-0">
-                                                <div class="bg-body-tertiary rounded-2 p-2">
+                                                <div class="bg-body-tertiary rounded-2 p-1 p-sm-2">
                                         @if (item.IsPrivate)
                                         {
                                                                     <i class="align-middle text-warning" data-lucide="lock" title="@Localizer["Private Link"]"></i>
@@ -58,11 +58,11 @@
                                         }
                                                 </div>
                                             </div>
-                                            <div class="flex-grow-1 ms-3">
-                                                <div class="fw-bold text-dark">
+                                            <div class="flex-grow-1 ms-2 ms-sm-3" style="min-width: 0;">
+                                                <div class="fw-bold text-body link-name" title="@(string.IsNullOrEmpty(item.Title) ? item.RedirectTo : item.Title)">
                                         @(string.IsNullOrEmpty(item.Title) ? item.RedirectTo : item.Title)
                                                 </div>
-                                                <div class="small text-muted">
+                                                <div class="small text-muted link-code">
                                                     /r/@item.RedirectTo
                                         @if (item.IsCustom)
                                         {
@@ -81,9 +81,9 @@
                                     </td>
 
                                     <td class="align-middle">
-                                        <div class="d-flex flex-column w-100" style="min-width: 100px;">
+                                        <div class="d-flex flex-column w-100" style="min-width: 4rem;">
                                             <div class="d-flex justify-content-between mb-1">
-                                                <span class="text-dark fw-bold">@item.Clicks</span>
+                                                <span class="text-body fw-bold">@item.Clicks</span>
                                     @if (item.MaxClicks.HasValue)
                                     {
                                                                 <span class="text-muted small">/ @item.MaxClicks</span>
@@ -127,9 +127,9 @@
 
                                     <td class="text-end align-middle table-action">
                                         <div class="dropdown position-static" onclick="event.stopPropagation();">
-                                            <a href="#" data-bs-toggle="dropdown" data-bs-boundary="viewport">
-                                                <i class="align-middle text-muted" data-lucide="more-horizontal"></i>
-                                            </a>
+                                            <button type="button" class="btn link-actions text-body" data-bs-toggle="dropdown" data-bs-boundary="viewport" aria-expanded="false" aria-label="@string.Format(Localizer["Actions for {0}"].Value, string.IsNullOrEmpty(item.Title) ? item.RedirectTo : item.Title)" title="@Localizer["Actions"]">
+                                                <i class="align-middle" data-lucide="more-horizontal" aria-hidden="true"></i>
+                                            </button>
                                             <div class="dropdown-menu dropdown-menu-end">
                                                 <a class="dropdown-item" href="/r/@item.RedirectTo" target="_blank">
                                                     <i class="align-middle me-1" data-lucide="external-link"></i> @Localizer["Visit Link"]
@@ -150,6 +150,36 @@
         </table>
     </div>
 </div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <style>
+        #links-table .link-name,
+        #links-table .link-code { overflow-wrap: anywhere; }
+        #links-table .link-name {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+        @@media (max-width: 575.98px) {
+            #links-table th, #links-table td { padding: .75rem .5rem; }
+        }
+        #links-table .link-actions {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+        #links-table .link-actions:focus-visible { outline: 2px solid var(--bs-primary); outline-offset: -2px; }
+        /* Preserve Bootstrap's viewport positioning instead of the theme transform animation. */
+        #links-table .dropdown-menu.show { animation: none; }
+    </style>
+}
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section scripts {
