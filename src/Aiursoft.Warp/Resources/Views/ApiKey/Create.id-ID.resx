@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>Buat Kunci API</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>misalnya Aplikasi Saya</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Biarkan kosong agar tidak kedaluwarsa.</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>Detail Kunci API Baru</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>misalnya Aplikasi Saya</value>
   </data>
 
 </root>

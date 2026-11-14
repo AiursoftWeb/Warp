@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>API 키 생성</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>예: 내 앱</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>만료 없음을 원하면 비워두세요.</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>새 API 키 세부 정보</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>예: 내 앱</value>
   </data>
 
 </root>

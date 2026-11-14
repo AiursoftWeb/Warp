@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>Voltar à Lista</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>cliques utilizados</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Copiado!</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Visitar Ligação</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>cliques utilizados</value>
   </data>
 
 </root>

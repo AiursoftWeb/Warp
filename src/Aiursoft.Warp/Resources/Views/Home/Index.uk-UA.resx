@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Простий інструмент для скорочення та керування вашими посиланнями.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Переклади на основі ШІ</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Пароль доступу</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Розширені налаштування</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Переклади на основі ШІ</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template — це наш остаточний вибір для корпоративних проектів! Він створений для розробників, легкий, але потужний. Ми можемо пропустити всю стандартну роботу з аутентифікації та управління користувачами.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Динамічна навігаційна панель</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>напр.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>напр.: Акція &quot;Подвійна одинадцятка&quot;</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>наприклад: Сторінка події «Подвійна одинадцятка»</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>напр.: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>наприклад: my-product або залиште порожнім</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Легко перемикайтеся між провайдерами, такими як SQLite, MySQL, SQL Server, та оперативною пам&apos;яттю для тестування.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Швидко</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>швидше</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Особливості</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Містить вбудовану систему керування файлами з автоматичним стисненням аватарів.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>для будь-яких запитів або повідомлення про проблеми.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Лише для внутрішньої ідентифікації.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Залиште порожнім, щоб зробити це посилання публічним. Якщо заповнити, посилання буде приватним.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Скорочувач посилань</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Посилання стає недійсним після досягнення цього обмеження.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Скорочувач посилань</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Ліцензія MIT</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Зробити це посилання приватним</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Максимальна кількість кліків (необов’язково)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Ліцензія MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Підтримка кількох баз даних</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Що кажуть наші розробники</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Чому варто використовувати шаблон Aiursoft?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Чому Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Чому варто використовувати шаблон Aiursoft?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Так, Aiursoft Template є повністю безкоштовним та відкритим програмним забезпеченням з ліцензією MIT. Ви можете використовувати його для особистих та комерційних проектів без будь-якої плати.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Ваше коротке посилання створено:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>напр.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>напр.: Акція &quot;Подвійна одинадцятка&quot;</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>наприклад: Сторінка події «Подвійна одинадцятка»</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>напр.: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>наприклад: my-product або залиште порожнім</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>швидше</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>для будь-яких запитів або повідомлення про проблеми.</value>
   </data>
 
 </root>

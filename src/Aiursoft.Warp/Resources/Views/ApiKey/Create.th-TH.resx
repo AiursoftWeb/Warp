@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>สร้างคีย์ API</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>เช่น แอปของฉัน</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>ปล่อยว่างไว้หากไม่ต้องการกำหนดวันหมดอายุ</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>รายละเอียดคีย์ API ใหม่</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>เช่น แอปของฉัน</value>
   </data>
 
 </root>

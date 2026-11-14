@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>Πίσω στη Λίστα</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>κλικ χρησιμοποιήθηκαν</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Αντιγράφτηκε!</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Επισκεφθείτε τον Σύνδεσμο</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>κλικ χρησιμοποιήθηκαν</value>
   </data>
 
 </root>

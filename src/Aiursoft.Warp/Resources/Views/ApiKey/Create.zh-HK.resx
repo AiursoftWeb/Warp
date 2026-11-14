@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>建立 API 金鑰</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>例如：我的應用程式</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>留空表示永不過期。</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>新 API 金鑰詳情</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>例如：我的應用程式</value>
   </data>
 
 </root>

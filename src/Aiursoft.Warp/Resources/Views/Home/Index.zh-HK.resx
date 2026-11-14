@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>一個簡單嘅工具，用嚟縮短同管理你嘅連結。</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>人工智能驅動翻譯</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>存取密碼</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>進階設定</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>人工智能驅動翻譯</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template 係我哋企業項目嘅不二之選！佢專為開發者打造，輕量之餘功能強大。我哋可以跳過所有驗證同用戶管理嘅樣板代碼。</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>動態導航欄</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>例如：100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>例如：雙十一活動</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>例如：雙十一活動頁面</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>例如：my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>例如：my-product 或留空</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>輕鬆切換不同供應商，例如 SQLite、MySQL、SQL Server 同記憶體數據庫，方便測試。</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>快速</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>更快</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>功能</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>內置檔案管理系統，具備自動頭像壓縮功能。</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>如有任何查詢或報告問題。</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>僅供內部識別。</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>留空即可公開此連結。若填寫，連結將設為私人。</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>短連結生成器</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>連結在達到此限制後失效。</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>短連結生成器</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT 許可證</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>將此連結設為私人</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>最大點擊次數（可選）</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT 許可證</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>多種數據庫支援</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>我哋嘅開發者點樣講</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>點解要用 Aiursoft 模板？</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>點解要揀 Warp？</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>點解要用 Aiursoft 模板？</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>係嘅，Aiursoft Template 係完全免費同開源嘅，採用 MIT 許可證。你可以用喺個人同商業項目度，唔使畀任何費用。</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>您的短連結已建立：</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>例如：100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>例如：雙十一活動</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>例如：雙十一活動頁面</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>例如：my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>例如：my-product 或留空</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>更快</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>如有任何查詢或報告問題。</value>
   </data>
 
 </root>

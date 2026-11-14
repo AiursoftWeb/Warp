@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Bağlantılarınızı kısaltmak ve yönetmek için basit bir araç.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Yapay Zeka Destekli Çeviriler</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Erişim Şifresi</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Gelişmiş Ayarlar</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Yapay Zeka Destekli Çeviriler</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template, kurumsal projeler için nihai tercihimizdir! Geliştiriciler için tasarlandı, hafif ama güçlüdür. Kimlik doğrulama ve kullanıcı yönetimi için gerekli tüm standart kodlardan kurtulabiliriz.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dinamik Gezinti Çubuğu</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>örn.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>örn.: Çift Onbir Kampanyası</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>örn.: Çift Onbir Etkinlik Sayfası</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>örn.: ürünüm</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>örn.: my-product veya boş bırakın</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server gibi sağlayıcılar ile testler için kullanılan bellek içi veritabanı arasında kolayca geçiş yapın.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Hızlı</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>daha hızlı</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Özellikler</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Otomatik avatar sıkıştırmalı, dahili bir dosya yönetim sistemi özelliği sunar.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>her türlü soru veya sorun bildirimi için.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Yalnızca dahili tanımlama için.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Boş bırakırsanız bu bağlantı herkese açık olur. Doldurursanız, bağlantı özel olacaktır.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Bağlantı Kısaltıcı</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Bu sınıra ulaşıldığında bağlantı geçerliliğini yitirir.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Bağlantı Kısaltıcı</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT Lisansı</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Bu bağlantıyı Özel yap</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Maksimum Tıklama (İsteğe Bağlı)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT Lisansı</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Çoklu Veritabanı Desteği</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Geliştiricilerimizin Görüşleri</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Neden Aiursoft Template Kullanmalısınız?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Neden Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Neden Aiursoft Template Kullanmalısınız?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Evet, Aiursoft Template MIT Lisansı altında tamamen ücretsiz ve açık kaynaklıdır. Kişisel ve ticari projelerinizde hiçbir ücret ödemeden kullanabilirsiniz.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Kısa bağlantınız oluşturuldu:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>örn.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>örn.: Çift Onbir Kampanyası</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>örn.: Çift Onbir Etkinlik Sayfası</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>örn.: ürünüm</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>örn.: my-product veya boş bırakın</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>daha hızlı</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>her türlü soru veya sorun bildirimi için.</value>
   </data>
 
 </root>

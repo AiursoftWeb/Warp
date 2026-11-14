@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>Listeye Dön</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>kullanılan tıklamalar</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopyalandı!</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Bağlantıyı Ziyaret Et</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>kullanılan tıklamalar</value>
   </data>
 
 </root>

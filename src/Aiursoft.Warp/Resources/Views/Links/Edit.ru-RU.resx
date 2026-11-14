@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>Назад к списку</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>использовано переходов</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Скопировано!</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Перейти по ссылке</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>использовано переходов</value>
   </data>
 
 </root>

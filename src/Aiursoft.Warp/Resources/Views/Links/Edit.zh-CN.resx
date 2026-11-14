@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>返回列表</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>已使用点击次数</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>已复制！</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>访问链接</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>已使用点击次数</value>
   </data>
 
 </root>

@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>A simple tool to shorten and manage your links.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-Powered Translations</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Access Password</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Advanced Settings</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-Powered Translations</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamic Navigation Bar</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>e.g.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>e.g.: Double Eleven Campaign</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>e.g.: Double Eleven Event Page</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>e.g.: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>e.g.: my-product or leave blank</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Easily switch between providers such as SQLite, MySQL, SQL Server, and an in-memory database for testing.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Fast</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>quicker</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Features</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Features a built-in file management system with automatic profile picture compression.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>for any enquiries or to report issues.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>For internal identification only.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Leave this field blank to make the link public. If a password is entered, the link will be private.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Link Shortener</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Link expires after reaching this limit.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Link Shortener</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT License</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Make this link Private</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Maximum Clicks (Optional)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT License</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Multiple Database Support</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>What our developers say</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Why use the Aiursoft Template?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Why Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Why use the Aiursoft Template?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Yes, Aiursoft Template is completely free and open-source under the MIT Licence. You can use it for personal and commercial projects without any cost.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Your short link has been created:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>e.g.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>e.g.: Double Eleven Campaign</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>e.g.: Double Eleven Event Page</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>e.g.: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>e.g.: my-product or leave blank</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>quicker</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>for any enquiries or to report issues.</value>
   </data>
 
 </root>
