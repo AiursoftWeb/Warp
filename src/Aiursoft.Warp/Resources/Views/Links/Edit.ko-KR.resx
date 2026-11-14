@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>목록으로 돌아가기</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>사용된 클릭 수</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>복사 완료!</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>링크 방문</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>사용된 클릭 수</value>
   </data>
 
 </root>

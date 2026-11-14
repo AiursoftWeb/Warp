@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Ένα απλό εργαλείο για να συντομεύετε και να διαχειρίζεστε τους συνδέσμους σας.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Κωδικός Πρόσβασης</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Προηγμένες Ρυθμίσεις</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Το Aiursoft Template είναι η απόλυτη μας επιλογή για εταιρικά έργα! Είναι φτιαγμένο για προγραμματιστές και είναι ελαφρύ αλλά και ισχυρό. Μπορούμε να παραλείψουμε όλο τον τυπικό κώδικα για την ταυτοποίηση και τη διαχείριση χρηστών.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Δυναμική Γραμμή Πλοήγησης</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>π.χ.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>π.χ.: Εκστρατεία Double Eleven</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>π.χ.: Σελίδα Εκδήλωσης Double Eleven</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>π.χ.: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>π.χ.: my-product ή αφήστε το κενό</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Εύκολη εναλλαγή μεταξύ παρόχων όπως SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Γρήγορο</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>γρηγορότερα</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Λειτουργίες</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Μόνο για εσωτερική αναγνώριση.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Αφήστε το κενό για να είναι ο σύνδεσμος δημόσιος. Αν συμπληρωθεί, ο σύνδεσμος θα είναι ιδιωτικός.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Συντομευτής Συνδέσμων</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Ο σύνδεσμος λήγει μετά την επίτευξη αυτού του ορίου.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Συντομευτής Συνδέσμων</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Άδεια MIT</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Κάντε αυτόν τον σύνδεσμο Ιδιωτικό</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Μέγιστος Αριθμός Κλικ (Προαιρετικό)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Άδεια MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Τι λένε οι προγραμματιστές μας</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Γιατί το Warp;</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Ο σύντομος σύνδεσμός σας δημιουργήθηκε:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>π.χ.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>π.χ.: Εκστρατεία Double Eleven</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>π.χ.: Σελίδα Εκδήλωσης Double Eleven</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>π.χ.: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>π.χ.: my-product ή αφήστε το κενό</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>γρηγορότερα</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
   </data>
 
 </root>

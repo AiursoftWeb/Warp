@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Простой инструмент для сокращения и управления вашими ссылками.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Переводы на основе ИИ</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Пароль для доступа</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Дополнительные настройки</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Переводы на основе ИИ</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template — это наш окончательный выбор для корпоративных проектов! Он создан для разработчиков, легковесный, но мощный. Мы можем пропустить всю стандартную работу по аутентификации и управлению пользователями.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Динамическая панель навигации</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>напр.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>напр.: Акция «Двойная одиннадцатка»</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>например: Страница акции «Двойная одиннадцать»</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>например: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>например: my-product или оставьте пустым</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Легко переключайтесь между поставщиками, такими как SQLite, MySQL, SQL Server, и используйте базу данных в памяти для тестирования.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Быстро</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>быстрее</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Возможности</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Оснащена встроенной системой управления файлами с автоматическим сжатием аватаров.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>по любым вопросам или для сообщения о проблемах.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Только для внутренней идентификации.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Оставьте пустым, чтобы сделать ссылку публичной. Если заполнено, ссылка будет приватной.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Сокращатель ссылок</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Ссылка станет недействительной после достижения этого лимита.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Сокращатель ссылок</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Лицензия MIT</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Сделать ссылку приватной</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Максимум переходов (необязательно)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Лицензия MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Поддержка нескольких баз данных</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Что говорят наши разработчики</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Почему стоит использовать шаблон Aiursoft?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Почему Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Почему стоит использовать шаблон Aiursoft?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Да, Aiursoft Template полностью бесплатен и имеет открытый исходный код под лицензией MIT. Вы можете использовать его для личных и коммерческих проектов без каких-либо затрат.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Ваша короткая ссылка создана:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>напр.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>напр.: Акция «Двойная одиннадцатка»</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>например: Страница акции «Двойная одиннадцать»</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>например: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>например: my-product или оставьте пустым</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>быстрее</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>по любым вопросам или для сообщения о проблемах.</value>
   </data>
 
 </root>

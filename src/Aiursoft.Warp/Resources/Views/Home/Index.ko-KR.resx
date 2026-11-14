@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>링크를 단축하고 관리하는 간단한 도구입니다.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI 기반 번역</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>접근 비밀번호</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>고급 설정</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI 기반 번역</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template은 엔터프라이즈 프로젝트를 위한 최적의 선택입니다! 개발자를 위해 제작되었으며 가볍지만 강력한 성능을 자랑합니다. 인증 및 사용자 관리와 관련된 모든 상용구 코드를 생략할 수 있습니다.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>동적 내비게이션 바</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>예: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>예: 더블 일레븐 캠페인</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>예: 더블 일레븐 이벤트 페이지</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>예: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>예: my-product 또는 비워두기</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server 및 테스트용 인메모리 데이터베이스와 같은 프로바이더 간에 쉽게 전환할 수 있습니다.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>빠름</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>더 빠르게</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>기능</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>자동 아바타 압축 기능이 포함된 내장 파일 관리 시스템을 갖추고 있습니다.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>문의 사항이 있거나 문제를 보고하려면</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>내부 식별용으로만 사용됩니다.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>비워두면 이 링크는 공개됩니다. 입력하면 링크는 비공개가 됩니다.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>링크 단축기</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>이 제한에 도달하면 링크가 만료됩니다.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>링크 단축기</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT 라이선스</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>이 링크를 비공개로 설정</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>최대 클릭 수 (선택 사항)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT 라이선스</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>다중 데이터베이스 지원</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>개발자들의 평가</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Aiursoft 템플릿을 사용하는 이유</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Warp를 선택하는 이유는?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft 템플릿을 사용하는 이유</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>네, Aiursoft Template은 MIT 라이선스 하에 완전히 무료이며 오픈 소스입니다. 개인 및 상업 프로젝트에 무료로 사용하실 수 있습니다.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>짧은 링크가 생성되었습니다:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>예: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>예: 더블 일레븐 캠페인</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>예: 더블 일레븐 이벤트 페이지</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>예: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>예: my-product 또는 비워두기</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>더 빠르게</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>문의 사항이 있거나 문제를 보고하려면</value>
   </data>
 
 </root>

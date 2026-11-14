@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Een eenvoudig hulpmiddel om uw links te verkorten en te beheren.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-aangedreven vertalingen</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Toegangswachtwoord</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Geavanceerde instellingen</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-aangedreven vertalingen</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template is onze definitieve keuze voor enterprise projecten! Het is gebouwd voor ontwikkelaars en is lichtgewicht maar krachtig. We kunnen alle standaardcode voor authenticatie en gebruikersbeheer overslaan.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamische navigatiebalk</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>bijv.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>bijv.: Dubbele Elf Campagne</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>bijv.: Double Eleven Event-pagina</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>bijv.: mijn-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>bijv.: mijn-product of leeg laten</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Schakel eenvoudig tussen providers zoals SQLite, MySQL, SQL Server en een in-memory database voor testen.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Snel</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>sneller</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Functies</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Beschikt over een ingebouwd bestandsbeheersysteem met automatische avatarcompressie.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>voor vragen of om problemen te melden.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Alleen voor interne identificatie.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Laat leeg om deze link openbaar te maken. Als u een wachtwoord invult, wordt de link privé.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Linkverkorter</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>De link verloopt na het bereiken van deze limiet.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Linkverkorter</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licentie</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Maak deze link privé</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Maximaal aantal klikken (Optioneel)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-licentie</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Ondersteuning voor meerdere databases</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Wat onze ontwikkelaars zeggen</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Waarom de Aiursoft Template gebruiken?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Waarom Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Waarom de Aiursoft Template gebruiken?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ja, Aiursoft Template is volledig gratis en open-source onder de MIT-licentie. Je kunt het zonder enige kosten gebruiken voor zowel persoonlijke als commerciële projecten.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Uw korte link is aangemaakt:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>bijv.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>bijv.: Dubbele Elf Campagne</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>bijv.: Double Eleven Event-pagina</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>bijv.: mijn-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>bijv.: mijn-product of leeg laten</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>sneller</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>voor vragen of om problemen te melden.</value>
   </data>
 
 </root>

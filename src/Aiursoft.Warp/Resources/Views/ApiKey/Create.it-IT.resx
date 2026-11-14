@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>Crea chiave API</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>ad es. La mia app</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Lasciare vuoto per nessuna scadenza.</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>Dettagli della nuova chiave API</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>ad es. La mia app</value>
   </data>
 
 </root>

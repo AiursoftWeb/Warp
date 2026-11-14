@@ -24,9 +24,6 @@
   <data name="Back to List" xml:space="preserve">
     <value>Tilbage til listen</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>klik brugt</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>Kopieret!</value>
   </data>
@@ -143,6 +140,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>Besøg link</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>klik brugt</value>
   </data>
 
 </root>

@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Et simpelt værktøj til at forkorte og administrere dine links.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-drevne oversættelser</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Adgangskode</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Avancerede Indstillinger</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-drevne oversættelser</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template er vores endegyldige valg til enterprise-projekter! Den er bygget til udviklere og er letvægtig, men alligevel kraftfuld. Vi kan springe al standardkode til godkendelse og brugeradministration over.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamisk Navigationslinje</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>f.eks.: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>f.eks.: Double Eleven-kampagne</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>f.eks.: Double Eleven Event Side</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>f.eks.: mit-produkt</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>f.eks.: mit-produkt eller lad være tom</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Skift nemt mellem udbydere som SQLite, MySQL, SQL Server og en hukommelsesdatabase til test.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Hurtig</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>hurtigere</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Har et indbygget filhåndteringssystem med automatisk avatar-komprimering.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>for eventuelle henvendelser eller for at rapportere problemer.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Kun til intern identifikation.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Lad feltet stå tomt for at gøre linket offentligt. Hvis det udfyldes, vil linket være privat.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Linkforkorter</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Linket udløber efter at have nået denne grænse.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Linkforkorter</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licens</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Gør dette link privat</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Maks. klik (valgfrit)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-licens</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Understøttelse af flere databaser</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Hvad vores udviklere siger</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Hvorfor bruge Aiursoft Template?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>Hvorfor Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Hvorfor bruge Aiursoft Template?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ja, Aiursoft Template er helt gratis og open-source under MIT-licensen. Du kan bruge det til både personlige og kommercielle projekter uden nogen omkostninger.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Din korte link er blevet oprettet:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>f.eks.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>f.eks.: Double Eleven-kampagne</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>f.eks.: Double Eleven Event Side</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>f.eks.: mit-produkt</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>f.eks.: mit-produkt eller lad være tom</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>hurtigere</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>for eventuelle henvendelser eller for at rapportere problemer.</value>
   </data>
 
 </root>

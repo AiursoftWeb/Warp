@@ -21,9 +21,6 @@
       <data name="Back to List" xml:space="preserve">
     <value>リストに戻る</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>クリック使用済み</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>コピーしました！</value>
   </data>
@@ -125,6 +122,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>リンクを開く</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>クリック使用済み</value>
   </data>
 
 </root>

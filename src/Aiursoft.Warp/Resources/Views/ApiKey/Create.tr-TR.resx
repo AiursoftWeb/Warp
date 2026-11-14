@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>API Anahtarı Oluştur</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>örn. Uygulamam</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Süresiz olması için boş bırakın.</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>Yeni API Anahtarı Detayları</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>örn. Uygulamam</value>
   </data>
 
 </root>

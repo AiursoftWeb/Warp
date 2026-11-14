@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>เครื่องมือง่ายๆ สำหรับย่อและจัดการลิงก์ของคุณ</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>การแปลด้วยพลัง AI</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>รหัสผ่านสำหรับการเข้าถึง</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>การตั้งค่าขั้นสูง</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>การแปลด้วยพลัง AI</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template คือตัวเลือกที่ดีที่สุดสำหรับโครงการระดับองค์กร! มันถูกสร้างขึ้นสำหรับนักพัฒนา มีน้ำหนักเบาแต่ทรงพลัง เราสามารถข้ามขั้นตอนพื้นฐานสำหรับการยืนยันตัวตนและการจัดการผู้ใช้ได้ทั้งหมด</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>แถบนำทางแบบไดนามิก</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>เช่น: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>เช่น: แคมเปญดับเบิลอีเลฟเว่น</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>เช่น: หน้าโปรโมชันวันคนโสด (Double Eleven)</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>เช่น: my-product</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>เช่น: my-product หรือปล่อยว่างไว้</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>เปลี่ยนระหว่างผู้ให้บริการอย่าง SQLite, MySQL, SQL Server และฐานข้อมูลในหน่วยความจำสำหรับการทดสอบได้อย่างง่ายดาย</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>รวดเร็ว</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>เร็วขึ้น</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>คุณสมบัติ</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>มีระบบจัดการไฟล์ในตัวพร้อมการบีบอัดอวาตาร์อัตโนมัติ</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>สำหรับข้อสงสัยใดๆ หรือเพื่อรายงานปัญหา</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>สำหรับการระบุภายในเท่านั้น</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>ปล่อยว่างไว้เพื่อให้ลิงก์นี้เป็นสาธารณะ หากกรอกข้อมูล ลิงก์จะเป็นการส่วนตัว</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>ตัวย่อลิงก์</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>ลิงก์จะหมดอายุหลังจากถึงขีดจำกัดนี้</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>ตัวย่อลิงก์</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>สัญญาอนุญาต MIT</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>ทำให้ลิงก์นี้เป็นส่วนตัว</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>จำนวนคลิกสูงสุด (ไม่บังคับ)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>สัญญาอนุญาต MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>รองรับหลายฐานข้อมูล</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>นักพัฒนาของเราพูดว่าอย่างไร</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>ทำไมจึงควรใช้ Aiursoft Template?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>ทำไมต้องใช้ Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>ทำไมจึงควรใช้ Aiursoft Template?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>ใช่แล้ว Aiursoft Template นั้นฟรีและเป็นโอเพนซอร์สสมบูรณ์ภายใต้สัญญาอนุญาต MIT คุณสามารถใช้งานสำหรับโครงการส่วนตัวและเชิงพาณิชย์ได้โดยไม่มีค่าใช้จ่ายใดๆ</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>ลิงก์สั้นของคุณถูกสร้างแล้ว:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>เช่น: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>เช่น: แคมเปญดับเบิลอีเลฟเว่น</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>เช่น: หน้าโปรโมชันวันคนโสด (Double Eleven)</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>เช่น: my-product</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>เช่น: my-product หรือปล่อยว่างไว้</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>เร็วขึ้น</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>สำหรับข้อสงสัยใดๆ หรือเพื่อรายงานปัญหา</value>
   </data>
 
 </root>

@@ -24,9 +24,6 @@
   <data name="Back to List" xml:space="preserve">
     <value>العودة إلى القائمة</value>
   </data>
-  <data name="clicks used" xml:space="preserve">
-    <value>نقرات مستخدمة</value>
-  </data>
   <data name="Copied!" xml:space="preserve">
     <value>تم النسخ!</value>
   </data>
@@ -143,6 +140,9 @@
   </data>
   <data name="Visit Link" xml:space="preserve">
     <value>زيارة الرابط</value>
+  </data>
+  <data name="clicks used" xml:space="preserve">
+    <value>نقرات مستخدمة</value>
   </data>
 
 </root>

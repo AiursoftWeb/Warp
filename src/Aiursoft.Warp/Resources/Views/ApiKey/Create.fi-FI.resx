@@ -27,14 +27,14 @@
   <data name="Create API Key" xml:space="preserve">
     <value>Luo API-avain</value>
   </data>
-  <data name="e.g. My App" xml:space="preserve">
-    <value>esim. Oma sovellukseni</value>
-  </data>
   <data name="Leave empty for no expiration." xml:space="preserve">
     <value>Jätä tyhjäksi, jos avain ei vanhene.</value>
   </data>
   <data name="New API Key Details" xml:space="preserve">
     <value>Uuden API-avaimen tiedot</value>
+  </data>
+  <data name="e.g. My App" xml:space="preserve">
+    <value>esim. Oma sovellukseni</value>
   </data>
 
 </root>

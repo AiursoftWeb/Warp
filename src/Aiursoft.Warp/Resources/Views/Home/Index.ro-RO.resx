@@ -33,6 +33,9 @@
   <data name="A simple tool to shorten and manage your links." xml:space="preserve">
     <value>Un instrument simplu pentru a scurta și gestiona linkurile tale.</value>
   </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Traduceri alimentate de IA</value>
+  </data>
   <data name="Access Password" xml:space="preserve">
     <value>Parolă de acces</value>
   </data>
@@ -44,9 +47,6 @@
   </data>
   <data name="Advanced Settings" xml:space="preserve">
     <value>Setări Avansate</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Traduceri alimentate de IA</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template este alegerea noastră definitivă pentru proiectele enterprise! Este construit pentru dezvoltatori și este ușor, dar puternic. Putem sărim peste toate secțiunile repetitive pentru autentificare și managementul utilizatorilor.</value>
@@ -114,21 +114,6 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Bara de Navigare Dinamică</value>
   </data>
-  <data name="e.g.: 100" xml:space="preserve">
-    <value>exemplu: 100</value>
-  </data>
-  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
-    <value>exemplu: Campania Double Eleven</value>
-  </data>
-  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
-    <value>ex.: Pagina Evenimentului Double Eleven</value>
-  </data>
-  <data name="e.g.: my-product" xml:space="preserve">
-    <value>exemplu: produsul-meu</value>
-  </data>
-  <data name="e.g.: my-product or leave empty" xml:space="preserve">
-    <value>de ex.: my-product sau lăsați gol</value>
-  </data>
   <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Comută cu ușurință între furnizori precum SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
   </data>
@@ -147,17 +132,11 @@
   <data name="Fast" xml:space="preserve">
     <value>Rapid</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>mai rapid</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Funcționalități</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Include un sistem integrat de gestionare a fișierelor cu compresie automată a avatarurilor.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>pentru orice întrebări sau pentru a raporta probleme.</value>
   </data>
   <data name="For internal identification only." xml:space="preserve">
     <value>Doar pentru identificare internă.</value>
@@ -213,11 +192,14 @@
   <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
     <value>Lăsați necompletat pentru ca acest link să fie public. Dacă este completat, linkul va fi privat.</value>
   </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Scurtător de linkuri</value>
+  </data>
   <data name="Link expires after reaching this limit." xml:space="preserve">
     <value>Link-ul expiră după atingerea acestei limite.</value>
   </data>
-  <data name="Link Shorter" xml:space="preserve">
-    <value>Scurtător de linkuri</value>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Licență MIT</value>
   </data>
   <data name="Make this link Private" xml:space="preserve">
     <value>Faceți acest link privat</value>
@@ -230,9 +212,6 @@
   </data>
   <data name="Max Clicks (Optional)" xml:space="preserve">
     <value>Număr maxim de clicuri (Opțional)</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Licență MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Suport pentru Multiple Baze de Date</value>
@@ -372,11 +351,11 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Ce spun dezvoltatorii noștri</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>De ce să folosești Șablonul Aiursoft?</value>
-  </data>
   <data name="Why Warp?" xml:space="preserve">
     <value>De ce Warp?</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>De ce să folosești Șablonul Aiursoft?</value>
   </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Da, Aiursoft Template este complet gratuit și open-source sub Licența MIT. Îl puteți utiliza pentru proiecte personale și comerciale fără niciun cost.</value>
@@ -389,6 +368,27 @@
   </data>
   <data name="Your short link has been created:" xml:space="preserve">
     <value>Linkul dvs. scurt a fost creat:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>exemplu: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>exemplu: Campania Double Eleven</value>
+  </data>
+  <data name="e.g.: Double Eleven Event Page" xml:space="preserve">
+    <value>ex.: Pagina Evenimentului Double Eleven</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>exemplu: produsul-meu</value>
+  </data>
+  <data name="e.g.: my-product or leave empty" xml:space="preserve">
+    <value>de ex.: my-product sau lăsați gol</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>mai rapid</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>pentru orice întrebări sau pentru a raporta probleme.</value>
   </data>
 
 </root>
