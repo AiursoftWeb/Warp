@@ -1,6 +1,5 @@
 using System.Security.Claims;
 using Aiursoft.Warp.Configuration;
-using Aiursoft.Warp.Entities;
 using Aiursoft.Warp.Services.Authentication;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
