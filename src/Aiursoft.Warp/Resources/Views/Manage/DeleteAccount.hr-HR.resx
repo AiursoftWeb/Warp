@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>Jeste li sigurni da želite obrisati svoj račun?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zona opasnosti</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Brisanje računa</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>Obriši podatke računa</value>
+  </data>
+  <data name="Note about your Shortened Links:" xml:space="preserve">
+    <value>Napomena o vašim skraćenim linkovima:</value>
+  </data>
+  <data name="This action will permanently erase your profile and API keys from our servers." xml:space="preserve">
+    <value>Ova radnja trajno će izbrisati vaš profil i API ključeve s naših poslužitelja.</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>Da, obriši moj račun</value>
+  </data>
+  <data name="Your existing shortened links will NOT be deleted. They will become &apos;headless&apos; links and will continue to redirect users successfully. However, you will lose the ability to manage or track them. Only site administrators will be able to manage them." xml:space="preserve">
+    <value>Vaši postojeći skraćeni linkovi NEĆE biti obrisani. Postat će &apos;glavni&apos; linkovi i i dalje će uspješno preusmjeravati korisnike. Međutim, izgubit ćete mogućnost upravljanja ili praćenja. Samo administratori stranice moći će ih upravljati.</value>
+  </data>
+
+</root>

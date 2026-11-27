@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Access Password" xml:space="preserve">
+    <value>Lozinka za pristup</value>
+  </data>
+  <data name="Advanced Settings" xml:space="preserve">
+    <value>Napredna podešavanja</value>
+  </data>
+  <data name="Analytics" xml:space="preserve">
+    <value>Analitika</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="Copy to clipboard" xml:space="preserve">
+    <value>Kopiraj u međuspremnik</value>
+  </data>
+  <data name="Create New Link" xml:space="preserve">
+    <value>Kreiraj novu vezu</value>
+  </data>
+  <data name="Create Short Link" xml:space="preserve">
+    <value>Kreiraj kratku poveznicu</value>
+  </data>
+  <data name="Custom Code" xml:space="preserve">
+    <value>Prilagođeni kod</value>
+  </data>
+  <data name="Enter access password" xml:space="preserve">
+    <value>Unesite lozinku za pristup</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vrijeme isteka</value>
+  </data>
+  <data name="Fast" xml:space="preserve">
+    <value>Brzo</value>
+  </data>
+  <data name="For internal identification only." xml:space="preserve">
+    <value>Samo za unutarnju identifikaciju.</value>
+  </data>
+  <data name="Generate short links instantly with our optimized infrastructure." xml:space="preserve">
+    <value>Generirajte kratke poveznice trenutno pomoću naše optimizirane infrastrukture.</value>
+  </data>
+  <data name="Leave empty to auto-generate." xml:space="preserve">
+    <value>Ostavite prazno za automatsko generiranje.</value>
+  </data>
+  <data name="Leave empty to make this link public. If filled, the link will be private." xml:space="preserve">
+    <value>Ostavite prazno da biste ovaj link učinili javnim. Ako je popunjeno, link će biti privatni.</value>
+  </data>
+  <data name="Link Shorter" xml:space="preserve">
+    <value>Kraticanje linkova</value>
+  </data>
+  <data name="Link expires after reaching this limit." xml:space="preserve">
+    <value>Povezica istječe nakon što se dosegne ovo ograničenje.</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maksimalan broj klikova</value>
+  </data>
+  <data name="Optional. Leave empty for permanent." xml:space="preserve">
+    <value>Neobavezno. Ostavite prazno za trajno.</value>
+  </data>
+  <data name="Please enter the complete URL, e.g.:" xml:space="preserve">
+    <value>Unesite potpuni URL, npr.:</value>
+  </data>
+  <data name="Protect your links with passwords and manage access control." xml:space="preserve">
+    <value>Zaštitite svoje veze lozinkama i upravljajte kontrolom pristupa.</value>
+  </data>
+  <data name="Secure" xml:space="preserve">
+    <value>Sigurno</value>
+  </data>
+  <data name="Shorten Your Links" xml:space="preserve">
+    <value>Skraćite svoje poveznice</value>
+  </data>
+  <data name="Sign In to Start" xml:space="preserve">
+    <value>Prijavite se za početak</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Uspješno!</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Ciljana URL</value>
+  </data>
+  <data name="Title / Remark" xml:space="preserve">
+    <value>Naslov / Napomena</value>
+  </data>
+  <data name="Track clicks and understand your audience with detailed stats." xml:space="preserve">
+    <value>Prahajte klikove i razumijte svoju publiku pomoću detaljne statistike.</value>
+  </data>
+  <data name="Warp is a powerful URL shortener that helps you manage your links, track clicks, and share content with ease. Create short, memorable links for your business or personal use." xml:space="preserve">
+    <value>Warp je moćan alat za skraćivanje URL-ova koji vam pomaže upravljati vezama, pratiti klikove i dijeliti sadržaj s lakoćom. Stvarajte kratke, pamtljive veze za poslovnu ili osobnu upotrebu.</value>
+  </data>
+  <data name="Why Warp?" xml:space="preserve">
+    <value>Zašto Warp?</value>
+  </data>
+  <data name="Your short link has been created:" xml:space="preserve">
+    <value>Vaša kratka poveznica je kreirana:</value>
+  </data>
+  <data name="e.g.: 100" xml:space="preserve">
+    <value>npr.: 100</value>
+  </data>
+  <data name="e.g.: Double Eleven Campaign" xml:space="preserve">
+    <value>npr.: Kampanja Dvostruki jedanaest</value>
+  </data>
+  <data name="e.g.: my-product" xml:space="preserve">
+    <value>npr.: my-product</value>
+  </data>
+
+</root>
