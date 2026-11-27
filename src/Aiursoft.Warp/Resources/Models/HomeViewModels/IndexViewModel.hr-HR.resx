@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Custom Code" xml:space="preserve">
+    <value>Prilagođeni kod</value>
+  </data>
+  <data name="Custom code can only contain letters, numbers, and hyphens, and be up to 30 characters long." xml:space="preserve">
+    <value>Prilagođeni kod može sadržavati samo slova, brojeve i crtice, te može imati najviše 30 znakova.</value>
+  </data>
+  <data name="Expiration Time" xml:space="preserve">
+    <value>Vrijeme isteka</value>
+  </data>
+  <data name="Max Clicks" xml:space="preserve">
+    <value>Maks. broj klikova</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lozinka</value>
+  </data>
+  <data name="Please input your target link!" xml:space="preserve">
+    <value>Unesite svoju ciljanu vezu!</value>
+  </data>
+  <data name="Private Link" xml:space="preserve">
+    <value>Privatni link</value>
+  </data>
+  <data name="Something went wrong, please try again later." xml:space="preserve">
+    <value>Došlo je do pogreške, pokušajte ponovno kasnije.</value>
+  </data>
+  <data name="Target URL" xml:space="preserve">
+    <value>Ciljana URL adresa</value>
+  </data>
+  <data name="The {0} is not a valid URL." xml:space="preserve">
+    <value>{0} nije valjana URL adresa.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Naslov</value>
+  </data>
+  <data name="Title contains invalid characters." xml:space="preserve">
+    <value>Naslov sadrži neispravne znakove.</value>
+  </data>
+
+</root>
